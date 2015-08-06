@@ -16,8 +16,6 @@
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
 
-*.zip	 diff=astextplain
-
 *.avi  binary
 *.mov  binary
 *.mp4  binary
