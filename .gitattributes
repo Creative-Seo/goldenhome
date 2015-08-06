@@ -15,5 +15,17 @@
 *.PDF	 diff=astextplain
 *.rtf	 diff=astextplain
 *.RTF	 diff=astextplain
-*.mp4	 diff=astextplain
+
 *.zip	 diff=astextplain
+
+*.mov  binary
+*.mp4  binary
+*.mp3  binary
+*.flv  binary
+*.fla  binary
+*.swf  binary
+*.gz   binary
+*.zip  binary
+*.7z   binary
+*.ttf  binary
+*.rar  binary
