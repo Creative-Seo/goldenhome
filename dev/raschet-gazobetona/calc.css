@@ -1,0 +1,424 @@
+.text-page ul, .text-page p {float: none;}
+
+form, input, textarea, select, option {
+	margin: 0;
+	padding: 0;
+	font-family: Arial,sans-serif;
+	font-size: 13px;
+}
+
+input, textarea, select {
+	border: 1px solid #99C6DA;
+	background: #D6F2FF;
+	padding-bottom: 1px;
+	padding-top: 1px;
+	box-shadow: 1px 1px 2px #d9d9d9;
+	border-radius: 3px;
+}
+
+input[type="text"], input[type="password"], textarea, select {outline: none;}
+
+::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+button {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	overflow: visible;
+	background: none;
+	cursor: pointer;
+}
+
+button span {
+	display: block;
+	position: relative;
+	color: #fff;
+	/*background: url(/img/btn.png) no-repeat 100% -21px;*/
+	/*padding: 0 12px;*/
+	width: 119px;
+	height: 32px;
+	line-height: 32px;
+	font-size: 12px;
+	text-align: center;
+	/*text-transform: uppercase;*/
+	background: #0379ab;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#49c0eb), to(#0379ab));
+	background: -webkit-linear-gradient(#49c0eb, #0379ab);
+	background: -moz-linear-gradient(#49c0eb, #0379ab);
+	background: -ms-linear-gradient(#49c0eb, #0379ab);
+	background: -o-linear-gradient(#49c0eb, #0379ab);
+	background: linear-gradient(#49c0eb, #0379ab);
+	border-radius: 5px;
+	font-weight: bold;
+	font-family: Arial, sans-serif;
+	box-shadow: 1px 1px 2px #B3B3B3;
+}
+
+/*button.act span {background-position: 100% -42px;}*/
+
+/*-----------------------------------------------------------------------------*/
+
+ul.justified {
+	text-align: justify;
+	line-height: 0;
+	font-size: 1px;
+	text-align-last: justify;
+	margin: 0;
+	padding: 0;
+}
+
+ul.justified:after {
+	width: 100%;
+	height: 0;
+	visibility: hidden;
+	overflow: hidden;
+	content: '';
+	display: inline-block;
+}
+
+ul.justified li  {
+	display: inline-block;
+	text-align: left;
+	line-height: normal;
+	font-size: 12px;
+	vertical-align: top;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	background: none;
+}
+
+.inlinia {
+	letter-spacing: -3px;
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+
+.inlinia li {
+	display: inline-block;
+	list-style-type: none;
+	vertical-align: top;
+	letter-spacing: 0;
+	font-size: 12px;
+	padding: 0;
+	margin: 0;
+	line-height: normal;
+	background: none;
+}
+
+.inlinia li img {vertical-align: bottom;}
+
+
+/*-----------------------------------------------------------------------------*/
+
+#calc {
+	background-color: #eef8fb;
+	border: 1px solid #B4CDE1;
+	border-radius: 3px;
+	box-shadow:	0 2px 4px 0 rgba(0,0,0,0.1);
+	padding: 18px 0 1px 0;
+}
+
+#calc input[type="text"], #calc select {width: 100%;}
+
+/*@-webkit-keyframes ERROR-PULSE {
+	0%   {border-color: #bfb096;}
+	80%  {border-color: #ed371c;}
+	100% {border-color: #bfb096;}
+}
+@-moz-keyframes ERROR-PULSE {
+	0%   {border-color: #bfb096;}
+	80%  {border-color: #ed371c;}
+	100% {border-color: #bfb096;}
+}
+@-o-keyframes ERROR-PULSE {
+	0%   {border-color: #bfb096;}
+	80%  {border-color: #ed371c;}
+	100% {border-color: #bfb096;}
+}
+@keyframes ERROR-PULSE {
+	0%   {border-color: #bfb096;}
+	80%  {border-color: #ed371c;}
+	100% {border-color: #bfb096;}
+}*/
+
+#calc input.error {
+	/*-webkit-animation: ERROR-PULSE 1s infinite;
+	-moz-animation: ERROR-PULSE 1s infinite;
+	-o-animation: ERROR-PULSE 1s infinite;
+	animation: ERROR-PULSE 1s infinite;*/
+	border-color: #ed371c;
+	background: #fff;
+	color: #ed371c;
+}
+
+#calc select.disabled {
+	background: #ebebeb;
+	border-color: #c6c6c6;
+	color: #8e8e8e;
+}
+
+#calc select {width: 200%;}
+
+#calc .bldng select {width: 103%;}
+
+a.calc_act {
+	position: relative;
+	padding: 0 20px 0 8px;
+	font-size: 11px;
+	color: #fff;
+	display: inline-block;
+	background: #0379ab;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#49c0eb), to(#0379ab));
+	background: -webkit-linear-gradient(#49c0eb, #0379ab);
+	background: -moz-linear-gradient(#49c0eb, #0379ab);
+	background: -ms-linear-gradient(#49c0eb, #0379ab);
+	background: -o-linear-gradient(#49c0eb, #0379ab);
+	background: linear-gradient(#49c0eb, #0379ab);
+	text-decoration: none;
+	height: 18px;
+	line-height: 16px;
+	border-radius: 3px;
+	box-shadow: 1px 1px 2px #B3B3B3;
+}
+
+.floor_name a.calc_act, .opening a.calc_act {
+	background: #E67867;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#fcaea3), to(#c66152));
+	background: -webkit-linear-gradient(#fcaea3, #c66152);
+	background: -moz-linear-gradient(#fcaea3, #c66152);
+	background: -ms-linear-gradient(#fcaea3, #c66152);
+	background: -o-linear-gradient(#fcaea3, #c66152);
+	background: linear-gradient(#fcaea3, #c66152);
+}
+
+a.calc_act span, .floor h4 span {
+	display: block;
+	position: absolute;
+	top: 1px;
+	right: 5px;
+	font-size: 17px;
+	/*font-weight: bold;*/
+	text-decoration: none;
+}
+
+#calc li {
+	position: relative;
+	vertical-align: middle;
+	font-weight: bold;
+	color: #6C7284;
+}
+
+#calc li.calc_input {
+	width: 70px;
+	margin: 0 23px 8px 0;
+}
+
+#calc li.calc_text {
+	width: 229px;
+	margin: 0 0 8px 16px;
+	line-height: 14px;
+}
+
+#calc .bldng li.calc_text {margin: 0 0 8px 46px;}
+
+#calc .bldng li.calc_input {margin: 0 0 8px 0;}
+
+#calc .opening li.calc_text {
+	width: 132px;
+	margin: 0 0 8px 9px;
+}
+
+#calc .opening li.calc_input {
+	width: 44px;
+	margin: 0 0 8px 0;
+}
+
+#calc li.calc_input.floor_quant {
+	width: 22px;
+	margin: 0 0 8px 0;
+}
+
+#calc li.calc_input.floor_quant input {text-align: center;}
+
+#calc li.calc_text.floor_quant {
+	width: 208px;
+	margin: 0 0 8px 92px;
+}
+
+#calc #res li.calc_text {
+	width: 571px;
+	padding: 0 0 2px 0;
+	border-bottom: 1px solid #B4CDE1;
+}
+
+#calc #res li.calc_input {
+	width: 72px;
+	padding: 0 0 2px 0;
+	margin: 0 0 8px 0;
+	background: #B4CDE1;
+	color: #000;
+	text-align: center;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.bldng {margin: 0 0 40px -28px !important;}
+
+.opening li {margin: 0 0 10px 9px;}
+
+.floor {
+	background: #fff url(calc_back1.png);
+	border-top: 1px solid #B4CDE1;
+	border-bottom: 1px solid #B4CDE1;
+	margin: 0 0 50px 0 !important;
+	box-shadow:	0 2px 2px 0 #D4E2EE;
+}
+
+.floor li {width: 100%;}
+
+.floor li.calc_act_block {
+	width: 80%;
+	margin: 6px 0 16px 16px;
+}
+
+.floor li.opening {
+	width: 29.5%;
+	border: 2px dashed #bbb;
+	margin: 0 0 16px 16px;
+	padding: 8px 0 4px 0;
+	opacity: 0;
+	background: #fff;
+}
+
+.floor_name {height: 20px;}
+
+.floor_name h2 {
+	background: #fff url(calc_back1.png);
+	border-top: 1px solid #B4CDE1;
+	border-right: 1px solid #B4CDE1;
+	height: 29px;
+	line-height: 29px;
+	position: absolute;
+	top: -30px;
+	left: 0;
+	display: block;
+	width: 323px;
+	margin: 0;
+	padding: 0 0 0 16px;
+	/*font-weight: normal;*/
+	font-size: 20px;
+	/*color: #279bc2;*/
+	color: #6C7284;
+}
+
+.floor_name a {
+	position: absolute;
+	top: -23px;
+	left: 238px;
+}
+
+.floor h4 {
+	font-size: 14px;
+	/*font-weight: normal;*/
+	margin: 0 0 6px 16px;
+	position: relative;
+	/*color: #279bc2;*/
+}
+
+.add_floor {
+	padding: 16px 0 16px 16px;
+	margin: -27px 0 21px 0 !important;
+	/*border-color: #b7dda3;*/
+	background: url(calc_back2.png) 0 -9px;
+}
+
+.add_floor li {
+	width: auto;
+	margin: 0 !important;
+}
+
+.add_floor li.calc_text {
+	text-align: right;
+	margin: 0 12px 0 6px !important;
+	width: 92px !important;
+}
+
+#calc_detail, .standard, .attic {display: none;}
+
+#total_btn, #basket_btn {
+	text-align: right;
+	margin: 0 18px 4px 0;
+	position: relative;
+}
+
+#basket_btn {margin: -6px 18px 4px 0;}
+
+#basket_btn button span {width: 144px;}
+
+#total_error {
+    color: #ed371c;
+    font-size: 14px;
+    left: 16px;
+    position: absolute;
+    top: 8px;
+	text-shadow: 1px 1px #f9e2e2;
+}
+
+#res {display: none;}
+
+#res ul {padding: 0 0 21px 0;}
+
+#res b {font-size: 14px}
+
+#res h2 {margin: 0 0 0 16px}
+
+#baffle, .floor_type {display: none;}
+
+/*-----------------------------------------------------------------------------*/
+
+.form {
+	background: #ededed;
+	width: 586px;
+	padding: 18px 0 0 0;
+	clear: both;
+}
+
+.form li {
+	width: 384px;
+	margin: 0 0 18px 0;
+}
+
+.form li.form_text {
+	width: 168px;
+	margin: 0 0 20px 16px;
+	font-weight: bold;
+}
+
+.form li input {width: 100%;}
+
+.form li.form_captcha input {
+	width: 60px;
+	font-size: 20px;
+	text-align: center;
+	vertical-align: top;
+	margin: 0 0 0 18px;
+}
+
+.form li.form_note {
+	width: 550px;
+	font-size: 11px;
+	font-style: italic;
+	margin: 0 0 16px 16px;
+	text-align: right;
+}
+
+.form li textarea {
+	width: 100%;
+	resize: none;
+	height: 100px;
+}
