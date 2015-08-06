@@ -18,6 +18,7 @@
 
 *.zip	 diff=astextplain
 
+*.avi  binary
 *.mov  binary
 *.mp4  binary
 *.mp3  binary
