@@ -1,3 +1,7 @@
-/dev/img/
-/dev/image/
-/old/
+dev/img/
+dev/image/
+old/
+dev/libs/
+node_modules/
+.sass-cache/
+dploy.yaml
