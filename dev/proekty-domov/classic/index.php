@@ -3,12 +3,12 @@
 <?php $keywords = 'классический стиль, классика';?>
 <?php $breadcrumb = 'Классика';?>
 <?php $breadcrumb2 = 'Проекты домов';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php"); 
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php"); 
+include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."/blocks/breadcrumbs.php");?>
+<?php include($root."blocks/breadcrumbs.php");?>
     <h1>Проекты в классическом стиле</h1>
 	<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
 		<?php include("../proekt-73-245/block.php");?>
@@ -25,4 +25,4 @@ include($root."/blocks/header.php");?>
           <p>Проект классического дома представляет собой продуманное сочетание внешнего и наружного облика сооружения, чтобы добиться полной гармонии и цельности. В ходе строительства применяются современные материалы и инновационные технологии, позволяющие справиться с проектом любой степени сложности. При этом наши профессионалы включают в проект все блага цивилизации, например системы коммуникаций и сигнализации, чтобы заказчик мог наслаждаться функциональным домом, в котором приятно и уютно находиться.</p>
     </article>
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

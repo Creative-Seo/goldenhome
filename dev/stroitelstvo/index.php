@@ -2,24 +2,24 @@
 <?php $description = 'Строительство домов и коттеджей под ключ - одно из основных направлений деятельности компании Golden Home. Мы проводим полный цикл работ, осуществляя строительство домов под ключ по доступным ценам';?>
 <?php $keywords = 'строительство домов из газобетона, строительство коттеджей, строительство домов во владимире, строительство домов ключ, строительство домов цены, строительство дома под ключ цены, строительство дома проекты цены, строительство домов область, строительство частный дом';?>
 <?php $breadcrumb = 'Строительство';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."/blocks/breadcrumbs.php"); ?>
+	<?php include($root."blocks/breadcrumbs.php"); ?>
     <h1>Строительство домов и коттеджей под ключ</h1>
     <p>Строительство домов под ключ - основное направление деятельности компании Golden Home. Мы строим загородные дома из различных материалов по самым современным технологиям.</p>
     <p>Стоимость строительства дома под ключ из газоблоков составляет сегодня в среднем от 18 500 р./кв.м. Цены на строительство домов и под ключ зависят, прежде всего, от метража, этажности, сложности реализации дизайна, конструкции и планировок, а также от выбора строительных и отделочных материалов.</p>
     <h2>Мы выполняем все виды работ:</h2>
     <ul>
       <li>строительство домов и коттеджей под ключ;</li>
-      <li><a href="<?php echo HTTP_SERVER;?>proekty-domov/" target="_blank">проектирование домов</a>;</li>
+      <li><a href="/proekty-domov/" target="_blank">проектирование домов</a>;</li>
       <li>земляные работы;</li>
-      <li><a href="<?php echo HTTP_SERVER;?>fundament/">возведение фундамента</a>;</li>
+      <li><a href="/fundament/">возведение фундамента</a>;</li>
       <li>монтаж кровли;</li>
-      <li><a href="<?php echo HTTP_SERVER;?>gazobloki/" target="_blank">продажа газоблоков</a>;</li>
-      <li><a href="<?php echo HTTP_SERVER;?>dizayn-interera/" target="_blank">дизайн интерьера</a>;</li>
+      <li><a href="/gazobloki/" target="_blank">продажа газоблоков</a>;</li>
+      <li><a href="/dizayn-interera/" target="_blank">дизайн интерьера</a>;</li>
     </ul>
     <p>На все виды деятельности имеются необходимые лицензии и сертификаты.</p>
     <h2>Строительство индивидуального жилого дома вместе с Golden Home это:</h2>
@@ -50,7 +50,7 @@ include($root."/blocks/header.php");?>
 	  <div class="tab-content">
 		<div role="tabpanel" class="tab-pane active" id="home">
 	   
-		   <div class="col-md-6 tipdom"><img src="img/tipovye-doma/mansardnyy-variant.jpg" alt="Коттедж с мансардой" class="img-responsive"></div>
+		   <div class="col-md-6 tipdom"><img src="/img/tipovye-doma/mansardnyy-variant.jpg" alt="Коттедж с мансардой" class="img-responsive"></div>
 		   <div class="col-md-3"><div class="tipvar yellow">Коттедж с мансардой<br>15 000 руб. за кв.м.</div>
 		   <div>Дом из газобетонных блоков YTONG без наружной отделки.</div>
 		   <div>Процесс строительства делится на этапы:
@@ -64,7 +64,7 @@ include($root."/blocks/header.php");?>
 		   <div class="col-md-10 yellow tipst">В стоимость входит<br>[материал + работа]</div>
 		</div>
 		<div role="tabpanel" class="tab-pane" id="profile">
-				 <div class="col-md-6 tipdom"><img src="img/tipovye-doma/s-polnocennym-vtorym-etazhom.jpg" alt="Коттедж с полноценным 2-м этажом" class="img-responsive"></div>
+				 <div class="col-md-6 tipdom"><img src="/img/tipovye-doma/s-polnocennym-vtorym-etazhom.jpg" alt="Коттедж с полноценным 2-м этажом" class="img-responsive"></div>
 		   <div class="col-md-3"><div class="tipvar yellow">Коттедж с мансардой<br>17 000 руб. за кв.м.</div>
 		   <div>Дом из газобетонных блоков YTONG без наружной отделки.</div>
 		   <div>Процесс строительства делится на этапы:
@@ -79,7 +79,7 @@ include($root."/blocks/header.php");?>
 
 		</div>
 		<div role="tabpanel" class="tab-pane" id="messages">
-		   <div class="col-md-6 tipdom"><img src="img/tipovye-doma/dom-s-naruzhnoy-otdelkoy.jpg" alt="Коттедж с внешней отделкой" class="img-responsive"></div>
+		   <div class="col-md-6 tipdom"><img src="/img/tipovye-doma/dom-s-naruzhnoy-otdelkoy.jpg" alt="Коттедж с внешней отделкой" class="img-responsive"></div>
 		   <div class="col-md-3"><div class="tipvar yellow">Вариант с внешней отделкой<br>18 000 руб. за кв.м.</div>
 		   <div>Дом из газобетонных блоков YTONG с наружной и внутренней отделкой.</div>
 		   <div>Процесс строительства делится на этапы:
@@ -94,7 +94,7 @@ include($root."/blocks/header.php");?>
 		   <div class="col-md-10 yellow tipst">В стоимость входит<br>[материал + работа + внешняя отделка]</div>  
 		</div>
 		<div role="tabpanel" class="tab-pane" id="settings">
-		   <div class="col-md-6 tipdom"><img src="img/tipovye-doma/dom-pod-kluch.jpg" alt="Коттедж с внутренней и внешней отделкой" class="img-responsive"></div>
+		   <div class="col-md-6 tipdom"><img src="/img/tipovye-doma/dom-pod-kluch.jpg" alt="Коттедж с внутренней и внешней отделкой" class="img-responsive"></div>
 		   <div class="col-md-3"><div class="tipvar yellow">Вариант под ключ<br>23 000 руб. за кв.м.</div>
 		   <div>Дом из газобетонных блоков YTONG с наружной и внутренней отделкой.</div>
 		   <div>Процесс строительства делится на этапы:
@@ -113,24 +113,24 @@ include($root."/blocks/header.php");?>
 
 		</div>
    </div>
-   <?php include($root."/proekty-domov/proekts_top.php");?>
+   <?php include($root."proekty-domov/proekts_top.php");?>
 	<div class="row">
-		<a href="<?php echo HTTP_SERVER;?>image/price/price.jpg" class="pull-right fancybox-thumb">
-			<img alt="сертификат аккредитованного партнера по строительству с использованием технологии Ytong" src="<?php echo HTTP_SERVER;?>image/price/price.jpg" width="150" title="сертификат аккредитованного партнера по строительству с использованием технологии Ytong"></a> 
+		<a href="/image/price/price.jpg" class="pull-right fancybox-thumb">
+			<img alt="сертификат аккредитованного партнера по строительству с использованием технологии Ytong" src="/image/price/price.jpg" width="150" title="сертификат аккредитованного партнера по строительству с использованием технологии Ytong"></a> 
 		<h2>Загородные дома из газобетона Ytong во Владимире</h2>
 		<p style="text-align: justify">Строительная компания Golden Home является аккредитованным партнером по строительству с использованием технологии YTONG и первая среди других строительно-монтажных организаций Владимирской области начала применять в строительстве блоки YTONG. В настоящее время специалисты компании занимаются строительством индивидуальных малоэтажных домов и коттеджей любой степени сложности. Строительная фирма Golden Home выполнит работы по возведению Вашего дома, а также весь комплекс сопутствующих работ: выезд специалиста на участок, проектирование, возведение фундамента, внутренняя и внешняя отделка. Команда специалистов компании поможет реализовать Ваши идеи с учетом индивидуальных предпочтений.</p>
     </div>
 	<h2>Этапы строительства дома под ключ:</h2>
     <ol>
-      <li>Проектирование - вы можете выбрать <a href="<?php echo HTTP_SERVER;?>proekty-domov/" target="_blank">готовый проект дома</a> или заказать индивидуальный проект учитывающий все ваши пожелания  и требования;</li>
+      <li>Проектирование - вы можете выбрать <a href="/proekty-domov/" target="_blank">готовый проект дома</a> или заказать индивидуальный проект учитывающий все ваши пожелания  и требования;</li>
       <li>Согласование проекта;</li>
       <li>Выбор участка под строительство. Это важное решение в проектировании, которое Вам необходимо будет принять, и оно должно предшествовать остальному процессу проектирования. Неправильно выбранный участок может иметь долгосрочные отрицательные последствия, которые трудно или невозможно смягчить, как во время строительства, так и на протяжении срока жизни дома.;</li>
-      <li><a href="<?php echo HTTP_SERVER;?>fundament/">Сооружение фундамента</a>. Основа здания — это надежный фундамент. Его тип рассчитывается с учетом различных факторов: типа почвы, веса здания, особенностей рельефа.;</li>
+      <li><a href="/fundament/">Сооружение фундамента</a>. Основа здания — это надежный фундамент. Его тип рассчитывается с учетом различных факторов: типа почвы, веса здания, особенностей рельефа.;</li>
       <li>Утепление стен, перекрытий, кровли;</li>
       <li>Подведение и подключение коммуникаций;</li>
-      <li><a href="<?php echo HTTP_SERVER;?>otdelka-doma/" target="_blank">Наружная отделка дома</a> - наружная отделка защищает стены от внешнего воздействия, что особенно актуально для таких материалов, как газобетон и дерево. Дома из газобетона рекомендуется отделывать штукатуркой. Используя штукатурку нескольких цветов, можно добиться очень необычного и красивого внешнего облика дома;</li>
+      <li><a href="/otdelka-doma/" target="_blank">Наружная отделка дома</a> - наружная отделка защищает стены от внешнего воздействия, что особенно актуально для таких материалов, как газобетон и дерево. Дома из газобетона рекомендуется отделывать штукатуркой. Используя штукатурку нескольких цветов, можно добиться очень необычного и красивого внешнего облика дома;</li>
       <li>Внутренняя отделка дома - специалисты подготовят дизайн-проект дома в нескольких форматах, на бумаге и 3D модели. </li>
-      <li><a href="<?php echo HTTP_SERVER;?>landshaftnyy-dizayn/" target="_blank">Ландшафтный дизайн придомовой территории</a> - дизайнеры сделают ваш участок гармоничным, красивым и функциональным;</li>
+      <li><a href="/landshaftnyy-dizayn/" target="_blank">Ландшафтный дизайн придомовой территории</a> - дизайнеры сделают ваш участок гармоничным, красивым и функциональным;</li>
       <li>Сдача дома в эксплуатацию;</li>
     </ol>
     <h3>Реализованные проекты загородных домов:</h3>
@@ -142,7 +142,7 @@ include($root."/blocks/header.php");?>
 <div class="col-xs-6 col-sm-3 col-lg-2"><a href="/img/objects/5.jpg" class="fancybox-thumb" rel="group"><img class="img-responsive" src="/img/objects/5.jpg" alt="строительство дома в Коврове" width="230"></a></div>
 <div class="col-xs-6 col-sm-3 col-lg-2"><a href="/img/objects/6.jpg" class="fancybox-thumb" rel="group"><img class="img-responsive" src="/img/objects/6.jpg" alt="строительство дома в Муроме" width="230"></a></div>
 	</div>
-	  <a href="<?php echo HTTP_SERVER;?>foto-obektov/" class="vse">Посмотреть все</a>
+	  <a href="/foto-obektov/" class="vse">Посмотреть все</a>
       <h3>Видео о строительстве:</h3>
       <div class="center-block" style="text-align:center; margin-bottom:15px">
         <iframe class="center-block" width="480" height="360" src="//www.youtube.com/embed/4rUKq18ZKTw" frameborder="0" allowfullscreen></iframe>
@@ -151,6 +151,6 @@ include($root."/blocks/header.php");?>
         <iframe class="center-block" width="480" height="360" src="//www.youtube.com/embed/J2H3HxyBqpI" frameborder="0" allowfullscreen></iframe>
         <a href="http://www.youtube.com/watch?v=J2H3HxyBqpI" title="Строительная компания Golden Home" target="_blank">Строительная компания Golden Home</a><a href="http://www.youtube.com/user/33goldenhome" style="margin-left:10px" target="_blank" title="Наш канал на Youtube">Наш канал на Youtube</a>
 	  </div>
-      <img style="margin-top:10px" src="img/banner_ytong.jpg"  alt="Строительная компания Golden Home" title="Строительная компания Golden Home"/>
+      <img style="margin-top:10px" src="/img/banner_ytong.jpg"  alt="Строительная компания Golden Home" title="Строительная компания Golden Home"/>
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

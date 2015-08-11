@@ -3,12 +3,12 @@
 <?php $keywords = 'проекты домов из пеноблоков, строительство домов из пеноблоков, дома из пеноблоков под ключ, дома из пеноблоков стоимость, строительство из пеноблоков';?>
 <?php $breadcrumb = 'Проекты домов из пеноблоков';?>
 <?php $breadcrumb2 = 'Проекты домов';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php"); 
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php"); 
+include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."/blocks/breadcrumbs.php");?>
+<?php include($root."blocks/breadcrumbs.php");?>
           <h1>Проекты домов из пеноблоков</h1>
           
           <p class="article">
@@ -86,4 +86,4 @@ include($root."/blocks/header.php");?>
 
       </div>
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

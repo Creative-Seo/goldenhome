@@ -6,4 +6,4 @@
 <?php $arhitekturnyyStil = "современный";
  $gabarity = "11 на 11 м";
  $dopolnitelno = ['Мансарда']; ?>
- <?php include($root."/blocks/block_proekt.php");?>
+ <?php include($root."blocks/block_proekt.php");?>

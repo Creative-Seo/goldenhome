@@ -2,12 +2,12 @@
 <?php $description = 'Журнал о дизайне интерьера квартиры, загородного дома, советы дизайнеров, полезная информация';?>
 <?php $keywords = 'Журнал о дизайне';?>
 <?php $breadcrumb = 'Журнал';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."/blocks/breadcrumbs.php"); ?>
+	<?php include($root."blocks/breadcrumbs.php"); ?>
      <h1>Журнал «Golden Home»</h1>
 	<div class="row">
         <div class="col-sm-6 col-md-4 inner">
@@ -123,4 +123,4 @@ include($root."/blocks/header.php");?>
     </div>
 </div>
 
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

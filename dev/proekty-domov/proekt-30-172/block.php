@@ -6,4 +6,4 @@
 <?php $arhitekturnyyStil = "классический";
  $gabarity = "11,5 на 11,5 м";
  $dopolnitelno = ['Терасса']; ?>
- <?php include($root."/blocks/block_proekt.php");?>
+ <?php include($root."blocks/block_proekt.php");?>

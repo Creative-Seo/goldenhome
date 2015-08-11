@@ -3,12 +3,12 @@
 <?php $keywords = 'проекты домов, проекты коттеджей, проект дома под ключ, проекта дома под ключ цена, проекты маленьких домов';?>
 <?php $breadcrumb = 'Площадью до 150 м2';?>
 <?php $breadcrumb2 = 'Проекты домов';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php"); 
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php"); 
+include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."/blocks/breadcrumbs.php");?>
+<?php include($root."blocks/breadcrumbs.php");?>
           <h1>Проекты небольших домов</h1>
 	<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
                     <?php include("../proekt-69-118/block.php");?>
@@ -30,4 +30,4 @@ include($root."/blocks/header.php");?>
                     <?php include("../proekt-05-146/block.php");?>
     </div>
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

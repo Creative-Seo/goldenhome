@@ -2,13 +2,13 @@
 	$description = 'Компания Golden предлагает купить новый загородный дом или коттедж во Владимире и области без посредников';
 	$keywords = 'купить дом, купить коттедж во владимире, купить новый коттедж';?>
 <?php
-$root = $_SERVER['DOCUMENT_ROOT'];
+$root = '../';
 $breadcrumb = 'Купить дом';
-include($root."/blocks/meta.php"); 
-include($root."/blocks/header.php"); 
+include($root."blocks/meta.php"); 
+include($root."blocks/header.php"); 
 ?>
 <div class="container">			
-<?php include($root."/blocks/breadcrumbs.php");?>                
+<?php include($root."blocks/breadcrumbs.php");?>                
 <h1 class="hdom">Дома и коттеджи во Владимирской области</h1>
    
    <div id="map"></div> 
@@ -17,9 +17,9 @@ include($root."/blocks/header.php");
 <div class="row">
 <div class="col-lg-4 col-md-4 col-sm-4">
 <div class="thumbnail">
-<a href="<?php echo HTTP_URL; ?>v-novom-sele/"><img class="media-object img-responsive" alt="Дом (коттедж), село Новое" src="<?php echo HTTP_URL; ?>v-novom-sele/novoe.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 25</div>
+<a href="v-novom-sele/"><img class="media-object img-responsive" alt="Дом (коттедж), село Новое" src="v-novom-sele/novoe.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 25</div>
 <div class="caption">
-<h4><a href="<?php echo HTTP_URL; ?>v-novom-sele/">Дом (коттедж), село Новое</a></h4>
+<h4><a href="v-novom-sele/">Дом (коттедж), село Новое</a></h4>
 <ul class="list-unstyled list-inline search-meters"><li>
 <span class="stoit"><b>4 650 000</b> <i class="fa fa-rub"></i></span>
 </li>
@@ -34,9 +34,9 @@ include($root."/blocks/header.php");
 <!-- item -->
 <div class="col-lg-4 col-md-4 col-sm-4">
 <div class="thumbnail">
-<a href="<?php echo HTTP_URL; ?>sudogda/"><img class="media-object img-responsive" alt="Дом (коттедж), село Новое" src="<?php echo HTTP_URL; ?>sudogda/sudogda.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 14</div>
+<a href="sudogda/"><img class="media-object img-responsive" alt="Дом (коттедж), село Новое" src="sudogda/sudogda.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 14</div>
 <div class="caption">
-<h4><a href="<?php echo HTTP_URL; ?>sudogda/">Дом (коттедж), Судогда</a></h4>
+<h4><a href="sudogda/">Дом (коттедж), Судогда</a></h4>
 <ul class="list-unstyled list-inline search-meters"><li>
 <span class="stoit"><b>2 600 000</b> <i class="fa fa-rub"></i></span>
 </li>
@@ -51,9 +51,9 @@ include($root."/blocks/header.php");
 <!-- item -->
 <div class="col-lg-4 col-md-4 col-sm-4">
 <div class="thumbnail">
-<a href="<?php echo HTTP_URL; ?>poselok-suvorotskoe/"><img class="media-object img-responsive" alt="Дом (коттедж), Суворотское" src="<?php echo HTTP_URL; ?>poselok-suvorotskoe/suvorotskoe.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
+<a href="poselok-suvorotskoe/"><img class="media-object img-responsive" alt="Дом (коттедж), Суворотское" src="poselok-suvorotskoe/suvorotskoe.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
 <div class="caption">
-<h4><a href="<?php echo HTTP_URL; ?>poselok-suvorotskoe/">Дом (коттедж), Суворотское</a></h4>
+<h4><a href="poselok-suvorotskoe/">Дом (коттедж), Суворотское</a></h4>
 <ul class="list-unstyled list-inline search-meters"><li>
 <span class="stoit"><b>3 000 000</b> <i class="fa fa-rub"></i></span>
 </li>
@@ -68,9 +68,9 @@ include($root."/blocks/header.php");
 <!-- item -->
 <div class="col-lg-4 col-md-4 col-sm-4">
 <div class="thumbnail">
-<a href="<?php echo HTTP_URL; ?>poselok-suvorotskoe-2/"><img class="media-object img-responsive" alt="Дом (коттедж), Суворотское" src="<?php echo HTTP_URL; ?>poselok-suvorotskoe-2/suvorotskoe.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
+<a href="poselok-suvorotskoe-2/"><img class="media-object img-responsive" alt="Дом (коттедж), Суворотское" src="poselok-suvorotskoe-2/suvorotskoe.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
 <div class="caption">
-<h4><a href="<?php echo HTTP_URL; ?>poselok-suvorotskoe-2/">Дом (коттедж), Суворотское</a></h4>
+<h4><a href="poselok-suvorotskoe-2/">Дом (коттедж), Суворотское</a></h4>
 <ul class="list-unstyled list-inline search-meters"><li>
 <span class="stoit"><b>3 500 000</b> <i class="fa fa-rub"></i></span>
 </li>
@@ -85,9 +85,9 @@ include($root."/blocks/header.php");
 <!-- item -->
 <div class="col-lg-4 col-md-4 col-sm-4">
 <div class="thumbnail">
-<a href="<?php echo HTTP_URL; ?>poselok-suvorotskoe-3/"><img class="media-object img-responsive" alt="Дом (коттедж), Суворотское" src="<?php echo HTTP_URL; ?>poselok-suvorotskoe-3/suvorotskoe.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
+<a href="poselok-suvorotskoe-3/"><img class="media-object img-responsive" alt="Дом (коттедж), Суворотское" src="poselok-suvorotskoe-3/suvorotskoe.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
 <div class="caption">
-<h4><a href="<?php echo HTTP_URL; ?>poselok-suvorotskoe-3/">Дом (коттедж), Суворотское</a></h4>
+<h4><a href="poselok-suvorotskoe-3/">Дом (коттедж), Суворотское</a></h4>
 <ul class="list-unstyled list-inline search-meters"><li>
 <span class="stoit"><b>3 500 000</b> <i class="fa fa-rub"></i></span>
 </li>
@@ -102,9 +102,9 @@ include($root."/blocks/header.php");
 <!-- item -->
 <div class="col-lg-4 col-md-4 col-sm-4">
 <div class="thumbnail">
-<a href="<?php echo HTTP_URL; ?>oslavskoe-33/"><img class="media-object img-responsive" alt="Дом (коттедж), Ославское 33" src="<?php echo HTTP_URL; ?>oslavskoe-33/oslavskoe.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
+<a href="oslavskoe-33/"><img class="media-object img-responsive" alt="Дом (коттедж), Ославское 33" src="oslavskoe-33/oslavskoe.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
 <div class="caption">
-<h4><a href="<?php echo HTTP_URL; ?>oslavskoe-33/">Дом (коттедж), Ославское 33</a></h4>
+<h4><a href="oslavskoe-33/">Дом (коттедж), Ославское 33</a></h4>
 <ul class="list-unstyled list-inline search-meters"><li>
 <span class="stoit"><b>2 500 000</b> <i class="fa fa-rub"></i></span>
 </li>
@@ -118,9 +118,9 @@ include($root."/blocks/header.php");
 <!-- item -->
 <div class="col-lg-4 col-md-4 col-sm-4">
 <div class="thumbnail">
-<a href="<?php echo HTTP_URL; ?>bogoslovo/"><img class="media-object img-responsive" alt="Дом (коттедж), Богослово" src="<?php echo HTTP_URL; ?>bogoslovo/bogoslovo.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
+<a href="bogoslovo/"><img class="media-object img-responsive" alt="Дом (коттедж), Богослово" src="bogoslovo/bogoslovo.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
 <div class="caption">
-<h4><a href="<?php echo HTTP_URL; ?>bogoslovo/">Дом (коттедж), Богослово</a></h4>
+<h4><a href="bogoslovo/">Дом (коттедж), Богослово</a></h4>
 <ul class="list-unstyled list-inline search-meters"><li>
 <span class="stoit"><b>3 300 000</b> <i class="fa fa-rub"></i></span>
 </li>
@@ -136,7 +136,7 @@ include($root."/blocks/header.php");
 </div>
 </div>
 
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>
 <script src="http://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
 <script type="text/javascript">
 ymaps.ready(init);

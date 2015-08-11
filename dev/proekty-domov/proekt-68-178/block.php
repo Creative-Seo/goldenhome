@@ -6,4 +6,4 @@
 <?php $arhitekturnyyStil = "современный";
  $gabarity = "9 на 11 м";
  $dopolnitelno = ['Гараж']; ?>
- <?php include($root."/blocks/block_proekt.php");?>
+ <?php include($root."blocks/block_proekt.php");?>

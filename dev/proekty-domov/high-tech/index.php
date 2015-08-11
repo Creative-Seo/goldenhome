@@ -3,12 +3,12 @@
 <?php $keywords = 'Хай тек';?>
 <?php $breadcrumb = 'Хай тек';?>
 <?php $breadcrumb2 = 'Проекты домов';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php"); 
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php"); 
+include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."/blocks/breadcrumbs.php");?>
+<?php include($root."blocks/breadcrumbs.php");?>
     <h1>Дома в стиле хай тек</h1>
 	<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
                     <?php include("../proekt-63-186/block.php");?>
@@ -22,4 +22,4 @@ include($root."/blocks/header.php");?>
           <p>Так что дом в стиле хайтек – это возможность экспериментировать, эффективно использовать каждый квадратный метр и в результате получить элегантное стильное сооружение.</p>
 	</article>
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

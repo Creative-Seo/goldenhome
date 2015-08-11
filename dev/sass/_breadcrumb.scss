@@ -1,0 +1,10 @@
+.breadcrumb {
+    list-style: outside none none;
+    margin-bottom: 20px;
+    padding: 8px 15px;
+    background: none;
+    margin-top: 20px;
+	a {border-bottom: 1px solid;
+		&:hover {border-bottom:none; text-decoration: none;}
+	}
+}

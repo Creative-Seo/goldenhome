@@ -6,4 +6,4 @@
 <?php $arhitekturnyyStil = "современный";
  $gabarity = "10 на 13 м";
  $dopolnitelno = array(); ?>
- <?php include($root."/blocks/block_proekt.php");?>
+ <?php include($root."blocks/block_proekt.php");?>

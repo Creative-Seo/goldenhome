@@ -2,12 +2,12 @@
 <?php $description = 'Рекламный буклет «Golden Home», рекламные материалы компании Golden Home';?>
 <?php $keywords = 'Рекламный буклет «Golden Home»';?>
 <?php $breadcrumb = 'Рекламный буклет';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."/blocks/breadcrumbs.php"); ?>
+	<?php include($root."blocks/breadcrumbs.php"); ?>
      <h1>Рекламный буклет «Golden Home»</h1>
 	<div class="row">
 		<div class="col-xs-6 col-md-4">
@@ -22,4 +22,4 @@ include($root."/blocks/header.php");?>
         </div>
 	</div>
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

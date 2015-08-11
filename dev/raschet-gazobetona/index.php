@@ -2,12 +2,9 @@
 <?php $description = 'Калькулятор для расчета необходимиого объема газобетонных блоков Bonolit для строительства вашего дома';?>
 <?php $keywords = 'расчет газобетона дом, калькулятор';?>
 <?php $breadcrumb = 'Калькулятор стоимости';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include_once($root."/config.php");
-$style = '<link href="'.HTTP_URL.'calc.css" type="text/css" rel="stylesheet" />';
-$script = '<script language="javascript" type="text/javascript" src="'.HTTP_URL.'calc.js"></script>';
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");?>
 
 <div class="container">
             <h1>Калькулятор</h1>
@@ -364,8 +361,5 @@ include($root."/blocks/header.php");?>
                     </ul>
                 </li>
             </div>
-            <!-- /INDEXAREA -->
-            <div style="clear:both;"></div>
-
 </div>
-<?php include($root."/blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

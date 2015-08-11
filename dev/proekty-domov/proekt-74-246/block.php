@@ -6,4 +6,4 @@
 <?php $arhitekturnyyStil = "классический";
  $gabarity = "10 на 10 м";
  $dopolnitelno = array(); ?>
- <?php include($root."/blocks/block_proekt.php");?>
+ <?php include($root."blocks/block_proekt.php");?>

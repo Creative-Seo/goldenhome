@@ -1,11 +1,11 @@
 <?php $breadcrumb2 = 'Портфолио';?>
 <?php $style = '<style>.fancybox-thumb,.intro{margin:1px;padding:0;}.fancybox-thumb {max-height: none;}</style>';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");?>
 
 <div class="container-fluid">
-<?php include($root."/blocks/breadcrumbs.php");?>
+<?php include($root."blocks/breadcrumbs.php");?>
 <h1 class="h1_design"><?php echo $h1;?></h1>
 <img src="<?php echo HTTP_URL,$foto;?>" alt="<?php echo $alt;?>"  class="img-responsive imghd"/>
 

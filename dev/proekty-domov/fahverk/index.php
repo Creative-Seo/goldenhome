@@ -3,12 +3,12 @@
 <?php $keywords = 'Фахверк, фахверковые дома';?>
 <?php $breadcrumb = 'Фахверк';?>
 <?php $breadcrumb2 = 'Проекты домов';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php"); 
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php"); 
+include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."/blocks/breadcrumbs.php");?>
+<?php include($root."blocks/breadcrumbs.php");?>
     <h1>Дома фахверк</h1>
 	<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
                     <?php include("../proekt-62-153/block.php");?>
@@ -21,4 +21,4 @@ include($root."/blocks/header.php");?>
           <p>Наши специалисты разработают проект дома, который будет выполнен в стиле фахверк, специально для вашего загородного участка. И уже очень скоро наш клиент сможет наслаждаться комфортабельностью своего нового дома!</p>
     </article>
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

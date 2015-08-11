@@ -1,0 +1,29 @@
+.projects {
+	.input>div{
+		width: 80%;
+		display: inline-block;
+	}
+	.input>input{
+		width: 30%;
+		margin: 10px;
+	}
+	.noUi-horizontal {
+		height: 5px;
+		margin: 5px;
+	}
+	.noUi-horizontal .noUi-handle {
+		height: 12px;
+	}
+	.noUi-handle:after, .noUi-handle:before {
+		top: 0px;
+		height: 10px;
+	}
+	#proekts .bl-pr{
+		margin: 15px 0;
+		transition: width 300ms linear;
+	}
+	#proekts .hid{
+		width: 0;
+		padding: 0;
+	}
+}

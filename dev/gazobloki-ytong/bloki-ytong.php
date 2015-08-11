@@ -1,14 +1,18 @@
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");?>
 
 <div class="container"><div class="row">
-	<?php include($root."/blocks/breadcrumbs.php"); ?>
+	<?php include($root."blocks/breadcrumbs.php"); ?>
   <h1 itemprop="name"><?php echo $h1;?></h1>
 
 <div class="col-md-6">
    <img class="img-responsive center-block" src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" width="300" alt="Блок Ytong D500-500-250" itemprop="image">
-   <?php include($root."/blocks/oplata-dostavka.php");?>	
+
+	<h2 class="descrbl feat">Доставка</h2>
+	   <p>В городе Владимир самовывоз со склада. Стоимость доставки по Владимирской области рассчитывается по километражу.</p>
+	   <h2 class="descrbl feat">Оплата</h2>
+	   <p>Вы можете оплатить наличными в офисе. Безналичный расчет.</p>	
 
 </div>
 
@@ -113,4 +117,4 @@ include($root."/blocks/header.php");?>
    
 </div>
 </div></div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

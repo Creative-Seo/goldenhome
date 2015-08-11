@@ -2,13 +2,13 @@
 <?php $description = 'Отзывы о компании Golden Home, отзывы наших клиентов';?>
 <?php $keywords = 'Отзывы наших клиентов';?>
 <?php $breadcrumb = 'Отзывы';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
+<?php $root = '../';
 $style = '<style>.row img {margin-top: 0;}</style>';
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php");?>
+include($root."blocks/meta.php");
+include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."/blocks/breadcrumbs.php"); ?>
+	<?php include($root."blocks/breadcrumbs.php"); ?>
   <h1>Отзывы наших клиентов</h1>
   <div class="row">
 	<div class="col-sm-4 col-md-3">
@@ -55,4 +55,4 @@ include($root."/blocks/header.php");?>
     </div>
   </div>
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

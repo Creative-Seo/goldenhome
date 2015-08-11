@@ -3,12 +3,12 @@
 <?php $keywords = 'п образные блоки, перемычки из газобетона, u образные блоки';?>
 <?php $breadcrumb = 'U-образные блоки';?>
 <?php $breadcrumb2 = 'Блоки Bonolit';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."/blocks/breadcrumbs.php"); ?>
+	<?php include($root."blocks/breadcrumbs.php"); ?>
   <h1>П-образные или U-образные блоки (перемычки) из газобетона</h1>
 <div itemtype="http://schema.org/ItemList" itemscope>
 <div class="clearfix blox">  
@@ -57,4 +57,4 @@ include($root."/blocks/header.php");?>
 <p>П-образные блоки дают возможность создавать перемычки из газобетона, дающие внешне однородную конструкцию, усиленные армированием. Стальной каркас, устанавливаемый внутрь блока, играет роль арматуры и предварительно проходит обязательную антикоррозионную обработку. Данные конструктивные элементы используются при постройке малоэтажных жилых и общественных зданий с целью усиления дверных и оконных проемов самонесущих и несущих стен.</p>
 
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

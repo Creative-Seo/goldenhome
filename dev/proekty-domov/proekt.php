@@ -14,20 +14,20 @@ $text = 'проект';$nomer = $bd['nomer'];
 $stoimostProekta = number_format((int)$bd['obshchayaPloshchad'] * 100, 0, ',', ' ');;
 $stoimostStroitelstva = number_format((int)$bd['obshchayaPloshchad'] * 15000, 0, ',', ' ');;
 $dirs = array("73-245", "72-290", "71-143", "70-207", "69-118", "59-183", "60-160", "61-192", "62-153", "63-186", "64-142", "65-259", "66-215", "67-142", "68-178", "58-120", "56-135", "52-142", "50-110", "41-125", "39-125", "24-142", "21-115", "19-125", "17-115", "16-140", "09-100", "05-146", "57-212", "55-220", "54-160", "47-248", "49-179", "46-161", "45-163", "44-193", "34-177", "31-250", "08-178", "30-172", "28-162", "26-159", "25-235", "25-152", "23-154", "22-150", "03-165", "20-224", "18-227", "15-240", "14-220", "11-200", "53-320", "48-255", "40-325", "12-260", "07-353", "04-295", "01-300");
-$root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php");
+$root = '../../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");
 ?>
 
 <div itemscope itemtype="http://schema.org/Product">
 <div class="container">
-	<?php include($root."/blocks/breadcrumbs.php"); ?>
+	<?php include($root."blocks/breadcrumbs.php"); ?>
 	<h1 itemprop="name"><?php echo $bd['h1'];?></h1>
 	<div class="row">
 		<div class="col-sm-7 col-md-8 col-lg-7"><div class="row">
 			<div class="col-md-9" itemscope itemtype="http://schema.org/ImageObject">
-			<a class="fancybox" rel="gallery" href="proekty-domov/proekt-<?php echo $bd['nomer'].'/img/'.$bd['nomer'];?>.jpg" title="Проект <?php echo $bd['nomer'];?>">
-				<img src="proekty-domov/proekt-<?php echo $bd['nomer'].'/img/'.$bd['nomer'];?>.jpg" alt="<?php echo $bd['breadcrumb'];?>" class="img-responsive" title="Проект <?php echo $bd['nomer'];?>" itemprop="contentUrl">
+			<a class="fancybox" rel="gallery" href="/proekty-domov/proekt-<?php echo $bd['nomer'].'/img/'.$bd['nomer'];?>.jpg" title="Проект <?php echo $bd['nomer'];?>">
+				<img src="/proekty-domov/proekt-<?php echo $bd['nomer'].'/img/'.$bd['nomer'];?>.jpg" alt="<?php echo $bd['breadcrumb'];?>" class="img-responsive" title="Проект <?php echo $bd['nomer'];?>" itemprop="contentUrl">
 				<meta itemprop="name" content="Проект <?php echo $bd['nomer'];?>" />
 				<meta itemprop="description" content="<?php echo $description;?>" />
 			</div>
@@ -35,8 +35,8 @@ include($root."/blocks/header.php");
 for($i=1; $i<=$bd['etazhey'];$i++) {array_push($imgs,['-'.$i.'e.jpg',$i.' этаж']);}
 foreach ($imgs as $row) { ?>
 			<div class="col-xs-4 col-md-3">
-			<a  class="fancybox" rel="gallery" href="proekty-domov/proekt-<?php echo $bd['nomer'].'/img/'.$bd['nomer'].$row[0];?>">
-				<img src="proekty-domov/proekt-<?php echo $bd['nomer'].'/img/'.$bd['nomer'].$row[0];?>" alt="Проект <?php echo $bd['nomer'].' - '.$row[1];?>" title="Проект <?php echo $bd['nomer'].' - '.$row[1];?>" class="img-responsive">
+			<a  class="fancybox" rel="gallery" href="/proekty-domov/proekt-<?php echo $bd['nomer'].'/img/'.$bd['nomer'].$row[0];?>">
+				<img src="/proekty-domov/proekt-<?php echo $bd['nomer'].'/img/'.$bd['nomer'].$row[0];?>" alt="Проект <?php echo $bd['nomer'].' - '.$row[1];?>" title="Проект <?php echo $bd['nomer'].' - '.$row[1];?>" class="img-responsive">
 			</a>
 			</div>
 <?php } ?>
@@ -119,7 +119,7 @@ foreach ($imgs as $row) { ?>
                     </div>
                     <div class="atrtext"><span>
 	<?php foreach($bd['cate'] as $cate) { ?>
-						<nobr><a href="<?php echo HTTP_SERVER,'proekty-domov/',$cate[0]; ?>"><?php echo $cate[1];?></a>, </nobr>
+						<nobr><a href="/proekty-domov/<?php echo $cate[0]; ?>"><?php echo $cate[1];?></a>, </nobr>
 	<?php } ?>
 					</span></div>
                 </li>
@@ -141,12 +141,12 @@ foreach ($imgs as $row) { ?>
 			<div class="tab-content">
 				<div role="tabpanel" class="tab-pane fade in active" id="h1">
 					<div class="h3">План 1 этажа</div>
-					<img src="proekty-domov/proekt-<?php echo $bd['nomer'];?>/img/<?php echo $bd['nomer'];?>-1e.jpg" alt="Проект <?php echo $bd['nomer'];?> - 1 этаж" title="Проект <?php echo $bd['nomer'];?> - 1 этаж" class="img-responsive">
+					<img src="/proekty-domov/proekt-<?php echo $bd['nomer'];?>/img/<?php echo $bd['nomer'];?>-1e.jpg" alt="Проект <?php echo $bd['nomer'];?> - 1 этаж" title="Проект <?php echo $bd['nomer'];?> - 1 этаж" class="img-responsive">
 				</div>
 <?php if($bd['etazhey']>1) { for($i=2; $i<=$bd['etazhey'];$i++) { ?>
 				<div role="tabpanel" class="tab-pane fade" id="h<?php echo $i;?>">
 				   <div class="h3">План <?php echo $i;?> этажа</div>
-				   <img src="proekty-domov/proekt-<?php echo $bd['nomer'];?>/img/<?php echo $bd['nomer'];?>-<?php echo $i;?>e.jpg" alt="Проект <?php echo $bd['nomer'];?> - <?php echo $i;?> этаж" title="Проект <?php echo $bd['nomer'];?> - <?php echo $i;?> этаж" class="img-responsive">
+				   <img src="/proekty-domov/proekt-<?php echo $bd['nomer'];?>/img/<?php echo $bd['nomer'];?>-<?php echo $i;?>e.jpg" alt="Проект <?php echo $bd['nomer'];?> - <?php echo $i;?> этаж" title="Проект <?php echo $bd['nomer'];?> - <?php echo $i;?> этаж" class="img-responsive">
 				</div>
 <?php }} ?>
 <?php if(!empty($bd['expl'])) { ?>
@@ -181,4 +181,4 @@ foreach($dirs as $key => $row) {
     </div>
 </div>
 
-<?php include($root."/blocks/footer.php"); ?>
+<?php include($root."blocks/footer.php"); ?>

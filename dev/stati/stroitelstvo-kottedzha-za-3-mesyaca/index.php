@@ -3,25 +3,25 @@
 <?php $keywords = '';?>
 <?php $breadcrumb = 'Строительство коттеджа за 3 месяца';?>
 <?php $breadcrumb2 = 'Статьи';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php");?>
+<?php $root = '../../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."/blocks/breadcrumbs.php"); ?>
+	<?php include($root."blocks/breadcrumbs.php"); ?>
   <h1>Строительство коттеджа за 3 месяца</h1>
   <p>В современном мире возрастающее стремление человека отгородиться от шума и городской суеты, перебраться ближе к природе вполне очевидно. Дачное строительство уступило место возведению комфортабельных домов. Выбор проекта дома зависит от количества членов семьи и ее материальных возможностей.</p>
   <p>Независимо от технологии, алгоритм строительства дома остается постоянным. Вам, как будущему владельцу недвижимости, будет полезно его узнать.</p>
   <p>Для начала необходимо определиться с выбором участка и проектом дома. Вносить изменения на бумаге гораздо проще, чем на стройплощадке. Для наглядности можно заказать масштабную модель дома и участка. Не пожалейте времени и средств на этом этапе.</p>
 
-  <div class="slider"><div class="mask"><div class="slideset"><div class="slide"><ul><li><a href="<?php echo HTTP_URL_IMG; ?>8.jpg" rel="jquery-lightbox" title="Строительство коттеджа за 3 месяца"><img src="<?php echo HTTP_URL_IMG; ?>8s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
-<li><a href="<?php echo HTTP_URL_IMG; ?>7.jpg" rel="jquery-lightbox" title="Строительство коттеджа за 3 месяца"><img src="<?php echo HTTP_URL_IMG; ?>7s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
-<li><a href="<?php echo HTTP_URL_IMG; ?>6.jpg" rel="jquery-lightbox" title="Строительство коттеджа за 3 месяца"><img src="<?php echo HTTP_URL_IMG; ?>6s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
-<li><a href="<?php echo HTTP_URL_IMG; ?>5.jpg" rel="jquery-lightbox" title="Строительство коттеджа за 3 месяца"><img src="<?php echo HTTP_URL_IMG; ?>5s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
-<li><a href="<?php echo HTTP_URL_IMG; ?>4.jpg" rel="jquery-lightbox" title="Строительство коттеджа за 3 месяца"><img src="<?php echo HTTP_URL_IMG; ?>4s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
-<li><a href="<?php echo HTTP_URL_IMG; ?>3.jpg" rel="jquery-lightbox" title="Строительство коттеджа за 3 месяца"><img src="<?php echo HTTP_URL_IMG; ?>3s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
-<li><a href="<?php echo HTTP_URL_IMG; ?>2.jpg" rel="jquery-lightbox" title="Строительство коттеджа за 3 месяца"><img src="<?php echo HTTP_URL_IMG; ?>2s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
-<li><a href="<?php echo HTTP_URL_IMG; ?>1.jpg" rel="jquery-lightbox" title="Строительство коттеджа за 3 месяца"><img src="<?php echo HTTP_URL_IMG; ?>1s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
+  <div class="slider"><div class="mask"><div class="slideset"><div class="slide"><ul><li><a href="img/img8.jpg" rel="jquery-lightbox" title="Строительство коттеджа за 3 месяца"><img src="img/img8s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
+<li><a href="img/img7.jpg" rel="jquery-lightbox" title="Строительство коттеджа за 3 месяца"><img src="img/img7s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
+<li><a href="img/img6.jpg" rel="jquery-lightbox" title="Строительство коттеджа за 3 месяца"><img src="img/img6s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
+<li><a href="img/img5.jpg" rel="jquery-lightbox" title="Строительство коттеджа за 3 месяца"><img src="img/img5s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
+<li><a href="img/img4.jpg" rel="jquery-lightbox" title="Строительство коттеджа за 3 месяца"><img src="img/img4s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
+<li><a href="img/img3.jpg" rel="jquery-lightbox" title="Строительство коттеджа за 3 месяца"><img src="img/img3s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
+<li><a href="img/img2.jpg" rel="jquery-lightbox" title="Строительство коттеджа за 3 месяца"><img src="img/img2s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
+<li><a href="img/img1.jpg" rel="jquery-lightbox" title="Строительство коттеджа за 3 месяца"><img src="img/img1s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
 </ul></div></div></div></div>
   <p>Этапы реализации проекта:</p>
   <ol>
@@ -34,4 +34,4 @@ include($root."/blocks/header.php");?>
     <li>Встречают, как известно, по одежке. Когда речь идет о здании, то первое впечатление складывается при беглом взгляде на его фасад и отделку. Результат выбора отдельного материала зависит от ваших предпочтений и финансовых возможностей. Отделка может быть выполнена натуральным или искусственным камнем, кирпичом, декоративной штукатуркой и т.д. На представленном коттедже &mdash; декоративная штукатурка.</li>
   </ol>
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

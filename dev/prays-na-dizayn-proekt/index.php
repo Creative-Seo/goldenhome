@@ -1,12 +1,12 @@
 <?php $description = 'Прайс-лист на услуги дизайнера';?>
 <?php $keywords = 'Прайс-лист на услуги дизайнера';?>
 <?php $breadcrumb = 'Прайс-лист';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."/blocks/breadcrumbs.php"); ?>
+	<?php include($root."blocks/breadcrumbs.php"); ?>
   <h1>Прайс-лист на услуги дизайнера</h1>
   <h2 class="headline" style="margin-top:30px;">Базовый дизайн-проект</h2>
   <em>Срок выполнения 30 рабочих дней (до 100 м<sup>2</sup>).</em>
@@ -207,4 +207,4 @@ include($root."/blocks/header.php");?>
 </table>
 <p>*Белгородская, Брянская, Воронежская, Ивановская, Калужская, Костромская, Курская, Липецкая, Московская, Орловская,  Рязанская, Смоленская, Тамбовская, Тверская, Тульская, Ярославская.</p>
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

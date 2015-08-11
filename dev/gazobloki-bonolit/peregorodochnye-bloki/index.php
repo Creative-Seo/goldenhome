@@ -3,12 +3,12 @@
 <?php $keywords = 'Перегородочные блоки, цена, купить, продажа, производство';?>
 <?php $breadcrumb = 'Перегородочные блоки';?>
 <?php $breadcrumb2 = 'Блоки Bonolit';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."/blocks/breadcrumbs.php"); ?>
+	<?php include($root."blocks/breadcrumbs.php"); ?>
   <h1>Газобетонные перегородочные блоки</h1>
   
 <div class="clearfix blox">  
@@ -24,4 +24,4 @@ include($root."/blocks/header.php");?>
 <p>Перегородочные блоки легко обрабатываются, благодаря чему есть возможность штрабить каналы под инженерные коммуникации и получать конструкции любой конфигурации. Перегородки из газобетона отличаются своей устойчивостью к деформациям и огнестойкостью. Крупный размер и малый удельный вес блоков способствуют быстрому процессу монтажа, поэтому строительство завершается в короткие сроки.</p>
   
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

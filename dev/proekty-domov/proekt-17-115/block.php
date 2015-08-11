@@ -6,4 +6,4 @@
 <?php $arhitekturnyyStil = "классический";
  $gabarity = "8 на 9 м";
  $dopolnitelno = ['Мансарда']; ?>
- <?php include($root."/blocks/block_proekt.php");?>
+ <?php include($root."blocks/block_proekt.php");?>

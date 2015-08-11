@@ -1,21 +1,13 @@
 <?php
 $breadcrumb2 = 'Купить дом';
-$style='
-<link rel="stylesheet" href="/css/lightSlider.css">
-<link rel="stylesheet" href="/css/lightGallery.css">
-<style>
-.row img {margin:0px;}
-.lSAction > a {background-color:#333;z-index:1000;}
-.btn-zakaz {margin-top: 30px;}
-</style>';
 $text = 'просмотр';$nomer = $breadcrumb;
-$root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php");
+$root = '../../'
+include($root."blocks/meta.php");
+include($root."blocks/header.php");
 ?>
 
 <div class="container">
-<?php include($root."/blocks/breadcrumbs.php");?>
+<?php include($root."blocks/breadcrumbs.php");?>
 <h1><?php echo $breadcrumb; ?></h1>
 
 <div class="row" style="padding-bottom:18px">
@@ -28,8 +20,8 @@ if (false !== $images) {
 	$imgarray = preg_grep('/\\.(?:jpe?g)$/', $images);
 	$active = 'active';$text1='';$text2='';$i=0;
 	foreach($imgarray as $row) { ?>
-<li data-thumb="<?php echo HTTP_URL_IMG.htmlspecialchars(urlencode($row));?>" data-src="<?php echo HTTP_URL_IMG.htmlspecialchars(urlencode($row));?>" class="lslide">
-    <img src="<?php echo HTTP_URL_IMG.htmlspecialchars(urlencode($row));?>" class="img-responsive" alt="<?php echo $title;?>">
+<li data-thumb="<?php echo 'img/'.htmlspecialchars(urlencode($row));?>" data-src="<?php echo 'img/'.htmlspecialchars(urlencode($row));?>" class="lslide">
+    <img src="<?php echo 'img/'.htmlspecialchars(urlencode($row));?>" class="img-responsive" alt="<?php echo $title;?>">
 </li>
 <?php $active = '';}} ?>
 		</ul>
@@ -81,4 +73,9 @@ if (false !== $images) {
    </div>   
 </div>
 
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>
+<style>
+.row img {margin:0px;}
+.lSAction > a {background-color:#333;z-index:1000;}
+.btn-zakaz {margin-top: 30px;}
+</style>

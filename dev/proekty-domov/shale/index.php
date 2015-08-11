@@ -3,12 +3,12 @@
 <?php $keywords = 'Проекты домов в стиле шале';?>
 <?php $breadcrumb = 'Шале';?>
 <?php $breadcrumb2 = 'Проекты домов';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php"); 
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php"); 
+include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."/blocks/breadcrumbs.php");?>
+<?php include($root."blocks/breadcrumbs.php");?>
           <h1>Проекты домов шале</h1>
 	<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
                     <?php include("http://www.sk-goldenhome.ru/proekty-domov/proekt-61-192/block.php");?>
@@ -22,4 +22,4 @@ include($root."/blocks/header.php");?>
           <p>Наши специалисты готовы взяться за заказ любой сложности и создать эксклюзивный проект для вашего дома в стиле шале. </p>
         </article>
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

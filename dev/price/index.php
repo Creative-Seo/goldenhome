@@ -2,12 +2,12 @@
 <?php $description = 'Стоимость строительства строительства загородного дома, подробный прайс-лист';?>
 <?php $keywords = 'Стоимость строительства';?>
 <?php $breadcrumb = 'Стоимость строительства';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php"); 
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php"); 
+include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."/blocks/breadcrumbs.php");?>
+<?php include($root."blocks/breadcrumbs.php");?>
   <h1>Стоимость строительства</h1>
   <h2 style="color:red;font-size:25px;line-height:30px;border: 3px red solid;padding:10px;">Акция: при заказе строительства дома остекление (пластиковые окна Rehau EVRO) в ПОДАРОК.*</h2>
   <p><img src="/image/price/price.jpg" alt="" class="pull-right">Выполняем строительство теплых, прочных, экологичных и&nbsp;энергосберегающих домов из&nbsp;лучших в&nbsp;России газобетонных блоков &laquo;YTONG&raquo; по&nbsp;индивидуальным проектам и&nbsp;в&nbsp;различной комплектации.</p>
@@ -108,4 +108,4 @@ include($root."/blocks/header.php");?>
 </noindex>
 
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

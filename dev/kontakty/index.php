@@ -3,14 +3,14 @@
 	$keywords = 'Контакты';?>
 <?php $dirs = array ();?>
 <?php
-$root = $_SERVER['DOCUMENT_ROOT'];
+$root = '../';
 $breadcrumb = 'Проекты домов';
-include($root."/blocks/meta.php"); 
-include($root."/blocks/header.php"); 
+include($root."blocks/meta.php"); 
+include($root."blocks/header.php"); 
 ?>
 <div class="container">
                 
-<?php include($root."/blocks/breadcrumbs.php"); ?>
+<?php include($root."blocks/breadcrumbs.php"); ?>
 <article class="article" style="position: relative">
   <a id="print-buttom" href="" style="position: absolute; right: 15px; margin-top: 20px">Версия для печати</a>
   <h1>Контактная информация</h1>
@@ -111,7 +111,7 @@ include($root."/blocks/header.php");
 				
 </div>
 
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>
 <style type="text/css" media="print" id="print"></style>
 <script>
 $(document).ready(function() {

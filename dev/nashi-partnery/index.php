@@ -2,12 +2,12 @@
 <?php $description = 'Партнеры компании Golden Home. Наши клиенты могут получить скидку на услуги следующих фирм';?>
 <?php $keywords = 'Наши партнеры';?>
 <?php $breadcrumb = 'О компании';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."/blocks/breadcrumbs.php"); ?>
+	<?php include($root."blocks/breadcrumbs.php"); ?>
   <h1>Наши партнеры</h1>
   <div class="row">
     <div class="col-sm-4"><img src="/image/partners/6.jpg" alt=""></div>
@@ -28,4 +28,4 @@ include($root."/blocks/header.php");?>
     <div class="col-sm-4"><img src="/image/partners/5.jpg" alt=""></div>
   </div>
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

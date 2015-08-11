@@ -1,6 +1,8 @@
 dev/img/
 dev/image/
-old/
+*.mp4
+*.zip
+archive/
 dev/libs/
 node_modules/
 .sass-cache/

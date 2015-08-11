@@ -3,12 +3,12 @@
 <?php $keywords = 'проекты домов с террасой, проекты коттеджей с террасой, проект дома под ключ, проекта дома под ключ цена, проекты двухэтажных домов, проекты домов из газобетона, проект строительства дома, проект двухэтажного дома';?>
 <?php $breadcrumb = 'С террасой';?>
 <?php $breadcrumb2 = 'Проекты домов';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php"); 
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php"); 
+include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."/blocks/breadcrumbs.php");?>
+<?php include($root."blocks/breadcrumbs.php");?>
         <h1>Проекты домов с террасой</h1>
 	<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
                     <?php include("../proekt-58-120/block.php");?>
@@ -36,4 +36,4 @@ include($root."/blocks/header.php");?>
           <p>Наши специалисты создадут проект вашего дома с террасой и учтут все ваши пожелания. Вы сможете сами решить, с какой стороны дома будет располагаться пристройка, и из какой комнаты дома можно будет выйти на террасу. К тому же наши дизайнеры разработают оригинальные и необычные решения специально для вашего дома, чтобы сделать его уникальным и изящным.</p>
         </article>
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

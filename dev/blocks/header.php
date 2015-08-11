@@ -5,8 +5,8 @@
     <div class="row top-content">
 		<div class="col-lg-4 col-md-4 col-sm-5 logo" id="logo"> 
 		<a href="/">
-<?php if (HTTP_ID == '/') { ?><img class="img-responsive center-block" src="img/logo.png" alt="" width="250">
-<?php } else { ?><img class="img-responsive center-block" src="img/logo-black.png" alt="" width="250">
+<?php if (HTTP_ID == '/') { ?><img class="img-responsive center-block" src="/img/logo.png" alt="" width="250">
+<?php } else { ?><img class="img-responsive center-block" src="/img/logo-black.png" alt="" width="250">
 <?php } ?>
 		</a>
 		</div>
@@ -26,8 +26,8 @@
     <div class="navbar-header">
 		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
 		<a class="visible-xs" href="/">
-<?php if (HTTP_ID == '/') { ?><img class="img-responsive" width="120" src="<?php echo HTTP_SERVER;?>img/logo.png" alt="Агентство права и оценки" />
-<?php } else { ?><img class="img-responsive" width="120" src="<?php echo HTTP_SERVER;?>logo-black.png" alt="Агентство права и оценки" />
+<?php if (HTTP_ID == '/') { ?><img class="img-responsive" width="120" src="/img/logo.png" alt="Агентство права и оценки" />
+<?php } else { ?><img class="img-responsive" width="120" src="/img/logo-black.png" alt="Агентство права и оценки" />
 <?php } ?>
 		</a>
 	</div>
@@ -40,7 +40,7 @@
 			<ul class="dropdown-menu">
 		<?php foreach ($row['li'] as $li) { 
 			if ($li["name"] == 'gr') { echo '<li class="divider"></li>';} else { ?>
-			<li <?php if (HTTP_ID == $li["url"]) {echo 'class="active"';}?>><a href="<?php echo $li["url"]; ?>"><span><?php echo $li["name"]; ?></span></a></li>
+			<li <?php if ('/'.HTTP_ID == $li["url"]) {echo 'class="active"';}?>><a href="<?php echo $li["url"]; ?>"><span><?php echo $li["name"]; ?></span></a></li>
 		<?php }} ?>
 			</ul>
 		</li>

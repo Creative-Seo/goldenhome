@@ -2,12 +2,12 @@
 <?php $description = 'Golden Home предлагает купить во Владимире газобетон, газосиликатные и газобетонные стеновые блоки, газоблоки из ячеистого бетона по выгодным ценам с доставкой';?>
 <?php $keywords = 'газобетон, газобетон цена, газосиликатные блоки, газобетонные блоки, стеновые блоки, газоблоки, газоблоки цена, ячеистый бетона';?>
 <?php $breadcrumb = 'Газобетонные блоки';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php"); 
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php"); 
+include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."/blocks/breadcrumbs.php");?>
+<?php include($root."blocks/breadcrumbs.php");?>
   <h1>Купить газобетонные блоки во Владимире</h1>
   
  
@@ -145,4 +145,4 @@ include($root."/blocks/header.php");?>
 	</div>
 </div>
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

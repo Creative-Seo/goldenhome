@@ -6,4 +6,4 @@
 <?php $arhitekturnyyStil = "хай-тек";
  $gabarity = "11 на 11 м";
  $dopolnitelno = array(); ?>
- <?php include($root."/blocks/block_proekt.php");?>
+ <?php include($root."blocks/block_proekt.php");?>

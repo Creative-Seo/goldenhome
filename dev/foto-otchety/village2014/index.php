@@ -2,12 +2,12 @@
 <?php $description = '';?>
 <?php $keywords = '';?>
 <?php $breadcrumb = 'Роуд-шоу YTONG';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php"); 
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php"); 
+include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."/blocks/breadcrumbs.php");?>
+<?php include($root."blocks/breadcrumbs.php");?>
   <h1 class="h1_small">Роуд-шоу YTONG в&nbsp;коттеджном поселке &laquo;Даниэль village&raquo;</h1>
   <p>31&nbsp;мая, в&nbsp;День города Иваново, компания &laquo;Газоблок&nbsp;37&raquo; приглашала посетить Роуд-шоу YTONG в&nbsp;коттеджном поселке &laquo;Даниэль village&raquo;.</p>
   <p>В&nbsp;строящемся поселке &laquo;Даниэль village&raquo; по&nbsp;технологии YTONG, с&nbsp;использованием всех продуктов компании, проводилось европейское шоу, где раскрывались результаты исследований европейских научных центров в&nbsp;области строительных материалов и&nbsp;технологии строительства.</p>
@@ -26,7 +26,7 @@ include($root."/blocks/header.php");?>
 $photo_dir = '/image/reports/village2014/';
 $photo_alt = 'Фотография с мероприятия';
 $photo_col = 'col-xs-6 col-sm-3 col-lg-2'; 
-include($root."/blocks/photo-list.php");
+include($root."blocks/photo-list.php");
 ?>
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

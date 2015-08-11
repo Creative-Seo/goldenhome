@@ -2,12 +2,12 @@
 <?php $description = 'Подборка фотографий с мероприятий с участием сотрудников компании Golden Home';?>
 <?php $keywords = 'Фотоотчеты';?>
 <?php $breadcrumb = 'Фотоотчеты';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php"); 
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php"); 
+include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."/blocks/breadcrumbs.php");?>
+<?php include($root."blocks/breadcrumbs.php");?>
   <h1>Фотоотчеты</h1>
 
 <div class="row">
@@ -94,4 +94,4 @@ include($root."/blocks/header.php");?>
     </div>
 </div>
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

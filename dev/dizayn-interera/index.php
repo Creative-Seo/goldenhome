@@ -2,23 +2,23 @@
 <?php $description = 'Дизайн-студия Golden Home разработает проект дизайн интерьера квартиры на высоком профессиональном уровне. Мы гарантируем эксклюзивный дизайн интерьера, индивидуальный подход, своевременное выполнение заказа';?>
 <?php $keywords = 'дизайн интерьера фото, дизайн-студия, дизайн интерьера квартиры, дизайн интерьеров квартир фото, дизайн интерьера дома фото';?>
 <?php $breadcrumb = 'Дизайн интерьера';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");?>
 
-<link href="<?php echo HTTP_URL;?>css/style.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
 <section id="opener">
 		<div class="part p1">
-			<div class="bg" style="background-image: url(<?php echo HTTP_URL_IMG;?>wohnen-5.jpg)"></div>
-			<img class="seo-hidden" src="<?php echo HTTP_URL_IMG;?>wohnen-5.jpg" alt="">
+			<div class="bg" style="background-image: url(img/wohnen-5.jpg)"></div>
+			<img class="seo-hidden" src="img/wohnen-5.jpg" alt="">
 			<div class="inner">
 				<h1><span>Welcome to your</span><br><span>new home</span></h1>
 				<a href="#">Step inside now</a>
 			</div>
 		</div>
 		<div class="part p2">
-			<div class="bg" style="background-image: url(<?php echo HTTP_URL_IMG;?>region-10.jpg)"></div>
-			<img class="seo-hidden" src="<?php echo HTTP_URL_IMG;?>region-10.jpg" alt="">
+			<div class="bg" style="background-image: url(img/region-10.jpg)"></div>
+			<img class="seo-hidden" src="img/region-10.jpg" alt="">
 			<div class="inner">
 				<h1><span>Succumb to the charms of</span><br><span>Ticino's sunny side</span></h1>
 				<a href="#">Soak up the atmosphere now</a>
@@ -26,7 +26,7 @@ include($root."/blocks/header.php");?>
 		</div>
 </section>
 <div class="container">
-	<?php include($root."/blocks/breadcrumbs.php"); ?>
+	<?php include($root."blocks/breadcrumbs.php"); ?>
           <h1>Дизайн интерьера от студии Golden Home</h1>
           <p>Специалисты нашей дизайн-студии осуществляют комплексную разработку интерьеров под индивидуальные проекты во Владимире и области. Мы&nbsp;осознаем, насколько важен для владельца дома, квартиры или офиса привлекательный, стильный и&nbsp;профессионально разработанный дизайн под конкретные условия отдельного помещения. Наилучшее соотношение стиля и&nbsp;функционала помещений достигается за&nbsp;счет планирования и&nbsp;профессионального проектирования объекта нашими специалистами. Golden Home поможет вам грамотно выбрать лучшие цвета, определиться с&nbsp;меблировкой, спроектировать естественное и&nbsp;искусственное освещения.</p>
           <p>Полный комплекс работ по дизайну интерьера включает:</p>
@@ -80,12 +80,12 @@ include($root."/blocks/header.php");?>
           
           <div class="col-sm-6">
           <h3>Салон Cesare Ponti</h3>
-          <img src="<?php echo HTTP_URL_IMG; ?>/cesare.jpg" alt="" class="img-circle" width="150">
+          <img src="img/cesare.jpg" alt="" class="img-circle" width="150">
           <p>Ирина Залевская</p>
           <p>Генеральный директор салона Cesare Ponti</p>
           </div>
           <div class="col-sm-3">
-          <a href="<?php echo HTTP_URL_IMG; ?>/otzyv-cesare-ponti.jpg" class="fancybox-thumb" rel="group1" title="Cалон Cesare Ponti"><img src="<?php echo HTTP_URL_IMG; ?>/otzyv-cesare-ponti.jpg" alt="" class="img-responsive"></a>
+          <a href="img/otzyv-cesare-ponti.jpg" class="fancybox-thumb" rel="group1" title="Cалон Cesare Ponti"><img src="img/otzyv-cesare-ponti.jpg" alt="" class="img-responsive"></a>
           </div>
           <div class="col-md-12 ">
           <h3>Клубный арт-ресторан «Брют Клуб»</h3>
@@ -109,36 +109,10 @@ include($root."/blocks/header.php");?>
 $photo_dir = '/image/design_int2/';
 $photo_alt = 'Фотография интерьера';
 $photo_col = 'col-xs-6 col-sm-3 col-lg-2'; 
-include($root."/blocks/photo-list.php");
+include($root."blocks/photo-list.php");
 ?>
 
           <p>Если вы&nbsp;решились на&nbsp;перемены в&nbsp;своем доме или квартире, доверьтесь профессиональному дизайнеру интерьеров. Специалисты компании Golden Home помогут выбрать стилистическое решение, подходящее Вам по&nbsp;вкусу и&nbsp;удачно вписывающееся в&nbsp;ваше помещение. И&nbsp;благодаря современным компьютерным технологиям, будущий интерьер можно посмотреть до&nbsp;начала ремонтных работ.</p>
           <p>Наши архитекторы&mdash;дизайнеры способны придать интерьеру привлекательность не&nbsp;в&nbsp;ущерб функциональности. С&nbsp;учетом Ваших пожеланий из&nbsp;нескольких вариантов они подберут один-единственный дизайн-проект, который отразит вашу индивидуальность и&nbsp;подарит комфорт Вам и&nbsp;Вашим близким.</p>
 </div>
-<?php include($root."/blocks/footer.php");?>
-<script>
-$('#opener .p1').hover(function(){
-	$(this).css('right', '30%');
-	$('#opener .p2').css('left', '70%');
-},function(){
-	$(this).css('right', '50%');
-	$('#opener .p2').css('left', '50%');
-});
-$('#opener .p2').hover(function(){
-	$(this).css('left', '30%');
-	$('#opener .p1').css('right', '70%');
-},function(){
-	$(this).css('left', '50%');
-	$('#opener .p1').css('right', '50%');
-});
-$('#opener .p1 a').hover(function(){
-	$('#opener .p2').css('opacity', '0.3');
-},function(){
-	$('#opener .p2').css('opacity', '1');
-});
-$('#opener .p2 a').hover(function(){
-	$('#opener .p1').css('opacity', '0.3');
-},function(){
-	$('#opener .p1').css('opacity', '1');
-});
-</script>
+<?php include($root."blocks/footer.php");?>

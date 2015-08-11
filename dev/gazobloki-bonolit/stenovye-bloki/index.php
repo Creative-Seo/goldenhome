@@ -3,12 +3,12 @@
 <?php $keywords = 'стеновые блоки, цена, купить, продажа, производство';?>
 <?php $breadcrumb = 'Стеновые блоки';?>
 <?php $breadcrumb2 = 'Блоки Bonolit';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."/blocks/breadcrumbs.php"); ?>
+	<?php include($root."blocks/breadcrumbs.php"); ?>
   <h1>Конструкционные стеновые блоки Bonolit</h1>
   
 <div itemtype="http://schema.org/ItemList" itemscope>  
@@ -63,4 +63,4 @@ include($root."/blocks/header.php");?>
 </ul>
 
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

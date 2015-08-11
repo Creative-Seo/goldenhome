@@ -4,12 +4,12 @@
 <?php $breadcrumb = 'Блоки Ytong';?>
 <?php $breadcrumb2 = 'Газоблоки';?>
 <?php $breadcrumb2_url = 'gazobloki';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."/blocks/breadcrumbs.php"); ?>
+	<?php include($root."blocks/breadcrumbs.php"); ?>
   <h1>Газобетонные блоки Ytong (Ютонг, Итонг)</h1>
   <div class="table-responsive">
             <table width="100%" border="0" cellspacing="0" cellpadding="5" style="font-size:11px;" class="table table-striped table-hover table-bordered" itemtype="http://schema.org/ItemList" itemscope>
@@ -782,4 +782,4 @@ include($root."/blocks/header.php");?>
   <p>Строительная компания Golden Home &mdash; официальный партнер Ytong по строительству. У нас вы можете купить блоки Ytong по специальной цене, при условии заключения договора подряда на строительство силами нашей компании, по наиболее выгодным ценам. Обращаем ваше внимание на тот факт, что газобетонные блоки Ytong производятся только из натуральных экологически чистых компонентов. Основные ингредиенты: песок, вода, известь и цемент. Блоки Ytong позволяют строить несущие стены домов, имеющих высоту до трех этажей. Незаменимы блоки из ячеистого бетона для закрытия стеновых проемов в зданиях каркасной конструкции, а также для строительства внутренних межкомнатных перегородок.</p>
   <p>Если Вы планируете строительство дома у нас и для этого хотите купить блоки Ytong &mdash; компания Golden Home &mdash; к Вашим услугам! Связаться с нами Вы можете по телефону (4922) 37-07-51 и наши специалисты ответят на все интересующие Вас вопросы.</p>
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

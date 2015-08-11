@@ -3,12 +3,12 @@
 <?php $keywords = 'Проекты домов с четырехскатной крышей';?>
 <?php $breadcrumb = 'С четырехскатной крышей';?>
 <?php $breadcrumb2 = 'Проекты домов';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php"); 
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php"); 
+include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."/blocks/breadcrumbs.php");?>
+<?php include($root."blocks/breadcrumbs.php");?>
           <h1>Проекты домов и коттеджей с четырехскатной крышей</h1>
 	<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
                     <?php include("../proekt-69-118/block.php");?>

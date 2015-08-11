@@ -3,12 +3,12 @@
 <?php $keywords = 'bonolit, bonolit блоки, газобетон, газосиликатные блоки, газобетонные блоки, стеновые блоки, газоблоки, ячеистый бетона, пеноблоки';?>
 <?php $breadcrumb = 'Блоки Bonolit';?>
 <?php $breadcrumb2 = 'Газоблоки';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."/blocks/breadcrumbs.php"); ?>
+	<?php include($root."blocks/breadcrumbs.php"); ?>
   <h1>Газобетонные блоки Bonolit (Poritep)</h1>
   
 <div class="row" itemtype="http://schema.org/ItemList" itemscope>  
@@ -244,4 +244,4 @@ include($root."/blocks/header.php");?>
   <p>Блоки Бонолит на сегодняшний день являются одним из самых востребованных и перспективных строительных материалов на российском рынке. Продукция компании Bonolit &mdash; это не только стеновые конструкционные блоки. Компания производит теплоизоляционные блоки, блоки для перегородок, блоки для навесных фасадов, товарные растворы и бетон, П-образные блоки, а также штукатурные смеси и клеящий состав, которым скрепляются блоки Bonolit при возведении стен. </p>
   <p>Компания Golden Home &mdash; официальный партнер Bonolit во Владимире. Если Вам нужно построить жилой дом из газобетонных блоков или Вы просто хотите купить Bonolit &mdash; мы с радостью окажем Вам эту услугу! Наши специалисты ответят на любые вопросы, связанные со строительством малоэтажных домов или с покупкой необходимых строительных материалов.</p>
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

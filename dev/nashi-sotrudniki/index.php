@@ -2,12 +2,12 @@
 <?php $description = 'Сотрудники компании Golden Home, в нашей компании работают только высококвалифицированные профессионалы';?>
 <?php $keywords = 'Наши сотрудники';?>
 <?php $breadcrumb = 'Наши сотрудники';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php");
-include($root."/blocks/header.php"); ?>
+<?php $root = '../';
+include($root."blocks/meta.php");
+include($root."blocks/header.php"); ?>
 
 <div class="container">
-	<?php include($root."/blocks/breadcrumbs.php"); ?>
+	<?php include($root."blocks/breadcrumbs.php"); ?>
   <p><img src="/image/team/7.jpg" alt="" class="pull-right"></p>
 
   <h1>Наши сотрудники</h1>
@@ -78,4 +78,4 @@ include($root."/blocks/header.php"); ?>
   Блоки YTONG производятся на заводах концерна Xella по самым передовым технологиям на современном оборудовании, что обеспечивает неизменно высокое качество продукции и постоянство технических характеристик от партии к партии. Ячеистый бетон производится из натуральных ингредиентов (песок, известь и вода) с добавкой небольшого количества цемента, поэтому блоки YTONG во всем мире признаны экологически чистым строительным материалом. В сравнении с неавтоклавным газобетоном автоклавная технология YTONG не только ускоряет процесс твердения смеси и в несколько раз уменьшает усадку, но и значительно увеличивает прочность материала, что позволяет возводить из него несущие стены зданий высотой до 3-х этажей.</p>
 
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

@@ -3,12 +3,12 @@
 <?php $keywords = 'проекты современных домов, проекты современных коттеджей, проект дома под ключ в современном стиле, проекта дома под ключ цена, проекты двухэтажных домов, проекты домов из газобетона, проект строительства дома, проект двухэтажного дома';?>
 <?php $breadcrumb = 'Современные';?>
 <?php $breadcrumb2 = 'Проекты домов';?>
-<?php $root = $_SERVER['DOCUMENT_ROOT'];
-include($root."/blocks/meta.php"); 
-include($root."/blocks/header.php");?>
+<?php $root = '../';
+include($root."blocks/meta.php"); 
+include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."/blocks/breadcrumbs.php");?>
+<?php include($root."blocks/breadcrumbs.php");?>
        <h1>Современные проекты загородных домов</h1>
 	<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
                     <?php include("../proekt-57-212/block.php");?>
@@ -29,4 +29,4 @@ include($root."/blocks/header.php");?>
           <p>Профессионалы нашей компании готовы выполнить идеально подходящий проект заказчику в самые сжатые сроки, чтобы ускорить процесс строительства и реализовать без задержек, и лишних затрат по самой выгодной стоимости.</p>
         </article>
 </div>
-<?php include($root."/blocks/footer.php");?>
+<?php include($root."blocks/footer.php");?>

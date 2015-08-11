@@ -6,4 +6,4 @@
 <?php $arhitekturnyyStil = "";
  $gabarity = "";
  $dopolnitelno = ['Веранда']; ?>
- <?php include($root."/blocks/block_proekt.php");?>
+ <?php include($root."blocks/block_proekt.php");?>
