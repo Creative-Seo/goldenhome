@@ -3,7 +3,7 @@
 <?php $keywords = 'Перегородочные блоки, цена, купить, продажа, производство';?>
 <?php $breadcrumb = 'Перегородочные блоки';?>
 <?php $breadcrumb2 = 'Блоки Bonolit';?>
-<?php $root = '../';
+<?php $root = '../../';
 include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
 
@@ -14,8 +14,8 @@ include($root."blocks/header.php");?>
 <div class="clearfix blox">  
   <div class="col-md-4">
     <div class="bloki">
-     <a href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/peregorodochnye-bloki/d600-st100/"><img class="img-responsive center-block" src="<?php echo HTTP_SERVER;?>gazobloki-bonolit/img/peregorodochnye-bloki.jpg" alt="Перегородочные газобетонные и газосиликатные блоки D600 (100мм.)" width="150"></a>
-     <a class="blokia" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/peregorodochnye-bloki/d600-st100/">Блок D600 (100мм.)</a>
+     <a href="d600-st100/"><img class="img-responsive center-block" src="/gazobloki-bonolit/img/peregorodochnye-bloki.jpg" alt="Перегородочные газобетонные и газосиликатные блоки D600 (100мм.)" width="150"></a>
+     <a class="blokia" href="d600-st100/">Блок D600 (100мм.)</a>
      <div class="price-block center-block">3600 руб./м<sup>3</sup></div>
     </div> 
   </div>

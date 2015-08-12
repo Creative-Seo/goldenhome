@@ -2,7 +2,7 @@
 <?php $description = 'Проведение подобных мероприятий уже стало традицией в компании Xella';?>
 <?php $keywords = '';?>
 <?php $breadcrumb = 'Road Show YTONG';?>
-<?php $root = '../';
+<?php $root = '../../';
 include($root."blocks/meta.php"); 
 include($root."blocks/header.php");?>
 

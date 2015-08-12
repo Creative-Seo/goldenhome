@@ -13,12 +13,12 @@ include($root."blocks/header.php");?>
  
   <div class="col-md-6 col-sm-12 col-xs-12" style="margin-bottom:20px">
   <div class="ytong center-block">
-  <a href="<?php echo HTTP_SERVER;?>gazobloki-ytong/"><img width="170" height="170" alt="купить газоблоки Ytong" title="купить газоблоки Ytong" src="/image/bloki/ytong.jpg" class="center-block"></a><br><a href="<?php echo HTTP_SERVER;?>gazobloki-ytong/" class="center-block text-center">Каталог блоки Ytong</a><br>
+  <a href="/gazobloki-ytong/"><img width="170" height="170" alt="купить газоблоки Ytong" title="купить газоблоки Ytong" src="/image/bloki/ytong.jpg" class="center-block"></a><br><a href="/gazobloki-ytong/" class="center-block text-center">Каталог блоки Ytong</a><br>
   </div>
   </div>
   <div class="col-md-6 col-sm-12 col-xs-12" style="margin-bottom:20px">
   <div class="bonolit center-block">
-  <a href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/"><img width="170" height="170" alt="купить газоблоки Bonolit" title="купить газоблоки Bonolit" src="/image/bloki/bonolit.jpg" class="center-block"></a><br><a href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/" class="center-block text-center">Каталог блоки Ytong</a><br>
+  <a href="/gazobloki-bonolit/"><img width="170" height="170" alt="купить газоблоки Bonolit" title="купить газоблоки Bonolit" src="/image/bloki/bonolit.jpg" class="center-block"></a><br><a href="/gazobloki-bonolit/" class="center-block text-center">Каталог блоки Ytong</a><br>
   </div>
   </div>
 

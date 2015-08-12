@@ -19,8 +19,8 @@ include($root."blocks/header.php");?>
                 </tr>
                
                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="<?php echo HTTP_SERVER;?>gazobloki-ytong/D500-500-250/" itemprop="url"><img itemprop="image" src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75" alt="блоки, D500, 625*500*250, ровные YTONG" /></a></td>
-                                                                     <td><a href="<?php echo HTTP_SERVER;?>gazobloki-ytong/D500-500-250/"><span itemprop="name">блоки, D500, 625*500*250, ровные YTONG</span></a></td>
+                                                             <td><a href="D500-500-250/" itemprop="url"><img itemprop="image" src="img/blok-stenovoy-ytong.png" border="0" width="75" alt="блоки, D500, 625*500*250, ровные YTONG" /></a></td>
+                                                                     <td><a href="D500-500-250/"><span itemprop="name">блоки, D500, 625*500*250, ровные YTONG</span></a></td>
                                                                     <td>D500</td>
                                                                     <td>стеновой</td>
                                                                     <td>ровная</td>
@@ -34,8 +34,8 @@ include($root."blocks/header.php");?>
                                                                     
                                                    </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="<?php echo HTTP_SERVER;?>gazobloki-ytong/D400-500-250/"  itemprop="url"><img  src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" alt="блоки, D400, 625*500*250, ровные YTONG" /></a></td>
-                                                                     <td><a href="<?php echo HTTP_SERVER;?>gazobloki-ytong/D400-500-250/"><span itemprop="name">блоки, D400, 625*500*250, ровные YTONG</a></td>
+                                                             <td><a href="D400-500-250/"  itemprop="url"><img  src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" alt="блоки, D400, 625*500*250, ровные YTONG" /></a></td>
+                                                                     <td><a href="D400-500-250/"><span itemprop="name">блоки, D400, 625*500*250, ровные YTONG</a></td>
                                                                     <td>D400</td>
                                                                     <td>стеновой</td>
                                                                     <td>ровная</td>
@@ -49,8 +49,8 @@ include($root."blocks/header.php");?>
                                                                     
                                                   </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="<?php echo HTTP_SERVER;?>gazobloki-ytong/D500-400-250/" itemprop="url"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
-                                                                     <td><a href="<?php echo HTTP_SERVER;?>gazobloki-ytong/D500-400-250/"><span itemprop="name">блоки, D500, 625*400*250, ровные YTONG с добором 150</a></td>
+                                                             <td><a href="D500-400-250/" itemprop="url"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                                     <td><a href="D500-400-250/"><span itemprop="name">блоки, D500, 625*400*250, ровные YTONG с добором 150</a></td>
                                                                     <td>D500</td>
                                                                     <td>стеновой</td>
                                                                     <td>ровная</td>
@@ -64,7 +64,7 @@ include($root."blocks/header.php");?>
                                                                    
                                                   </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);" itemprop="url"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);" itemprop="url"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D500, 625*400*250, ровные YTONG с добором 100</a></td>
                                                                     <td>D500</td>
                                                                     <td>стеновой</td>
@@ -78,7 +78,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4340</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                         </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);" itemprop="url"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);" itemprop="url"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D500, 625*400*250, ровныеYTONG с добором 300</a></td>
                                                                     <td>D500</td>
                                                                     <td>стеновой</td>
@@ -92,7 +92,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4340</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                        </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D400, 625*400*250, ровные YTONG</a></td>
                                                                     <td>D400</td>
                                                                     <td>стеновой</td>
@@ -106,7 +106,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4340</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                         </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D500, 625*400*250, ровные YTONG с добором 100 и 200</a></td>
                                                                     <td>D500</td>
                                                                     <td>стеновой</td>
@@ -120,7 +120,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4428</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                     </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D500, 625*375*250, ровные YTONG</a></td>
                                                                     <td>D500</td>
                                                                     <td>стеновой</td>
@@ -134,7 +134,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4510</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                       </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D400, 625*375*250, ровные YTONG</a></td>
                                                                     <td>D400</td>
                                                                     <td>стеновой</td>
@@ -148,7 +148,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4600</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                        </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D500, 625*375*250, пазогребневые YTONG</a></td>
                                                                     <td>D500</td>
                                                                     <td>стеновой</td>
@@ -162,7 +162,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4530</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                        </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D400, 625*375*250, пазогребневые YTONG</a></td>
                                                                     <td>D400</td>
                                                                     <td>стеновой</td>
@@ -176,7 +176,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4620</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                      </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/u-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/u-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);">блоки U-образные, D500, 500*375*250 YTONG</a></td>
                                                                     <td>D500</td>
                                                                     <td>перемычка</td>
@@ -190,7 +190,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">345</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                       </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D500, 625*300*250, ровные YTONG</a></td>
                                                                     <td>D500</td>
                                                                     <td>стеновой</td>
@@ -204,7 +204,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4310</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                        </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D400, 625*300*250, ровные YTONG</a></td>
                                                                     <td>D400</td>
                                                                     <td>стеновой</td>
@@ -218,7 +218,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4430</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                       </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D500, 625*300*250, пазогребневые YTONG</a></td>
                                                                     <td>D500</td>
                                                                     <td>стеновой</td>
@@ -232,7 +232,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4330</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                        </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D400, 625*300*250, пазогребневые YTONG</a></td>
                                                                     <td>D400</td>
                                                                     <td>стеновой</td>
@@ -246,7 +246,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4430</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                        </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/u-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/u-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);">блоки U-образные, D500, 500*300*250 YTONG</a></td>
                                                                     <td>D500</td>
                                                                     <td>перемычка</td>
@@ -260,7 +260,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">295</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                        </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D600, 625*300*250, ровные YTONG</a></td>
                                                                     <td>D600</td>
                                                                     <td>стеновой</td>
@@ -274,7 +274,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4710</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                        </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D400, 625*250*250, пазогребневые YTONG</a></td>
                                                                     <td>D400</td>
                                                                     <td>стеновой</td>
@@ -288,7 +288,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4340</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                       </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D400, 625*250*250, ровные YTONG</a></td>
                                                                     <td>D400</td>
                                                                     <td>стеновой</td>
@@ -302,7 +302,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4340</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                        </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D500, 625*250*250, пазогребневые YTONG</a></td>
                                                                     <td>D500</td>
                                                                     <td>стеновой</td>
@@ -316,7 +316,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4300</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                         </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D500, 625*250*250, ровные YTONG</a></td>
                                                                     <td>D500</td>
                                                                     <td>стеновой</td>
@@ -330,7 +330,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4270</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                        </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D600, 625*250*250, ровные YTONG</a></td>
                                                                     <td>D600</td>
                                                                     <td>стеновой</td>
@@ -344,7 +344,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4460</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                        </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/u-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/u-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);">блоки U-образные, D500, 500*250*250 YTONG (новые)</a></td>
                                                                     <td>D500</td>
                                                                     <td>перегородка</td>
@@ -358,7 +358,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">277</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                        </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/u-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/u-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);">блоки U-образные, D500, 500*250*250 YTONG(старые)</a></td>
                                                                     <td>D500</td>
                                                                     <td>перемычка</td>
@@ -372,7 +372,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">255</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                       </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D400, 625*240*250, ровные YTONG</a></td>
                                                                     <td>D400</td>
                                                                     <td>стеновой</td>
@@ -386,7 +386,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">2704</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                         </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D400, 625*200*250, ровные YTONG</a></td>
                                                                     <td>D400</td>
                                                                     <td>стеновой</td>
@@ -400,7 +400,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4390</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                        </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D500, 625*200*250, пазогребневые YTONG</a></td>
                                                                     <td>D500</td>
                                                                     <td>стеновой</td>
@@ -414,7 +414,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4260</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                         </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/u-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/u-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);">блоки U-образные, D500, 500*200*250 YTONG(старые)</a></td>
                                                                     <td>D500</td>
                                                                     <td>перемычка</td>
@@ -428,7 +428,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">258</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                       </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D500, 625*200*250, ровные YTONG</a></td>
                                                                     <td>D500</td>
                                                                     <td>стеновой</td>
@@ -442,7 +442,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4240</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                       </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);">Т-образные блоки перекрытий D500, 600*200*250 YTONG</a></td>
                                                                     <td>D500</td>
                                                                     <td>перекрытие</td>
@@ -456,7 +456,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">162</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                         </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D600, 625*200*250, ровные YTONG</a></td>
                                                                     <td>D600</td>
                                                                     <td>стеновой</td>
@@ -470,7 +470,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4930</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                       </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/u-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/u-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);">блоки U-образные, D500, 500*200*250 YTONG(новые)</a></td>
                                                                     <td>D500</td>
                                                                     <td>перемычка</td>
@@ -484,7 +484,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">258</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                        </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D500, 625*175*250, пазогребневые  YTONG</a></td>
                                                                     <td>D500</td>
                                                                     <td>стеновой</td>
@@ -498,7 +498,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4340</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                         </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-stenovoy-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D400, 625*175*250, пазогребневые YTONG</a></td>
                                                                     <td>D400</td>
                                                                     <td>перегородка</td>
@@ -512,7 +512,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4219</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                        </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-peremichka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-peremichka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);">перемычка YTONG, D600, 1500*124*175</a></td>
                                                                     <td>D600</td>
                                                                     <td>перемычка</td>
@@ -526,7 +526,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">1860</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                       </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-peremichka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-peremichka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);">перемычка YTONG, D600, 2000*175*124</a></td>
                                                                     <td>D600</td>
                                                                     <td>перемычка</td>
@@ -540,7 +540,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">2496</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                        </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-peremichka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-peremichka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);">перемычка YTONG, D600, 2500*175*124</a></td>
                                                                     <td>D600</td>
                                                                     <td>перемычка</td>
@@ -554,7 +554,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3147</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                         </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-peremichka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-peremichka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);">перемычка YTONG, D600, 3000*175*124</a></td>
                                                                     <td>D600</td>
                                                                     <td>перемычка</td>
@@ -568,7 +568,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3749</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                        </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/peregorodka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/peregorodka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D500, 625*150*250, ровные YTONG</a></td>
                                                                     <td>D500</td>
                                                                     <td>перегородка</td>
@@ -582,7 +582,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4490</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                       </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/peregorodka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/peregorodka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D400, 625*150*250, ровные YTONG</a></td>
                                                                     <td>D400</td>
                                                                     <td>перегородка</td>
@@ -596,7 +596,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3901</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                        </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/peregorodka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/peregorodka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D600, 625*150*250, ровные YTONG</a></td>
                                                                     <td>D600</td>
                                                                     <td>перегородка</td>
@@ -610,7 +610,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4840</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                   </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/peregorodka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/peregorodka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D500, 625*125*250, ровные YTONG</a></td>
                                                                     <td>D500</td>
                                                                     <td>перегородка</td>
@@ -624,7 +624,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4340</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                     </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-peremichka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-peremichka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);">перемычка YTONG, D600, 1500*115*124</a></td>
                                                                     <td>D600</td>
                                                                     <td>перемычка</td>
@@ -638,7 +638,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">1236</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                      </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-peremichka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-peremichka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);">перемычка YTONG, D600, 2000*115*124</a></td>
                                                                     <td>D600</td>
                                                                     <td>перемычка</td>
@@ -652,7 +652,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">1633</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                      </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-peremichka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-peremichka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);">перемычка YTONG, D600, 2500*115*124</a></td>
                                                                     <td>D600</td>
                                                                     <td>перемычка</td>
@@ -666,7 +666,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">2058</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                         </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-peremichka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/blok-peremichka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);">перемычка YTONG, D600, 3000*115*124</a></td>
                                                                     <td>D600</td>
                                                                     <td>перемычка</td>
@@ -680,7 +680,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">2461</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                       </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/peregorodka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/peregorodka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D500, 625*100*250, ровные YTONG</a></td>
                                                                     <td>D500</td>
                                                                     <td>перегородка</td>
@@ -694,7 +694,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4510</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                      </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/peregorodka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/peregorodka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D600, 625*100*250, ровные YTONG</a></td>
                                                                     <td>D600</td>
                                                                     <td>перегородка</td>
@@ -708,7 +708,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4710</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                       </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/ytong.dugoobraznye.bloki.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/ytong.dugoobraznye.bloki.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);">дугообразные блоки YTONG D500 90\100*100*250</a></td>
                                                                     <td>D500</td>
                                                                     <td>перегородка</td>
@@ -722,7 +722,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">290</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                        </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/ytong.dugoobraznye.bloki.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/ytong.dugoobraznye.bloki.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);">дугообразные блоки YTONG D500 50\60*100*250</a></td>
                                                                     <td>D500</td>
                                                                     <td>перегородка</td>
@@ -736,7 +736,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">290</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                        </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/peregorodka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/peregorodka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D500, 625* 75*250, ровные YTONG</a></td>
                                                                     <td>D500</td>
                                                                     <td>перегородка</td>
@@ -750,7 +750,7 @@ include($root."blocks/header.php");?>
                                                                     <td class="cenik" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">4540</span><meta itemprop="priceCurrency" content="RUB"> руб.</td>
                                                                                       </tr>
                                                                         <tr itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
-                                                             <td><a href="javascript: void(0);"><img src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/peregorodka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
+                                                             <td><a href="javascript: void(0);"><img src="img/peregorodka-ytong.png" border="0" width="75"  itemprop="image" /></a></td>
                                                                      <td><a href="javascript: void(0);"><span itemprop="name">блоки, D500, 625* 50*250, ровные с  добор.100 YTONG</a></td>
                                                                     <td>D500</td>
                                                                     <td>перегородка</td>

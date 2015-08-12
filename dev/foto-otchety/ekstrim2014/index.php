@@ -2,7 +2,7 @@
 <?php $description = 'Турнир по силовому экстриму, посвященный дню молодежи';?>
 <?php $keywords = '';?>
 <?php $breadcrumb = 'Турнир по силовому экстриму';?>
-<?php $root = '../';
+<?php $root = '../../';
 include($root."blocks/meta.php"); 
 include($root."blocks/header.php");?>
 

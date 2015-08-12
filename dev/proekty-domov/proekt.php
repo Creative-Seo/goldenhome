@@ -180,5 +180,4 @@ foreach($dirs as $key => $row) {
 } ?>
     </div>
 </div>
-
 <?php include($root."blocks/footer.php"); ?>

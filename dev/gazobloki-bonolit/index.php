@@ -12,89 +12,89 @@ include($root."blocks/header.php");?>
   <h1>Газобетонные блоки Bonolit (Poritep)</h1>
   
 <div class="row" itemtype="http://schema.org/ItemList" itemscope>  
-<p><a href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/stenovye-bloki/" class="zagbl">Стеновые блоки Bonolit</a></p>
+<p><a href="stenovye-bloki/" class="zagbl">Стеновые блоки Bonolit</a></p>
   <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
-     <a itemprop="url" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/stenovye-bloki/d500-st200/"><img itemprop="image" class="img-responsive center-block" src="<?php echo HTTP_SERVER;?>gazobloki-bonolit/img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (200мм.)" width="150"></a>
-     <a class="blokia" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/stenovye-bloki/d500-st200/"><span itemprop="name">Блок D500 (200мм.)</span></a>
+     <a itemprop="url" href="stenovye-bloki/d500-st200/"><img itemprop="image" class="img-responsive center-block" src="img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (200мм.)" width="150"></a>
+     <a class="blokia" href="stenovye-bloki/d500-st200/"><span itemprop="name">Блок D500 (200мм.)</span></a>
      <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3500</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
   <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
-     <a itemprop="url" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/stenovye-bloki/d500-st250/"><img itemprop="image" class="img-responsive center-block" src="<?php echo HTTP_SERVER;?>gazobloki-bonolit/img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (250мм.)" width="150"></a>
-     <a class="blokia" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/stenovye-bloki/d500-st250/"><span itemprop="name">Блок D500 (250мм.)</span></a>
+     <a itemprop="url" href="stenovye-bloki/d500-st250/"><img itemprop="image" class="img-responsive center-block" src="img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (250мм.)" width="150"></a>
+     <a class="blokia" href="stenovye-bloki/d500-st250/"><span itemprop="name">Блок D500 (250мм.)</span></a>
      <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3500</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
   <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
-     <a itemprop="url" class="blokia" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/stenovye-bloki/d500-st300/"><img itemprop="image" class="img-responsive center-block" src="<?php echo HTTP_SERVER;?>gazobloki-bonolit/img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (300мм.)" width="150"></a>
-     <a class="blokia" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/stenovye-bloki/d500-st300/"><span itemprop="name">Блок D500 (300мм.)</a>
+     <a itemprop="url" class="blokia" href="stenovye-bloki/d500-st300/"><img itemprop="image" class="img-responsive center-block" src="img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (300мм.)" width="150"></a>
+     <a class="blokia" href="stenovye-bloki/d500-st300/"><span itemprop="name">Блок D500 (300мм.)</a>
      <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3500</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
 <div class="clearfix hidden-xs"></div>
   <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
-     <a itemprop="url" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/stenovye-bloki/d500-st350/"><img itemprop="image" class="img-responsive center-block" src="<?php echo HTTP_SERVER;?>gazobloki-bonolit/img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (350мм.)" width="150"></a>
-     <a class="blokia" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/stenovye-bloki/d500-st350/"><span itemprop="name">Блок D500 (350мм.)</span></a>
+     <a itemprop="url" href="stenovye-bloki/d500-st350/"><img itemprop="image" class="img-responsive center-block" src="img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (350мм.)" width="150"></a>
+     <a class="blokia" href="stenovye-bloki/d500-st350/"><span itemprop="name">Блок D500 (350мм.)</span></a>
      <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3500</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
   <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
-     <a itemprop="url" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/stenovye-bloki/d500-st375/"><img itemprop="image" class="img-responsive center-block" src="<?php echo HTTP_SERVER;?>gazobloki-bonolit/img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (375мм.)" width="150"></a>
-     <a class="blokia" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/stenovye-bloki/d500-st375/"><span itemprop="name">Блок D500 (375мм.)</span></a>
+     <a itemprop="url" href="stenovye-bloki/d500-st375/"><img itemprop="image" class="img-responsive center-block" src="img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (375мм.)" width="150"></a>
+     <a class="blokia" href="stenovye-bloki/d500-st375/"><span itemprop="name">Блок D500 (375мм.)</span></a>
      <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3500</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
 
 <div class="clearfix hidden-xs"></div>
-<p><a href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/peremychki/" class="zagbl">U-образные блоки</a></p>
+<p><a href="peremychki/" class="zagbl">U-образные блоки</a></p>
   <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
-     <a itemprop="url" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/peremychki/u-block-d500-st250/"><img itemprop="image" class="img-responsive center-block" src="<?php echo HTTP_SERVER;?>gazobloki-bonolit/img/u-bloki.jpg" alt="U-образные блоки Bonolit" width="180"></a>
-     <a class="blokia" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/peremychki/u-block-d500-st250/"><span itemprop="name">Блок D500 (250мм.)</span></a>
+     <a itemprop="url" href="peremychki/u-block-d500-st250/"><img itemprop="image" class="img-responsive center-block" src="img/u-bloki.jpg" alt="U-образные блоки Bonolit" width="180"></a>
+     <a class="blokia" href="peremychki/u-block-d500-st250/"><span itemprop="name">Блок D500 (250мм.)</span></a>
      <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">350</span><meta itemprop="priceCurrency" content="RUB"> руб. за шт.<link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
    <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
-     <a itemprop="url" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/peremychki/u-block-d500-st300/"><img itemprop="image" class="img-responsive center-block" src="<?php echo HTTP_SERVER;?>gazobloki-bonolit/img/u-bloki.jpg" alt="U-образные блоки Bonolit" width="180"></a>
-     <a class="blokia" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/peremychki/u-block-d500-st300/"><span itemprop="name">Блок D500 (300мм.</span>)</a>
+     <a itemprop="url" href="peremychki/u-block-d500-st300/"><img itemprop="image" class="img-responsive center-block" src="img/u-bloki.jpg" alt="U-образные блоки Bonolit" width="180"></a>
+     <a class="blokia" href="peremychki/u-block-d500-st300/"><span itemprop="name">Блок D500 (300мм.</span>)</a>
      <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">350</span><meta itemprop="priceCurrency" content="RUB"> руб. за шт.<link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
    <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
-     <a itemprop="url" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/peremychki/u-block-d500-st375/"><img itemprop="image" class="img-responsive center-block" src="<?php echo HTTP_SERVER;?>gazobloki-bonolit/img/u-bloki.jpg" alt="U-образные блоки Bonolit" width="180"></a>
-     <a class="blokia" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/peremychki/u-block-d500-st375/"><span itemprop="name">Блок D500 (375мм.</span>)</a>
+     <a itemprop="url" href="peremychki/u-block-d500-st375/"><img itemprop="image" class="img-responsive center-block" src="img/u-bloki.jpg" alt="U-образные блоки Bonolit" width="180"></a>
+     <a class="blokia" href="peremychki/u-block-d500-st375/"><span itemprop="name">Блок D500 (375мм.</span>)</a>
      <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">350</span><meta itemprop="priceCurrency" content="RUB"> руб. за шт.<link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
 <div class="clearfix hidden-xs"></div>
   <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
-     <a itemprop="url" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/peremychki/u-block-d500-st400/"><img itemprop="image" class="img-responsive center-block" src="<?php echo HTTP_SERVER;?>gazobloki-bonolit/img/u-bloki.jpg" alt="U-образные блоки Bonolit" width="180"></a>
-     <a class="blokia" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/peremychki/u-block-d500-st400/"><span itemprop="name">Блок D500 (400мм.)</span></a>
+     <a itemprop="url" href="peremychki/u-block-d500-st400/"><img itemprop="image" class="img-responsive center-block" src="img/u-bloki.jpg" alt="U-образные блоки Bonolit" width="180"></a>
+     <a class="blokia" href="peremychki/u-block-d500-st400/"><span itemprop="name">Блок D500 (400мм.)</span></a>
      <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">350</span><meta itemprop="priceCurrency" content="RUB"> руб. за шт.<link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
    <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
-     <a itemprop="url" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/peremychki/u-block-d500-st500/"><img itemprop="image" class="img-responsive center-block" src="<?php echo HTTP_SERVER;?>gazobloki-bonolit/img/u-bloki.jpg" alt="U-образные блоки Bonolit" width="180"></a>
-     <a class="blokia" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/peremychki/u-block-d500-st500/"><span itemprop="name">Блок D500 (500мм.)</span></a>
+     <a itemprop="url" href="peremychki/u-block-d500-st500/"><img itemprop="image" class="img-responsive center-block" src="img/u-bloki.jpg" alt="U-образные блоки Bonolit" width="180"></a>
+     <a class="blokia" href="peremychki/u-block-d500-st500/"><span itemprop="name">Блок D500 (500мм.)</span></a>
      <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">350</span><meta itemprop="priceCurrency" content="RUB"> руб. за шт.<link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
 
 <div class="clearfix hidden-xs"></div>
-<p><a href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/peregorodochnye-bloki/" class="zagbl">Перегородочные блоки Bonolit</a></p>
+<p><a href="peregorodochnye-bloki/" class="zagbl">Перегородочные блоки Bonolit</a></p>
   <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
-     <a itemprop="url" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/peregorodochnye-bloki/d600-st100/"><img itemprop="image" class="img-responsive center-block" src="<?php echo HTTP_SERVER;?>gazobloki-bonolit/img/peregorodochnye-bloki.jpg" alt="Перегородочные газобетонные и газосиликатные блоки D600 (100мм.)" width="150"></a>
-     <a class="blokia" href="<?php echo HTTP_SERVER;?>gazobloki-bonolit/peregorodochnye-bloki/d600-st100/"><span itemprop="name">Блок D600 (100мм.)</span></a>
+     <a itemprop="url" href="peregorodochnye-bloki/d600-st100/"><img itemprop="image" class="img-responsive center-block" src="img/peregorodochnye-bloki.jpg" alt="Перегородочные газобетонные и газосиликатные блоки D600 (100мм.)" width="150"></a>
+     <a class="blokia" href="peregorodochnye-bloki/d600-st100/"><span itemprop="name">Блок D600 (100мм.)</span></a>
      <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3600</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>

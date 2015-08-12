@@ -3,7 +3,7 @@
 <?php $keywords = '';?>
 <?php $breadcrumb = 'Строительство фундамента';?>
 <?php $breadcrumb2 = 'Фундамент';?>
-<?php $root = '../';
+<?php $root = '../../';
 include($root."blocks/meta.php"); 
 include($root."blocks/header.php");?>
 

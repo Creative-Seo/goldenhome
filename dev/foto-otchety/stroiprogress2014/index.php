@@ -2,7 +2,7 @@
 <?php $description = '';?>
 <?php $keywords = '';?>
 <?php $breadcrumb = 'СТРОЙПРОГРЕСС';?>
-<?php $root = '../';
+<?php $root = '../../';
 include($root."blocks/meta.php"); 
 include($root."blocks/header.php");?>
 
@@ -10,7 +10,7 @@ include($root."blocks/header.php");?>
 <?php include($root."blocks/breadcrumbs.php");?>
   <h1 class="h1_small">12-14 февраля 2014 XVI МЕЖРЕГИОНАЛЬНАЯ ВЫСТАВКА «СТРОЙПРОГРЕСС»</h1>
   <p>С&nbsp;12&nbsp;по&nbsp;14&nbsp;февраля 2014 года компания ООО &laquo;Голден Хоум&raquo; приняла участие в&nbsp;XVI&nbsp;МЕЖРЕГИОНАЛЬНОЙ ВЫСТАВКЕ &laquo;СТРОЙПРОГРЕСС&raquo; во&nbsp;Владимирском Экспоцентре.</p>
-  <p>В&nbsp;ходе выставки были продемонстрированы лучшие технологии <a href="<?php echo HTTP_SERVER;?>stroitelstvo/">строительства</a> из&nbsp;<a href="<?php echo HTTP_SERVER;?>gazobloki/">газобетона</a>, представлены для продажи готовые объекты коттеджей и&nbsp;индивидуальных домов.</p>
+  <p>В&nbsp;ходе выставки были продемонстрированы лучшие технологии <a href="/stroitelstvo/">строительства</a> из&nbsp;<a href="/gazobloki/">газобетона</a>, представлены для продажи готовые объекты коттеджей и&nbsp;индивидуальных домов.</p>
 <?php
 $photo_dir = '/image/reports/stroiprogress2014/';
 $photo_alt = 'Фотография с мероприятия';

@@ -2,7 +2,7 @@
 <?php $description = 'Специалисты &laquo;GoldenHome&raquo; встретились с&nbsp;будущими архитекторами и поделились знаниями';?>
 <?php $keywords = '';?>
 <?php $breadcrumb = 'Встреча в ВлГУ';?>
-<?php $root = '../';
+<?php $root = '../../';
 include($root."blocks/meta.php"); 
 include($root."blocks/header.php");?>
 

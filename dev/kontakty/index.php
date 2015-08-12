@@ -37,19 +37,19 @@ include($root."blocks/header.php");
   
   <div class="kakproiti">
      <p>Деловой центр Консоль. Ориентир рядом: Белый Дом.</p>
-     <img class="center-block img-responsive" src="<?php echo HTTP_SERVER;?>/kontakty/foto/delovoy-centr-konsol.jpg" alt="Деловой центр Консоль">
+     <img class="center-block img-responsive" src="foto/delovoy-centr-konsol.jpg" alt="Деловой центр Консоль">
      <p>Центральный вход в Деловой центр Консоль.</p>
-     <img class="center-block img-responsive" src="<?php echo HTTP_SERVER;?>/kontakty/foto/delovoy-centr-konsol-3.jpg" alt="Центральный вход в Деловой центр Консоль">
+     <img class="center-block img-responsive" src="foto/delovoy-centr-konsol-3.jpg" alt="Центральный вход в Деловой центр Консоль">
      <p>Центральный вход 1-й этаж.</p>
-     <img class="center-block img-responsive" src="<?php echo HTTP_SERVER;?>/kontakty/foto/4.jpg" alt="Центральный вход 1-й этаж">
+     <img class="center-block img-responsive" src="foto/4.jpg" alt="Центральный вход 1-й этаж">
      <p>На лифте нужно подняться на 3-й этаж.</p>
-     <img class="center-block img-responsive" src="<?php echo HTTP_SERVER;?>/kontakty/foto/5.jpg" alt="Лифты">
+     <img class="center-block img-responsive" src="foto/5.jpg" alt="Лифты">
      <p>Выйдя из лифта нужно пройти по коридору налево и следовать указателям.</p>
-     <img class="center-block img-responsive" src="<?php echo HTTP_SERVER;?>/kontakty/foto/6.jpg" alt="Схема прохода в офис Golden Home">
-     <img class="center-block img-responsive" src="<?php echo HTTP_SERVER;?>/kontakty/foto/7.jpg" alt="Схема прохода в офис Golden Home">
+     <img class="center-block img-responsive" src="foto/6.jpg" alt="Схема прохода в офис Golden Home">
+     <img class="center-block img-responsive" src="foto/7.jpg" alt="Схема прохода в офис Golden Home">
      <p>Наш офис.</p>
-     <img class="center-block img-responsive" src="<?php echo HTTP_SERVER;?>/kontakty/foto/8.jpg" alt="Офис Golden Home">
-     <img class="center-block img-responsive" src="<?php echo HTTP_SERVER;?>/kontakty/foto/10.jpg" alt="Офис Golden Home">
+     <img class="center-block img-responsive" src="foto/8.jpg" alt="Офис Golden Home">
+     <img class="center-block img-responsive" src="foto/10.jpg" alt="Офис Golden Home">
   </div>
   
   <p style="margin-top:10px"><strong>Наши реквизиты</strong></p>
