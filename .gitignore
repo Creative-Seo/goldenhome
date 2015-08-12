@@ -1,4 +1,3 @@
-dev/image/
 dev/image/design_int/
 dev/image/faq/
 dev/image/index/
@@ -6,6 +5,10 @@ dev/image/nashi-partnery/
 dev/image/projects/
 dev/image/sketch/
 dev/image/video/
+dev/image/magazine/
+dev/image/reports/
+dev/image/photo_obj/
+dev/image/prodazha_domov/
 *.mp4
 *.zip
 archive/
