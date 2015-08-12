@@ -1,12 +1,3 @@
-var min_s=+dirs['73-245'][0];var max_s=+dirs['73-245'][0];
-$.each(dirs, function(i,a) {
-	if (min_s>+a[0]) {min_s=+a[0];}
-	if (max_s<+a[0]) {max_s=+a[0];}
-} );
-var min_c=min_s*15000;var max_c=max_s*15000;
-var form = {'slider1':[min_c+' ',max_c+' '],'slider2':[min_s+' ',max_s+' '],'checkbox':[],'col-et':'Не имеет значение','arch-st':'Не имеет значение'};
-var a_i = Object.keys(dirs);
-
 function SortS(a, b) {
   if (dirs[a][0] > dirs[b][0]) return 1;
   if (dirs[a][0] < dirs[b][0]) return -1;
@@ -19,7 +10,7 @@ function update_proekts() {
 		var c = true;
 		if (!((form['slider1'][0].replace(/\s+/g,'')<=obj[0]*15000)&&(form['slider1'][1].replace(/\s+/g,'')>=obj[0]*15000)&&
 			(form['slider2'][0].replace(/\s+/g,'')<=obj[0])&&(+form['slider2'][1].replace(/\s+/g,'')>=obj[0])) ) {c = false;}
-		if (!((+(form['col-et']==obj[2])||(form['col-et']=='Не имеет значение'))&&((form['arch-st']==obj[3])||(form['arch-st']=='Не имеет значение')))) {c = false;}
+		if (!((+(form['col-et']==obj[2])||(form['col-et']=='РќРµ РёРјРµРµС‚ Р·РЅР°С‡РµРЅРёРµ'))&&((form['arch-st']==obj[3])||(form['arch-st']=='РќРµ РёРјРµРµС‚ Р·РЅР°С‡РµРЅРёРµ')))) {c = false;}
 		if (form['checkbox'].length>0) {$.each(form['checkbox'], function(i,v){if ($.inArray(form['checkbox'][i],obj[4])==-1){$('h1').text(form['checkbox'][i]);c = false;}});}
 		if (c) {$(this).fadeIn().removeClass('hid');} else {$(this).fadeOut(300).addClass('hid');};
 	});
@@ -28,21 +19,31 @@ function update_proekts() {
 function sort() {
 	var a_sort = new Array();
 	switch ($('#sort').val()){
-		case 'По названию' :
+		case 'РџРѕ РЅР°Р·РІР°РЅРёСЋ' :
 			a_sort = a_i.sort();break;
-		case 'По возрастанию цены' :
+		case 'РџРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ С†РµРЅС‹' :
 			a_sort = a_i.sort(SortS).reverse();break;
-		case 'По убыванию цены' :
+		case 'РџРѕ СѓР±С‹РІР°РЅРёСЋ С†РµРЅС‹' :
 			a_sort = a_i.sort(SortS);break;
-		case 'По возрастанию площади' :
+		case 'РџРѕ РІРѕР·СЂР°СЃС‚Р°РЅРёСЋ РїР»РѕС‰Р°РґРё' :
 			a_sort = a_i.sort(SortS).reverse();break;
-		case 'По убыванию площади' :
+		case 'РџРѕ СѓР±С‹РІР°РЅРёСЋ РїР»РѕС‰Р°РґРё' :
 			a_sort = a_i.sort(SortS);break;
 	}
 	$(a_sort).each(function (){
 		$('#proekts').prepend($('#proekts .bl-pr[data-dir='+this+']'));
 	});
 }
+
+if (typeof(dirs) !== "undefined") {
+var min_s=+dirs['73-245'][0];var max_s=+dirs['73-245'][0];
+$.each(dirs, function(i,a) {
+	if (min_s>+a[0]) {min_s=+a[0];}
+	if (max_s<+a[0]) {max_s=+a[0];}
+} );
+var min_c=min_s*15000;var max_c=max_s*15000;
+var form = {'slider1':[min_c+' ',max_c+' '],'slider2':[min_s+' ',max_s+' '],'checkbox':[],'col-et':'РќРµ РёРјРµРµС‚ Р·РЅР°С‡РµРЅРёРµ','arch-st':'РќРµ РёРјРµРµС‚ Р·РЅР°С‡РµРЅРёРµ'};
+var a_i = Object.keys(dirs);
 
 $("#slider1").noUiSlider({
 	start: [min_c, max_c],
@@ -83,3 +84,4 @@ $( document ).ready(function() {
 		}
 	});
 });
+}
