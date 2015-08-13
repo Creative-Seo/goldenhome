@@ -8312,3 +8312,42 @@ thead {
   /* line 258, ../sass/style.scss */
   .imgpr img {
     height: 260px; } }
+/* line 263, ../sass/style.scss */
+.contacts-city {
+  font-size: 0;
+  padding: 35px 0 50px;
+  text-align: center; }
+  /* line 267, ../sass/style.scss */
+  .contacts-city .active-but {
+    background-color: #ffd400; }
+
+/* line 271, ../sass/style.scss */
+.contacts-city-button {
+  padding: 15px 1px;
+  border-radius: 0;
+  display: inline-block;
+  min-width: 110px;
+  text-transform: uppercase;
+  border: 1px solid #ffd400;
+  margin: 0;
+  transition: all 0.3s ease 0s;
+  cursor: pointer; }
+  /* line 282, ../sass/style.scss */
+  .contacts-city-button:hover, .contacts-city-button:active, .contacts-city-button:focus {
+    text-decoration: none;
+    border-color: #ffd400; }
+  /* line 286, ../sass/style.scss */
+  .contacts-city-button a {
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    padding: 18px 62px;
+    font-size: 12px; }
+    /* line 293, ../sass/style.scss */
+    .contacts-city-button a:hover, .contacts-city-button a:active {
+      text-decoration: none; }
+
+/* line 298, ../sass/style.scss */
+#myTab li.active {
+  background-color: #ffd400; }
