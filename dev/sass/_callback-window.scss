@@ -1,0 +1,103 @@
+// Заказ обратного звонка
+
+.callback-form {
+	padding: 32px 65px 32px 65px;
+    background: #fbfbfb none repeat scroll 0 0;
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    position: relative;
+    max-width: 600px;
+    &_close {
+    	position: absolute;
+    	top:32px;
+    	right: 25px;
+    	color: #000;
+    	&:hover,&:active {
+    		color: $yellow;
+    	}
+    }
+    &_note {
+    	padding: 10px 0;
+    	margin-bottom: 10px;
+    }
+    &_button {
+    	width: 100%;
+    }
+    .form-control {
+    	border-width: 1px 0 0 1px;
+    	font: bold 14px Arial,Tahoma,sans-serif;
+    }
+}
+
+.icon {
+	position: relative;
+}
+.cd-label {
+    cursor: text;
+    font-size: 1.6rem;
+    left: 16px;
+    position: absolute;
+    top: 16px;
+    transition: top 0.2s ease 0s, left 0.2s ease 0s, font-size 0.2s ease 0s;
+	left: 56px;
+	top: 20px;
+	display: block;
+	color: #94aab0;
+	margin-bottom: 10px;
+}
+#cd-name {
+  	padding: 16px 16px 16px 26px;
+  	border: 1px solid #cfd9db;
+    border-radius: 0.25em;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08) inset;
+    color: #2b3e51;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.6rem;
+}
+#cd-phone {
+  	padding: 16px 16px 16px 26px;
+  	border: 1px solid #cfd9db;
+    border-radius: 0.25em;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08) inset;
+    color: #2b3e51;
+    font-family: "Open Sans",sans-serif;
+    font-size: 1.6rem;
+}
+
+
+//FLoating labels 
+
+.js .floating-labels div {
+  margin: 28px 0;
+}
+.js .floating-labels .cd-label {
+  position: absolute;
+  top: 16px;
+  left: 26px;
+  font-size: 1.6rem;
+  cursor: text;
+  -webkit-transition: top 0.2s, left 0.2s, font-size 0.2s;
+  -moz-transition: top 0.2s, left 0.2s, font-size 0.2s;
+  transition: top 0.2s, left 0.2s, font-size 0.2s;
+}
+.js .floating-labels .icon .cd-label {
+  left: 26px;
+}
+.js .floating-labels .cd-label.float {
+  /* move label out the input field */
+  font-size: 1.2rem;
+  top: -16px;
+  left: 0 !important;
+}
+@media only screen and (min-width: 600px) {
+  .js .floating-labels legend + div {
+    margin-top: 16px;
+  }
+  .js .floating-labels .cd-label {
+    top: 20px;
+  }
+}
+//FLoating labels 
+
+
+// Заказ обратного звонка
