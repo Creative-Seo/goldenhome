@@ -33,7 +33,12 @@
           <li><a href="">Газоблоки <span class="bonolit-color">Bonolit</span></a></li>
         </ul>
       </div>
-      <div class="col-md-3"></div>
+      <div class="col-md-3 footer-sozseti">
+        <ul>
+          <li>Мы в социальных сетях:</li>
+          <li><a href=""><i class="fa fa-facebook fa-2x"></i></a><a href=""><i class="fa fa-vk fa-2x"></i></a><a href=""><i class="fa fa-youtube fa-2x"></i></a><a href=""><i class="fa fa-twitter fa-2x"></i></a><a href=""><i class="fa fa-google-plus fa-2x"></i></a></li>
+        </ul>
+      </div>
     </div>
     <div class="row footer-adresa">
       <div class="col-md-6">
