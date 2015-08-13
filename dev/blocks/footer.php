@@ -17,11 +17,20 @@
       <div class="col-md-3">
         <ul>
           <li><a href="">Проекты домов</a></li>
+          <li><a href="">Одноэтажные дома</a></li>
+          <li><a href="">Двухэтажные дома</a></li>
+          <li><a href="">Трехэтажные дома</a></li>
+          <li><a href="">Популярные проекты</a></li>
         </ul>
       </div>
       <div class="col-md-3">
         <ul>
           <li><a href="">Дизайн интерьера</a></li>
+          <li><a href="">Портфолио</a></li>
+          <li><a href="">Прайс-лист на дизайн</a></li>
+          <li></li>
+          <li><a href="">Газоблоки <span class="ytong-color">Ytong</span></a></li>
+          <li><a href="">Газоблоки <span class="bonolit-color">Bonolit</span></a></li>
         </ul>
       </div>
       <div class="col-md-3"></div>
@@ -49,8 +58,9 @@
         </ul>
       </div>
     </div>
-    <div class="row">
-      © 2015, Golden Home
+    <div class="row footer-bottom">
+      <div class="col-md-4">© 2015, Golden Home</div>
+      <div class="col-md-4"><a href="">Наши реквизиты</a></div>
     </div>
 </footer>
 

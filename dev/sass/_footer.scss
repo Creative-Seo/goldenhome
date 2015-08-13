@@ -14,14 +14,21 @@ footer {
 	ul {
 		li {
 			padding: 5px 0;
-			a {
-				color: $footer-link-color;
-				&:hover, &active {
-					color: $footer-link-color-hover;
-					text-decoration:none;
-				}
 			}
-		}
+	}
+	a {
+		color: $footer-link-color;
+		border-bottom:1px dotted $footer-link-color;
+			&:hover, &active {
+				color: $footer-link-color-hover;
+				text-decoration:none;
+			}
+	}
+	.ytong-color {
+		color: $yellow;
+	}
+	.bonolit-color {
+		color: #18A2DC;
 	}
 	.promo {
 		color: red;
@@ -35,5 +42,8 @@ footer {
 			color: $footer-link-color;
 			}
 		}
+	}
+	.footer-bottom {
+		margin: 10px 0;
 	}
 }
