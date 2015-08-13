@@ -1,4 +1,5 @@
-<footer><div class="container">
+<footer>
+  <div class="container">
     <div class="row">
       <!-- <img src="/img/logo.png" alt="" width="280"> -->
       <div class="h2">Строительная компания Golden Home</div>
@@ -71,6 +72,7 @@
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">© 2015, Golden Home</div>
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><a href="">Наши реквизиты</a></div>
     </div>
+  </div>
 </footer>
 
 <?php include($root."blocks/zakaz.php");?>
