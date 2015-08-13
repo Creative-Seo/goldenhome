@@ -7764,12 +7764,27 @@ footer {
   font-family: "Open Sans",sans-serif;
   font-size: 1.6rem; }
 
-/* line 100, ../sass/_style-guide.scss */
-.js .floating-labels div {
+/* line 97, ../sass/_style-guide.scss */
+.cd-form textarea {
+  min-height: 200px;
+  overflow: auto;
+  resize: vertical;
+  width: 100%;
+  padding: 16px;
+  border: 1px solid #cfd9db;
+  border-radius: 0.25em;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.08) inset; }
+
+/* line 107, ../sass/_style-guide.scss */
+.cd-form .icon textarea {
+  padding-left: 25px !important; }
+
+/* line 112, ../sass/_style-guide.scss */
+.floating-labels div {
   margin: 28px 0; }
 
-/* line 103, ../sass/_style-guide.scss */
-.js .floating-labels .cd-label {
+/* line 115, ../sass/_style-guide.scss */
+.floating-labels .cd-label {
   position: absolute;
   top: 16px;
   left: 26px;
@@ -7779,24 +7794,24 @@ footer {
   -moz-transition: top 0.2s, left 0.2s, font-size 0.2s;
   transition: top 0.2s, left 0.2s, font-size 0.2s; }
 
-/* line 113, ../sass/_style-guide.scss */
-.js .floating-labels .icon .cd-label {
+/* line 125, ../sass/_style-guide.scss */
+.floating-labels .icon .cd-label {
   left: 26px; }
 
-/* line 116, ../sass/_style-guide.scss */
-.js .floating-labels .cd-label.float {
+/* line 128, ../sass/_style-guide.scss */
+.floating-labels .cd-label.float {
   /* move label out the input field */
   font-size: 1.2rem;
   top: -16px;
   left: 0 !important; }
 
 @media only screen and (min-width: 600px) {
-  /* line 123, ../sass/_style-guide.scss */
-  .js .floating-labels legend + div {
+  /* line 135, ../sass/_style-guide.scss */
+  .floating-labels legend + div {
     margin-top: 16px; }
 
-  /* line 126, ../sass/_style-guide.scss */
-  .js .floating-labels .cd-label {
+  /* line 138, ../sass/_style-guide.scss */
+  .floating-labels .cd-label {
     top: 20px; } }
 /* line 3, ../sass/_callback-window.scss */
 .callback-form {
