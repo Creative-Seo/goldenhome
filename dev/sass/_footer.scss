@@ -4,6 +4,10 @@ footer {
 	padding: 20px 0;
 	font-size: $footer-font-size;
 	font-weight:$footer-font-weight;
+	i {
+		color:$footer-link-color;
+		margin-right: 5px; 
+	}
 	.h2 {
 		margin: 30px 0;
 	}
@@ -11,11 +15,25 @@ footer {
 		li {
 			padding: 5px 0;
 			a {
-				color: $footer-spisok-color;
+				color: $footer-link-color;
+				&:hover, &active {
+					color: $footer-link-color-hover;
+					text-decoration:none;
+				}
 			}
 		}
 	}
 	.promo {
 		color: red;
+	}
+	.footer-list {
+		margin-bottom:10px;
+	}
+	.footer-adresa {
+		ul {
+			li {
+			color: $footer-link-color;
+			}
+		}
 	}
 }
