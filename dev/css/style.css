@@ -6425,49 +6425,55 @@ footer {
   /* line 12, ../sass/_footer.scss */
   footer ul li {
     padding: 5px 0; }
-  /* line 16, ../sass/_footer.scss */
+  /* line 15, ../sass/_footer.scss */
+  footer ul li:hover .fa-paper-plane {
+    color: #ffd400; }
+  /* line 19, ../sass/_footer.scss */
   footer a {
     color: #999;
     border-bottom: 1px dotted #999;
     transition: all 0.25s ease-out 0s; }
-    /* line 20, ../sass/_footer.scss */
+    /* line 23, ../sass/_footer.scss */
     footer a:hover, footer aactive {
-      color: #fff;
+      color: #ffd400;
       text-decoration: none;
       border-bottom: none; }
-  /* line 26, ../sass/_footer.scss */
+  /* line 29, ../sass/_footer.scss */
   footer i {
     color: #999;
     margin-right: 7px;
     border-bottom: none;
     transition: all 0.25s ease-out 0s; }
-    /* line 31, ../sass/_footer.scss */
+    /* line 34, ../sass/_footer.scss */
     footer i:hover, footer iactive {
       color: #fff;
       text-decoration: none;
       border-bottom: none; }
-  /* line 38, ../sass/_footer.scss */
+  /* line 41, ../sass/_footer.scss */
   footer .footer-sozseti a {
     border-bottom: none; }
-  /* line 41, ../sass/_footer.scss */
+  /* line 44, ../sass/_footer.scss */
   footer .footer-sozseti i {
     margin-right: 10px; }
-  /* line 45, ../sass/_footer.scss */
+  /* line 47, ../sass/_footer.scss */
+  footer .footer-sozseti li:hover i {
+    color: #ffd400; }
+  /* line 51, ../sass/_footer.scss */
   footer .ytong-color {
     color: #ffd400; }
-  /* line 48, ../sass/_footer.scss */
+  /* line 54, ../sass/_footer.scss */
   footer .bonolit-color {
     color: #18A2DC; }
-  /* line 51, ../sass/_footer.scss */
+  /* line 57, ../sass/_footer.scss */
   footer .promo {
     color: red; }
-  /* line 54, ../sass/_footer.scss */
+  /* line 60, ../sass/_footer.scss */
   footer .footer-list {
     margin-bottom: 10px; }
-  /* line 59, ../sass/_footer.scss */
+  /* line 65, ../sass/_footer.scss */
   footer .footer-adresa ul li {
     color: #999; }
-  /* line 64, ../sass/_footer.scss */
+  /* line 70, ../sass/_footer.scss */
   footer .footer-bottom {
     margin: 10px 0; }
 
@@ -6489,7 +6495,7 @@ footer {
   -moz-border-right-colors: none;
   -moz-border-top-colors: none;
   background: #f9e312;
-  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodвЂ¦EiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodтАжEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
   background: -moz-linear-gradient(top, #f9e312 0%, #ffb612 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f9e312), color-stop(100%, #ffb612));
   background: -webkit-linear-gradient(top, #f9e312 0%, #ffb612 100%);
@@ -8010,7 +8016,7 @@ nav ul li a {
 /* line 74, ../sass/style.scss */
 .pricebl {
   color: #333;
-  font-family: вЂ‹вЂ‹Arial,Helvetica,вЂ‹sans-serif;
+  font-family: тАЛтАЛArial,Helvetica,тАЛsans-serif;
   font-size: 38px;
   font-weight: bold;
   text-align: center; }

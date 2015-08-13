@@ -4,44 +4,48 @@
       <div class="h2">Строительная компания Golden Home</div>
     </div>
     <div class="row footer-list">
-      <div class="col-md-3">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
         <ul>
-          <li><a href="">Строительство</a></li>
-          <li><a href="">Проекты домов</a></li>
-          <li><a href="">Акции</a></li>
-          <li><a href="">Продажа домов</a></li>
-          <li><a href="">Продажа участков</a></li>
-          <li><a href="">Фото участков</a></li>
+          <li><a href="/">Строительство</a></li>
+          <li><a href="/akcii/">Акции</a></li>
+          <li><a href="/kupit-dom/">Продажа домов</a></li>
+          <li><a href="/prodazha-uchastkov/">Продажа участков</a></li>
+          <li><a href="/foto-obektov/">Фото объектов</a></li>
         </ul>
       </div>
-      <div class="col-md-3">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
         <ul>
-          <li><a href="">Проекты домов</a></li>
-          <li><a href="">Одноэтажные дома</a></li>
-          <li><a href="">Двухэтажные дома</a></li>
-          <li><a href="">Трехэтажные дома</a></li>
-          <li><a href="">Популярные проекты</a></li>
+          <li><a href="/proekty-domov/">Проекты домов</a></li>
+          <li><a href="/proekty-domov/odnoetazhnye/">Одноэтажные дома</a></li>
+          <li><a href="/proekty-domov/dvuhetazhnye/">Двухэтажные дома</a></li>
+          <li><a href="/proekty-domov/trehetazhnye/">Трехэтажные дома</a></li>
+          <li><a href="/proekty-domov/luchshie/">Популярные проекты</a></li>
         </ul>
       </div>
-      <div class="col-md-3">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
         <ul>
-          <li><a href="">Дизайн интерьера</a></li>
-          <li><a href="">Портфолио</a></li>
-          <li><a href="">Прайс-лист на дизайн</a></li>
+          <li><a href="/dizayn-interera/">Дизайн интерьера</a></li>
+          <li><a href="/dizayn-proekty/">Портфолио</a></li>
+          <li><a href="/prays-na-dizayn-proekt/">Прайс-лист на дизайн</a></li>
           <li></li>
-          <li><a href="">Газоблоки <span class="ytong-color">Ytong</span></a></li>
-          <li><a href="">Газоблоки <span class="bonolit-color">Bonolit</span></a></li>
+          <li><a href="/gazobloki-ytong/">Газоблоки <span class="ytong-color">Ytong</span></a></li>
+          <li><a href="/gazobloki-bonolit/">Газоблоки <span class="bonolit-color">Bonolit</span></a></li>
         </ul>
       </div>
-      <div class="col-md-3 footer-sozseti">
+      <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 footer-sozseti">
         <ul>
           <li>Мы в социальных сетях:</li>
-          <li><a href=""><i class="fa fa-facebook fa-2x"></i></a><a href=""><i class="fa fa-vk fa-2x"></i></a><a href=""><i class="fa fa-youtube fa-2x"></i></a><a href=""><i class="fa fa-twitter fa-2x"></i></a><a href=""><i class="fa fa-google-plus fa-2x"></i></a></li>
+          <li>
+              <a href="https://www.facebook.com/33goldenhome" target="_blank" rel="nofollow"><i class="fa fa-facebook fa-2x"></i></a>
+              <a href="http://vk.com/golden_home" target="_blank" rel="nofollow"><i class="fa fa-vk fa-2x"></i></a>
+              <a href="http://www.youtube.com/user/33goldenhome" target="_blank" rel="nofollow"><i class="fa fa-youtube fa-2x"></i></a>
+              <a href="https://twitter.com/skGoldenHome" target="_blank" rel="nofollow"><i class="fa fa-twitter fa-2x"></i></a><a href="https://plus.google.com/b/106609095766114845804/" target="_blank" rel="nofollow"><i class="fa fa-google-plus fa-2x"></i></a>
+          </li>
         </ul>
       </div>
     </div>
     <div class="row footer-adresa">
-      <div class="col-md-6">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <div class="h3">Офис в г. Владимире</div>
         <ul>
           <li><i class="fa fa-phone"></i>+7 (4922) 37-73-90 - по вопросам строительства</li>
@@ -53,7 +57,7 @@
           <li><i class="fa fa-map-marker"></i>Адрес: 600017, г. Владимир, ул. Мира, д. 15в, оф. 12</li>
         </ul>
       </div>
-      <div class="col-md-6">
+      <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
         <div class="h3">Офис в г. Иваново</div>
         <ul>
           <li><i class="fa fa-phone"></i>+7 (4932) 92-90-99</li>
@@ -64,8 +68,8 @@
       </div>
     </div>
     <div class="row footer-bottom">
-      <div class="col-md-4">© 2015, Golden Home</div>
-      <div class="col-md-4"><a href="">Наши реквизиты</a></div>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">© 2015, Golden Home</div>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><a href="">Наши реквизиты</a></div>
     </div>
 </footer>
 
