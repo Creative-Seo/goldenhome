@@ -90,6 +90,7 @@
 <script src="/js/dev.dizayn.js"></script>
 <script src="/js/dev.homepage.js"></script>
 <script src="/js/dev.raschet-gazobetona.js"></script>
+<script src="/js/floating-labels.js"></script>
 <script src="/js/common.js"></script>
 <!-- /build -->
 

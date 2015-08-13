@@ -12,6 +12,12 @@
 @import "raschet-gazobetona";
 @import "proekty-domov";
 
+@import "style-guide";
+@import "callback-window";
+@import "buttons";
+
+@import "../libs/font-awesome/css/font-awesome.min.css";
+
 button:focus{outline:none;}
 
 .h1 {font-weight: 300; font-size: 32px;}
@@ -69,8 +75,7 @@ nav ul li a {font-size:14px; color:#31434e; text-transform:uppercase; font-weigh
   text-align: center;
 }
 .proekt .h1 {margin:10px 0 30px 15px; font-size: 32px;}
-.h2 {font-size: 24px;}
-.h3 {font-size: 18px; font-weight: 300; margin: 10px;}
+
 .vr-line{padding:10px; margin-left:8px;border-left: 1px solid #dbdad7;}
 .proekt-thumb {display: block; float: left;}
 .proekt-thumb img {max-width: 130px;}

@@ -1,4 +1,42 @@
-$font: "Open Sans", sans-serif;
-$font-size-h2: 35px;
-$font-weight: 400;
-$headings-font-weight:300;
+//COLORS
+
+$yellow:#ffd400;
+
+//COLORS
+
+//Typography
+
+//$font-size-h1:;
+//$font-size-h2:;
+//$font-size-h3:;
+$bodyfont:'Roboto', sans-serif;
+$headings-font-family: 'Roboto';
+$headings-font-weight:  700;
+
+//Typography
+
+
+// BUTTONS
+
+// Button Default
+$btn-default-color:#000;
+$btn-default-bg:#f7bd1b;
+$padding-vertical:7px;
+$padding-horizontal:32px;
+$font-size:18px;
+$line-height:47px;
+$border-radius:5px;
+$input-height-base:57px;
+// Button Default
+
+// BUTTONS
+
+//FORMS
+
+$padding-base-vertical:10px; 
+$padding-base-horizontal:14px;
+$input-bg:#f5f7f7;
+$input-border-radius:5px;
+$input-border:#e9eaea;
+
+//FORMS
