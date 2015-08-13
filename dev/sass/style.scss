@@ -19,7 +19,9 @@
 
 @import "../libs/font-awesome/css/font-awesome.min.css";
 
-
+li {
+  list-style: outside none none;
+}
 
 button:focus{outline:none;}
 

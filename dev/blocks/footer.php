@@ -3,9 +3,9 @@
       <!-- <img src="/img/logo.png" alt="" width="280"> -->
       <div class="h2">Строительная компания Golden Home</div>
     </div>
-    <div class="row">
+    <div class="row footer-list">
       <div class="col-md-3">
-        <ul class="list-unstyled">
+        <ul>
           <li><a href="">Строительство</a></li>
           <li><a href="">Проекты домов</a></li>
           <li><a href="">Акции</a></li>
@@ -14,9 +14,43 @@
           <li><a href="">Фото участков</a></li>
         </ul>
       </div>
+      <div class="col-md-3">
+        <ul>
+          <li><a href="">Проекты домов</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <ul>
+          <li><a href="">Дизайн интерьера</a></li>
+        </ul>
+      </div>
       <div class="col-md-3"></div>
-      <div class="col-md-3"></div>
-      <div class="col-md-3"></div>
+    </div>
+    <div class="row footer-adresa">
+      <div class="col-md-6">
+        <div class="h3">Офис в г. Владимире</div>
+        <ul>
+          <li><i class="fa fa-phone"></i>+7 (4922) 37-73-90 - по вопросам строительства</li>
+          <li><i class="fa fa-phone"></i>+7 (4922) 37-73-92 - проекты домов</li>
+          <li><i class="fa fa-phone"></i>+7 (4922) 37-73-91 - дизайн интерьера</li>
+          <li><i class="fa fa-paper-plane"></i><a href="mailto:info@sk-goldenhome.ru">info@sk-goldenhome.ru</a></li>
+          <li><i class="fa fa-paper-plane"></i><a href="mailto:info@gh33.ru">info@gh33.ru</a></li>
+          <li><i class="fa fa-hourglass-o"></i>Время работы: пн-пт 09:00-18:00, сб.вс. - выходной</li>
+          <li><i class="fa fa-map-marker"></i>Адрес: 600017, г. Владимир, ул. Мира, д. 15в, оф. 12</li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <div class="h3">Офис в г. Иваново</div>
+        <ul>
+          <li><i class="fa fa-phone"></i>+7 (4932) 92-90-99</li>
+          <li><i class="fa fa-paper-plane"></i><a href="mailto:info@gh33.ru">info@gh33.ru</a></li>
+          <li><i class="fa fa-hourglass-o"></i>Время работы: пн-пт 09:00-18:00, сб.вс. - выходной</li>
+          <li><i class="fa fa-map-marker"></i>Адрес: 153009, г. Иваново, ул. Лежневская,д.183, оф. 407 (ТД «Славянский»)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      © 2015, Golden Home
     </div>
 </footer>
 
