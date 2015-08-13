@@ -1,5 +1,3 @@
-.homepage {
-	.grey {background:none;color:#fff;height:30vh;}
 	.shadow {
 		z-index:-1;
 	  background-image: url("../img/shadow.png");
@@ -50,6 +48,38 @@
 		  overflow:hidden;
 		}
 	}
+.homepage {
+	.header {
+		background-color:rgba(0,0,0,0.5);
+		&-logo {
+			background-color:rgba(0,0,0,0.5);
+		}
+	}
+	.navbar {
+		&-default {border: none;background-color: transparent;}
+		&-header {background-color:rgba(0,0,0,0.5);}
+		&-black{background-color:rgba(0,0,0,0.5);}
+	}
+	.dropdown-caret{border-bottom: none;}
+
+	.topright {
+		color: #fff;
+		background-color: rgba(0,0,0,0.5);
+		&-button{
+			color: #fff;
+			&:hover, &:focus {color: #aaa;}
+		}
+	}
+	.topmenu{
+		&-item {
+			color:#000;
+			> span {
+			  border-bottom: 1px #000 solid;
+			}
+		}
+	}
+	min-height:100vh;
+	.grey {background:none;color:#fff;height:30vh;}
 	header::after {
 		content: " ";
 		display: block;
@@ -93,7 +123,7 @@
 		color:#fff !important;
 		padding:20px 25px 20px 25px;
 	}
-
+}
 	.child{height:40vh;}
 	.jumbotron {min-height: 25vh; max-width: 450px; background:none; padding:0; z-index: 100; margin-left:65px; line-height: 65px }
 	.jumbotron p {font-weight: 400; font-size: 50px; color:#FFFFFF;font-family: 'PT Sans Narrow', sans-serif;z-index: 100}
@@ -164,4 +194,3 @@
 	.nav-justified>li {float: left;}
 	.grey {height:10vh;}
 	}
-}

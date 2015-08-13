@@ -2,7 +2,6 @@
 <?php $root = '';
 include($root."blocks/meta.php");
 include($root."array.php");?>
-<div class="homepage">
 
 <section id="wrapper">
 <div id="mouse-scroll" class="ng-scope">
@@ -26,7 +25,7 @@ include($root."array.php");?>
 <div class="footer_shadow" style="bottom: 0px;"></div>
 </section>
 <div class="shadow"></div>
-
+<div class="homepage">
 <?php include($root."blocks/header.php"); ?>
 
 <div class="container child hidden-sm hidden-xs">
@@ -67,11 +66,10 @@ include($root."array.php");?>
 		</li>
 	</ul>
 </div>
-
+</div>
 
 
 
 <?php include($root."blocks/footer.php");?>
-</div>
 </body>
 </html>

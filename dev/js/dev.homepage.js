@@ -1,9 +1,9 @@
 var img='#wrapper .stroitelstvo';
-var a = {'stroitelstvo' : '<p><span>Более 100</span> построенных<br> домов</p>',
-		'proekty-domov' : '<p><span>Наши проекты</span> всегда высокого<br> качества</p>',
-		'prodazha-domov' : '<p><span>Огромный выбор</span><br> самых разных<br> построек</p>',
-		'dizayn-interyera' : '<p><span>Мы</span><br> осуществим<br> вашу мечту</p>',
-		'gazobloki' : '<p><span>Сопутствующие товары</span><br> и многое другое</p>'};
+var a = {'stroitelstvo' : '<p><span>Р‘РѕР»РµРµ 100</span> РїРѕСЃС‚СЂРѕРµРЅРЅС‹С…<br> РґРѕРјРѕРІ</p>',
+		'proekty-domov' : '<p><span>РќР°С€Рё РїСЂРѕРµРєС‚С‹</span> РІСЃРµРіРґР° РІС‹СЃРѕРєРѕРіРѕ<br> РєР°С‡РµСЃС‚РІР°</p>',
+		'prodazha-domov' : '<p><span>РћРіСЂРѕРјРЅС‹Р№ РІС‹Р±РѕСЂ</span><br> СЃР°РјС‹С… СЂР°Р·РЅС‹С…<br> РїРѕСЃС‚СЂРѕРµРє</p>',
+		'dizayn-interyera' : '<p><span>РњС‹</span><br> РѕСЃСѓС‰РµСЃС‚РІРёРј<br> РІР°С€Сѓ РјРµС‡С‚Сѓ</p>',
+		'gazobloki' : '<p><span>РЎРѕРїСѓС‚СЃС‚РІСѓСЋС‰РёРµ С‚РѕРІР°СЂС‹</span><br> Рё РјРЅРѕРіРѕРµ РґСЂСѓРіРѕРµ</p>'};
 $(document).ready(function (){
 	$('#icons a').mouseenter(function () {
 		var pointer = '#wrapper .'+$(this).attr('data-pointer');

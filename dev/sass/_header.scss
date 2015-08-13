@@ -1,4 +1,47 @@
-.header {min-height: 70px}
-.header-logo {width:70%;padding:20px;}
-.navbar-default {border: none;background-color: transparent;}
-.navbar-collapse {padding:0;}
+.header {
+	background-color:$yellow;
+	&-logo {
+		margin-right:-40px;
+		width:250px;
+		padding-top:10px;
+		padding-left: 10px;
+		background-color:#fff;
+		height: 70px;
+	}
+	&-sklogo {padding-right:40px;}
+}
+.navbar {
+	margin-bottom: 0;
+	&-default {border: none;background-color: transparent;}
+	&-collapse {padding:0;}
+	&-header {background-color:#fff;}
+	&-black{background-color:#000; width:20%;}
+}
+.dropdown-caret{border-bottom: none;}
+
+.topright {
+	margin: 0 -50px;
+	font-weight: 700;
+    color: #fff;
+	height: 70px;
+	line-height:30px;
+    padding: 0px 40px;
+    background-color: #000;
+	&-button{
+		color: #fff;
+		&:hover, &:focus {color: #aaa;}
+	}
+}
+.skew-right {@include skew(-45deg,0);}
+.skew-left {@include skew(45deg,0);}
+.topmenu{
+	margin: 0px 50px;
+	&-item {
+		font-weight:700;
+		color:#000;
+		> span {
+		  border-bottom: 1px #000 solid;
+		  padding-bottom: 2px;
+		}
+	}
+}

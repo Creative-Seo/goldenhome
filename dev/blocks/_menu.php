@@ -1,7 +1,7 @@
       <ul class="nav navbar-nav topmenu">
 <?php foreach ($menu as $row) { ?>
 	<?php if ($row['name']=='dropdown') { ?>
-		<li class="dropdown topmenu-item skew-right">
+		<li class="dropdown topmenu-item">
 			<a class="dropdown-toggle" data-toggle="dropdown" href="javascript: void(0);"><span><?php echo $row["n"]; ?></span><span class="dropdown-caret"></span></a>   
 			<ul class="dropdown-menu">
 		<?php foreach ($row['li'] as $li) { 
@@ -11,7 +11,7 @@
 			</ul>
 		</li>
 	<?php } else {?>
-        <li class="topmenu-item skew-right"><a href="<?php echo $row["url"]; ?>"><span><?php echo $row["name"]; ?></span></a></li>
+        <li class="topmenu-item"><a href="<?php echo $row["url"]; ?>"><span><?php echo $row["name"]; ?></span></a></li>
 	<?php } ?>
 <?php } ?>
       </ul>
