@@ -8312,3 +8312,83 @@ thead {
   /* line 258, ../sass/style.scss */
   .imgpr img {
     height: 260px; } }
+/* line 263, ../sass/style.scss */
+.contacts {
+  font-size: 16px; }
+  /* line 265, ../sass/style.scss */
+  .contacts h1 {
+    text-align: center; }
+  /* line 268, ../sass/style.scss */
+  .contacts .tab-content {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px; }
+  /* line 273, ../sass/style.scss */
+  .contacts_phone {
+    font-size: 24px;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-weight: 700; }
+    /* line 278, ../sass/style.scss */
+    .contacts_phone i {
+      color: gold;
+      margin-right: 4px; }
+    /* line 283, ../sass/style.scss */
+    .contacts_phone_descr {
+      font-weight: 300;
+      font-size: 16px;
+      font-family: "Roboto", sans-serif; }
+  /* line 289, ../sass/style.scss */
+  .contacts_mail {
+    font-size: 18px; }
+
+/* line 293, ../sass/style.scss */
+.contacts-city {
+  font-size: 0;
+  padding: 35px 0 50px;
+  text-align: center; }
+  /* line 297, ../sass/style.scss */
+  .contacts-city .active-but {
+    background-color: #ffd400; }
+  /* line 300, ../sass/style.scss */
+  .contacts-city ul {
+    padding-left: 0; }
+
+/* line 304, ../sass/style.scss */
+.contacts-city-button {
+  padding: 15px 1px;
+  border-radius: 0;
+  display: inline-block;
+  min-width: 110px;
+  text-transform: uppercase;
+  border: 1px solid #ffd400;
+  margin: 0;
+  transition: all 0.3s ease 0s;
+  cursor: pointer; }
+  /* line 315, ../sass/style.scss */
+  .contacts-city-button:hover, .contacts-city-button:active, .contacts-city-button:focus {
+    text-decoration: none;
+    border-color: #ffd400; }
+  /* line 319, ../sass/style.scss */
+  .contacts-city-button a {
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    padding: 18px 62px;
+    font-size: 12px; }
+    /* line 326, ../sass/style.scss */
+    .contacts-city-button a:hover, .contacts-city-button a:active {
+      text-decoration: none; }
+
+/* line 331, ../sass/style.scss */
+#myTab li.active {
+  background-color: #ffd400; }
+
+/* line 335, ../sass/style.scss */
+.line {
+  display: block;
+  border-right: 1px solid #E8E8E8;
+  width: 1px;
+  height: 25px;
+  margin-top: 7px;
+  margin-bottom: 7px; }

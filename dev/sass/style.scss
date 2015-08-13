@@ -257,3 +257,87 @@ thead {font-weight: bold;}
 @media (max-width: 992px){
 .imgpr img {height: 260px;}
 }
+
+
+//Страница Контакты
+.contacts {
+  font-size: 16px;
+  h1 {
+    text-align: center;
+  }
+  .tab-content {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 30px;
+  }
+  &_phone {
+    font-size: 24px;
+    font-family: $headings-font-family;
+    font-weight: 700;
+    
+    i {
+      color: gold;
+      margin-right: 4px;
+      //text-shadow: 1px 0px 2px rgba(150, 150, 150, 1);
+    }
+    &_descr {
+      font-weight: 300;
+      font-size: 16px;
+      font-family: $font-family-base;
+    }
+  }
+  &_mail {
+    font-size: 18px;
+  }
+}
+.contacts-city {
+  font-size: 0;
+  padding: 35px 0 50px;
+  text-align: center;
+  .active-but {
+    background-color: $yellow;
+  }
+  ul {
+    padding-left: 0;
+  }
+}
+.contacts-city-button {
+  padding: 15px 1px;
+  //line-height: $line-height;
+  border-radius: 0;
+  display: inline-block;
+  min-width: 110px;
+  text-transform: uppercase;
+  border: 1px solid $yellow;
+  margin: 0;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  &:hover,&:active,&:focus {
+       text-decoration: none;
+       border-color: $yellow;
+    }
+  a {
+    color: #000;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s ease 0s;
+    padding: 18px 62px;
+    font-size: 12px;
+    &:hover,&:active {
+       text-decoration: none;
+    }
+  }
+}
+#myTab li.active {
+  background-color: $yellow;
+
+}
+.line {
+  display: block;
+  border-right: 1px solid #E8E8E8;
+  width: 1px;
+  height: 25px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+//Страница Контакты
