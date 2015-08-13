@@ -1,0 +1,16 @@
+.navbar {margin-bottom: 0;
+	.topmenu{
+		background-color:#ffd400;
+		height: 70px;
+		&-item {
+			font-weight:700;
+			color:#000 !important;
+			padding: 20px 10px;
+			> span {
+			  border-bottom: 1px #000 solid;
+			  padding-bottom: 2px;
+			}
+		}
+	}
+}
+.dropdown-caret{border-bottom: none;}
