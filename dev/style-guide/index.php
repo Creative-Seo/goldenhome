@@ -7,6 +7,7 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Cuprum:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
 	
 </head>
 <body>
