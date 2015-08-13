@@ -17,6 +17,7 @@
 	<link rel="stylesheet" href="/css/lightSlider.css">
 	<link rel="stylesheet" href="/css/lightGallery.css">
 	<link rel="stylesheet" href="/css/jquery.nouislider.min.css">
+	<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
 	<link href="/css/style.css" rel="stylesheet">
 <!-- /build -->
 	<script>
