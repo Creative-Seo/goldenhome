@@ -3,7 +3,7 @@ include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
 
 <div class="container"><div class="row">
-	<?php include($root."blocks/breadcrumbs.php"); ?>
+
   <h1 itemprop="name"><?php echo $h1;?></h1>
 
 <div class="col-md-6">

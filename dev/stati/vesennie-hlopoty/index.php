@@ -8,7 +8,7 @@ include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."blocks/breadcrumbs.php"); ?>
+
   <h1>Весенние хлопоты</h1>
   <h2>Создаем красоту по всем правилам</h2>
   <p><img src="img/img01.jpg" alt="" class="pull-right">На дворе апрель. Решительно наступает весна, день ото дня ускоряя шаг. Сошел снег, а на пригорке желтеет крошечное солнышко &ndash; цветок мать-и-мачехи. Весенний день дорог, особенно для тех, кто решил заняться благоустройством своего сада.</p>

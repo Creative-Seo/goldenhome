@@ -8,7 +8,7 @@ include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."blocks/breadcrumbs.php"); ?>
+
   <h1>Апрель ленивых не любит</h1>
   <h2>Открытие сезона</h2>
   <p><img src="img/img01.jpg" alt="" class="pull-right">Вот и наступила весна. На календаре март. И хотя солнце уже не по-зимнему ласково, до настоящей весны еще далеко. Природа начнет пробуждаться не раньше апреля. Наступает пора весенних работ в саду.</p>

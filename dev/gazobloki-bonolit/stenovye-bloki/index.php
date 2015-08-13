@@ -8,7 +8,7 @@ include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."blocks/breadcrumbs.php"); ?>
+
   <h1>Конструкционные стеновые блоки Bonolit</h1>
   
 <div itemtype="http://schema.org/ItemList" itemscope>  

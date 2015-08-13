@@ -5,7 +5,6 @@ $text = 'блок';$nomer = $breadcrumb;?>
 <?php include($root."blocks/header.php"); ?>
 
 <div class="container clearfix" itemscope itemtype="http://schema.org/Product">
-<?php include($root."blocks/breadcrumbs.php"); ?>
 
 <h1 itemprop="name"><?php echo $breadcrumb; ?></h1>
 <div class="row">
@@ -41,7 +40,6 @@ $text = 'блок';$nomer = $breadcrumb;?>
 	<p>Вы можете оплатить наличными в офисе. Безналичный расчет.</p>
 </div>
 </div>
-<?php include($root."blocks/breadcrumbs.php"); ?>
 </div>
-
+<?php include($root."blocks/breadcrumbs.php"); ?>
 <?php include($root."blocks/footer.php");?>

@@ -7,7 +7,7 @@ include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."blocks/breadcrumbs.php"); ?>
+
   <h1>Картины на холсте</h1>
   <p>Все приведенные ниже работы написаны маслом на холсте. Ручная работа.</p>
 

@@ -21,7 +21,7 @@ include($root."blocks/header.php");
 
 <div itemscope itemtype="http://schema.org/Product">
 <div class="container">
-	<?php include($root."blocks/breadcrumbs.php"); ?>
+
 	<h1 itemprop="name"><?php echo $bd['h1'];?></h1>
 	<div class="row">
 		<div class="col-sm-7 col-md-8 col-lg-7"><div class="row">
