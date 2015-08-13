@@ -9,7 +9,7 @@ $dirs = array ();
 <?php include($root."blocks/meta.php"); ?>
 <?php include($root."blocks/header.php"); ?>
 <div class="container projects">
-	<?php include($root."blocks/breadcrumbs.php"); ?>
+
 	<h1 class="h1">Каталог проектов загородных домов и коттеджей</h1>
 	<p><a href="/obrazec-proekta/" style="padding: 10px 15px;">Образец проекта дома</a></p>
 	

@@ -9,8 +9,7 @@ include($root."blocks/meta.php");
 include($root."blocks/header.php"); 
 ?>
 <div class="container">
-                
-<?php include($root."blocks/breadcrumbs.php"); ?>
+
 <article class="article" style="position: relative">
   <a id="print-buttom" href="" style="position: absolute; right: 15px; margin-top: 20px">Версия для печати</a>
   <h1>Контактная информация</h1>

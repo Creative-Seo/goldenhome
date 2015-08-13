@@ -7,7 +7,7 @@ include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."blocks/breadcrumbs.php"); ?>
+
      <h1>Рекламный буклет «Golden Home»</h1>
 	<div class="row">
 		<div class="col-xs-6 col-md-4">

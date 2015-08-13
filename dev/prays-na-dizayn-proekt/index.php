@@ -6,7 +6,7 @@ include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."blocks/breadcrumbs.php"); ?>
+
   <h1>Прайс-лист на услуги дизайнера</h1>
   <h2 class="headline" style="margin-top:30px;">Базовый дизайн-проект</h2>
   <em>Срок выполнения 30 рабочих дней (до 100 м<sup>2</sup>).</em>

@@ -7,7 +7,7 @@ include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."blocks/breadcrumbs.php"); ?>
+
   <h1>Фотографии готовых домов из газобетона</h1>
   <p>В галерее представлены фотографии загородных домов построенных нашей компанией. Все дома реализованы по проектам наших архитекторов.</p>
 

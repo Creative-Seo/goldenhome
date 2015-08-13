@@ -7,7 +7,7 @@ include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."blocks/breadcrumbs.php"); ?>
+
   <h1>Наши партнеры</h1>
   <div class="row">
     <div class="col-sm-4"><img src="/image/partners/6.jpg" alt=""></div>

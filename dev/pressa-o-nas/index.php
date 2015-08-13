@@ -7,7 +7,7 @@ include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."blocks/breadcrumbs.php"); ?>
+
     <h1>Пресса о нас</h1>
     <div>Журнал 100 лиц</div>
     <img class="img-responsive center-block" src="img/100-lic-3.jpg" alt="журнал 100 лиц о компании Golden Home" />

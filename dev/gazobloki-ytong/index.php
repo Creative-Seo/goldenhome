@@ -9,7 +9,7 @@ include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."blocks/breadcrumbs.php"); ?>
+
   <h1>Газобетонные блоки Ytong (Ютонг, Итонг)</h1>
   <div class="table-responsive">
             <table width="100%" border="0" cellspacing="0" cellpadding="5" style="font-size:11px;" class="table table-striped table-hover table-bordered" itemtype="http://schema.org/ItemList" itemscope>

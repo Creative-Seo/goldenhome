@@ -8,7 +8,7 @@ include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
 
 <div class="container">
-	<?php include($root."blocks/breadcrumbs.php"); ?>
+
   <h1>Газобетонные блоки Bonolit (Poritep)</h1>
   
 <div class="row" itemtype="http://schema.org/ItemList" itemscope>  

@@ -6,7 +6,6 @@ include($root."blocks/meta.php"); ?>
 
 <div class="container">
 	<div class="row">
-	    <?php include($root."blocks/breadcrumbs.php"); ?>
 	    <h1 class="h1">Дизайн</h1>
 	</div>
 </div>

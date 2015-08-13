@@ -7,7 +7,7 @@ include($root."blocks/meta.php");
 include($root."blocks/header.php"); ?>
 
 <div class="container">
-	<?php include($root."blocks/breadcrumbs.php"); ?>
+
   <p><img src="/image/team/7.jpg" alt="" class="pull-right"></p>
 
   <h1>Наши сотрудники</h1>
