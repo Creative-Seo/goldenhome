@@ -1393,7 +1393,7 @@ html {
 
 /* line 27, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/_scaffolding.scss */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 14px;
   line-height: 1.42857;
   color: #333333;
@@ -6494,7 +6494,7 @@ button.close {
   position: absolute;
   z-index: 1070;
   display: block;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -6616,7 +6616,7 @@ button.close {
   display: none;
   max-width: 276px;
   padding: 1px;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: normal;
   letter-spacing: normal;
@@ -7291,34 +7291,25 @@ button.close {
   padding-left: 35px; }
 
 /* line 9, ../sass/_header.scss */
-.h1 {
-  font-weight: 300;
-  font-size: 32px; }
-
-/* line 10, ../sass/_header.scss */
-.h2 {
-  font-weight: 300; }
-
-/* line 11, ../sass/_header.scss */
 .row img {
   margin: 10px; }
 
-/* line 13, ../sass/_header.scss */
+/* line 11, ../sass/_header.scss */
 nav ul li a {
   font-size: 14px;
   color: #31434e;
   text-transform: uppercase;
   font-weight: 400; }
 
-/* line 14, ../sass/_header.scss */
+/* line 12, ../sass/_header.scss */
 header {
   padding-top: 25px; }
 
-/* line 16, ../sass/_header.scss */
+/* line 14, ../sass/_header.scss */
 .top-content {
   max-height: 122px; }
 
-/* line 17, ../sass/_header.scss */
+/* line 15, ../sass/_header.scss */
 .tipst {
   max-width: 748px;
   font-size: 16px;
@@ -7326,45 +7317,45 @@ header {
   text-transform: uppercase;
   margin: 0 15px; }
 
-/* line 24, ../sass/_header.scss */
+/* line 22, ../sass/_header.scss */
 .tipvar {
   font-size: 22px;
   font-weight: bold;
   margin: 10px 0;
   text-transform: uppercase; }
 
-/* line 30, ../sass/_header.scss */
+/* line 28, ../sass/_header.scss */
 .back {
   background-color: transparent; }
 
-/* line 31, ../sass/_header.scss */
+/* line 29, ../sass/_header.scss */
 .article p {
   line-height: 1.8em; }
 
-/* line 32, ../sass/_header.scss */
+/* line 30, ../sass/_header.scss */
 .article h1 {
   margin: 30px 0 30px 0; }
 
-/* line 33, ../sass/_header.scss */
+/* line 31, ../sass/_header.scss */
 .article {
   margin-bottom: 40px; }
 
-/* line 34, ../sass/_header.scss */
+/* line 32, ../sass/_header.scss */
 .navbar .nav > li > a {
   font-weight: 700;
   color: #000 !important;
   padding: 20px 25px 20px 25px; }
 
-/* line 39, ../sass/_header.scss */
+/* line 37, ../sass/_header.scss */
 .navbar .nav > li > a > span {
   border-bottom: 1px #000 solid;
   padding-bottom: 2px; }
 
-/* line 43, ../sass/_header.scss */
+/* line 41, ../sass/_header.scss */
 .navbar .nav > li > a > .caret {
   border-bottom: none; }
 
-/* line 47, ../sass/_header.scss */
+/* line 45, ../sass/_header.scss */
 .jumbotron {
   min-height: 25vh;
   max-width: 450px;
@@ -7374,7 +7365,7 @@ header {
   margin-left: 65px;
   line-height: 65px; }
 
-/* line 48, ../sass/_header.scss */
+/* line 46, ../sass/_header.scss */
 .jumbotron p {
   font-weight: 400;
   font-size: 50px;
@@ -7382,7 +7373,7 @@ header {
   font-family: 'PT Sans Narrow', sans-serif;
   z-index: 100; }
 
-/* line 50, ../sass/_header.scss */
+/* line 48, ../sass/_header.scss */
 .jumbotron p span {
   font-weight: bold;
   font-size: 82px;
@@ -7390,7 +7381,7 @@ header {
   font-family: 'PT Sans Narrow', sans-serif; }
 
 @media screen and (max-width: 992px) {
-  /* line 52, ../sass/_header.scss */
+  /* line 50, ../sass/_header.scss */
   .jumbotron {
     min-height: 45vh;
     max-width: 100%; } }
@@ -8821,18 +8812,9 @@ footer {
   line-height: 47px;
   border-radius: 5px; }
 
-/* line 21, ../sass/style.scss */
+/* line 22, ../sass/style.scss */
 button:focus {
   outline: none; }
-
-/* line 23, ../sass/style.scss */
-.h1 {
-  font-weight: 300;
-  font-size: 32px; }
-
-/* line 24, ../sass/style.scss */
-.h2 {
-  font-weight: 300; }
 
 /* line 25, ../sass/style.scss */
 .row img {
@@ -8919,15 +8901,13 @@ nav ul li a {
   font-weight: 400;
   font-size: 50px;
   color: #FFF;
-  font-family: 'PT Sans Narrow', sans-serif;
   z-index: 100; }
 
 /* line 65, ../sass/style.scss */
 .jumbotron p span {
   font-weight: bold;
   font-size: 82px;
-  color: #FFF;
-  font-family: 'PT Sans Narrow', sans-serif; }
+  color: #FFF; }
 
 @media screen and (max-width: 992px) {
   /* line 67, ../sass/style.scss */

@@ -18,10 +18,10 @@
 
 @import "../libs/font-awesome/css/font-awesome.min.css";
 
+
 button:focus{outline:none;}
 
-.h1 {font-weight: 300; font-size: 32px;}
-.h2 {font-weight: 300;}
+
 .row img {margin: 10px;}
 
 nav ul li a {font-size:14px; color:#31434e; text-transform:uppercase; font-weight:400;}
@@ -60,9 +60,9 @@ nav ul li a {font-size:14px; color:#31434e; text-transform:uppercase; font-weigh
 
 
 .jumbotron {min-height: 25vh; max-width: 450px; background:none; padding:0; z-index: 100; margin-left:65px; line-height: 65px }
-.jumbotron p {font-weight: 400; font-size: 50px; color:#FFF;font-family: 'PT Sans Narrow', sans-serif;z-index: 100
+.jumbotron p {font-weight: 400; font-size: 50px; color:#FFF;z-index: 100
 }
-.jumbotron p span {font-weight:bold; font-size:82px; color:#FFF;font-family: 'PT Sans Narrow', sans-serif;}
+.jumbotron p span {font-weight:bold; font-size:82px; color:#FFF;}
 @media screen and (max-width: 992px) {
 .jumbotron {min-height: 45vh; max-width: 100%;}
 }
