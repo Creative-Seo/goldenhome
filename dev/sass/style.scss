@@ -1,6 +1,12 @@
 @import "variables";
 @import "bootstrap";
 
+@import "style-guide";
+@import "callback-window";
+@import "buttons";
+
+@import "../libs/font-awesome/css/font-awesome.min.css";
+
 @import "header";
 @import "footer";
 @import "modal";
@@ -12,15 +18,7 @@
 @import "raschet-gazobetona";
 @import "proekty-domov";
 
-@import "style-guide";
-@import "callback-window";
-@import "buttons";
-
-@import "../libs/font-awesome/css/font-awesome.min.css";
-
-
 button:focus{outline:none;}
-
 
 .row img {margin: 10px;}
 
@@ -58,10 +56,8 @@ nav ul li a {font-size:14px; color:#31434e; text-transform:uppercase; font-weigh
 	border-bottom: none;
 }
 
-
 .jumbotron {min-height: 25vh; max-width: 450px; background:none; padding:0; z-index: 100; margin-left:65px; line-height: 65px }
-.jumbotron p {font-weight: 400; font-size: 50px; color:#FFF;z-index: 100
-}
+.jumbotron p {font-weight: 400; font-size: 50px; color:#FFF;z-index: 100}
 .jumbotron p span {font-weight:bold; font-size:82px; color:#FFF;}
 @media screen and (max-width: 992px) {
 .jumbotron {min-height: 45vh; max-width: 100%;}
@@ -75,7 +71,8 @@ nav ul li a {font-size:14px; color:#31434e; text-transform:uppercase; font-weigh
   text-align: center;
 }
 .proekt .h1 {margin:10px 0 30px 15px; font-size: 32px;}
-
+.h2 {font-size: 24px;}
+.h3 {font-size: 18px; font-weight: 300; margin: 10px;}
 .vr-line{padding:10px; margin-left:8px;border-left: 1px solid #dbdad7;}
 .proekt-thumb {display: block; float: left;}
 .proekt-thumb img {max-width: 130px;}
