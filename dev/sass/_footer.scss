@@ -6,7 +6,7 @@ footer {
 	font-weight:$footer-font-weight;
 	i {
 		color:$footer-link-color;
-		margin-right: 5px; 
+		margin-right: 7px; 
 	}
 	.h2 {
 		margin: 30px 0;
@@ -19,9 +19,11 @@ footer {
 	a {
 		color: $footer-link-color;
 		border-bottom:1px dotted $footer-link-color;
+		transition: all 0.25s ease-out 0s;
 			&:hover, &active {
 				color: $footer-link-color-hover;
 				text-decoration:none;
+				border-bottom:none;
 			}
 	}
 	.ytong-color {

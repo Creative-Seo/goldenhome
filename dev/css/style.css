@@ -6422,7 +6422,7 @@ footer {
   /* line 7, ../sass/_footer.scss */
   footer i {
     color: #999;
-    margin-right: 5px; }
+    margin-right: 7px; }
   /* line 11, ../sass/_footer.scss */
   footer .h2 {
     margin: 30px 0; }
@@ -6432,27 +6432,29 @@ footer {
   /* line 19, ../sass/_footer.scss */
   footer a {
     color: #999;
-    border-bottom: 1px dotted #999; }
-    /* line 22, ../sass/_footer.scss */
+    border-bottom: 1px dotted #999;
+    transition: all 0.25s ease-out 0s; }
+    /* line 23, ../sass/_footer.scss */
     footer a:hover, footer aactive {
       color: #fff;
-      text-decoration: none; }
-  /* line 27, ../sass/_footer.scss */
+      text-decoration: none;
+      border-bottom: none; }
+  /* line 29, ../sass/_footer.scss */
   footer .ytong-color {
     color: #ffd400; }
-  /* line 30, ../sass/_footer.scss */
+  /* line 32, ../sass/_footer.scss */
   footer .bonolit-color {
     color: #18A2DC; }
-  /* line 33, ../sass/_footer.scss */
+  /* line 35, ../sass/_footer.scss */
   footer .promo {
     color: red; }
-  /* line 36, ../sass/_footer.scss */
+  /* line 38, ../sass/_footer.scss */
   footer .footer-list {
     margin-bottom: 10px; }
-  /* line 41, ../sass/_footer.scss */
+  /* line 43, ../sass/_footer.scss */
   footer .footer-adresa ul li {
     color: #999; }
-  /* line 46, ../sass/_footer.scss */
+  /* line 48, ../sass/_footer.scss */
   footer .footer-bottom {
     margin: 10px 0; }
 
