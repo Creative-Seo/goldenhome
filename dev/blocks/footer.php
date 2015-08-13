@@ -1,78 +1,24 @@
 <footer><div class="container">
-  <div class="row">
-    <div class="col-sm-2 col-md-3">
-      <nav class="add-nav">
+    <div class="row">
+      <!-- <img src="/img/logo.png" alt="" width="280"> -->
+      <div class="h2">Строительная компания Golden Home</div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
         <ul class="list-unstyled">
-          <li><a href="/o-kompanii/">О компании</a></li>
-          <li><a href="/">Строительство</a></li>
-          <li><a href="/dizayn-interera/">Дизайн</a></li>
-          <li><a href="/proekty-domov/">Проекты домов и коттеджей</a></li>
-          <li><a href="/gazobloki/">Газобетон</a></li>
-          <li><a href="/kupit-dom/">Продажа домов</a></li>
-          <li>
-            <div class="ya-site-form ya-site-form_inited_no" onclick="javascript: seach();">
-              <form action="http://yandex.ru/sitesearch" method="get" target="_blank">
-                <input type="hidden" name="searchid" value="2178943"/>
-                <input type="hidden" name="l10n" value="ru"/>
-                <input type="hidden" name="reqenc" value=""/>
-                <input type="text" name="text" value=""/>
-                <input type="submit" value="Найти"/>
-              </form>
-            </div>
-		  </li>
+          <li><a href="">Строительство</a></li>
+          <li><a href="">Проекты домов</a></li>
+          <li><a href="">Акции</a></li>
+          <li><a href="">Продажа домов</a></li>
+          <li><a href="">Продажа участков</a></li>
+          <li><a href="">Фото участков</a></li>
         </ul>
-      </nav>
+      </div>
+      <div class="col-md-3"></div>
+      <div class="col-md-3"></div>
+      <div class="col-md-3"></div>
     </div>
-    <div class="col-sm-2 col-md-3" itemscope itemtype="http://schema.org/Organization"><strong>Телефоны:</strong>
-    <span itemprop="name">Golden Home</span><br>
-      <ul class="tel list-unstyled">
-        <li><span itemprop="telephone">+7 (4922) 37-07-51</span></li>
-        <li><span itemprop="telephone">+7 (4922) 37-73-90</span> - по вопросам строительства и продажи домов</li>
-      </ul>
-     <span itemprop="email">info@sk-goldenhome.ru</span><br>
-      <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress"> <strong>Адрес:</strong>
-        <address style="margin-bottom:0;">
-        <span itemprop="postalCode">600017</span>, г. <span itemprop="addressLocality">Владимир</span>, <span itemprop="streetAddress">ул. Мира, д. 15в, оф. 12</span>
-        </address>
-        </div><strong>Время работы:</strong><br>
-        <span class="phones">пн-пт 09:00-18:00</span>
-      <span class="email"><span class="value-title" title="info@sk-goldenhome.ru"></span></span> 
-	  <strong>Иваново</strong><br><strong>Адрес:</strong><br>
-        <span>153009</span>, г. <span>Иваново</span>, <span>ул. Лежневская, д. 183, оф.407</span>
-	</div>
-    <div class="col-sm-2 col-md-3 map">
-		<a href="/kontakty/">
-			<img src="/img/map.png" alt="map" width="244" height="205"></a>
-	</div>
-    <div class="col-sm-2 col-md-3 share"><noindex>
-		<strong class="title">Поделиться:</strong>
-		<div class="yashare-auto-init" data-yashareL10n="ru" data-yashareType="none" data-yashareQuickServices="vkontakte,odnoklassniki,facebook,lj,twitter"></div>
-		<strong class="title">Мы в социальных сетях:</strong><br>
-		<a href="https://www.facebook.com/33goldenhome" target="_blank" rel="nofollow">
-			<img width="30" src="http://www.sk-goldenhome.ru/img/fb.png" alt="facebook"/></a>
-		<a href="http://vk.com/Golden_Home" target="_blank" rel="nofollow">
-			<img width="30" src="http://www.sk-goldenhome.ru/img/vk.png" alt="vkontakte"/></a>
-		<a href="http://www.odnoklassniki.ru/group/57146238435360" target="_blank" rel="nofollow">
-			<img width="30" src="http://www.sk-goldenhome.ru/img/odn.png" alt="odnoklassniki"/></a>
-		<a href="https://twitter.com/skGoldenHome" target="_blank" rel="nofollow" target="_blank">
-			<img width="30" src="http://www.sk-goldenhome.ru/img/tw.png" alt="twitter"/></a>
-		<a href="https://plus.google.com/b/106609095766114845804" rel="publisher" target="_blank">
-			<img width="30" src="http://www.sk-goldenhome.ru/img/googleplus.png" alt="googleplus"/></a>
-		<a href="http://www.youtube.com/user/33goldenhome" target="_blank" rel="nofollow">
-			<img width="30" src="http://www.sk-goldenhome.ru/img/yt.png" alt="youtube"/></a>
-	</noindex></div>
-  </div>
-  <div class="row">
-	<div class="col-sm-5 col-md-4 col-lg-3">
-		<span class="copyright">© 2015, ООО &laquo;Голден Хоум&raquo;</span><br />
-		<span>ОГРН: 1143328003532, ИНН: 3328497491</span>
-	</div>
-	<div class="col-sm-6">
-		<a href="http://www.creative-seo.ru/" rel="nofollow" target="_blank" style="vertical-align:top;">Продвижение сайта</a>
-			<img src="/img/logo-creative-black.png" alt="Создание и продвижение сайта" width="150">
-    </div>
-  </div>
-</div></footer>
+</footer>
 
 <?php include($root."blocks/zakaz.php");?>
 
