@@ -26,7 +26,7 @@ li {
 }
 
 button:focus{outline:none;}
-
+body{overflow-x: hidden;}
 
 .row img {margin: 10px;}
 
@@ -51,19 +51,6 @@ nav ul li a {font-size:14px; color:#31434e; text-transform:uppercase; font-weigh
 .article p {line-height: 1.8em;}
 .article h1 {margin: 30px 0 30px 0;}
 .article {margin-bottom:40px; }
-.navbar .nav > li > a {
-	font-weight:700;
-	color:#000 !important;
-	padding:20px 25px 20px 25px;
-}
-.navbar .nav > li > a > span {
-  border-bottom: 1px #000 solid;
-  padding-bottom: 2px;
-}
-.navbar .nav > li > a > .caret{
-	border-bottom: none;
-}
-
 
 .jumbotron {min-height: 25vh; max-width: 450px; background:none; padding:0; z-index: 100; margin-left:65px; line-height: 65px }
 .jumbotron p {font-weight: 400; font-size: 50px; color:#FFF;z-index: 100
