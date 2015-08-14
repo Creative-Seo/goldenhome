@@ -39,4 +39,10 @@
 	  </div>
 	</nav>
 </header> 
-<?php if ($_SERVER['REQUEST_URI'] != '/') {include($root."blocks/breadcrumbs.php");}?>
+<?php if ($_SERVER['REQUEST_URI'] != '/') { ?>
+<div class="breadcrumb-container">
+	<div class="col-xs-12 col-md-offset-2 col-lg-offset-1">
+	<?php include($root."blocks/breadcrumbs.php");?>
+	</div>
+</div>
+<?php }?>
