@@ -57,10 +57,10 @@
 		color: #000;
 		background-color: transparent;
 	}
-	.open > a, .open > a:hover, .open > a:focus {
-		background-color: transparent;
-		border-color: transparent;
-	}
+}
+.open > a, .open > a:hover, .open > a:focus {
+	background-color: transparent;
+	border-color: transparent;
 }
 @media (max-width: 750px){
 .header-sklogo {float:left;padding-right:0px;padding-left:45px;}
