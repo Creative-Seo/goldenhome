@@ -1,0 +1,36 @@
+.home-page {
+	&_top-text {
+		background-color: #F5F5F5;
+		padding: 40px;
+	}
+	&_top-photo {
+		position: relative;
+		img {
+			position: absolute;
+			top:60px;
+			left:-60px;
+			//z-index: 100;
+		}
+	}
+	&_diler {
+		padding: 40px;
+		background-color: gold;
+		margin-top: 40px;
+		z-index: 100;
+	}
+	&_stoimost {
+		background-color: #F5F5F5;
+		text-align: center;
+		padding: 30px 35px;
+		margin-top: -30px;
+	}
+}
+.home-page_stoimost_div {
+	padding: 0;
+	.mansarda {
+
+	}
+	.vtoroy-etaj {
+
+	}
+}
