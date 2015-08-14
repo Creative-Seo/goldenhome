@@ -12,9 +12,10 @@ $dirs = array ();
 
 	<h1 class="h1">Каталог проектов загородных домов и коттеджей</h1>
 	<p><a href="/obrazec-proekta/" style="padding: 10px 15px;">Образец проекта дома</a></p>
-	
+<div class="row">
+	<div class="col-md-3 project-fixed" id="project-fixed">
 	<div class="row">
-		<div class="col-md-4">
+		<div class="col-md-12">
 		<div class="col-md-12 form-inline input text-center"><label>Цена строительства, руб.: </label>
 			<div id="slider1"></div><input id="input1"> &mdash; <input id="input2">
 		</div>
@@ -22,7 +23,7 @@ $dirs = array ();
 			<div id="slider2"></div><input id="input3"> &mdash; <input id="input4">
 		</div>
 		</div>
-		<div class="col-md-4 text-center">
+		<div class="col-md-12 text-center">
 			<label for="form-group">Количество этажей: </label>
 			<select class="form-control" id="col-et">
 				<option>Не имеет значение</option>
@@ -47,7 +48,7 @@ $dirs = array ();
 				<option>По убыванию площади</option>
 			</select>
 		</div>
-				<div class="col-md-3"><label>Дополнительно: </label>
+		<div class="col-md-12"><label>Дополнительно: </label>
 			<ul class="list-unstyled">
 			<li><input type="checkbox" id="cb1" data_val="Гараж"> Гараж</li>
 			<li><input type="checkbox" id="cb2" data_val="Мансарда"> Мансарда</li>
@@ -57,7 +58,9 @@ $dirs = array ();
 			<ul>
 		</div>
 	</div>
+	</div>
 	
+	<div class="col-md-8 col-md-offset-4">
 	<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
 <?php
 $scans = scandir('./');
@@ -69,6 +72,8 @@ if (false !== $scans) {
 }
 ?>
 	</div>
+	</div>
+</div>
 	<article class="article">
           <h2>Проекты домов и коттеджей из газоблоков под ключ</h2>
           <p>Проектная организация Golden Home имеет большой опыт в&nbsp;разработке типовых и&nbsp;индивидуальных проектов загородных домов, коттеджей и&nbsp;дач. Многие из&nbsp;этих разработок уже реализованы во&nbsp;Владимирской, Ивановской, Московской и&nbsp;других областях России. Проекты домов, разработанные в&nbsp;соответствии с&nbsp;требованиями технологии и&nbsp;типовыми характеристиками, могут быть не&nbsp;раз использованы для строительства как готовый апробированный материал. Как правило, стоимость готового проекта ниже, чем разработка нового. В&nbsp;то&nbsp;же время это не&nbsp;лишает будущий дом оригинальности и&nbsp;индивидуальности стиля. Владелец может подобрать нужное цветовое решение, дизайн Площадьа, выбрать материалы, оформление фасада, черепицу и&nbsp;спланировать ландшафт, опираясь на&nbsp;готовый проект дома.</p>

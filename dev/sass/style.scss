@@ -1,6 +1,14 @@
 @import "variables";
 @import "bootstrap";
 
+button:focus{outline:none;}
+body{overflow-x: hidden;}
+.row img {margin: 10px;}
+
+li {
+  list-style: outside none none;
+}
+
 @import "header";
 @import "footer";
 @import "modal";
@@ -20,14 +28,6 @@
 
 
 @import "../libs/font-awesome/css/font-awesome.min.css";
-
-li {
-  list-style: outside none none;
-}
-
-button:focus{outline:none;}
-body{overflow-x: hidden;}
-.row img {margin: 10px;}
 
 nav ul li a {font-size:14px; color:#31434e; text-transform:uppercase; font-weight:400;}
 .yellow {background-color:#fc0;padding:1rem;}
@@ -236,15 +236,12 @@ thead {font-weight: bold;}
 /*modal*/
 
 @media (min-width: 992px){
-.imgpr img {height: 197px;}
 .fancybox-thumb {max-height: 300px;}
 }
 @media (min-width: 1170px){
 .fancybox-thumb {max-height: 230px;}
 }
-@media (max-width: 992px){
-.imgpr img {height: 260px;}
-}
+
 
 
 //Страница Контакты

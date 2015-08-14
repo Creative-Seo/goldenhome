@@ -1,3 +1,6 @@
+.imgpr {min-height: 174px;
+	img {margin:auto;}
+}
 .projects {
 	.input>div{
 		width: 80%;
@@ -26,4 +29,13 @@
 		width: 0;
 		padding: 0;
 	}
+}
+@media screen and (min-width: 992px) {
+.project-fixed {position:fixed;}
+}
+@media (max-width: 992px){
+.imgpr img {height: 260px;}
+}
+@media (min-width: 992px){
+.imgpr img {height: 197px;}
 }

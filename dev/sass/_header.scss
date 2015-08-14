@@ -30,8 +30,8 @@
     padding: 0px 40px;
     background-color: #000;
 	&-button{
-		color: #fff;
-		&:hover, &:focus {color: #aaa;}
+		color: #fff;text-decoration: none;padding:5px 0;
+		&:hover, &:focus {color: #aaa;text-decoration: none;}
 	}
 }
 .skew-right {@include skew(-45deg,0);}
