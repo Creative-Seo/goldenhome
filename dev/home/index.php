@@ -36,17 +36,57 @@ include($root."blocks/header.php");
 	</div>
 
 	<div class="row">
+	  <div class="home-page_stoimost_block col-md-12">
 		<div class="col-md-6 home-page_stoimost_div">
-			<div class="mansarda">
-				<img src="/img/tipovye-doma/mansardnyy-variant.jpg" alt="" class="img-responsive">
+			<div class="home-page_stoimost_descr">
+				<h3>Коттедж с мансардой</h3>
+				<div class="home-page_stoimost_block_price h3"><span>15 000</span> руб.кв.м.</div>
+				<div class="h3">В стоимость входит:</div>
+				<div class="h3">Материал + работа</div>
+				<p>Дом из газобетонных блоков YTONG без наружной отделки.
+Процесс строительства делится на этапы:</p>
+				<ul class="center-block">
+					<li>1. Заливка фундамента</li>
+					<li>2. Возведение стен и перекрытие плитами</li>
+					<li>3. Стеклопакеты REHAU</li>
+					<li>4. Перекрытия</li>
+					<li>5.Укладка кровли</li>
+				</ul>
 			</div>
 		</div>
 		<div class="col-md-6 home-page_stoimost_div">
-			<div class="vtoroy-etaj">
-				<img src="/img/tipovye-doma/s-polnocennym-vtorym-etazhom.jpg" alt="" class="img-responsive">
-			</div>
+			<img src="/img/tipovye-doma/mansardnyy-variant.jpg" alt="" class="img-responsive">
 		</div>
+	  </div>
 	</div>
+
+	<div class="row">
+	  <div class="home-page_stoimost_block col-md-12">
+		
+		<div class="col-md-6 home-page_stoimost_div">
+			<img src="/img/tipovye-doma/s-polnocennym-vtorym-etazhom.jpg" alt="" class="img-responsive">
+		</div>
+
+		<div class="col-md-6 home-page_stoimost_div">
+			<div class="home-page_stoimost_descr">
+				<h3>Коттедж с полноценным вторым этажом</h3>
+				<div class="home-page_stoimost_block_price h3"><span>17 000</span> руб.кв.м.</div>
+				<div class="h3">В стоимость входит:</div>
+				<div class="h3">Материал + работа</div>
+				<p>Дом из газобетонных блоков YTONG без наружной отделки.
+Процесс строительства делится на этапы:</p>
+				<ul class="center-block">
+					<li>1. Заливка фундамента</li>
+					<li>2. Возведение стен и перекрытие плитами</li>
+					<li>3. Стеклопакеты REHAU</li>
+					<li>4. Перекрытия</li>
+					<li>5.Укладка кровли</li>
+				</ul>
+			</div>
+		</div>
+	  </div>
+	</div>
+
 	<div class="row">
 		<div class="col-md-6 home-page_stoimost_div">
 			<div class="mansarda">
