@@ -69,37 +69,7 @@ include($root."array.php");?>
 </div>
 
 
-<div class="container article content">
-   <div class="row">
-       <h1 class="h1">Строительство домов и коттеджей под ключ</h1>
-       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-       	<p>Строительство домов под ключ - основное направление деятельности компании Golden Home. Мы строим загородные дома из различных материалов по самым современным технологиям.</p>
-       	<p>Стоимость строительства дома под ключ из газоблоков составляет сегодня в среднем от 18 500 р./кв.м. Цены на строительство домов и под ключ зависят, прежде всего, от метража, этажности, сложности реализации дизайна, конструкции и планировок, а также от выбора строительных и отделочных материалов.</p>
-       </div>
-       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-        <p>Строительная компания Golden Home является аккредитованным партнером по строительству с использованием технологии YTONG и первая среди других строительно-монтажных организаций Владимирской области начала применять в строительстве блоки YTONG. В настоящее время специалисты компании занимаются строительством индивидуальных малоэтажных домов и коттеджей любой степени сложности. Строительная фирма Golden Home выполнит работы по возведению Вашего дома, а также весь комплекс сопутствующих работ: выезд специалиста на участок, проектирование, возведение фундамента, внутренняя и внешняя отделка. Команда специалистов компании поможет реализовать Ваши идеи с учетом индивидуальных предпочтений.</p>
-       </div>
-   </div>
-</div>
 
-<div class="container article"><div class="row">
-	<h2 class="h2">Типовые решения</h2> 
-	<div role="tabpanel">
-		<ul class="nav nav-tabs" role="tablist">
-			<li role="presentation" class="active tippr"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Мансардный вариант<br><span>1 500 000</span> руб.</a>
-			</li>
-			<li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">С полноценным 2-м этажом</a></li>
-			<li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Дом по цене однокомнатной квартиры</a></li>
-			<li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Стоимость до 2250000 руб.</a></li>
-		</ul>
-		<div class="tab-content">
-			<div role="tabpanel" class="tab-pane active" id="home"><div class="col-md-8"><img src="/img/mans.jpg" alt="" class="img-responsive"></div></div>
-			<div role="tabpanel" class="tab-pane" id="profile">...</div>
-			<div role="tabpanel" class="tab-pane" id="messages">...</div>
-			<div role="tabpanel" class="tab-pane" id="settings">...</div>
-		</div>
-	</div>
-</div></div>
 
 <?php include($root."blocks/footer.php");?>
 </div>
