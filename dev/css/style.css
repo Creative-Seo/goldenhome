@@ -8062,6 +8062,10 @@ footer {
 .home-page_stoimost_div {
   padding: 0; }
 
+/* line 37, ../sass/_home.scss */
+.home-page_ceny {
+  margin-top: -20px; }
+
 /* line 24, ../sass/style.scss */
 li {
   list-style: outside none none; }
