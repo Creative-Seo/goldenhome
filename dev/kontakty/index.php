@@ -160,5 +160,9 @@ include($root."blocks/header.php");
 </div> <!-- contacts -->
 
 <?php include($root."blocks/footer.php");?>
-
+<script type="text/javascript">
+$(document).ready(function(){ 
+    $("#myTab li:eq(0) a").tab('show');
+});
+</script>
 

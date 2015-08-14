@@ -2,7 +2,7 @@
 <?php foreach ($menu as $row) { ?>
 	<?php if ($row['name']=='dropdown') { ?>
 		<li class="dropdown topmenu-item">
-			<a class="dropdown-toggle" data-toggle="dropdown" href="javascript: void(0);"><span><?php echo $row["n"]; ?></span><span class="dropdown-caret"></span></a>   
+			<a class="dropdown-toggle" data-toggle="dropdown" href="javascript: void(0);"><span><?php echo $row["n"]; ?></span><span class="caret"></span></a>   
 			<ul class="dropdown-menu">
 		<?php foreach ($row['li'] as $li) { 
 			if ($li["name"] == 'gr') { echo '<li class="divider"></li>';} else { ?>
