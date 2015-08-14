@@ -6399,39 +6399,37 @@ button.close {
   background-color: #ffd400; }
   /* line 3, ../sass/_header.scss */
   .header-logo {
-    margin-right: -40px;
-    width: 250px;
+    margin: 0 -50px;
     padding-top: 10px;
-    padding-left: 10px;
     background-color: #fff;
     height: 70px; }
-  /* line 11, ../sass/_header.scss */
+  /* line 9, ../sass/_header.scss */
   .header-sklogo {
-    padding-right: 40px; }
+    padding-left: 45px;
+    width: 250px; }
 
-/* line 13, ../sass/_header.scss */
+/* line 11, ../sass/_header.scss */
 .navbar {
   margin-bottom: 0; }
-  /* line 15, ../sass/_header.scss */
+  /* line 13, ../sass/_header.scss */
   .navbar-default {
     border: none;
     background-color: transparent; }
-  /* line 16, ../sass/_header.scss */
+  /* line 14, ../sass/_header.scss */
   .navbar-collapse {
     padding: 0; }
-  /* line 17, ../sass/_header.scss */
+  /* line 15, ../sass/_header.scss */
   .navbar-header {
     background-color: #fff; }
-  /* line 18, ../sass/_header.scss */
+  /* line 16, ../sass/_header.scss */
   .navbar-black {
-    background-color: #000;
-    width: 20%; }
+    background-color: #000; }
 
-/* line 20, ../sass/_header.scss */
+/* line 18, ../sass/_header.scss */
 .dropdown-caret {
   border-bottom: none; }
 
-/* line 22, ../sass/_header.scss */
+/* line 20, ../sass/_header.scss */
 .topright {
   margin: 0 -50px;
   font-weight: 700;
@@ -6440,38 +6438,61 @@ button.close {
   line-height: 30px;
   padding: 0px 40px;
   background-color: #000; }
-  /* line 30, ../sass/_header.scss */
+  /* line 28, ../sass/_header.scss */
   .topright-button {
     color: #fff; }
-    /* line 32, ../sass/_header.scss */
+    /* line 30, ../sass/_header.scss */
     .topright-button:hover, .topright-button:focus {
       color: #aaa; }
 
-/* line 35, ../sass/_header.scss */
+/* line 33, ../sass/_header.scss */
 .skew-right {
   -webkit-transform: skewX(-45deg) skewY(0);
   -ms-transform: skewX(-45deg) skewY(0);
   -o-transform: skewX(-45deg) skewY(0);
   transform: skewX(-45deg) skewY(0); }
 
-/* line 36, ../sass/_header.scss */
+/* line 34, ../sass/_header.scss */
 .skew-left {
   -webkit-transform: skewX(45deg) skewY(0);
   -ms-transform: skewX(45deg) skewY(0);
   -o-transform: skewX(45deg) skewY(0);
   transform: skewX(45deg) skewY(0); }
 
-/* line 37, ../sass/_header.scss */
+/* line 35, ../sass/_header.scss */
 .topmenu {
   margin: 0px 50px; }
-  /* line 39, ../sass/_header.scss */
+  /* line 37, ../sass/_header.scss */
   .topmenu-item {
     font-weight: 700;
     color: #000; }
-    /* line 42, ../sass/_header.scss */
+    /* line 40, ../sass/_header.scss */
     .topmenu-item > span {
       border-bottom: 1px #000 solid;
       padding-bottom: 2px; }
+
+/* line 47, ../sass/_header.scss */
+.header .navbar-nav > li > a {
+  color: #777;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 400; }
+  /* line 52, ../sass/_header.scss */
+  .header .navbar-nav > li > a:hover, .header .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: transparent; }
+  /* line 56, ../sass/_header.scss */
+  .header .navbar-nav > li > a .open > a, .header .navbar-nav > li > a .open > a:hover, .header .navbar-nav > li > a .open > a:focus {
+    background-color: transparent;
+    border-color: transparent; }
+
+/* line 61, ../sass/_header.scss */
+.navbar-collapse2 {
+  padding: 0;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  overflow-x: visible;
+  border-top: 1px solid transparent;
+  border-color: #e7e7e7; }
 
 /* line 1, ../sass/_footer.scss */
 footer {
