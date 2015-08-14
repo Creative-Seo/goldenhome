@@ -1,5 +1,3 @@
-<!--Breadcrumbs-->
-    <div class="breadcrumb-container">
       <div class="breadcrumb container">
         <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/" itemprop="url"><span itemprop="title">Главная</span></a></span>
         <span class="divider">&nbsp;<i class="fa fa-caret-right"></i>&nbsp;</span>
@@ -22,5 +20,4 @@ if(isset($breadcrumb3))
 			<span itemprop="title"><?php echo $breadcrumb;?></span></a>
 		</span>
       </div>
-    </div>
-<!--Breadcrumbs-->
+	  
