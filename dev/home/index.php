@@ -34,6 +34,7 @@ include($root."blocks/header.php");
 				<h2>Стоимость строительства</h2>
 		</div>
 	</div>
+
 	<div class="row">
 		<div class="col-md-6 home-page_stoimost_div">
 			<div class="mansarda">
