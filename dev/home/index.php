@@ -81,6 +81,7 @@ include($root."blocks/header.php");
 					<li>3. Стеклопакеты REHAU</li>
 					<li>4. Перекрытия</li>
 					<li>5.Укладка кровли</li>
+					<li>5.Укладка кровли</li>
 				</ul>
 			</div>
 		</div>
