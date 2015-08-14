@@ -8081,46 +8081,19 @@ footer {
   padding: 40px;
   background-color: gold;
   margin-top: 40px;
-  z-index: 110; }
+  z-index: 100; }
 /* line 21, ../sass/_home.scss */
 .home-page_stoimost {
   background-color: #F5F5F5;
   text-align: center;
   padding: 30px 35px;
-  margin-top: -30px;
-  z-index: 100; }
-  /* line 27, ../sass/_home.scss */
-  .home-page_stoimost_block {
-    background-color: #F5F5F5;
-    text-align: center;
-    padding: 0;
-    margin-top: 0; }
-    /* line 33, ../sass/_home.scss */
-    .home-page_stoimost_block_price span {
-      font-size: 32px; }
+  margin-top: -30px; }
 
-/* line 40, ../sass/_home.scss */
+/* line 28, ../sass/_home.scss */
 .home-page_stoimost_div {
   padding: 0; }
-  /* line 42, ../sass/_home.scss */
-  .home-page_stoimost_div img {
-    margin: 0px 0 0 0 !important; }
 
-/* line 46, ../sass/_home.scss */
-.home-page_stoimost_descr {
-  padding: 30px; }
-  /* line 48, ../sass/_home.scss */
-  .home-page_stoimost_descr h3 {
-    text-transform: uppercase; }
-  /* line 51, ../sass/_home.scss */
-  .home-page_stoimost_descr p {
-    text-align: left; }
-  /* line 54, ../sass/_home.scss */
-  .home-page_stoimost_descr ul {
-    text-align: left;
-    max-width: 250px; }
-
-/* line 59, ../sass/_home.scss */
+/* line 37, ../sass/_home.scss */
 .home-page_ceny {
   margin-top: -20px; }
 
