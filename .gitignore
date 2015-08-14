@@ -14,4 +14,5 @@ archive/
 node_modules/
 .sass-cache/
 dploy.yaml
+dev/css/style.css
 
