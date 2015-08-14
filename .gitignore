@@ -14,8 +14,4 @@ archive/
 node_modules/
 .sass-cache/
 dploy.yaml
-<<<<<<< HEAD
 dev/css/style.css
-=======
-dev/css/style.css
->>>>>>> master

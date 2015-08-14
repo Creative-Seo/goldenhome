@@ -1,7 +1,7 @@
 <!--header-->
 <header class="header container-fluid">
 	<div class="row hidden-xs">
-		<div class="col-sm-4 col-md-3 col-lg-2">
+		<div class="col-sm-4 col-md-3">
 			<div class="header-logo skew-right">
 				<div class="header-sklogo skew-left">
 					<a href="/">
@@ -12,7 +12,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-8 col-md-6 col-lg-7">
+		<div class="col-sm-8 col-md-6">
 	<?php include($root."blocks/_menu.php"); ?>
 		</div>
 		<div class="col-md-3 hidden-sm">
@@ -39,4 +39,10 @@
 	  </div>
 	</nav>
 </header> 
-<?php if ($_SERVER['REQUEST_URI'] != '/') {include($root."blocks/breadcrumbs.php");}?>
+<?php if ($_SERVER['REQUEST_URI'] != '/') { ?>
+<div class="breadcrumb-container">
+	<div class="col-xs-12 col-md-offset-2 col-lg-offset-1">
+	<?php include($root."blocks/breadcrumbs.php");?>
+	</div>
+</div>
+<?php }?>

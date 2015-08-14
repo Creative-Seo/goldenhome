@@ -61,136 +61,139 @@
 		&-black{background-color:rgba(0,0,0,0.5);}
 	}
 	.dropdown-caret{border-bottom: none;}
-
+	.header .navbar-nav > li > a {
+		color: #aaa;
+		&:hover, &:focus {color: #fff;}
+	}
 	.topright {
 		color: #fff;
 		background-color: rgba(0,0,0,0.5);
 		&-button{
 			color: #fff;
 			&:hover, &:focus {color: #aaa;}
-		}
-	}
-	.topmenu{
-		&-item {
-			color:#000;
-			> span {
-			  border-bottom: 1px #000 solid;
-			}
-		}
-	}
-	min-height:100vh;
-	.grey {background:none;color:#fff;height:30vh;}
-	header::after {
-		content: " ";
-		display: block;
-		height: 13px;
-		left: 0;
-		position: absolute;
-		right: 0;
-		width: 100%;
-		z-index:1
-	}
-	#navbar {
-		background-color: transparent; 
-		z-index: 100;
-		.in {background:rgba(0,0,0,0.8);}
-	}
-	.navbar .nav > li > a > span {border-bottom: none;}
-	.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-	  background-color: rgba(0,0,0,.2);
-	  border-color: #337ab7;
-	}
-	.dropdown-menu {
-		background-color: rgba(0,0,0,.7);
-		> li > a {
-			color: #ccc;
-			&:focus, &:hover {
-			  color: #fff;
-			  background-color: rgba(0,0,0,.2);
-			}
-		}
-	}
-	.top-content {max-height:122px;}
-	.phone {color:#fff;}
-	.adres {color:#fff;}
-	.back {background-color:transparent;}
-	.article {margin-bottom:40px;
-		p {line-height: 1.8em;}
-		h1 {margin: 30px 0 30px 0;}
-	}
-	.navbar .nav > li > a {
-		font-weight:700;
-		color:#fff !important;
-		padding:20px 25px 20px 25px;
 	}
 }
-	.child{height:40vh;}
-	.jumbotron {min-height: 25vh; max-width: 450px; background:none; padding:0; z-index: 100; margin-left:65px; line-height: 65px }
-	.jumbotron p {font-weight: 400; font-size: 50px; color:#FFFFFF;font-family: 'PT Sans Narrow', sans-serif;z-index: 100}
-	.jumbotron p span {font-weight:bold; font-size:82px; color:#FFFFFF;font-family: 'PT Sans Narrow', sans-serif;}
-	.child .jumbotron { padding:30px 0}
-
-	#icons {
-		z-index: 1000;
-		margin: auto;
-		margin-bottom: 40px;
-		a {opacity:0.7; text-decoration: none; color: #fff  !important; text-transform: uppercase;}
-		.text {font-size: 16px; padding-top: 5px}
-		.button {padding: 13px; white-space: nowrap; border: 2px solid #fff; border-radius: 30px 30px; color: #fff; font-size: 15px; visibility: hidden; display:none; }
-		.action a{opacity:1;}
-		.action .button{visibility: visible}
-
-		a:hover, #icons a:focus {background: none}
-		.button:hover {background-color:#779}
-	}
-	#mouse-scroll {
-		bottom: 10px;
-		left: 50%;
-		margin: auto;
-		position: absolute;
-		z-index: 9999;
-		span {
-			border-bottom: 2px solid #dddddd;
-			border-right: 2px solid #dddddd;
-			display: block;
-			height: 5px;
-			margin: 0 0 3px 5px;
-			transform: rotate(45deg);
-			width: 5px;
+.topmenu{
+	&-item {
+		color:#000;
+		> span {
+		  border-bottom: 1px #000 solid;
 		}
-		.unu {margin-top: 6px;}
-		.unu, .doi, .trei {animation: 1s ease 0s normal none infinite running mouse-scroll;}
-		.unu {animation-delay: 0.1s;}
-		.doi {animation-delay: 0.2s;}
-		.trei {animation-delay: 0.3s;}
-		.mouse {
-			border: 2px solid #dddddd;
-			border-radius: 10px;
-			height: 21px;
-			top: 170px;
-			transform: none;
-			width: 14px;
-		}
-		.wheel {
-			background: #dddddd none repeat scroll 0 0;
-			display: block;
-			height: 5px;
-			margin: 5px auto;
-			position: relative;
-			width: 2px;
-		}
-		.wheel {	animation: 1.2s ease 0s normal none infinite running mouse-wheel;}
 	}
-	@keyframes mouse-scroll {
-	0% {opacity: 0;}
-	50% {opacity: 0.5;}
-	100% {opacity: 1;}
+}
+min-height:100vh;
+.grey {background:none;color:#fff;height:30vh;}
+header::after {
+	content: " ";
+	display: block;
+	height: 13px;
+	left: 0;
+	position: absolute;
+	right: 0;
+	width: 100%;
+	z-index:1
+}
+#navbar {
+	background-color: transparent; 
+	z-index: 100;
+	.in {background:rgba(0,0,0,0.8);}
+}
+.navbar .nav > li > a > span {border-bottom: none;}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  background-color: rgba(0,0,0,.2);
+  border-color: #337ab7;
+}
+.dropdown-menu {
+	background-color: rgba(0,0,0,.7);
+	> li > a {
+		color: #ccc;
+		&:focus, &:hover {
+		  color: #fff;
+		  background-color: rgba(0,0,0,.2);
+		}
 	}
+}
+.top-content {max-height:122px;}
+.phone {color:#fff;}
+.adres {color:#fff;}
+.back {background-color:transparent;}
+.article {margin-bottom:40px;
+	p {line-height: 1.8em;}
+	h1 {margin: 30px 0 30px 0;}
+}
+.navbar .nav > li > a {
+	font-weight:700;
+	color:#fff !important;
+	padding:20px 25px 20px 25px;
+}
+}
+.child{height:40vh;}
+.jumbotron {min-height: 25vh; max-width: 450px; background:none; padding:0; z-index: 100; margin-left:65px; line-height: 65px }
+.jumbotron p {font-weight: 400; font-size: 50px; color:#FFFFFF;font-family: 'PT Sans Narrow', sans-serif;z-index: 100}
+.jumbotron p span {font-weight:bold; font-size:82px; color:#FFFFFF;font-family: 'PT Sans Narrow', sans-serif;}
+.child .jumbotron { padding:30px 0}
 
-	@media screen and (max-width: 992px) {
-	.grey {height:60vh;}
+#icons {
+	z-index: 1000;
+	margin: auto;
+	margin-bottom: 40px;
+	a {opacity:0.7; text-decoration: none; color: #fff  !important; text-transform: uppercase;}
+	.text {font-size: 16px; padding-top: 5px}
+	.button {padding: 13px; white-space: nowrap; border: 2px solid #fff; border-radius: 30px 30px; color: #fff; font-size: 15px; visibility: hidden; display:none; }
+	.action a{opacity:1;}
+	.action .button{visibility: visible}
+
+	a:hover, #icons a:focus {background: none}
+	.button:hover {background-color:#779}
+}
+#mouse-scroll {
+	bottom: 10px;
+	left: 50%;
+	margin: auto;
+	position: absolute;
+	z-index: 9999;
+	span {
+		border-bottom: 2px solid #dddddd;
+		border-right: 2px solid #dddddd;
+		display: block;
+		height: 5px;
+		margin: 0 0 3px 5px;
+		transform: rotate(45deg);
+		width: 5px;
 	}
-	@media screen and (max-width: 768px) {
-	.nav-justified>li {float: left;}
-	.grey {height:10vh;}
+	.unu {margin-top: 6px;}
+	.unu, .doi, .trei {animation: 1s ease 0s normal none infinite running mouse-scroll;}
+	.unu {animation-delay: 0.1s;}
+	.doi {animation-delay: 0.2s;}
+	.trei {animation-delay: 0.3s;}
+	.mouse {
+		border: 2px solid #dddddd;
+		border-radius: 10px;
+		height: 21px;
+		top: 170px;
+		transform: none;
+		width: 14px;
 	}
+	.wheel {
+		background: #dddddd none repeat scroll 0 0;
+		display: block;
+		height: 5px;
+		margin: 5px auto;
+		position: relative;
+		width: 2px;
+	}
+	.wheel {	animation: 1.2s ease 0s normal none infinite running mouse-wheel;}
+}
+@keyframes mouse-scroll {
+0% {opacity: 0;}
+50% {opacity: 0.5;}
+100% {opacity: 1;}
+}
+
+@media screen and (max-width: 992px) {
+.grey {height:60vh;}
+}
+@media screen and (max-width: 768px) {
+.nav-justified>li {float: left;}
+.grey {height:10vh;}
+}
