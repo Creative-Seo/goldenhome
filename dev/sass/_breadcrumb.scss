@@ -1,12 +1,18 @@
-.breadcrumb-container {background-color:#f5f5f5;height:40px;}
 .breadcrumb {
-    list-style: outside none none;
-    margin-bottom: 20px;
-    padding: 8px 15px;
-    background: none;
-    margin-top: 0;
-	a {border-bottom: 1px solid;border-bottom:none; text-decoration: none;color:#555;padding:5px 0;
-		&:hover {border-bottom:none; text-decoration: none;color:#000;}
+	min-height:$breadcrumb-height;
+	line-height:$breadcrumb-height;
+	margin-bottom:0;
+    a { 
+    	border-bottom: 1px solid;
+    	border-bottom:none; 
+    	text-decoration: none;
+    	color:#555;
+    	padding:5px 0;
+		&:hover {	border-bottom:none; 
+					text-decoration: none;
+					color:#000;}
 	}
 }
-.divider {color: #ffd400;}
+.divider {
+	color: $breadcrumb-color;
+}

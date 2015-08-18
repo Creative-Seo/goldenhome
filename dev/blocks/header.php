@@ -1,48 +1,47 @@
 <!--header-->
-<header class="header container-fluid">
-	<div class="row hidden-xs">
-		<div class="col-sm-4 col-md-3">
-			<div class="header-logo skew-right">
-				<div class="header-sklogo skew-left">
-					<a href="/">
-	<?php if (HTTP_ID == '/') { ?><img class="img-responsive" src="/img/logo.png" alt="">
-	<?php } else { ?><img class="img-responsive" src="/img/logo-black.png" alt="">
-	<?php } ?>
-					</a>
-				</div>
-			</div>
-		</div>
-		<div class="col-sm-8 col-md-6">
-	<?php include($root."blocks/_menu.php"); ?>
-		</div>
-		<div class="col-md-3 hidden-sm">
-	<?php include($root."blocks/_topright.php"); ?>
-		</div>
-	</div>
-	<nav class="navbar navbar-default visible-xs" id="navbar">
-	  <div class="nav-content">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-top"><span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+<header class="header container">
+	<div class="row">
+		<div class="col-md-3">
 			<div class="header-logo">
 				<div class="header-sklogo">
 					<a href="/">
-	<?php if (HTTP_ID == '/') { ?><img class="img-responsive" src="/img/logo.png" alt="Агентство права и оценки" />
-	<?php } else { ?><img class="img-responsive" src="/img/logo-black.png" alt="Агентство права и оценки" />
-	<?php } ?>
+						<?php if (HTTP_ID == '/') { ?><img class="img-responsive" src="/img/logo.png" alt="">
+						<?php } else { ?><img class="img-responsive" src="/img/logo-black.png" alt="">
+						<?php } ?>
 					</a>
 				</div>
 			</div>
 		</div>
-		<div class="navbar-collapse collapse" id="navbar-top">
-	<?php include($root."blocks/_menu.php"); ?>
+		<div class="col-md-3">
 		</div>
-	  </div>
-	</nav>
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-3">
+			
+				<div class="topright">
+					<div class="topright-drag"><span class="topright-phone">+7 (4922) 37 73 90</span>
+						<!-- <a class="topright-button" href="javascript:void(0);" data-toggle="modal" data-target="#modal-zakaz">Заказать обратный звонок</a> -->
+					</div>
+				</div>
+			
+		</div>
+	</div>
+	<div class="row">
+		
+			<?php include($root."blocks/_menu.php"); ?>
+		
+	</div>
+	
+	
+	
+	
 </header> 
 <?php if ($_SERVER['REQUEST_URI'] != '/') { ?>
-<!-- <div class="breadcrumb-container">
-	<div class="col-xs-12 col-md-offset-2 col-lg-offset-1">
-	<?php include($root."blocks/breadcrumbs.php");?>
+<div class="container">
+	<div class="row">
+		
+		<?php include($root."blocks/breadcrumbs.php");?>
+		
 	</div>
-</div> -->
+</div> 
 <?php }?>

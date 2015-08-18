@@ -22,8 +22,10 @@
 @import "../libs/font-awesome/css/font-awesome.min.css";
 
 button:focus{outline:none;}
-body{overflow-x: hidden;}
-.row img {margin: 10px;}
+
+a {
+  transition: all 0.25s ease-out 0s;
+}
 
 li {
   list-style: outside none none;
