@@ -6394,22 +6394,6 @@ button.close {
   /* line 18, ../libs/bootstrap-sass/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
   .hidden-print {
     display: none !important; } }
-/* line 4, ../sass/style.scss */
-button:focus {
-  outline: none; }
-
-/* line 5, ../sass/style.scss */
-body {
-  overflow-x: hidden; }
-
-/* line 6, ../sass/style.scss */
-.row img {
-  margin: 10px; }
-
-/* line 8, ../sass/style.scss */
-li {
-  list-style: outside none none; }
-
 /* line 1, ../sass/_header.scss */
 .header {
   background-color: #ffd400; }
@@ -8164,6 +8148,22 @@ footer {
   margin-top: -20px;
   margin-top: -20px; }
 
+/* line 24, ../sass/style.scss */
+button:focus {
+  outline: none; }
+
+/* line 25, ../sass/style.scss */
+body {
+  overflow-x: hidden; }
+
+/* line 26, ../sass/style.scss */
+.row img {
+  margin: 10px; }
+
+/* line 28, ../sass/style.scss */
+li {
+  list-style: outside none none; }
+
 /* line 32, ../sass/style.scss */
 nav ul li a {
   font-size: 14px;
@@ -8194,7 +8194,7 @@ nav ul li a {
 
 /* line 43, ../sass/style.scss */
 .tipvar {
-  font-size: 22px;
+  font-size: 2px;
   font-weight: bold;
   margin: 10px 0;
   text-transform: uppercase; }
