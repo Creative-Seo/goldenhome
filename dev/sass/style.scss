@@ -1,14 +1,6 @@
 @import "variables";
 @import "bootstrap";
 
-button:focus{outline:none;}
-body{overflow-x: hidden;}
-.row img {margin: 10px;}
-
-li {
-  list-style: outside none none;
-}
-
 @import "header";
 @import "footer";
 @import "modal";
@@ -29,6 +21,14 @@ li {
 
 @import "../libs/font-awesome/css/font-awesome.min.css";
 
+button:focus{outline:none;}
+body{overflow-x: hidden;}
+.row img {margin: 10px;}
+
+li {
+  list-style: outside none none;
+}
+
 nav ul li a {font-size:14px; color:#31434e; text-transform:uppercase; font-weight:400;}
 .yellow {background-color:#fc0;padding:1rem;}
 .grey {background-color:#eee}
@@ -41,7 +41,7 @@ nav ul li a {font-size:14px; color:#31434e; text-transform:uppercase; font-weigh
   margin: 0 15px;
 }
 .tipvar {
-  font-size: 20px;
+  font-size: 2px;
   font-weight: bold;
   margin: 10px 0;
   text-transform: uppercase;
