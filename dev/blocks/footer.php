@@ -93,6 +93,21 @@
 <script src="/js/dev.raschet-gazobetona.js"></script>
 <script src="/js/floating-labels.js"></script>
 <script src="/js/common.js"></script>
+<script src="/js/jquery.blindify.min.js"></script>
+<script type="text/javascript">
+        $(document).ready(function(){
+        $('#blindify').blindify({
+            numberOfBlinds: 10,
+            animationSpeed: 1200,
+            delayBetweenSlides: 600,
+            color: '#fff',
+            width: 550,
+            height: 500,
+            gap: 100,
+            margin: 1
+        });
+    });
+    </script>
 <!-- /build -->
 
 <!-- build:template
