@@ -33,7 +33,9 @@
 		&:hover, &:focus {color: #aaa;text-decoration: none;}
 	}
 	&-phone {
-		font-size:24px; 
+		font-size:24px;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-weight:700; 
 	}
 }
 .skew-right {@include skew(-45deg,0);}
