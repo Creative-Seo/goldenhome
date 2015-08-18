@@ -44,8 +44,11 @@
 		font-weight:700; 
 	}
 }
-.skew-right {@include skew(-45deg,0);}
-.skew-left {@include skew(45deg,0);}
+.adres-header {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	font-weight:300;
+}
 .topmenu{
 	
 	&-item {
