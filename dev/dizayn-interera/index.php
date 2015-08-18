@@ -30,4 +30,33 @@ include($root."blocks/header.php");?>
   </div>
 </div>
 
+<div class="container">
+
+  <div class="row clearfix">
+   <div class="design_slide1 design_slide">
+    <div class="col-md-6 design_content_left">
+      <h2>Дизайн квартир</h2>
+      <p>Специалисты нашей дизайн-студии осуществляют комплексную разработку интерьеров под индивидуальные проекты во Владимире и области. Мы осознаем, насколько важен для владельца дома, квартиры или офиса привлекательный, стильный и профессионально разработанный дизайн под конкретные условия отдельного помещения.</p>
+      
+    </div>
+    <div class="col-md-6 design_content_left">
+      <img src="/dizayn-proekty/dvuhkomnatnaya-kvartira/big.jpg" alt="" class="img-responsive">
+    </div>
+   </div> 
+  </div>
+
+  <div class="row clearfix">
+   <div class="design_slide2 design_slide">
+    <div class="col-md-6 design_content_right pull-right">
+      <h2>Дизайн квартир</h2>
+      <p>Специалисты нашей дизайн-студии осуществляют комплексную разработку интерьеров под индивидуальные проекты во Владимире и области. Мы осознаем, насколько важен для владельца дома, квартиры или офиса привлекательный, стильный и профессионально разработанный дизайн под конкретные условия отдельного помещения.</p>
+      
+    </div>
+   </div> 
+  </div>
+
+</div>
+
+
+
 <?php include($root."blocks/footer.php");?>

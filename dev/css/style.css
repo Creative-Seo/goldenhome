@@ -8160,33 +8160,83 @@ footer {
     padding: 80px 0 50px 80px; }
 
 /* line 24, ../sass/_design.scss */
+.design_slide, .design_slide1, .design_slide2 {
+  width: 100%; }
+  /* line 26, ../sass/_design.scss */
+  .design_slide p, .design_slide1 p, .design_slide2 p {
+    color: #333333;
+    padding: 30px 0;
+    max-width: 500px;
+    text-align: justify;
+    font-weight: 300;
+    font-size: 16px; }
+
+/* line 35, ../sass/_design.scss */
+.design_slide1 {
+  background: url("/dizayn-proekty/dvuhkomnatnaya-kvartira/big.jpg") no-repeat;
+  background-size: cover; }
+
+/* line 41, ../sass/_design.scss */
+.design_content_left {
+  background-color: #fff;
+  height: 100%;
+  padding: 100px 50px; }
+  /* line 45, ../sass/_design.scss */
+  .design_content_left h2 {
+    font-size: 48px;
+    color: #333333;
+    text-align: right; }
+  /* line 51, ../sass/_design.scss */
+  .design_content_left p {
+    float: right; }
+
+/* line 55, ../sass/_design.scss */
+.design_slide2 {
+  background: url("/dizayn-proekty/kvartira-studiya/kvartira-studiya.jpg") no-repeat;
+  background-size: contain; }
+
+/* line 60, ../sass/_design.scss */
+.design_content_right {
+  background-color: #fff;
+  height: 100vh;
+  padding: 100px 50px; }
+  /* line 64, ../sass/_design.scss */
+  .design_content_right h2 {
+    font-size: 48px;
+    color: #333333;
+    text-align: left; }
+  /* line 70, ../sass/_design.scss */
+  .design_content_right p {
+    float: left; }
+
+/* line 76, ../sass/_design.scss */
 .blindify {
   display: block;
   position: relative;
   overflow: hidden; }
 
-/* line 25, ../sass/_design.scss */
+/* line 77, ../sass/_design.scss */
 .blindify a {
   display: block; }
 
-/* line 26, ../sass/_design.scss */
+/* line 78, ../sass/_design.scss */
 .blindify span {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   position: absolute; }
 
-/* line 27, ../sass/_design.scss */
+/* line 79, ../sass/_design.scss */
 .blindify ul, .blindify li {
   padding: 0;
   margin: 0;
   list-style: none; }
 
-/* line 28, ../sass/_design.scss */
+/* line 80, ../sass/_design.scss */
 .blindify li {
   display: none; }
 
-/* line 29, ../sass/_design.scss */
+/* line 81, ../sass/_design.scss */
 .blindify li.active {
   display: inline; }
 
