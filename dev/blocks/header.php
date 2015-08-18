@@ -5,8 +5,8 @@
 			<div class="header-logo skew-right">
 				<div class="header-sklogo skew-left">
 					<a href="/">
-	<?php if (HTTP_ID == '/') { ?><img class="img-responsive" src="/img/logo.png" alt="Агентство права и оценки" />
-	<?php } else { ?><img class="img-responsive" src="/img/logo-black.png" alt="Агентство права и оценки" />
+	<?php if (HTTP_ID == '/') { ?><img class="img-responsive" src="/img/logo.png" alt="">
+	<?php } else { ?><img class="img-responsive" src="/img/logo-black.png" alt="">
 	<?php } ?>
 					</a>
 				</div>

@@ -1,10 +1,10 @@
-<?php $title = 'Главаная';
-	$description = 'Главаная';
-	$keywords = 'Главаная';?>
+<?php $title = 'Главная';
+	$description = 'Главная';
+	$keywords = 'Главная';?>
 <?php $dirs = array ();?>
 <?php
 $root = '../';
-$breadcrumb = 'Главаная';
+$breadcrumb = 'Главная';
 include($root."blocks/meta.php"); 
 include($root."blocks/header.php"); 
 ?>
