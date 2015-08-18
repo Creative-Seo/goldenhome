@@ -1,15 +1,16 @@
 .header {
-	background-color:$yellow;
+	background-color:$navbar-background;
+	color: $navbar-color;
 	&-logo {
-		margin:0 -50px;
+		
 		padding-top:10px;
 		background-color:#fff;
 		height: 70px;
 	}
 	&-sklogo {
-		padding-right:45px;
-		width:250px;
-		float:right;
+		img {
+			margin-left:0; 
+		}
 	}
 }
 .navbar {
@@ -24,20 +25,21 @@
 .topright {
 	margin: 0 -50px;
 	font-weight: 700;
-    color: #fff;
-	height: 70px;
-	line-height:30px;
+    min-height: 70px;
+	line-height:70px;
     padding: 0px 40px;
-    background-color: #000;
-	&-button{
+    &-button{
 		color: #fff;text-decoration: none;padding:5px 0;
 		&:hover, &:focus {color: #aaa;text-decoration: none;}
+	}
+	&-phone {
+		font-size:24px; 
 	}
 }
 .skew-right {@include skew(-45deg,0);}
 .skew-left {@include skew(45deg,0);}
 .topmenu{
-	margin: 0px 50px;
+	
 	&-item {
 		font-weight:700;
 		color:#000;
@@ -49,7 +51,7 @@
 }
 
 .header  .navbar-nav > li > a {
-    color: #555;
+    color:$navbar-color;
 	font-size: 14px;
     text-transform: uppercase;
     font-weight: 400;
