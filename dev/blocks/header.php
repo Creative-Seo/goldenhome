@@ -19,23 +19,23 @@
 		<div class="col-md-3">
 			
 				<div class="topright">
-					<div class="topright-drag"><span class="topright-phone">+7 (4922) 37 73 90</span>
-						<!-- <a class="topright-button" href="javascript:void(0);" data-toggle="modal" data-target="#modal-zakaz">Заказать обратный звонок</a> -->
+					<div class="topright-drag"><span class="topright-phone">+7 (4922) 37 73 90</span><br>
+						<a class="topright-button" href="javascript:void(0);" data-toggle="modal" data-target="#modal-zakaz">Заказать обратный звонок</a>
 					</div>
 				</div>
 			
 		</div>
 	</div>
-	<div class="row">
-		
-			<?php include($root."blocks/_menu.php"); ?>
-		
-	</div>
-	
-	
-	
-	
 </header> 
+
+<div class="nav-wrapper">
+	<div class="container">
+		<div class="row">
+			<?php include($root."blocks/_menu.php"); ?>
+		</div>
+	</div>
+</div>
+
 <?php if ($_SERVER['REQUEST_URI'] != '/') { ?>
 <div class="container">
 	<div class="row">
