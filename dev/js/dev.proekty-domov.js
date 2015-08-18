@@ -70,6 +70,18 @@ $("#slider2").noUiSlider({
 $("#slider2").Link('lower').to($('#input3'));
 $("#slider2").Link('upper').to($('#input4'));
 
+$(window).scroll;
+$(window).scroll(function () {
+	var scroll = $(this).scrollTop(),
+		top = $('#project-fixed').parent().offset().top,
+		bottom = $('.article').offset().top - $(window).height(),
+		hide = top + $('#project-fixed').height() - $(window).height();
+		result=$('#project-fixed').css('bottom');
+	if (scroll<top-100) {result=scroll-50;}
+		else if (scroll>bottom+top-100) {result=scroll-bottom;}
+			else {result=top-100;}
+	$('#project-fixed').css('bottom',result+'px');
+});
 $( document ).ready(function() {
 	update_proekts();
 	$('input, select, #slider1, #slider2').bind('change keyup set',function (){
