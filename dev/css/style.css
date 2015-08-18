@@ -6452,50 +6452,42 @@ button.close {
     font-weight: 700; }
 
 /* line 47, ../sass/_header.scss */
-.skew-right {
-  -webkit-transform: skewX(-45deg) skewY(0);
-  -ms-transform: skewX(-45deg) skewY(0);
-  -o-transform: skewX(-45deg) skewY(0);
-  transform: skewX(-45deg) skewY(0); }
+.adres-header {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-weight: 300; }
 
-/* line 48, ../sass/_header.scss */
-.skew-left {
-  -webkit-transform: skewX(45deg) skewY(0);
-  -ms-transform: skewX(45deg) skewY(0);
-  -o-transform: skewX(45deg) skewY(0);
-  transform: skewX(45deg) skewY(0); }
-
-/* line 51, ../sass/_header.scss */
+/* line 54, ../sass/_header.scss */
 .topmenu-item {
   font-weight: 700;
   color: #000; }
-  /* line 54, ../sass/_header.scss */
+  /* line 57, ../sass/_header.scss */
   .topmenu-item > span {
     border-bottom: 1px #000 solid;
     padding-bottom: 2px; }
 
-/* line 61, ../sass/_header.scss */
+/* line 64, ../sass/_header.scss */
 .navbar-nav > li > a {
   color: #000;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 400; }
-  /* line 66, ../sass/_header.scss */
+  /* line 69, ../sass/_header.scss */
   .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
     color: #000;
     background-color: transparent; }
 
-/* line 71, ../sass/_header.scss */
+/* line 74, ../sass/_header.scss */
 .nav-wrapper {
   background-color: gold; }
 
-/* line 74, ../sass/_header.scss */
+/* line 77, ../sass/_header.scss */
 .open > a, .open > a:hover, .open > a:focus {
   background-color: transparent;
   border-color: transparent; }
 
 @media (max-width: 750px) {
-  /* line 79, ../sass/_header.scss */
+  /* line 82, ../sass/_header.scss */
   .header-sklogo {
     float: left;
     padding-right: 0px;

@@ -15,6 +15,9 @@
 		<div class="col-md-3">
 		</div>
 		<div class="col-md-3">
+			<div class="adres-header">
+				г. Bлaдимиp, ул. Мира, д. 15 В, офис 12
+			</div>
 		</div>
 		<div class="col-md-3">
 			
