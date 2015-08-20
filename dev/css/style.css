@@ -9686,6 +9686,10 @@ button.close {
 .mdi-toggle-star:before {
   content: "\e8f5"; }
 
+/* line 105, ../sass/_bootstrap-material-design.scss */
+.projects .noUi-handle:after, .projects .noUi-handle:before {
+  display: none; }
+
 /* line 14, ../libs/bootstrap-material-design/sass/_buttons.scss */
 .btn {
   position: relative;
@@ -10265,17 +10269,17 @@ select.form-control {
   height: 100%;
   z-index: 100; }
 
-/* line 20, ../sass/_bootstrap-material-design.scss */
+/* line 122, ../sass/_bootstrap-material-design.scss */
 .modal-content {
   border-radius: 0;
   border: 0; }
-  /* line 24, ../sass/_bootstrap-material-design.scss */
+  /* line 126, ../sass/_bootstrap-material-design.scss */
   .modal-content .modal-header {
     border-bottom: 0; }
-  /* line 27, ../sass/_bootstrap-material-design.scss */
+  /* line 129, ../sass/_bootstrap-material-design.scss */
   .modal-content .modal-footer {
     border-top: 0; }
-    /* line 29, ../sass/_bootstrap-material-design.scss */
+    /* line 131, ../sass/_bootstrap-material-design.scss */
     .modal-content .modal-footer .btn + .btn {
       margin-bottom: 10px; }
 
@@ -10365,7 +10369,7 @@ select.form-control {
 
 /* line 1, ../libs/bootstrap-material-design/sass/_navbar.scss */
 .navbar {
-  background-color: #4285F4;
+  background-color: #f8f8f8;
   border: 0;
   border-radius: 0; }
   /* line 6, ../libs/bootstrap-material-design/sass/_navbar.scss */
@@ -10600,18 +10604,18 @@ select.form-control {
 .navbar-material-lightgrey {
   background-color: #ECECEC; }
 
-/* line 41, ../sass/_bootstrap-material-design.scss */
+/* line 143, ../sass/_bootstrap-material-design.scss */
 .dropdown-menu {
   border: 0;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
-  /* line 44, ../sass/_bootstrap-material-design.scss */
+  /* line 146, ../sass/_bootstrap-material-design.scss */
   .dropdown-menu .divider {
     background-color: rgba(229, 229, 229, 0.12); }
-  /* line 47, ../sass/_bootstrap-material-design.scss */
+  /* line 149, ../sass/_bootstrap-material-design.scss */
   .dropdown-menu li {
     overflow: hidden;
     position: relative; }
-    /* line 50, ../sass/_bootstrap-material-design.scss */
+    /* line 152, ../sass/_bootstrap-material-design.scss */
     .dropdown-menu li a:hover {
       background: rgba(0, 0, 0, 0.08); }
 
@@ -11097,29 +11101,29 @@ select.form-control {
   .card-material-lightgrey a {
     color: #e6e6e6; }
 
-/* line 66, ../sass/_bootstrap-material-design.scss */
+/* line 168, ../sass/_bootstrap-material-design.scss */
 .text-warning {
   color: #FF5722; }
 
-/* line 69, ../sass/_bootstrap-material-design.scss */
+/* line 171, ../sass/_bootstrap-material-design.scss */
 .text-primary {
   color: #4285F4; }
 
-/* line 72, ../sass/_bootstrap-material-design.scss */
+/* line 174, ../sass/_bootstrap-material-design.scss */
 .text-danger {
   color: #F44336; }
 
-/* line 75, ../sass/_bootstrap-material-design.scss */
+/* line 177, ../sass/_bootstrap-material-design.scss */
 .text-success {
   color: #0F9D58; }
 
-/* line 78, ../sass/_bootstrap-material-design.scss */
+/* line 180, ../sass/_bootstrap-material-design.scss */
 .text-info {
   color: #03A9F4; }
 
 /* line 1, ../libs/bootstrap-material-design/sass/_tabs.scss */
 .nav-tabs {
-  background: #4285F4; }
+  background: #f8f8f8; }
   /* line 4, ../libs/bootstrap-material-design/sass/_tabs.scss */
   .nav-tabs > li > a {
     color: #FFFFFF;
@@ -11392,99 +11396,103 @@ select.form-control {
   background: #c8c8c8; }
 
 /* line 1, ../sass/_header.scss */
+.navbar-nav {
+  margin: 0; }
+
+/* line 4, ../sass/_header.scss */
 .header {
   background-color: #fff;
   color: #000; }
-  /* line 4, ../sass/_header.scss */
+  /* line 7, ../sass/_header.scss */
   .header-logo {
     padding-top: 10px;
     background-color: #fff;
     height: 70px; }
-  /* line 11, ../sass/_header.scss */
+  /* line 14, ../sass/_header.scss */
   .header-sklogo img {
     margin-left: 0; }
 
-/* line 16, ../sass/_header.scss */
+/* line 19, ../sass/_header.scss */
 .navbar {
   margin-bottom: 0; }
-  /* line 18, ../sass/_header.scss */
+  /* line 21, ../sass/_header.scss */
   .navbar-default {
     border: none;
     background-color: transparent; }
-  /* line 19, ../sass/_header.scss */
+  /* line 22, ../sass/_header.scss */
   .navbar-collapse {
     padding: 0; }
-  /* line 20, ../sass/_header.scss */
+  /* line 23, ../sass/_header.scss */
   .navbar-header {
     background-color: #fff; }
-  /* line 21, ../sass/_header.scss */
+  /* line 24, ../sass/_header.scss */
   .navbar-black {
     background-color: #000; }
 
-/* line 23, ../sass/_header.scss */
+/* line 26, ../sass/_header.scss */
 .dropdown-caret {
   border-bottom: none; }
 
-/* line 25, ../sass/_header.scss */
+/* line 28, ../sass/_header.scss */
 .topright {
   font-weight: 700;
   min-height: 70px;
   line-height: 20px;
   padding: 10px 40px; }
-  /* line 30, ../sass/_header.scss */
+  /* line 33, ../sass/_header.scss */
   .topright-button {
     color: #333;
     text-decoration: none;
     font-weight: 300;
     border-bottom: 1px dotted #333; }
-    /* line 35, ../sass/_header.scss */
+    /* line 38, ../sass/_header.scss */
     .topright-button:hover, .topright-button:focus {
       color: #aaa;
       text-decoration: none;
       border: none; }
-  /* line 41, ../sass/_header.scss */
+  /* line 44, ../sass/_header.scss */
   .topright-phone {
     font-size: 24px;
     font-family: 'Open Sans Condensed', sans-serif;
     font-weight: 700; }
 
-/* line 47, ../sass/_header.scss */
+/* line 50, ../sass/_header.scss */
 .adres-header {
   padding-top: 25px;
   padding-bottom: 25px;
   font-weight: 300; }
 
-/* line 54, ../sass/_header.scss */
+/* line 57, ../sass/_header.scss */
 .topmenu-item {
   font-weight: 700;
   color: #000; }
-  /* line 57, ../sass/_header.scss */
+  /* line 60, ../sass/_header.scss */
   .topmenu-item > span {
     border-bottom: 1px #000 solid;
     padding-bottom: 2px; }
 
-/* line 64, ../sass/_header.scss */
+/* line 67, ../sass/_header.scss */
 .navbar-nav > li > a {
   color: #000;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 400; }
-  /* line 69, ../sass/_header.scss */
+  /* line 72, ../sass/_header.scss */
   .navbar-nav > li > a:hover, .navbar-nav > li > a:focus {
     color: #000;
     background-color: transparent; }
 
-/* line 74, ../sass/_header.scss */
+/* line 77, ../sass/_header.scss */
 .nav-wrapper {
   background-color: gold; }
 
-/* line 77, ../sass/_header.scss */
+/* line 80, ../sass/_header.scss */
 .open > a, .open > a:hover, .open > a:focus {
   background-color: transparent;
   border-color: transparent; }
 
 @media (max-width: 750px) {
-  /* line 82, ../sass/_header.scss */
+  /* line 85, ../sass/_header.scss */
   .header-sklogo {
     float: left;
     padding-right: 0px;

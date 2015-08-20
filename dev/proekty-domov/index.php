@@ -13,17 +13,17 @@ $dirs = array ();
 	<h1 class="h1">Каталог проектов загородных домов и коттеджей</h1>
 	<p><a href="/obrazec-proekta/" style="padding: 10px 15px;">Образец проекта дома</a></p>
 <div class="row">
-	<div class="col-md-3 col-lg-2 project-fixed1" id="project-fixed1">
+	<div class="col-md-3 col-lg-3 project-fixed1" id="project-fixed1">
 	<div class="row">
-		<div class="col-md-12">
-		<div class="col-md-12 form-inline input text-center"><label>Цена строительства, руб.: </label>
+		<div class="col-md-10">
+		<div class="col-sm-6 col-md-12 form-inline input text-center"><label>Цена строительства, руб.: </label>
 			<div id="slider1"></div><input id="input1"> &mdash; <input id="input2">
 		</div>
-		<div class="col-md-12 form-inline input text-center"><label>Общая площадь, м<sup>2</sup>: </label>
+		<div class="col-sm-6 col-md-12 form-inline input text-center"><label>Общая площадь, м<sup>2</sup>: </label>
 			<div id="slider2"></div><input id="input3"> &mdash; <input id="input4">
 		</div>
 		</div>
-		<div class="col-md-12 text-center">
+		<div class="col-sm-3 col-sm-offset-2 col-md-9 col-md-offset-0">
 			<label for="form-group">Количество этажей: </label>
 			<select class="form-control" id="col-et">
 				<option>Не имеет значение</option>
@@ -48,9 +48,9 @@ $dirs = array ();
 				<option>По убыванию площади</option>
 			</select>
 		</div>
-		<div class="col-md-12"><label>Дополнительно: </label>
+		<div class="col-sm-3 col-sm-offset-3 col-md-9 col-md-offset-0"><label>Дополнительно: </label>
 			<ul class="list-unstyled">
-			<li><input type="checkbox" id="cb1" data_val="Гараж"> Гараж</li>
+			<li class="togglebutton"><input type="checkbox" id="cb1" data_val="Гараж"> Гараж</li>
 			<li><input type="checkbox" id="cb2" data_val="Мансарда"> Мансарда</li>
 			<li><input type="checkbox" id="cb3" data_val="Терасса"> Терасса</li>
 			<li><input type="checkbox" id="cb4" data_val="Веранда"> Веранда</li>
@@ -60,7 +60,7 @@ $dirs = array ();
 	</div>
 	</div>
 	
-	<div class="col-md-9 col-lg-10">
+	<div class="col-md-9 col-lg-9">
 	<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
 <?php
 $scans = scandir('./');
