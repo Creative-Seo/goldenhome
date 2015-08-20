@@ -9,7 +9,7 @@ $deeppurple: #673AB7 !default;
 $indigo: #3F51B5 !default;
 $lightblue: #03A9F4 !default;
 $cyan: #00BCD4 !default;
-$teal: #009688 !default;
+$teal: #ff9688 !default;
 $lightgreen: #8BC34A !default;
 $lime: #CDDC39 !default;
 $lightyellow: #FFEB3B !default;
@@ -102,10 +102,6 @@ $progress-danger: $danger;
 @import "../libs/bootstrap-material-design/sass/_shadows.scss";
 @import "../libs/bootstrap-material-design/sass/_icons-material-design.scss";
 
-.projects .noUi-handle:after, .projects .noUi-handle:before {
-    display:none;
-}
-
 // Buttons
 @import "../libs/bootstrap-material-design/sass/_buttons.scss";
 
@@ -191,3 +187,28 @@ $progress-danger: $danger;
 // External plugins
 @import "../libs/bootstrap-material-design/sass/_plugin-snackbarjs.scss";
 @import "../libs/bootstrap-material-design/sass/_plugin-nouislider.scss";
+
+.projects .noUi-handle:after, .projects .noUi-handle:before {
+    display:none;
+}
+.noUi-connect {
+    border: 1px solid $yellow;
+    background: $yellow;
+}
+.noUi-handle {
+    border: 1px solid $yellow;
+    background: $yellow;
+    cursor: default;
+    box-shadow: none;
+}
+.noUi-origin[style^="left: 0"] .noUi-handle {
+    background-color: $yellow;
+    border: 1px solid $yellow;
+}
+.noUi-horizontal {
+    height: 3px;
+}
+
+.checkbox input[type=checkbox]:checked+.checkbox-material .check, .checkbox-default input[type=checkbox]:checked+.checkbox-material .check {
+    color: $yellow;
+}

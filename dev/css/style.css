@@ -9686,10 +9686,6 @@ button.close {
 .mdi-toggle-star:before {
   content: "\e8f5"; }
 
-/* line 105, ../sass/_bootstrap-material-design.scss */
-.projects .noUi-handle:after, .projects .noUi-handle:before {
-  display: none; }
-
 /* line 14, ../libs/bootstrap-material-design/sass/_buttons.scss */
 .btn {
   position: relative;
@@ -9824,7 +9820,7 @@ button.close {
 
 /* line 157, ../libs/bootstrap-material-design/sass/_buttons.scss */
 .btn-material-teal {
-  background-color: #009688; }
+  background-color: #ff9688; }
 
 /* line 160, ../libs/bootstrap-material-design/sass/_buttons.scss */
 .btn-material-lightgreen {
@@ -10269,17 +10265,17 @@ select.form-control {
   height: 100%;
   z-index: 100; }
 
-/* line 122, ../sass/_bootstrap-material-design.scss */
+/* line 118, ../sass/_bootstrap-material-design.scss */
 .modal-content {
   border-radius: 0;
   border: 0; }
-  /* line 126, ../sass/_bootstrap-material-design.scss */
+  /* line 122, ../sass/_bootstrap-material-design.scss */
   .modal-content .modal-header {
     border-bottom: 0; }
-  /* line 129, ../sass/_bootstrap-material-design.scss */
+  /* line 125, ../sass/_bootstrap-material-design.scss */
   .modal-content .modal-footer {
     border-top: 0; }
-    /* line 131, ../sass/_bootstrap-material-design.scss */
+    /* line 127, ../sass/_bootstrap-material-design.scss */
     .modal-content .modal-footer .btn + .btn {
       margin-bottom: 10px; }
 
@@ -10566,7 +10562,7 @@ select.form-control {
 
 /* line 256, ../libs/bootstrap-material-design/sass/_navbar.scss */
 .navbar-material-teal {
-  background-color: #009688; }
+  background-color: #ff9688; }
 
 /* line 259, ../libs/bootstrap-material-design/sass/_navbar.scss */
 .navbar-material-lightgreen {
@@ -10604,18 +10600,18 @@ select.form-control {
 .navbar-material-lightgrey {
   background-color: #ECECEC; }
 
-/* line 143, ../sass/_bootstrap-material-design.scss */
+/* line 139, ../sass/_bootstrap-material-design.scss */
 .dropdown-menu {
   border: 0;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26); }
-  /* line 146, ../sass/_bootstrap-material-design.scss */
+  /* line 142, ../sass/_bootstrap-material-design.scss */
   .dropdown-menu .divider {
     background-color: rgba(229, 229, 229, 0.12); }
-  /* line 149, ../sass/_bootstrap-material-design.scss */
+  /* line 145, ../sass/_bootstrap-material-design.scss */
   .dropdown-menu li {
     overflow: hidden;
     position: relative; }
-    /* line 152, ../sass/_bootstrap-material-design.scss */
+    /* line 148, ../sass/_bootstrap-material-design.scss */
     .dropdown-menu li a:hover {
       background: rgba(0, 0, 0, 0.08); }
 
@@ -10688,7 +10684,7 @@ select.form-control {
 
 /* line 66, ../libs/bootstrap-material-design/sass/_alerts.scss */
 .alert-material-teal {
-  background-color: #009688; }
+  background-color: #ff9688; }
 
 /* line 69, ../libs/bootstrap-material-design/sass/_alerts.scss */
 .alert-material-lightgreen {
@@ -10776,7 +10772,7 @@ select.form-control {
     background-color: #00BCD4; }
   /* line 58, ../libs/bootstrap-material-design/sass/_progress.scss */
   .progress .progress-bar-material-teal {
-    background-color: #009688; }
+    background-color: #ff9688; }
   /* line 61, ../libs/bootstrap-material-design/sass/_progress.scss */
   .progress .progress-bar-material-lightgreen {
     background-color: #8BC34A; }
@@ -10993,11 +10989,11 @@ select.form-control {
 
 /* line 101, ../libs/bootstrap-material-design/sass/_cards.scss */
 .card-material-teal {
-  background-color: #009688;
+  background-color: #ff9688;
   color: #FFFFFF; }
   /* line 5, ../libs/bootstrap-material-design/sass/_mixins.scss */
   .card-material-teal .card-footer, .card-material-teal .card-header {
-    border-color: #00635a; }
+    border-color: #ff6955; }
   /* line 9, ../libs/bootstrap-material-design/sass/_mixins.scss */
   .card-material-teal a {
     color: #FFFFFF; }
@@ -11101,23 +11097,23 @@ select.form-control {
   .card-material-lightgrey a {
     color: #e6e6e6; }
 
-/* line 168, ../sass/_bootstrap-material-design.scss */
+/* line 164, ../sass/_bootstrap-material-design.scss */
 .text-warning {
   color: #FF5722; }
 
-/* line 171, ../sass/_bootstrap-material-design.scss */
+/* line 167, ../sass/_bootstrap-material-design.scss */
 .text-primary {
   color: #4285F4; }
 
-/* line 174, ../sass/_bootstrap-material-design.scss */
+/* line 170, ../sass/_bootstrap-material-design.scss */
 .text-danger {
   color: #F44336; }
 
-/* line 177, ../sass/_bootstrap-material-design.scss */
+/* line 173, ../sass/_bootstrap-material-design.scss */
 .text-success {
   color: #0F9D58; }
 
-/* line 180, ../sass/_bootstrap-material-design.scss */
+/* line 176, ../sass/_bootstrap-material-design.scss */
 .text-info {
   color: #03A9F4; }
 
@@ -11220,7 +11216,7 @@ select.form-control {
 
 /* line 51, ../libs/bootstrap-material-design/sass/_icons.scss */
 .icon-material-teal {
-  color: #009688; }
+  color: #ff9688; }
 
 /* line 54, ../libs/bootstrap-material-design/sass/_icons.scss */
 .icon-material-lightgreen {
@@ -11394,6 +11390,35 @@ select.form-control {
 /* line 93, ../libs/bootstrap-material-design/sass/_plugin-nouislider.scss */
 .slider {
   background: #c8c8c8; }
+
+/* line 191, ../sass/_bootstrap-material-design.scss */
+.projects .noUi-handle:after, .projects .noUi-handle:before {
+  display: none; }
+
+/* line 194, ../sass/_bootstrap-material-design.scss */
+.noUi-connect {
+  border: 1px solid #ffd400;
+  background: #ffd400; }
+
+/* line 198, ../sass/_bootstrap-material-design.scss */
+.noUi-handle {
+  border: 1px solid #ffd400;
+  background: #ffd400;
+  cursor: default;
+  box-shadow: none; }
+
+/* line 204, ../sass/_bootstrap-material-design.scss */
+.noUi-origin[style^="left: 0"] .noUi-handle {
+  background-color: #ffd400;
+  border: 1px solid #ffd400; }
+
+/* line 208, ../sass/_bootstrap-material-design.scss */
+.noUi-horizontal {
+  height: 3px; }
+
+/* line 212, ../sass/_bootstrap-material-design.scss */
+.checkbox input[type=checkbox]:checked + .checkbox-material .check, .checkbox-default input[type=checkbox]:checked + .checkbox-material .check {
+  color: #ffd400; }
 
 /* line 1, ../sass/_header.scss */
 .navbar-nav {
@@ -12781,33 +12806,35 @@ footer {
   .imgpr img {
     margin: auto; }
 
-/* line 5, ../sass/_proekty-domov.scss */
-.projects .input > div {
-  width: 80%;
-  display: inline-block; }
-/* line 9, ../sass/_proekty-domov.scss */
-.projects .input > input {
-  width: 30%;
-  margin: 10px; }
-/* line 13, ../sass/_proekty-domov.scss */
-.projects .noUi-horizontal {
-  height: 5px;
-  margin: 5px; }
-/* line 17, ../sass/_proekty-domov.scss */
-.projects .noUi-horizontal .noUi-handle {
-  height: 12px; }
-/* line 20, ../sass/_proekty-domov.scss */
-.projects .noUi-handle:after, .projects .noUi-handle:before {
-  top: 0px;
-  height: 10px; }
-/* line 24, ../sass/_proekty-domov.scss */
-.projects #proekts .bl-pr {
-  margin: 15px 0;
-  transition: width 300ms linear; }
-/* line 28, ../sass/_proekty-domov.scss */
-.projects #proekts .hid {
-  width: 0;
-  padding: 0; }
+/* line 4, ../sass/_proekty-domov.scss */
+.projects {
+  /*	.noUi-horizontal {
+  		height: 5px;
+  		margin: 5px;
+  	}
+  	.noUi-horizontal .noUi-handle {
+  		height: 12px;
+  	}
+  	.noUi-handle:after, .noUi-handle:before {
+  		top: 0px;
+  		height: 10px;
+  	}*/ }
+  /* line 5, ../sass/_proekty-domov.scss */
+  .projects .input > div {
+    width: 80%;
+    display: inline-block; }
+  /* line 9, ../sass/_proekty-domov.scss */
+  .projects .input > input {
+    width: 30%;
+    margin: 10px; }
+  /* line 24, ../sass/_proekty-domov.scss */
+  .projects #proekts .bl-pr {
+    margin: 15px 0;
+    transition: width 300ms linear; }
+  /* line 28, ../sass/_proekty-domov.scss */
+  .projects #proekts .hid {
+    width: 0;
+    padding: 0; }
 
 @media screen and (min-width: 992px) {
   /* line 34, ../sass/_proekty-domov.scss */
