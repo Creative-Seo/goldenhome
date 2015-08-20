@@ -19,6 +19,7 @@
 	<link rel="stylesheet" href="/css/lightGallery.css">
 	<link rel="stylesheet" href="/css/jquery.nouislider.min.css">
 	<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="/libs/bootstrap-material-design/dist/css/ripples.css">
 	<link href="/css/style.css" rel="stylesheet">
 <!-- /build -->
 	<script>
