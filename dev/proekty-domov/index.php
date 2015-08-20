@@ -13,7 +13,7 @@ $dirs = array ();
 	<h1 class="h1">Каталог проектов загородных домов и коттеджей</h1>
 	<p><a href="/obrazec-proekta/" style="padding: 10px 15px;">Образец проекта дома</a></p>
 <div class="row">
-	<div class="col-md-3 project-fixed" id="project-fixed">
+	<div class="col-md-3 col-lg-2 project-fixed1" id="project-fixed1">
 	<div class="row">
 		<div class="col-md-12">
 		<div class="col-md-12 form-inline input text-center"><label>Цена строительства, руб.: </label>
@@ -60,7 +60,7 @@ $dirs = array ();
 	</div>
 	</div>
 	
-	<div class="col-md-8 col-md-offset-4">
+	<div class="col-md-9 col-lg-10">
 	<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
 <?php
 $scans = scandir('./');

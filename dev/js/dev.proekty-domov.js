@@ -11,7 +11,7 @@ function update_proekts() {
 		if (!((form['slider1'][0].replace(/\s+/g,'')<=obj[0]*15000)&&(form['slider1'][1].replace(/\s+/g,'')>=obj[0]*15000)&&
 			(form['slider2'][0].replace(/\s+/g,'')<=obj[0])&&(+form['slider2'][1].replace(/\s+/g,'')>=obj[0])) ) {c = false;}
 		if (!((+(form['col-et']==obj[2])||(form['col-et']=='Не имеет значение'))&&((form['arch-st']==obj[3])||(form['arch-st']=='Не имеет значение')))) {c = false;}
-		if (form['checkbox'].length>0) {$.each(form['checkbox'], function(i,v){if ($.inArray(form['checkbox'][i],obj[4])==-1){$('h1').text(form['checkbox'][i]);c = false;}});}
+		if (form['checkbox'].length>0) {$.each(form['checkbox'], function(i,v){if ($.inArray(form['checkbox'][i],obj[4])==-1){c = false;}});}
 		if (c) {$(this).fadeIn().removeClass('hid');} else {$(this).fadeOut(300).addClass('hid');};
 	});
 }
@@ -70,7 +70,7 @@ $("#slider2").noUiSlider({
 $("#slider2").Link('lower').to($('#input3'));
 $("#slider2").Link('upper').to($('#input4'));
 
-$(window).scroll;
+/*$(window).scroll;
 $(window).scroll(function () {
 	var scroll = $(this).scrollTop(),
 		top = $('#project-fixed').parent().offset().top,
@@ -81,7 +81,7 @@ $(window).scroll(function () {
 		else if (scroll>bottom+top-100) {result=scroll-bottom;}
 			else {result=top-100;}
 	$('#project-fixed').css('bottom',result+'px');
-});
+});*/
 $( document ).ready(function() {
 	update_proekts();
 	$('input, select, #slider1, #slider2').bind('change keyup set',function (){

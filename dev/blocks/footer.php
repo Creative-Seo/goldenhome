@@ -86,28 +86,17 @@
 <script src="/js/helpers/jquery.fancybox-thumbs.js"></script> 
 <script src="/js/jquery.mousewheel-3.0.6.pack.js"></script>
 <script src="/js/jquery.nouislider.all.min.js"></script>
-<script src="/js/scripts.js"></script>
 <script src="/js/dev.proekty-domov.js"></script>
 <script src="/js/dev.dizayn.js"></script>
 <script src="/js/dev.homepage.js"></script>
 <script src="/js/dev.raschet-gazobetona.js"></script>
 <script src="/js/floating-labels.js"></script>
-<script src="/js/common.js"></script>
+<script src="/libs/bootstrap-material-design/dist/js/material.min.js"></script>
+<script src="/libs/bootstrap-material-design/dist/js/ripples.min.js"></script>
 <script src="/js/jquery.blindify.min.js"></script>
-<script type="text/javascript">
-        $(document).ready(function(){
-        $('#blindify').blindify({
-            numberOfBlinds: 10,
-            animationSpeed: 1200,
-            delayBetweenSlides: 600,
-            color: '#fff',
-            width: 550,
-            height: 500,
-            gap: 100,
-            margin: 1
-        });
-    });
-    </script>
+<script src="/js/scripts.js"></script>
+<script src="/js/common.js"></script>
+
 <!-- /build -->
 
 <!-- build:template
