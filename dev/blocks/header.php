@@ -22,7 +22,7 @@
 		<div class="col-md-3">
 			
 				<div class="topright">
-					<div class="topright-drag"><span class="topright-phone">+7 (4922) 37 73 90</span><br>
+					<div class="topright-drag"><span class="topright-phone">+7 (4922) <nobr> 37 73 90</nobr></span><br>
 						<a class="topright-button" href="javascript:void(0);" data-toggle="modal" data-target="#modal-zakaz">Заказать обратный звонок</a>
 					</div>
 				</div>
@@ -39,7 +39,7 @@
 	</div>
 </div>
 
-<?php if ($_SERVER['REQUEST_URI'] != '/') { ?>
+<?php if (($_SERVER['REQUEST_URI'] != '/')&&(!(stristr($_SERVER['REQUEST_URI'],'dizayn-proekty')))) { ?>
 <div class="container">
 	<div class="row">
 		
