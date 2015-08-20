@@ -1,7 +1,7 @@
 <!--header-->
 <header class="header container">
 	<div class="row">
-		<div class="col-md-3">
+		<div class="col-sm-5 col-md-3 col-lg-3">
 			<div class="header-logo">
 				<div class="header-sklogo">
 					<a href="/">
@@ -12,14 +12,12 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-3">
-		</div>
-		<div class="col-md-3">
+		<div class="col-sm-5 col-md-4 col-lg-3 col-xs-offset-2 col-sm-offset-2 col-md-offset-1 col-lg-offset-3">
 			<div class="adres-header">
 				г. Bлaдимиp, ул. Мира, д. 15 В, офис 12
 			</div>
 		</div>
-		<div class="col-md-3">
+		<div class="col-sm-5 col-md-4 col-lg-3 col-xs-offset-2 col-sm-offset-7 col-md-offset-0">
 			
 				<div class="topright">
 					<div class="topright-drag"><span class="topright-phone">+7 (4922) <nobr> 37 73 90</nobr></span><br>
