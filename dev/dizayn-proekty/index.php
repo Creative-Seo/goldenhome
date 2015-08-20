@@ -6,7 +6,7 @@
 include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
 
-<div class="dizayn"> 
+<div class="dizayn row"> 
    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 intro">
    
    <div class="headd2"><h1>Наше портфолио</h1></div>

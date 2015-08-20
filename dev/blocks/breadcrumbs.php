@@ -1,4 +1,4 @@
-      <div class="breadcrumb container">
+      <div class="breadcrumb">
         <span itemscope itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/" itemprop="url"><span itemprop="title">Главная</span></a></span>
         <span class="divider">&nbsp;<i class="fa fa-angle-right"></i>&nbsp;</span>
 <?php 
