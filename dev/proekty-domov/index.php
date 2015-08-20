@@ -49,13 +49,11 @@ $dirs = array ();
 			</select>
 		</div>
 		<div class="col-sm-3 col-sm-offset-3 col-md-9 col-md-offset-0"><label>Дополнительно: </label>
-			<ul class="list-unstyled">
-			<li class="togglebutton"><input type="checkbox" id="cb1" data_val="Гараж"> Гараж</li>
-			<li><input type="checkbox" id="cb2" data_val="Мансарда"> Мансарда</li>
-			<li><input type="checkbox" id="cb3" data_val="Терасса"> Терасса</li>
-			<li><input type="checkbox" id="cb4" data_val="Веранда"> Веранда</li>
-			<li><input type="checkbox" id="cb5" data_val="Цокольный этаж"> Цокольный этаж</li>
-			<ul>
+			<div class="checkbox"><label><input type="checkbox" id="cb1" data_val="Гараж"> Гараж</label></div>
+			<div class="checkbox"><label><input type="checkbox" id="cb2" data_val="Мансарда"> Мансарда</label></div>
+			<div class="checkbox"><label><input type="checkbox" id="cb3" data_val="Терасса"> Терасса</label></div>
+			<div class="checkbox"><label><input type="checkbox" id="cb4" data_val="Веранда"> Веранда</label></div>
+			<div class="checkbox"><label><input type="checkbox" id="cb5" data_val="Цокольный этаж"> Цокольный этаж</label></div>
 		</div>
 	</div>
 	</div>

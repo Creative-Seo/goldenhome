@@ -1,5 +1,6 @@
 $.material.init();
 $(document).ready(function(){
+	$.material.ripples('.nav a');
 	$('#blindify').blindify({
 		numberOfBlinds: 10,
 		animationSpeed: 1200,
