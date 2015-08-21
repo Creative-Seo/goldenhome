@@ -19,7 +19,7 @@ include($root."blocks/header.php");?>
 			<div class="col-sm-12">
                 <a href="<?php echo HTTP_SERVER;?>proekty-domov/nebolshie/" class="przag">Проекты до 150 кв.м.</a>
 			</div>
-<?php $class_block_proekt = 'col-sm-6 col-md-4 bl-pr';
+<?php $class_block_proekt = 'col-sm-6 col-md-3 sample shadow-z-1 bl-pr';
 include("../proekt-58-120/block.php");
 include("../proekt-56-135/block.php");
 include("../proekt-52-142/block.php");

@@ -15,7 +15,7 @@ $dirs = array ();
 <div class="row">
 	<div class="col-md-3 col-lg-3 project-fixed1" id="project-fixed1">
 	<div class="row">
-		<div class="col-md-10">
+		<div class="col-md-11 col-lg-10">
 		<div class="col-sm-6 col-md-12 form-inline input text-center"><label>Цена строительства, руб.: </label>
 			<div id="slider1"></div><input id="input1"> &mdash; <input id="input2">
 		</div>

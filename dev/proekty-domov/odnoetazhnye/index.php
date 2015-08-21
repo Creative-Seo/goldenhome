@@ -11,7 +11,7 @@ include($root."blocks/header.php");?>
 
           <h1>Проекты одноэтажных домов – дача, коттедж, загородный дом</h1>
 	<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
-<?php $class_block_proekt = 'col-sm-6 col-md-4 bl-pr';
+<?php $class_block_proekt = 'col-sm-6 col-md-3 sample shadow-z-1 bl-pr';
 include("../proekt-26-159/block.php");
 include("../proekt-15-240/block.php");
 include("../proekt-69-118/block.php");?>
