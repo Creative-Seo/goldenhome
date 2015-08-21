@@ -171,7 +171,8 @@ foreach($bd['expl'] as $row) { ?>
 <div class="container">
     <div class="row">
        <div class="h2">Похожие проекты:</div>
-<?php $len = count($dirs);
+<?php $class_block_proekt = 'col-sm-6 col-md-4 bl-pr';
+$len = count($dirs);
 foreach($dirs as $key => $row) { 
 	if (($dirs[$key-2] == $bd['nomer'])||($dirs[$key-1] == $bd['nomer'])||($dirs[$key+1] == $bd['nomer'])||($dirs[$key+2] == $bd['nomer'])||
 		(($dirs[0] == $bd['nomer'])&&(($key == $len-1)||($key == $len-2)))||(($dirs[1] == $bd['nomer'])&&($key == $len-1))||

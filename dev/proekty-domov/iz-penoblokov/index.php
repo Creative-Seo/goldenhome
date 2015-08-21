@@ -3,12 +3,12 @@
 <?php $keywords = 'проекты домов из пеноблоков, строительство домов из пеноблоков, дома из пеноблоков под ключ, дома из пеноблоков стоимость, строительство из пеноблоков';?>
 <?php $breadcrumb = 'Проекты домов из пеноблоков';?>
 <?php $breadcrumb2 = 'Проекты домов';?>
-<?php $root = '../';
+<?php $root = '../../';
 include($root."blocks/meta.php"); 
 include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."blocks/breadcrumbs.php");?>
+
           <h1>Проекты домов из пеноблоков</h1>
           
           <p class="article">
@@ -19,56 +19,57 @@ include($root."blocks/header.php");?>
 			<div class="col-sm-12">
                 <a href="<?php echo HTTP_SERVER;?>proekty-domov/nebolshie/" class="przag">Проекты до 150 кв.м.</a>
 			</div>
-                    <?php include("../proekt-58-120/block.php");?>
-                    <?php include("../proekt-56-135/block.php");?>
-                    <?php include("../proekt-52-142/block.php");?>
-                    <?php include("../proekt-50-110/block.php");?>
-                    <?php include("../proekt-41-125/block.php");?>
-                    <?php include("../proekt-39-125/block.php");?>
-                    <?php include("../proekt-24-142/block.php");?>
-                    <?php include("../proekt-21-115/block.php");?>
-                    <?php include("../proekt-19-125/block.php");?>
-                    <?php include("../proekt-17-115/block.php");?>
-                    <?php include("../proekt-16-140/block.php");?>
-                    <?php include("../proekt-09-100/block.php");?>
-                    <?php include("../proekt-05-146/block.php");?>
+<?php $class_block_proekt = 'col-sm-6 col-md-4 bl-pr';
+include("../proekt-58-120/block.php");
+include("../proekt-56-135/block.php");
+include("../proekt-52-142/block.php");
+include("../proekt-50-110/block.php");
+include("../proekt-41-125/block.php");
+include("../proekt-39-125/block.php");
+include("../proekt-24-142/block.php");
+include("../proekt-21-115/block.php");
+include("../proekt-19-125/block.php");
+include("../proekt-17-115/block.php");
+include("../proekt-16-140/block.php");
+include("../proekt-09-100/block.php");
+include("../proekt-05-146/block.php");?>
 			<div class="col-sm-12">
                  <a href="<?php echo HTTP_SERVER;?>proekty-domov/srednie/" class="przag">Проекты от 150 кв.м. до 250 кв.м.</a>
 			</div>
-                     <?php include("../proekt-57-212/block.php");?>
-                     <?php include("../proekt-55-220/block.php");?>
-                     <?php include("../proekt-54-160/block.php");?>
-                     <?php include("../proekt-47-248/block.php");?>
-                     <?php include("../proekt-49-179/block.php");?>
-                     <?php include("../proekt-46-161/block.php");?>
-                     <?php include("../proekt-45-163/block.php");?>
-                     <?php include("../proekt-44-193/block.php");?>
-                     <?php include("../proekt-34-177/block.php");?>
-                     <?php include("../proekt-31-250/block.php");?>
-                     <?php include("../proekt-08-178/block.php");?>
-                     <?php include("../proekt-30-172/block.php");?>
-                     <?php include("../proekt-28-162/block.php");?>
-                     <?php include("../proekt-26-159/block.php");?>
-                     <?php include("../proekt-25-235/block.php");?>
-                     <?php include("../proekt-25-152/block.php");?>
-                     <?php include("../proekt-23-154/block.php");?>
-                     <?php include("../proekt-22-150/block.php");?>
-                     <?php include("../proekt-03-165/block.php");?>
-                     <?php include("../proekt-20-224/block.php");?>
-                     <?php include("../proekt-18-227/block.php");?>
-                     <?php include("../proekt-15-240/block.php");?>
-                     <?php include("../proekt-14-220/block.php");?>
-                     <?php include("../proekt-11-200/block.php");?>
+<?php include("../proekt-57-212/block.php");
+include("../proekt-55-220/block.php");
+include("../proekt-54-160/block.php");
+include("../proekt-47-248/block.php");
+include("../proekt-49-179/block.php");
+include("../proekt-46-161/block.php");
+include("../proekt-45-163/block.php");
+include("../proekt-44-193/block.php");
+include("../proekt-34-177/block.php");
+include("../proekt-31-250/block.php");
+include("../proekt-08-178/block.php");
+include("../proekt-30-172/block.php");
+include("../proekt-28-162/block.php");
+include("../proekt-26-159/block.php");
+include("../proekt-25-235/block.php");
+include("../proekt-25-152/block.php");
+include("../proekt-23-154/block.php");
+include("../proekt-22-150/block.php");
+include("../proekt-03-165/block.php");
+include("../proekt-20-224/block.php");
+include("../proekt-18-227/block.php");
+include("../proekt-15-240/block.php");
+include("../proekt-14-220/block.php");
+include("../proekt-11-200/block.php");?>
 			<div class="col-sm-12">
                   <a href="<?php echo HTTP_SERVER;?>proekty-domov/bolshie/" class="przag">Проекты свыше 250 кв.м.</a>
             </div>
-                    <?php include("../proekt-53-320/block.php");?>
-                    <?php include("../proekt-48-255/block.php");?>
-                    <?php include("../proekt-40-325/block.php");?>
-                    <?php include("../proekt-12-260/block.php");?>
-                    <?php include("../proekt-07-353/block.php");?>
-                    <?php include("../proekt-04-295/block.php");?>
-                    <?php include("../proekt-01-300/block.php");?>
+<?php include("../proekt-53-320/block.php");
+include("../proekt-48-255/block.php");
+include("../proekt-40-325/block.php");
+include("../proekt-12-260/block.php");
+include("../proekt-07-353/block.php");
+include("../proekt-04-295/block.php");
+include("../proekt-01-300/block.php");?>
 
     </div>
         

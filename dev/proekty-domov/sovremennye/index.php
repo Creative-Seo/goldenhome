@@ -3,23 +3,24 @@
 <?php $keywords = 'проекты современных домов, проекты современных коттеджей, проект дома под ключ в современном стиле, проекта дома под ключ цена, проекты двухэтажных домов, проекты домов из газобетона, проект строительства дома, проект двухэтажного дома';?>
 <?php $breadcrumb = 'Современные';?>
 <?php $breadcrumb2 = 'Проекты домов';?>
-<?php $root = '../';
+<?php $root = '../../';
 include($root."blocks/meta.php"); 
 include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."blocks/breadcrumbs.php");?>
+
        <h1>Современные проекты загородных домов</h1>
 	<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
-                    <?php include("../proekt-57-212/block.php");?>
-                    <?php include("../proekt-56-135/block.php");?>
-                    <?php include("../proekt-54-160/block.php");?>
-                    <?php include("../proekt-47-248/block.php");?>
-                    <?php include("../proekt-46-161/block.php");?>
-                    <?php include("../proekt-45-163/block.php");?>
-                    <?php include("../proekt-40-325/block.php");?>
-                    <?php include("../proekt-31-250/block.php");?>
-                    <?php include("../proekt-30-172/block.php");?>
+<?php $class_block_proekt = 'col-sm-6 col-md-4 bl-pr';
+include("../proekt-57-212/block.php");
+include("../proekt-56-135/block.php");
+include("../proekt-54-160/block.php");
+include("../proekt-47-248/block.php");
+include("../proekt-46-161/block.php");
+include("../proekt-45-163/block.php");
+include("../proekt-40-325/block.php");
+include("../proekt-31-250/block.php");
+include("../proekt-30-172/block.php");?>
     </div>
         <article class="article">
           <h1>Загородные современные дома</h1>

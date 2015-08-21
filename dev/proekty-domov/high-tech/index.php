@@ -3,16 +3,17 @@
 <?php $keywords = 'Хай тек';?>
 <?php $breadcrumb = 'Хай тек';?>
 <?php $breadcrumb2 = 'Проекты домов';?>
-<?php $root = '../';
+<?php $root = '../../';
 include($root."blocks/meta.php"); 
 include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."blocks/breadcrumbs.php");?>
+
     <h1>Дома в стиле хай тек</h1>
 	<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
-                    <?php include("../proekt-63-186/block.php");?>
-                    <?php include("../proekt-56-135/block.php");?>
+<?php $class_block_proekt = 'col-sm-6 col-md-4 bl-pr'; 
+include("../proekt-63-186/block.php");
+include("../proekt-56-135/block.php");?>
     </div>
 	</section>
           <h2>Стиль хай тек</h2>
