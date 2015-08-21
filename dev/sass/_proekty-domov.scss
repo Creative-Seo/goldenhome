@@ -30,6 +30,44 @@
 		padding: 0;
 	}
 }
+.icon{
+	&-area {
+	  background: url("/proekty-domov/img/area.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	  background-size: cover;
+	}
+	&-jarea {
+	  background: url("/proekty-domov/img/jarea.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	  background-size: cover;
+	}
+	&-gabarit {
+	  background: url("/proekty-domov/img/gabarit.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	  background-size: cover;
+	}
+	&-srok {
+	  background: url("/proekty-domov/img/srok.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+	  background-size: cover;
+	}
+}
+.bl_prop {
+	width: 218px;
+	height: 125px;
+	position: relative;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+	&-area {
+		position: absolute;
+		top: 55px;
+		left: 50px;
+	}
+	&-plc {
+		font-size: 22px;
+		font-weight: 800;
+	}
+}
+
 @media screen and (min-width: 992px) {
 .project-fixed {position:fixed;}
 }

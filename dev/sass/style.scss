@@ -58,16 +58,9 @@ nav ul li a {font-size:14px; color:#31434e; text-transform:uppercase; font-weigh
   text-transform: uppercase;
 }
 .back {background-color:transparent;}
-.article p {line-height: 1.8em;}
-.article h1 {margin: 30px 0 30px 0;}
-.article {margin-bottom:40px; }
-
-.jumbotron {min-height: 25vh; max-width: 450px; background:none; padding:0; z-index: 100; margin-left:65px; line-height: 65px }
-.jumbotron p {font-weight: 400; font-size: 50px; color:#FFF;z-index: 100
-}
-.jumbotron p span {font-weight:bold; font-size:82px; color:#FFF;}
-@media screen and (max-width: 992px) {
-.jumbotron {min-height: 45vh; max-width: 100%;}
+.article {margin-bottom:40px;
+	p {line-height: 1.8em;}
+	h1 {margin: 30px 0 30px 0;}
 }
 
 .pricebl {
@@ -77,48 +70,12 @@ nav ul li a {font-size:14px; color:#31434e; text-transform:uppercase; font-weigh
   font-weight: bold;
   text-align: center;
 }
-.proekt .h1 {margin:10px 0 30px 15px; font-size: 32px;}
-
 .vr-line{padding:10px; margin-left:8px;border-left: 1px solid #dbdad7;}
-.proekt-thumb {display: block; float: left;}
-.proekt-thumb img {max-width: 130px;}
-.proekt .price {font-size: 24px; font-weight: 300;}
-.proekt .price span {font-size: 38px; font-weight: 800;}
-
-.blocks-area {
-  margin-top: 30px;
-}
-.block-prop {
-  width: 218px;
-  height: 125px;
-  position: relative;
-  text-align: center;
-  margin: 0 15px;
-}
-.area {
-  background: url("/proekty-domov/img/area.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-  background-size: cover;
-}
-.jarea {
-  background: url("/proekty-domov/img/jarea.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-  background-size: cover;
-}
-.gabarit {
-  background: url("/proekty-domov/img/gabarit.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-  background-size: cover;
-}
-.srok {
-  background: url("/proekty-domov/img/srok.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
-  background-size: cover;
-}
-.block-area {
-  position: absolute;
-  top: 55px;
-  left: 50px;
-}
-.plc {
-  font-size: 22px;
-  font-weight: 800;
+.proekt {
+	.h1 {margin:10px 0 30px 15px; font-size: 32px;}
+	.price {font-size: 24px; font-weight: 300;
+		span {font-size: 38px; font-weight: 800;}
+	}
 }
 
 .btn-zakaz {
@@ -134,10 +91,10 @@ nav ul li a {font-size:14px; color:#31434e; text-transform:uppercase; font-weigh
     text-align: center;
     text-decoration: none;
     font-weight: 700;
-}
-.btn-zakaz:hover {
-    background-position: 0 -168px;
-    text-decoration: none;
+	&:hover {
+		background-position: 0 -168px;
+		text-decoration: none;
+	}
 }
 
 .atrsul {

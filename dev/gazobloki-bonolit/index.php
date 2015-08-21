@@ -12,7 +12,7 @@ include($root."blocks/header.php");?>
   <h1>Газобетонные блоки Bonolit (Poritep)</h1>
   
 <div class="row" itemtype="http://schema.org/ItemList" itemscope>  
-<p><a href="stenovye-bloki/" class="zagbl">Стеновые блоки Bonolit</a></p>
+<p class="h3"><a href="stenovye-bloki/">Стеновые блоки Bonolit</a></p>
   <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
      <a itemprop="url" href="stenovye-bloki/d500-st200/"><img itemprop="image" class="img-responsive center-block" src="img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (200мм.)" width="150"></a>
@@ -51,7 +51,7 @@ include($root."blocks/header.php");?>
   </div>
 
 <div class="clearfix hidden-xs"></div>
-<p><a href="peremychki/" class="zagbl">U-образные блоки</a></p>
+<p class="h3"><a href="peremychki/">U-образные блоки</a></p>
   <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
      <a itemprop="url" href="peremychki/u-block-d500-st250/"><img itemprop="image" class="img-responsive center-block" src="img/u-bloki.jpg" alt="U-образные блоки Bonolit" width="180"></a>
@@ -90,7 +90,7 @@ include($root."blocks/header.php");?>
   </div>
 
 <div class="clearfix hidden-xs"></div>
-<p><a href="peregorodochnye-bloki/" class="zagbl">Перегородочные блоки Bonolit</a></p>
+<p class="h3"><a href="peregorodochnye-bloki/">Перегородочные блоки Bonolit</a></p>
   <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
      <a itemprop="url" href="peregorodochnye-bloki/d600-st100/"><img itemprop="image" class="img-responsive center-block" src="img/peregorodochnye-bloki.jpg" alt="Перегородочные газобетонные и газосиликатные блоки D600 (100мм.)" width="150"></a>
@@ -98,10 +98,9 @@ include($root."blocks/header.php");?>
      <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3600</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
-
-<div class="clearfix hidden-xs"></div>
-<a class="calculator" href="<?php echo HTTP_SERVER;?>raschet-gazobetona/" target="_blank">Рассчитайте стоимость</a>
 </div>
+<br>
+<a class="calculator" href="<?php echo HTTP_SERVER;?>raschet-gazobetona/" target="_blank">Рассчитайте стоимость</a>
 
   <p><img src="/image/bloki/banner.jpg" alt="Пеноблоки Блоки Bonolit (Бонолит)" align="right" style="margin:0 0 30px 30px;">Компания Golden Home &mdash; официальный партнер Bonolit во Владимире. Если Вам нужно построить жилой дом из газобетонных блоков или Вы просто хотите купить Bonolit &mdash; мы с радостью окажем Вам эту услугу! Наши специалисты ответят на любые вопросы, связанные со строительством малоэтажных домов или с покупкой необходимых строительных материалов.</p>
   <p>Внимание! Мы готовы предложить для вас блоки Bonolit по заводским ценам &mdash; 3500 руб/м<sup>3</sup>! Бесплатная доставка до Владимира при заказе от 32 м<sup>3</sup>.</p>

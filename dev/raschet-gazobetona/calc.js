@@ -41,7 +41,7 @@ $(document).ready(function(){
 
 	var calcDetail = $('#calc_detail').children();
 	if (calcDetail[0]) {
-		var resultBlock = $('#res'),
+		var resultBlock = $('#result'),
 			resultForm = resultBlock.children('form'),
 			resultFields = resultForm.children('input');
 		$('.calc_act_block').children().on(clickTrigger,function(){
