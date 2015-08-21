@@ -3,21 +3,22 @@
 <?php $keywords = 'Проекты домов с четырьмя спальнями';?>
 <?php $breadcrumb = 'С четырьмя спальнями';?>
 <?php $breadcrumb2 = 'Проекты домов';?>
-<?php $root = '../';
+<?php $root = '../../';
 include($root."blocks/meta.php"); 
 include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."blocks/breadcrumbs.php");?>
+
           <h1>Проекты домов и коттеджей с четырьмя спальнями</h1>
 	<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
-                    <?php include("../proekt-59-183/block.php");?>
-                    <?php include("../proekt-57-212/block.php");?>
-                    <?php include("../proekt-66-215/block.php");?>
-                    <?php include("../proekt-58-120/block.php");?>
-                    <?php include("../proekt-50-110/block.php");?>
-                    <?php include("../proekt-17-115/block.php");?>
-                    <?php include("../proekt-16-140/block.php");?>
+<?php $class_block_proekt = 'col-sm-6 col-md-4 bl-pr';
+include("../proekt-59-183/block.php");
+include("../proekt-57-212/block.php");
+include("../proekt-66-215/block.php");
+include("../proekt-58-120/block.php");
+include("../proekt-50-110/block.php");
+include("../proekt-17-115/block.php");
+include("../proekt-16-140/block.php");?>
     </div>
 </div>
 <?php include($root."blocks/footer.php");?>

@@ -3,7 +3,7 @@ if (isset($dirs)) {
 	$dirs[$nproekta] = array($ploshad,$jilyhkomnat,$etagi,$arhitekturnyyStil,$dopolnitelno);
 }
 ?>
-    <div class="col-sm-6 col-md-4 bl-pr" data-dir="<?php echo $nproekta;?>" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
+    <div class="<?php echo $class_block_proekt;?>" data-dir="<?php echo $nproekta;?>" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
       <div class="imgpr">
 		<a href="/proekty-domov/proekt-<?php echo $nproekta;?>/">
 			<img src="/proekty-domov/proekt-<?php echo $nproekta;?>/img/<?php echo $nproekta;?>.jpg" alt="" class="img-responsive">
