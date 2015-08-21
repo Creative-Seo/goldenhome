@@ -11,7 +11,7 @@ include($root."blocks/header.php");?>
 
     <h1>Проекты в классическом стиле</h1>
 	<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
-<?php $class_block_proekt = 'col-sm-6 col-md-4 bl-pr';
+<?php $class_block_proekt = 'col-sm-6 col-md-3 sample shadow-z-1 bl-pr';
 include("../proekt-73-245/block.php");
 include("../proekt-72-290/block.php");
 include("../proekt-71-143/block.php");

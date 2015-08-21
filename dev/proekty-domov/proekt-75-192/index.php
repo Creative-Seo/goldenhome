@@ -4,7 +4,7 @@
 <?php $bd = json_decode('{
 "breadcrumb": "Коттедж площадью 192,4 кв.м",
  "nomer": "75-192",
- "etazhey": "2",
+ "etazhey": "1",
  "h1": "Коттедж в современном стиле 75-192",
  "obshchayaPloshchad": "192,4 кв.м.",
  "zhilayaPloshchad": "81,5 кв.м.",
