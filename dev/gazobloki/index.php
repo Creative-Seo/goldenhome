@@ -7,9 +7,7 @@ include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."blocks/breadcrumbs.php");?>
   <h1>Купить газобетонные блоки во Владимире</h1>
-  
  
   <div class="col-md-6 col-sm-12 col-xs-12" style="margin-bottom:20px">
   <div class="ytong center-block">

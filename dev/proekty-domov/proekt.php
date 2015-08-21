@@ -55,27 +55,27 @@ foreach ($imgs as $row) { ?>
 <div class="container blocks-area">
     <div class="row">
       <div class="col-sm-6 col-md-3">
-        <div class="area block-prop center-block"><div class="block-area">
-           	<div class="pl">Общая площадь:</div>
-        	<div class="plc"><?php echo $bd['obshchayaPloshchad'];?></div>
+        <div class="icon-area bl_prop center-block"><div class="bl_prop-area">
+           	<div class="bl_prop-pl">Общая площадь:</div>
+        	<div class="bl_prop-plc"><?php echo $bd['obshchayaPloshchad'];?></div>
         </div></div>
       </div>  
       <div class="col-sm-6 col-md-3">  
-        <div class="area block-prop center-block"><div class="block-area">
-           	<div class="pl">Жилая площадь:</div>
-        	<div class="plc"><?php echo $bd['zhilayaPloshchad'];?></div>
+        <div class="icon-jarea bl_prop center-block"><div class="bl_prop-area">
+           	<div class="bl_prop-pl">Жилая площадь:</div>
+        	<div class="bl_prop-plc"><?php echo $bd['zhilayaPloshchad'];?></div>
         </div></div>
       </div>  
       <div class="col-sm-6 col-md-3">   
-        <div class="area block-prop center-block"><div class="block-area">
-           	<div class="pl">Габариты:</div>
-        	<div class="plc"><?php echo $bd['gabarity'];?></div>
+        <div class="icon-gabarit bl_prop center-block"><div class="bl_prop-area">
+           	<div class="bl_prop-pl">Габариты:</div>
+        	<div class="bl_prop-plc"><?php echo $bd['gabarity'];?></div>
         </div></div>
       </div>  
       <div class="col-sm-6 col-md-3">   
-        <div class="area block-prop center-block"><div class="block-area">
-           	<div class="pl">Срок постройки:</div>
-        	<div class="plc">от 3 месяцев</div>
+        <div class="icon-srok bl_prop center-block"><div class="bl_prop-area">
+           	<div class="bl_prop-pl">Срок постройки:</div>
+        	<div class="bl_prop-plc">от 3 месяцев</div>
         </div></div>
       </div>  
     </div>

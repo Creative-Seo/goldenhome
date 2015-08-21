@@ -50,11 +50,12 @@
 }
 .homepage {
 	.header {
-		background-color:rgba(0,0,0,0.5);
+		background-color:transparent;
 		&-logo {
 			background-color:transparent;
 		}
 	}
+	.adres-header {color:#fff;}
 	.navbar {
 		&-default {border: none;background-color: transparent;}
 		&-header {background-color:transparent;}
@@ -127,11 +128,16 @@ header::after {
 	padding:20px 25px 20px 25px;
 }
 }
-.child{height:40vh;}
+.child{height:40vh;
+	.jumbotron {padding:30px 0;}
+}
 .jumbotron {min-height: 25vh; max-width: 450px; background:none; padding:0; z-index: 100; margin-left:65px; line-height: 65px }
-.jumbotron p {font-weight: 400; font-size: 50px; color:#FFFFFF;font-family: 'PT Sans Narrow', sans-serif;z-index: 100}
-.jumbotron p span {font-weight:bold; font-size:82px; color:#FFFFFF;font-family: 'PT Sans Narrow', sans-serif;}
-.child .jumbotron { padding:30px 0}
+.jumbotron p {font-weight: 400; font-size: 50px; color:#FFF;font-family: 'PT Sans Narrow', sans-serif;z-index: 100}
+.jumbotron p span {font-weight:bold; font-size:82px; color:#FFF;font-family: 'PT Sans Narrow', sans-serif;}
+
+@media screen and (max-width: 992px) {
+.jumbotron {min-height: 45vh; max-width: 100%;}
+}
 
 #icons {
 	z-index: 1000;
