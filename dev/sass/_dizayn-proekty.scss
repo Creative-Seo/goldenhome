@@ -30,16 +30,6 @@
 		  padding: 0;
 		  position: relative;
 		}
-		.butn {
-		  box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.25);
-		  line-height: 1.6;
-		  margin-bottom: 0;
-		  padding: 15px 30px 20px;
-		  pointer-events: none;
-		  z-index: 1;
-		  letter-spacing: 0.2em;
-		  text-transform: lowercase
-		}
 	}
 	.intro{margin:0;padding:0;}
 	.cat-thumb{padding:20px;
@@ -56,6 +46,16 @@
 	  color: #FFF;
 	}
 	h1{font: 32px 'grundfos_thesans_ot5r', Arial, Helvetica, sans-serif;margin: 0 0 9px;}
+}
+.butn {
+	box-shadow: 0 0 5px 0 rgba(50, 50, 50, 0.25);
+	line-height: 1.6;
+	margin-bottom: 0;
+	padding: 15px 30px 20px;
+	pointer-events: none;
+	z-index: 1;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
 }
 .dizayn-project {
 	padding:0;

@@ -61,7 +61,7 @@ $dirs = array ();
 	<div class="col-md-9 col-lg-9">
 	<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
 <?php
-$class_block_proekt = 'col-sm-6 col-md-4 sample shadow-z-1 bl-pr';
+$class_block_proekt = 'col-sm-6 col-md-4 bl-pr';
 $scans = scandir('./');
 $nameTpl = '/proekt-/';
 if (false !== $scans) {

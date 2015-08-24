@@ -24,8 +24,8 @@ include($root."blocks/header.php");
 
 	<h1 itemprop="name"><?php echo $bd['h1'];?></h1>
 	<div class="row">
-		<div class="col-sm-7 col-md-8 col-lg-7"><div class="row">
-			<div class="col-md-9" itemscope itemtype="http://schema.org/ImageObject">
+		<div class="col-sm-7 col-md-8 col-lg-8"><div class="row">
+			<div class="col-md-9 col-lg-8" itemscope itemtype="http://schema.org/ImageObject">
 			<a class="fancybox" rel="gallery" href="/proekty-domov/proekt-<?php echo $bd['nomer'].'/img/'.$bd['nomer'];?>.jpg" title="Проект <?php echo $bd['nomer'];?>">
 				<img src="/proekty-domov/proekt-<?php echo $bd['nomer'].'/img/'.$bd['nomer'];?>.jpg" alt="<?php echo $bd['breadcrumb'];?>" class="img-responsive" title="Проект <?php echo $bd['nomer'];?>" itemprop="contentUrl">
 				<meta itemprop="name" content="Проект <?php echo $bd['nomer'];?>" />
@@ -34,7 +34,7 @@ include($root."blocks/header.php");
 <?php $imgs = [['-1.jpg','Передний фасад'],['-2.jpg','Задний фасад'],['-3.jpg','Правый фасад'],['-4.jpg','Левый фасад']];
 for($i=1; $i<=$bd['etazhey'];$i++) {array_push($imgs,['-'.$i.'e.jpg',$i.' этаж']);}
 foreach ($imgs as $row) { ?>
-			<div class="col-xs-4 col-md-3">
+			<div class="col-xs-4 col-md-3 col-lg-2">
 			<a  class="fancybox" rel="gallery" href="/proekty-domov/proekt-<?php echo $bd['nomer'].'/img/'.$bd['nomer'].$row[0];?>">
 				<img src="/proekty-domov/proekt-<?php echo $bd['nomer'].'/img/'.$bd['nomer'].$row[0];?>" alt="Проект <?php echo $bd['nomer'].' - '.$row[1];?>" title="Проект <?php echo $bd['nomer'].' - '.$row[1];?>" class="img-responsive">
 			</a>
@@ -171,7 +171,7 @@ foreach($bd['expl'] as $row) { ?>
 <div class="container">
     <div class="row">
        <div class="h2">Похожие проекты:</div>
-<?php $class_block_proekt = 'col-sm-6 col-md-3 sample shadow-z-1 bl-pr';
+<?php $class_block_proekt = 'col-sm-6 col-md-3 bl-pr';
 $len = count($dirs);
 foreach($dirs as $key => $row) { 
 	if (($dirs[$key-2] == $bd['nomer'])||($dirs[$key-1] == $bd['nomer'])||($dirs[$key+1] == $bd['nomer'])||($dirs[$key+2] == $bd['nomer'])||
