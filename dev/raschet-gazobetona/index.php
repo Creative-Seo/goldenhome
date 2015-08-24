@@ -50,13 +50,13 @@ include($root."blocks/header.php");?>
 					<label for="b8" class="calc-item calc-text col-lg-2 control-label">Толщина внутренних несущих стен, мм</label>
 					<div class="col-lg-10 calc-item calc-input">
 						<select class="form-control" id="b8">
-						<option value="0.2" selected="">200</option>
-						<option value="0.25">250</option>
-						<option value="0.3">300</option>
-						<option value="0.35">350</option>
-						<option value="0.375">375</option>
-						<option value="0.4">400</option>
-						<option value="0.5">500</option>
+							<option value="0.2" selected="">200</option>
+							<option value="0.25">250</option>
+							<option value="0.3">300</option>
+							<option value="0.35">350</option>
+							<option value="0.375">375</option>
+							<option value="0.4">400</option>
+							<option value="0.5">500</option>
 						</select>
 					</div>
 				</div>
@@ -64,91 +64,100 @@ include($root."blocks/header.php");?>
 					<label for="baffle_trigger" class="calc-item calc-text col-lg-2 control-label">Наличие перегородок</label>
 					<div class="col-lg-10 calc-item calc-input">
 						<select class="form-control" id="baffle_trigger">
-						<option value="0" selected="">Нет</option>
-						<option value="1">Есть</option>
+							<option value="0" selected="">Нет</option>
+							<option value="1">Есть</option>
 						</select>
 					</div>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<span id="baffle" style="display: none;">
-					<li class="calc-item calc-text">Общая длина перегородок, м</li>
-					<li class="calc-item calc-input">
-						<input type="text" id="b105">
-					</li>
-					<li class="calc-item calc-text">Толщина перегородок, мм</li>
-					<li class="calc-item calc-input">
-						<select id="b106">
+					<div class="form-group">
+						<label for="b105" class="calc-item calc-text col-lg-2 control-label">Общая длина перегородок, м</label>
+						<div class="col-lg-10 calc-item calc-input">
+							<input type="text" class="form-control" id="b105">
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="b106" class="calc-item calc-text col-lg-2 control-label">Толщина перегородок, мм</label>
+						<div class="col-lg-10 calc-item calc-input">
+							<select class="form-control" id="b106">
 							<option value="0.075" selected="">75</option>
 							<option value="0.1">100</option>
 							<option value="0.15">150</option>
 							<option value="0.2">200</option>
-						</select>
-					</li>
+							</select>
+						</div>
+					</div>
 				</span>
 			</div>
 		</div>
-		<ul class="inlinia floor first">
-			<li class="floor_name">
+		<div class="inlinia floor first">
+			<div class="floor_name col-md-12">
 				<h2>1 этаж</h2>
-			</li>
-			<li class="calc-item calc-text">Высота от пола до потолка, м</li>
-			<li class="calc-item calc-input">
-				<input type="text" class="floor_height">
-			</li>
-			<li class="calc-item calc-text floor_quant">Количество этажей данного типа</li>
-			<li class="calc-item calc-input floor_quant">
-				<input type="text" value="1" class="quant">
-			</li>
-			<li></li>
-			<li class="calc-item calc-text">Тип перекрытий</li>
-			<li class="calc-item calc-input">
-				<select class="floor_type_trigger">
-					<option value="0">Деревянные</option>
-					<option value="1">Другие</option>
-				</select>
-			</li>
-			<span class="floor_type">
-				<li></li>
-				<li class="calc-item calc-text">
-					Толщина блоков
-					<br>
-					в уровне перекрытия, мм
-				</li>
-				<li class="calc-item calc-input">
-					<select class="b78">
-						<option value="0.075" selected="">75</option>
-						<option value="0.1">100</option>
-						<option value="0.15">150</option>
-						<option value="0.2">200</option>
-						<option value="0.25">250</option>
-						<option value="0.3">300</option>
-						<option value="0.375">375</option>
-						<option value="0.4">400</option>
-						<option value="0.5">500</option>
-					</select>
-				</li>
-			</span>
-			<li> </li>
-			<li>
+			</div>
+			<div class="col-md-4">
+				<div class="form-group">
+					<label for="e1" class="calc-item calc-text col-lg-2 control-label">Высота от пола до потолка, м</label>
+					<div class="col-lg-10 calc-item calc-input">
+						<input type="text" class="form-control floor_height" id="e1">
+					</div>
+				</div>
+				<div class="form-group">
+					<label for="e2" class="calc-item calc-text col-lg-2 control-label floor_quant">Количество этажей данного типа</label>
+					<div class="col-lg-10 calc-item calc-input floor_quant">
+						<input type="text" class="quant form-control" id="e2" value="1">
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="form-group">
+					<label for="e3" class="calc-item calc-text col-lg-2 control-label">Тип перекрытий</label>
+					<div class="col-lg-10 calc-item calc-input">
+						<select class="form-control floor_type_trigger" id="e3">
+							<option value="0">Деревянные</option>
+							<option value="1">Другие</option>
+						</select>
+					</div>
+				</div>
+				<span class="floor_type">
+					<div class="form-group">
+						<label for="b78" class="calc-item calc-text col-lg-2 control-label ">Толщина блоков в уровне перекрытия, мм</label>
+						<div class="col-lg-10 calc-item calc-input ">
+							<select class="b78 form-control floor_type_trigger" id="b78">
+							<option value="0.075" selected="">75</option>
+							<option value="0.1">100</option>
+							<option value="0.15">150</option>
+							<option value="0.2">200</option>
+							<option value="0.25">250</option>
+							<option value="0.3">300</option>
+							<option value="0.375">375</option>
+							<option value="0.4">400</option>
+							<option value="0.5">500</option>
+							</select>
+						</div>
+					</div>
+				</span>
+			</div>
+			<div class="col-md-12">
 				<h4>Проёмы в наружных стенах</h4>
-			</li>
-			<li class="calc_act_block">
+			</div>
+			<div class="col-md-3 calc_act_block">
 				<a class="calc_act" data-type="outer" href="#">
 					добавить проём
 					<span>+</span>
 				</a>
-			</li>
-			<li>
+			</div>
+			<div class="col-md-12">
 				<h4>Проёмы во внутренних несущих стенах</h4>
-			</li>
-			<li class="calc_act_block">
+			</div>
+			<div class="col-md-3 calc_act_block">
 				<a class="calc_act" data-type="inner" href="#">
 					добавить проём
 					<span>+</span>
 				</a>
-			</li>
-		</ul>
+			</div>
+		</div>
 		<ul class="inlinia floor add_floor">
 			<li>
 				<button>

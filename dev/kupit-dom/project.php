@@ -1,13 +1,13 @@
 <?php
 $breadcrumb2 = 'Купить дом';
-$text = 'просмотр';$nomer = $breadcrumb;
-$root = '../../'
+$text = 'просмотр';
+$nomer = $breadcrumb;
+$root = '../../';
 include($root."blocks/meta.php");
 include($root."blocks/header.php");
 ?>
 
 <div class="container">
-<?php include($root."blocks/breadcrumbs.php");?>
 <h1><?php echo $breadcrumb; ?></h1>
 
 <div class="row" style="padding-bottom:18px">

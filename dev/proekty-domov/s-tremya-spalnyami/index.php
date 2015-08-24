@@ -11,7 +11,7 @@ include($root."blocks/header.php");?>
 
           <h1>Проекты домов и коттеджей с тремя спальнями</h1>
 	<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
-<?php $class_block_proekt = 'col-sm-6 col-md-3 sample shadow-z-1 bl-pr';
+<?php $class_block_proekt = 'col-sm-6 col-md-3 bl-pr';
 include("../proekt-69-118/block.php");
 include("../proekt-61-192/block.php");
 include("../proekt-62-153/block.php");

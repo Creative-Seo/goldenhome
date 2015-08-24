@@ -5,7 +5,7 @@ function SortS(a, b) {
 
 function update_proekts() {
 	re=new RegExp (form['select1'],"i");
-	$('#proekts .bl-pr').each(function (){
+	$('#block_proekt').each(function (){
 		var obj = dirs[$(this).attr('data-dir')];
 		var c = true;
 		if (!((form['slider1'][0].replace(/\s+/g,'')<=obj[0]*15000)&&(form['slider1'][1].replace(/\s+/g,'')>=obj[0]*15000)&&
@@ -31,7 +31,7 @@ function sort() {
 			a_sort = a_i.sort(SortS);break;
 	}
 	$(a_sort).each(function (){
-		$('#proekts').prepend($('#proekts .bl-pr[data-dir='+this+']'));
+		$('#proekts').prepend($('#block_proekt[data-dir='+this+']'));
 	});
 }
 

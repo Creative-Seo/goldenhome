@@ -8,7 +8,6 @@ define('HTTP_URL_IMG', HTTP_URL.'img/');
 $menu = json_decode('[
 {"name":"dropdown", "n": "Строительство", "li":[
 	{"name":"Строительство","url":"/stroitelstvo/"},
-	{"name":"Проекты домов","url":"/proekty-domov/"},
 	{"name":"Дома из газобетона","url":"/iz-gazobetona/"},
 	{"name":"Кирпичные дома","url":"/kirpichnye-doma/"},
 	{"name":"Фундамент","url":"/fundament/"},
@@ -16,6 +15,7 @@ $menu = json_decode('[
 	{"name":"Проект обоснования сметы","url":"/obrazec-proekta/"},
 	{"name":"Загородные дома","url":"/zagorodnye-doma/"}
 ]},
+{"name":"Проекты домов","url":"/proekty-domov/"},
 {"name":"Продажа домов","url":"/kupit-dom/"},
 {"name":"dropdown", "n": "Дизайн", "li":[
 	{"name":"Дизайн интерьера","url":"/dizayn-interera/"},
