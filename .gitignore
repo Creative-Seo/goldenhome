@@ -7,5 +7,5 @@ archive/
 node_modules/
 .sass-cache/
 dploy.yaml
-dev/css/style.css
 dev/css/header.css
+dev/css/style.css

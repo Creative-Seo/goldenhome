@@ -9,7 +9,7 @@ grunt.initConfig({
 		},
 		files: {
 		  'prod/css/style.min.css': ['dev/css/style.css', 'dev/css/jquery.fancybox.css', 'dev/css/jquery.bxslider.css', 'dev/libs/font-awesome/css/font-awesome.css'],
-		  'prod/css/header.min.css': ['dev/css/header.css'],
+		  'prod/css/header.min.css': ['dev/css/meta.css'],
 		}
 	  }
 	},

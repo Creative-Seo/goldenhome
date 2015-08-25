@@ -15,7 +15,7 @@
   
         <tr>
           <td class="opinions-l">
-            <a href="/image/opinions/1.jpg" rel="jquery-lightbox">
+            <a href="/image/opinions/1.jpg" class="fancybox-thumb" rel="group">
               <img src="/image/opinions/1s.jpg" alt="Отзыв">
             </a>
           </td><td class="opinions-r">
@@ -28,7 +28,7 @@
       
         <tr>
           <td class="opinions-l">
-            <a href="/image/opinions/2.jpg" rel="jquery-lightbox">
+            <a href="/image/opinions/2.jpg" class="fancybox-thumb" rel="group">
               <img src="/image/opinions/2s.jpg" alt="Отзыв">
             </a>
           </td><td class="opinions-r">
@@ -41,7 +41,7 @@
       
         <tr>
           <td class="opinions-l">
-            <a href="/image/opinions/3.jpg" rel="jquery-lightbox">
+            <a href="/image/opinions/3.jpg" class="fancybox-thumb" rel="group">
               <img src="/image/opinions/3s.jpg" alt="Отзыв">
             </a>
           </td><td class="opinions-r">
@@ -54,7 +54,7 @@
       
         <tr>
           <td class="opinions-l">
-            <a href="/image/opinions/4.jpg" rel="jquery-lightbox">
+            <a href="/image/opinions/4.jpg" class="fancybox-thumb" rel="group">
               <img src="/image/opinions/4s.jpg" alt="Отзыв">
             </a>
           </td><td class="opinions-r">
