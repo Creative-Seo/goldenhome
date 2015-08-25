@@ -1,4 +1,3 @@
-<?php $urlcan = 'http://www.sk-goldenhome.ru/prodazha-uchastkov/';?>
 <?php $title = 'Продажа земельных участков';?>
 <?php $description = '';?>
 <?php $keywords = '';?>

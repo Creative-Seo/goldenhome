@@ -27,7 +27,7 @@
  $krovlya = 'металлочерепица'; //Кровля
  $krysha = 'чердачная'; //Крыша
  $naruzhnayaOtdelka = 'штукатурка, камень'; //Наружная отделка
- $arhitekturnyyStil = '<a href="http://www.sk-goldenhome.ru/proekty-domov/classic/">классический</a>'; //Архитектурный стиль
+ $arhitekturnyyStil = '<a href="/proekty-domov/classic/">классический</a>'; //Архитектурный стиль
  $vtoroyEtazh = 'есть'; //Второй этаж есть?
  $expl1 = '<table class="table table-striped expl" >
                <tbody>

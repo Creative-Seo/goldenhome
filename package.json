@@ -25,5 +25,8 @@
     "grunt-wiredep": "latest",
     "grunt-xml-sitemap": "^0.2.0",
     "time-grunt": "latest"
+  },
+  "dependencies": {
+    "process-nextick-args": "^1.0.2"
   }
 }
