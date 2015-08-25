@@ -1,4 +1,4 @@
-      <ul class="nav navbar-nav topmenu">
+<ul class="nav navbar-nav topmenu">
 <?php foreach ($menu as $row) { ?>
 	<?php if ($row['name']=='dropdown') { ?>
 		<li class="dropdown topmenu-item">
@@ -6,12 +6,14 @@
 			<ul class="dropdown-menu">
 		<?php foreach ($row['li'] as $li) { 
 			if ($li["name"] == 'gr') { echo '<li class="divider"></li>';} else { ?>
-			<li <?php if ('/'.HTTP_ID == $li["url"]) {echo 'class="active"';}?>><a href="<?php echo $li["url"]; ?>"><span><?php echo $li["name"]; ?></span></a></li>
+				<li <?php if ('/'.HTTP_ID == $li["url"]) {echo 'class="active"';}?>>
+					<a href="<?php echo $li["url"]; ?>"><span><?php echo $li["name"]; ?></span></a>
+				</li>
 		<?php }} ?>
 			</ul>
 		</li>
-	<?php } else {?>
+	<?php } else { ?>
         <li class="topmenu-item"><a href="<?php echo $row["url"]; ?>"><span><?php echo $row["name"]; ?></span></a></li>
 	<?php } ?>
 <?php } ?>
-      </ul>
+</ul>

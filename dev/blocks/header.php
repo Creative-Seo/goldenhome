@@ -20,7 +20,7 @@
 		<div class="col-sm-5 col-md-4 col-lg-3 col-xs-offset-2 col-sm-offset-7 col-md-offset-0">
 			
 				<div class="topright">
-					<div class="topright-drag"><span class="topright-phone">+7 (4922) <nobr> 37 73 90</nobr></span><br>
+					<div class="topright-drag"><span class="topright-phone">+7 (4922)<nobr>&nbsp;37 73 90</nobr></span><br>
 						<a class="topright-button" href="javascript:void(0);" data-toggle="modal" data-target="#modal-zakaz">Заказать обратный звонок</a>
 					</div>
 				</div>
