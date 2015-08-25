@@ -7,7 +7,7 @@ define('HTTP_URL_IMG', HTTP_URL.'img/');
 
 $menu = json_decode('[
 {"name":"dropdown", "n": "Строительство", "li":[
-	{"name":"Строительство","url":"/stroitelstvo/"},
+	{"name":"Строительство","url":"/"},
 	{"name":"Дома из газобетона","url":"/iz-gazobetona/"},
 	{"name":"Кирпичные дома","url":"/kirpichnye-doma/"},
 	{"name":"Фундамент","url":"/fundament/"},
