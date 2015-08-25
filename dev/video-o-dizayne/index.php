@@ -13,7 +13,7 @@ include($root."blocks/header.php");?>
 
   <div class="row">
 	<div class="col-sm-6 col-md-4">
-        <a href="http://www.youtube.com/embed/KDnqKU5qJ5M?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Восьмой выпуск">
+        <a href="http://www.youtube.com/embed/KDnqKU5qJ5M?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Восьмой выпуск">
           <img src="/image/teasers_video/DuffxH2h-JM.jpg" alt="Восьмой выпуск">
           <span class="play"></span>
         </a>
@@ -23,7 +23,7 @@ include($root."blocks/header.php");?>
         </div>
     </div>
 	<div class="col-sm-6 col-md-4">
-        <a href="http://www.youtube.com/embed/PRfCai9m8as?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Седьмой выпуск">
+        <a href="http://www.youtube.com/embed/PRfCai9m8as?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Седьмой выпуск">
           <img src="/image/teasers_video/rU9gR-nYbYA.jpg" alt="Седьмой выпуск">
           <span class="play"></span>
         </a>
@@ -33,7 +33,7 @@ include($root."blocks/header.php");?>
         </div>
     </div>
 	<div class="col-sm-6 col-md-4">
-        <a href="http://www.youtube.com/embed/JmiiwbLcp7U?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Шестой выпуск">
+        <a href="http://www.youtube.com/embed/JmiiwbLcp7U?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Шестой выпуск">
           <img src="/image/teasers_video/0Ns0P7Sfn6w.jpg" alt="Шестой выпуск">
           <span class="play"></span>
         </a>
@@ -44,7 +44,7 @@ include($root."blocks/header.php");?>
     </div>
 	<div class="clearfix visible-md visible-lg"></div>
 	<div class="col-sm-6 col-md-4">
-        <a href="http://www.youtube.com/embed/0wBnPp6j73g?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Пятый выпуск">
+        <a href="http://www.youtube.com/embed/0wBnPp6j73g?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Пятый выпуск">
           <img src="/image/teasers_video/2CSBjM4PqHg.jpg" alt="Пятый выпуск">
           <span class="play"></span>
         </a>
@@ -54,7 +54,7 @@ include($root."blocks/header.php");?>
         </div>
     </div>
 	<div class="col-sm-6 col-md-4">
-        <a href="http://www.youtube.com/embed/5O8VLYuChSI?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Четвертый выпуск">
+        <a href="http://www.youtube.com/embed/5O8VLYuChSI?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Четвертый выпуск">
           <img src="/image/teasers_video/jn07U87CUNQ.jpg" alt="Четвертый выпуск">
           <span class="play"></span>
         </a>
@@ -64,7 +64,7 @@ include($root."blocks/header.php");?>
         </div>
     </div>
 	<div class="col-sm-6 col-md-4">
-        <a href="http://www.youtube.com/embed/r8r7_JX697o?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Третий выпуск">
+        <a href="http://www.youtube.com/embed/r8r7_JX697o?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Третий выпуск">
           <img src="/image/teasers_video/wCyrIPVGprU.jpg" alt="Третий выпуск">
           <span class="play"></span>
         </a>
@@ -75,7 +75,7 @@ include($root."blocks/header.php");?>
     </div>
 	<div class="clearfix visible-md visible-lg"></div>
 	<div class="col-sm-6 col-md-4">
-        <a href="http://www.youtube.com/embed/dk2OrZT5Wq4?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Второй выпуск">
+        <a href="http://www.youtube.com/embed/dk2OrZT5Wq4?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Второй выпуск">
           <img src="/image/teasers_video/xRZAe0vu_A4.jpg" alt="Второй выпуск">
           <span class="play"></span>
         </a>
@@ -85,7 +85,7 @@ include($root."blocks/header.php");?>
         </div>
     </div>
 	<div class="col-sm-6 col-md-4">
-        <a href="http://www.youtube.com/embed/A4ViKb1C6a8?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Первый выпуск">
+        <a href="http://www.youtube.com/embed/A4ViKb1C6a8?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Первый выпуск">
           <img src="/image/teasers_video/L8GR1kRWchE.jpg" alt="Первый выпуск">
           <span class="play"></span>
         </a>

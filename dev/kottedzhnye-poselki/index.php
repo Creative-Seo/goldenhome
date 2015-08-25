@@ -20,7 +20,7 @@ include($root."blocks/header.php");?>
             <li>Общественная зона: 0.2 га;</li>
             <li>Озеленение: 10.5 га;</li>
          </ul>
-         <a href="zapolskoe.jpg" rel="jquery-lightbox" title="План коттеджного поселка Запольское">
+         <a href="zapolskoe.jpg" class="fancybox-thumb" rel="group" title="План коттеджного поселка Запольское">
           <img class="center-block" src="zapolskoe.jpg" alt="План коттеджного поселка Запольское" title="План коттеджного поселка Запольское" width="600">
         </a>
         <div class="center-block" style="margin-top:10px; width:600px"><script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=cBYXJS9qceAWFNDwGdo9Fbuq9mSE50Hd&width=600&height=450"></script></div>
@@ -32,7 +32,7 @@ include($root."blocks/header.php");?>
             <li>Дорога, газ и электричество;</li>
             <li>Рядом рыбоводческое хозяйство с зоной отдыха и платной рыбалкой;</li>
          </ul>
-<a href="poselok-vasilkovo.jpg" rel="jquery-lightbox" title="План коттеджного поселка Васильково">
+<a href="poselok-vasilkovo.jpg" class="fancybox-thumb" rel="group" title="План коттеджного поселка Васильково">
           <img class="center-block" src="poselok-vasilkovo.jpg" alt="План коттеджного поселка Васильково" title="План коттеджного поселка Васильково" width="600">
         </a>
         <h2>Село Суворотское</h2>
@@ -42,7 +42,7 @@ include($root."blocks/header.php");?>
             <li>Земельные участки от 10 соток;</li>
             <li>Дорога, электричество (15 кВт);</li>
         </ul>
-<a href="selo-suvorotskoe.jpg" rel="jquery-lightbox" title="План коттеджного поселка Суворотское">
+<a href="selo-suvorotskoe.jpg" class="fancybox-thumb" rel="group" title="План коттеджного поселка Суворотское">
           <img class="center-block" src="selo-suvorotskoe.jpg" alt="План коттеджного поселка Суворотское" title="План коттеджного поселка Суворотское" width="600">
         </a>
         <div class="center-block" style="margin-top:10px; width:600px"><script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=Kg0kZUOncDTR6uYRHtuMSqepRlPCf7M0&width=600&height=450"></script></div>
@@ -53,7 +53,7 @@ include($root."blocks/header.php");?>
             <li>Рейсовый автобус № 152, маршрут через центр города;</li>
             <li>Дорога, газ, электричество;</li>
         </ul>
-<a href="poselok-oslavskoe-33.jpg" rel="jquery-lightbox" title="План коттеджного поселка Ославское 33">
+<a href="poselok-oslavskoe-33.jpg" class="fancybox-thumb" rel="group" title="План коттеджного поселка Ославское 33">
           <img class="center-block" src="poselok-oslavskoe-33.jpg" alt="План коттеджного поселка Ославское 33" title="План коттеджного поселка Ославское 33" width="600">
         </a>
         <div class="center-block" style="margin-top:10px; width:600px"><script type="text/javascript" charset="utf-8" src="//api-maps.yandex.ru/services/constructor/1.0/js/?sid=kUbjvGZqU-CdEZBo_D-nmEJLaLUUoHsa&width=600&height=450"></script></div>

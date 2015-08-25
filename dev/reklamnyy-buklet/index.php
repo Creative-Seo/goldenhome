@@ -12,7 +12,7 @@ include($root."blocks/header.php");?>
 	<div class="row">
 		<div class="col-xs-6 col-md-4">
           <div class="visual">
-            <a href="/image/magazine/booklet/big.jpg" rel="jquery-lightbox"><img src="/image/magazine/booklet/small.jpg" alt="Фотография журнала"></a>
+            <a href="/image/magazine/booklet/big.jpg" class="fancybox-thumb" rel="group"><img src="/image/magazine/booklet/small.jpg" alt="Фотография журнала"></a>
           </div>
           <p><b>Рекламный буклет</b></p>
           <div class="buttons-row">
