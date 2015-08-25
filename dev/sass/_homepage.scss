@@ -49,6 +49,11 @@
 	}
 }
 .homepage {
+	min-height:100vh;
+	.grey {background:none;color:#fff;height:30vh;}
+	.nav-wrapper {
+		background-color: transparent;
+	}
 	.header {
 		background-color:transparent;
 		&-logo {
@@ -72,18 +77,52 @@
 		&-button{
 			color: #fff;
 			&:hover, &:focus {color: #aaa;}
+		}
 	}
-}
-.topmenu{
-	&-item {
-		color:#000;
-		> span {
-		  border-bottom: 1px #000 solid;
+	.navbar-nav > li > a {
+		color: #fff;
+	}
+	.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+		background-color: transparent;
+		color: #fff;
+	}
+	.navbar .nav > li > a > span {border-bottom: none;}
+	.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+	  background-color: rgba(0,0,0,.2);
+	  border-color: #337ab7;
+	}
+	.dropdown-menu {
+		background-color: rgba(0,0,0,.7);
+		> li > a {
+			color: #ccc;
+			&:focus, &:hover {
+			  color: #fff;
+			  background-color: rgba(0,0,0,.2);
+			}
+		}
+	}
+	.top-content {max-height:122px;}
+	.phone {color:#fff;}
+	.adres {color:#fff;}
+	.back {background-color:transparent;}
+	.article {margin-bottom:40px;
+		p {line-height: 1.8em;}
+		h1 {margin: 30px 0 30px 0;}
+	}
+	.navbar .nav > li > a {
+		font-weight:700;
+		color:#fff !important;
+		padding:20px 25px 20px 25px;
+	}
+	.topmenu{
+		&-item {
+			color:#000;
+			> span {
+			  border-bottom: 1px #000 solid;
+			}
 		}
 	}
 }
-min-height:100vh;
-.grey {background:none;color:#fff;height:30vh;}
 header::after {
 	content: " ";
 	display: block;
@@ -99,35 +138,8 @@ header::after {
 	z-index: 100;
 	.in {background:rgba(0,0,0,0.8);}
 }
-.navbar .nav > li > a > span {border-bottom: none;}
-.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-  background-color: rgba(0,0,0,.2);
-  border-color: #337ab7;
-}
-.dropdown-menu {
-	background-color: rgba(0,0,0,.7);
-	> li > a {
-		color: #ccc;
-		&:focus, &:hover {
-		  color: #fff;
-		  background-color: rgba(0,0,0,.2);
-		}
-	}
-}
-.top-content {max-height:122px;}
-.phone {color:#fff;}
-.adres {color:#fff;}
-.back {background-color:transparent;}
-.article {margin-bottom:40px;
-	p {line-height: 1.8em;}
-	h1 {margin: 30px 0 30px 0;}
-}
-.navbar .nav > li > a {
-	font-weight:700;
-	color:#fff !important;
-	padding:20px 25px 20px 25px;
-}
-}
+
+
 .child{height:40vh;
 	.jumbotron {padding:30px 0;}
 }

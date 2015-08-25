@@ -8,7 +8,8 @@ grunt.initConfig({
 		  report: 'gzip'
 		},
 		files: {
-		  'prod/css/style.min.css': ['dev/css/style.css', 'dev/css/jquery.fancybox.css', 'dev/css/jquery.bxslider.css', 'dev/libs/font-awesome/css/font-awesome.css']
+		  'prod/css/style.min.css': ['dev/css/style.css', 'dev/css/jquery.fancybox.css', 'dev/css/jquery.bxslider.css', 'dev/libs/font-awesome/css/font-awesome.css'],
+		  'prod/css/header.min.css': ['dev/css/header.css'],
 		}
 	  }
 	},
@@ -28,7 +29,7 @@ grunt.initConfig({
 	uglify: {
 	  my_target: {
 		files: {
-			'prod/js/scripts.min.js': ['dev/libs/jquery/dist/jquery.min.js', 'dev/js/jquery.bxslider.min.js', 'dev/libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'dev/js/jquery.fancybox.js', 'dev/js/helpers/jquery.fancybox-thumbs.js', 'dev/js/jquery.mousewheel-3.0.6.pack.js', 'dev/js/jquery.maskedinput.min.js', 'dev/js/jquery.carouFredSel-6.1.0-packed.js', 'dev/js/common.js']
+			'prod/js/scripts.min.js': ['dev/libs/jquery/dist/jquery.min.js', 'dev/libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'dev/libs/bootstrap-material-design/dist/js/material.min.js', 'dev/libs/bootstrap-material-design/dist/js/ripples.min.js', 'dev/js/jquery.lightSlider.min.js',  'dev/js/lightGallery.js', 'dev/js/jquery.fancybox.pack.js', 'dev/js/helpers/jquery.fancybox-thumbs.js', 'dev/js/jquery.mousewheel-3.0.6.pack.js', 'dev/js/jquery.nouislider.all.min.js', 'dev/js/floating-labels.js', 'dev/js/jquery.blindify.min.js', 'dev/js/dev.proekty-domov.js', 'dev/js/dev.dizayn.js', 'dev/js/dev.raschet-gazobetona.js', 'dev/js/dev.homepage.js', 'dev/js/scripts.js', 'dev/js/common.js']
 		}
 	  }
 	},
@@ -46,8 +47,8 @@ grunt.initConfig({
 	},
 
 	copy: {
-		main: {files: [{expand: true, cwd: 'dev/', src: ['**/*.php', '!config.php', '.htaccess'], dest: 'prod/'},
-				{expand: true, cwd: 'dev/libs/**/fonts', src: ['**'], dest: 'prod/fonts'}]
+		main: {files: [{expand: true, cwd: 'dev/', src: ['**/*.php', '**/*.svg', 'config.php', '.htaccess'], dest: 'prod/'},
+				{expand: true, cwd: 'dev/libs/**/fonts', src: ['**'], dest: 'prod/fonts'},{expand: true, cwd: 'dev/libs/font-awesome/fonts/', src: ['**'], dest: 'prod/fonts'}]
 		}
 	},
 
@@ -60,7 +61,7 @@ grunt.initConfig({
 		files: [{                                   
 			expand: true,
 			cwd: 'prod/',
-			src: ['**/*.php', '*.php', '!config.php', '!**/var.php', '!var.php', '!email.php'],
+			src: ['**/*.php', '*.php', '!config.php', '!**/var.php', '!var.php', '!**/array.php', '!array.php', '!**/_menu.php', '!email.php'],
 			dest: 'prod/'     
 		}]
 	  }
@@ -149,7 +150,7 @@ grunt.initConfig({
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-include-replace');
     grunt.loadNpmTasks('grunt-processhtml');
-    grunt.loadNpmTasks('grunt-postcss');
+//    grunt.loadNpmTasks('grunt-postcss');
     grunt.loadNpmTasks('grunt-csso');
     grunt.loadNpmTasks('grunt-wiredep');
     grunt.loadNpmTasks('grunt-critical');
@@ -160,7 +161,7 @@ grunt.initConfig({
 	grunt.loadNpmTasks('grunt-contrib-csslint');
     
     grunt.registerTask('default', ['copy', 'processhtml', 'htmlmin']);
-    grunt.registerTask('all', ['csso', 'autoprefixer','uglify','copy', 'processhtml', 'htmlmin','imagemin']);
+    grunt.registerTask('all', ['csso', 'autoprefixer','uglify','copy', 'processhtml', 'htmlmin']);
     grunt.registerTask('css', ['csso', 'autoprefixer']);
 	grunt.registerTask('js', ['uglify']);
 	grunt.registerTask('php', ['copy', 'processhtml', 'htmlmin']);
