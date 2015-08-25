@@ -1,13 +1,4 @@
-dev/image/design_int/
-dev/image/faq/
-dev/image/index/
-dev/image/nashi-partnery/
-dev/image/projects/
-dev/image/sketch/
-dev/image/video/
-dev/image/magazine/
-dev/image/reports/
-dev/image/prodazha_domov/
+dev/image/
 *.mp4
 *.zip
 archive/
