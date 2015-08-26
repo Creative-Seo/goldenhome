@@ -31,7 +31,7 @@ function sort() {
 			a_sort = a_i.sort(SortS);break;
 	}
 	$(a_sort).each(function (){
-		$('#proekts').prepend($('#block_proekt[data-dir='+this+']'));
+		$('#proekts').prepend($('.block_proekt[data-dir='+this+']').parent());
 	});
 }
 
