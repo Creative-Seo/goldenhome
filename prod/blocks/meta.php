@@ -1,4 +1,4 @@
-<?php include_once($root."config.php");?><!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title><?php echo $title; ?></title><meta name="description" content="<?php echo $description; ?>"><meta name="keywords" content="<?php echo $keywords; ?>"><style>/*!
+<?php include_once($root."config.php");?><!DOCTYPE html><html lang="ru"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title><?php echo $title; ?></title><meta name="description" content="<?php echo $description; ?>"><meta name="keywords" content="<?php echo $keywords; ?>"><style>/*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
