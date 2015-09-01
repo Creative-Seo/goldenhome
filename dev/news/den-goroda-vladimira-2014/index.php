@@ -7,7 +7,6 @@ include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."blocks/breadcrumbs.php");?>
   <h1 class="h1_small">Силовой экстрим на дне города Владимира 2014</h1>
   
   <div class="center-block" style="text-align:center">

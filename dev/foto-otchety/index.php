@@ -7,10 +7,18 @@ include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."blocks/breadcrumbs.php");?>
   <h1>Фотоотчеты</h1>
 
-<div class="row">
+<div class="row news">
+    <div class="col-sm-6 col-md-3">
+        <a href="/news/den-goroda-vladimira-2015/" class="block-video">
+          <img src="/news/den-goroda-vladimira-2015/tiz.jpg" alt="Силовой экстрим на дне города Владимира 2015">
+        </a>
+        <div class="text-block">
+          <span><a href="/news/den-goroda-vladimira-2015/">Силовой экстрим на дне города Владимира 2015</a></span>
+		  <p>29 августа прошел турнир по силовому экстриму, посвященный дню города владимира. захватывающее шоу с участием сильнейших атлетов россии!!!</p>
+        </div>
+    </div>
     <div class="col-sm-6 col-md-3">
         <a href="/news/ivanovo-2015/" class="block-video">
           <img src="/news/ivanovo-2015/tiz.jpg" alt="Строительный праздник Иваново 2015">
@@ -36,6 +44,7 @@ include($root."blocks/header.php");?>
            <p>Наша компания приняла участие в выставке "Недвижимость 2014"</p>
         </div>
     </div>
+<div class="clearfix hidden-xs"></div>
     <div class="col-sm-6 col-md-3">
         <a href="ekstrim2014/" class="block-video">
           <img src="/image/teasers_article/report06.jpg" alt="Турнир по силовому экстриму, посвященный дню молодежи">
@@ -45,7 +54,6 @@ include($root."blocks/header.php");?>
           <p>Турнир прошел 28 июня 2014 года в 15:00, в парке 850-летия г. Владимира.</p>
         </div>
     </div>
-	<div class="clearfix visible-md visible-lg"></div>
     <div class="col-sm-6 col-md-3">
         <a href="village2014/" class="block-video">
           <img src="/image/teasers_article/report05.jpg" alt="Роуд-шоу YTONG">
@@ -73,6 +81,7 @@ include($root."blocks/header.php");?>
           <p>С&nbsp;12&nbsp;по&nbsp;14&nbsp;февраля 2014 года компания ООО &laquo;Голден Хоум&raquo; приняла участие в&nbsp;XVI&nbsp;МЕЖРЕГИОНАЛЬНОЙ ВЫСТАВКЕ &laquo;СТРОЙПРОГРЕСС&raquo; во&nbsp;Владимирском Экспоцентре.</p>
         </div>
     </div>
+<div class="clearfix hidden-xs"></div>
     <div class="col-sm-6 col-md-3">
         <a href="mosbuild2012/" class="block-video">
           <img src="/image/teasers_article/report02.jpg" alt="10-13 апреля 2012 MosBuild">
@@ -82,7 +91,6 @@ include($root."blocks/header.php");?>
           <p>С&nbsp;10&nbsp;по&nbsp;13&nbsp;апреля 2012 года на&nbsp;территории главной выставочной площадки Москвы&nbsp;&mdash; ЦВК &laquo;Экспоцентр&raquo;&nbsp;&mdash; прошла вторая неделя крупнейшей в&nbsp;Европе ежегодной международной строительной и&nbsp;интерьерной выставки MosBuild.</p>
         </div>
     </div>
-	<div class="clearfix visible-md visible-lg"></div>
     <div class="col-sm-6 col-md-3">
         <a href="roadshow2011/" class="block-video">
           <img src="/image/teasers_article/report01.jpg" alt="26-27 августа 2011 Road Show YTONG">

@@ -7,7 +7,6 @@ include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."blocks/breadcrumbs.php");?>
   <h1 class="h1_small">Турнир по силовому экстриму, посвященный дню молодежи</h1>
   <p>Турнир прошел 28 июня 2014 года в 15:00, в парке 850-летия г. Владимира.</p>
 
