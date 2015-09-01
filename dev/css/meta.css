@@ -9026,24 +9026,35 @@ select.form-control {
 
 /* line 212, ../sass/_header-bootstrap-material-design.scss */
 .noUi-horizontal {
-  height: 3px; }
+  height: 2px;
+  border-radius: 0;
+  height: 2px;
+  background: #c8c8c8; }
 
-/* line 216, ../sass/_header-bootstrap-material-design.scss */
+/* line 219, ../sass/_header-bootstrap-material-design.scss */
 .checkbox input[type=checkbox]:checked + .checkbox-material .check, .checkbox-default input[type=checkbox]:checked + .checkbox-material .check {
   color: #ffd400; }
 
-/* line 221, ../sass/_header-bootstrap-material-design.scss */
+/* line 222, ../sass/_header-bootstrap-material-design.scss */
+.noUi-target {
+  border: none; }
+
+/* line 225, ../sass/_header-bootstrap-material-design.scss */
+.noUi-handle-lower {
+  margin-top: -1px; }
+
+/* line 228, ../sass/_header-bootstrap-material-design.scss */
 .form-horizontal .checkbox {
   padding-top: 20px; }
 
-/* line 224, ../sass/_header-bootstrap-material-design.scss */
+/* line 231, ../sass/_header-bootstrap-material-design.scss */
 .checkbox {
   transform: translateZ(0); }
-  /* line 226, ../sass/_header-bootstrap-material-design.scss */
+  /* line 233, ../sass/_header-bootstrap-material-design.scss */
   .checkbox label {
     cursor: pointer;
     padding-left: 0; }
-  /* line 232, ../sass/_header-bootstrap-material-design.scss */
+  /* line 239, ../sass/_header-bootstrap-material-design.scss */
   .checkbox input[type=checkbox] {
     opacity: 0;
     position: absolute;
@@ -9054,12 +9065,12 @@ select.form-control {
     overflow: hidden;
     left: 0;
     pointer-events: none; }
-  /* line 244, ../sass/_header-bootstrap-material-design.scss */
+  /* line 251, ../sass/_header-bootstrap-material-design.scss */
   .checkbox .checkbox-material {
     vertical-align: middle;
     position: relative;
     top: 3px; }
-    /* line 248, ../sass/_header-bootstrap-material-design.scss */
+    /* line 255, ../sass/_header-bootstrap-material-design.scss */
     .checkbox .checkbox-material:before {
       display: block;
       position: absolute;
@@ -9073,7 +9084,7 @@ select.form-control {
       opacity: 0;
       margin: 0;
       transform: scale3d(2.3, 2.3, 1); }
-    /* line 263, ../sass/_header-bootstrap-material-design.scss */
+    /* line 270, ../sass/_header-bootstrap-material-design.scss */
     .checkbox .checkbox-material .check {
       position: relative;
       display: inline-block;
@@ -9083,7 +9094,7 @@ select.form-control {
       border-radius: 2px;
       overflow: hidden;
       z-index: 1; }
-    /* line 273, ../sass/_header-bootstrap-material-design.scss */
+    /* line 280, ../sass/_header-bootstrap-material-design.scss */
     .checkbox .checkbox-material .check:before {
       position: absolute;
       content: "";
@@ -9095,30 +9106,30 @@ select.form-control {
       height: 0;
       box-shadow: 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0, 0 0 0 0 inset;
       animation: checkbox-off 0.3s forwards; }
-  /* line 294, ../sass/_header-bootstrap-material-design.scss */
+  /* line 301, ../sass/_header-bootstrap-material-design.scss */
   .checkbox input[type=checkbox]:focus + .checkbox-material .check:after {
     opacity: 0.2; }
-  /* line 297, ../sass/_header-bootstrap-material-design.scss */
+  /* line 304, ../sass/_header-bootstrap-material-design.scss */
   .checkbox input[type=checkbox]:checked + .checkbox-material .check:before {
     box-shadow: 0 0 0 10px, 10px -10px 0 10px, 32px 0px 0 20px, 0px 32px 0 20px, -5px 5px 0 10px, 20px -12px 0 11px;
     animation: checkbox-on 0.3s forwards; }
-  /* line 308, ../sass/_header-bootstrap-material-design.scss */
+  /* line 315, ../sass/_header-bootstrap-material-design.scss */
   .checkbox input[type=checkbox]:not(:checked) + .checkbox-material:before {
     animation: rippleOff 500ms; }
-  /* line 311, ../sass/_header-bootstrap-material-design.scss */
+  /* line 318, ../sass/_header-bootstrap-material-design.scss */
   .checkbox input[type=checkbox]:checked + .checkbox-material:before {
     animation: rippleOn 500ms; }
-  /* line 316, ../sass/_header-bootstrap-material-design.scss */
+  /* line 323, ../sass/_header-bootstrap-material-design.scss */
   .checkbox input[type=checkbox]:not(:checked) + .checkbox-material .check:after {
     animation: rippleOff 500ms forwards; }
-  /* line 319, ../sass/_header-bootstrap-material-design.scss */
+  /* line 326, ../sass/_header-bootstrap-material-design.scss */
   .checkbox input[type=checkbox]:checked + .checkbox-material .check:after {
     animation: rippleOn 500ms forwards; }
-  /* line 324, ../sass/_header-bootstrap-material-design.scss */
+  /* line 331, ../sass/_header-bootstrap-material-design.scss */
   .checkbox input[type=checkbox][disabled]:not(:checked) ~ .checkbox-material .check:before,
   .checkbox input[type=checkbox][disabled] + .circle {
     opacity: 0.5; }
-  /* line 328, ../sass/_header-bootstrap-material-design.scss */
+  /* line 335, ../sass/_header-bootstrap-material-design.scss */
   .checkbox input[type=checkbox][disabled] + .checkbox-material .check:after {
     background-color: rgba(0, 0, 0, 0.84);
     transform: rotate(-45deg); }
@@ -9170,7 +9181,7 @@ select.form-control {
     opacity: 0.2; }
   100% {
     opacity: 0; } }
-/* line 457, ../sass/_header-bootstrap-material-design.scss */
+/* line 464, ../sass/_header-bootstrap-material-design.scss */
 select.form-control:focus, select.form-control.focus {
   border-color: #ffd400; }
 
