@@ -9,7 +9,7 @@ include($root."blocks/header.php");
 ?>
 
 <div class="container">
-<?php include($root."blocks/breadcrumbs.php");?>
+
           <h1>О компании Golden Home</h1>
           <p>Компания Golden Home была первой, кто начал во Владимирской области строить дома из блоков YTONG. Сейчас на ее счету более 100 домов в разных регионах Центральной России. На строительном рынке мы существуем с 2008 года, но мой личный опыт более 25 лет. За эти годы я строил дома из разных материалов, по различным технологиям, начиная от кирпича и бруса, заканчивая канадскими домами. Перепробовав все и освоив все, мы остановились именно на газобетоне.</p>   
           <p>В Европе YTONG применяют лет 80. Блоки идеальны для малоэтажного строительства. Дома получаются дешевле, экологичнее, энергосбережение на высоком уровне, а само строительство идет гораздо быстрее, чем при использовании других технологий.</p>
@@ -20,6 +20,6 @@ include($root."blocks/header.php");
          <div class="center-block" style="text-align:center">
          <iframe class="center-block" width="480" height="360" src="//www.youtube.com/embed/J2H3HxyBqpI" frameborder="0" allowfullscreen></iframe>
          <a href="http://www.youtube.com/watch?v=J2H3HxyBqpI" title="Строительная компания Golden Home" target="_blank">Строительная компания Golden Home</a><a href="http://www.youtube.com/user/33goldenhome" style="margin-left:10px" target="_blank" title="Наш канал на Youtube">Наш канал на Youtube</a> </div>
-         <a href="<?php echo HTTP_SERVER;?>/blog/">Блог</a>
+ <!--        <a href="<?php echo HTTP_SERVER;?>/blog/">Блог</a>-->
 </div>
 <?php include($root."blocks/footer.php");?>

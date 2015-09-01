@@ -33,7 +33,9 @@ a {
 li {
   list-style: outside none none;
 }
-
+.table {
+    width: initial;
+}
 nav ul li a {font-size:14px; color:#31434e; text-transform:uppercase; font-weight:400;}
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
     text-decoration: none;
