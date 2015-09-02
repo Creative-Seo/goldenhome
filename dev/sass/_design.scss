@@ -14,6 +14,9 @@
 					font-size:38px;
 					font-family: 'Open Sans Condensed', sans-serif;
 					font-weight:700;
+					a {
+						color: #333333;
+					}
 					
 			}
 		}
@@ -79,3 +82,17 @@
 .blindify ul,.blindify li{padding:0;margin:0;list-style:none}
 .blindify li{display:none}
 .blindify li.active{display:inline}
+
+//Отзывы
+
+.design-review {
+	background-color:#F3F3F3;
+	padding: 30px 30px 30px 60px;
+	&_text {
+		font-style:italic;
+		font-weight:400;
+		font-size:22px;
+	}
+}
+
+//Отзывы
