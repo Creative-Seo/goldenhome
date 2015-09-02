@@ -10,10 +10,10 @@
 	<meta name="description" content="<?php echo $description; ?>"/>
 	<meta name="keywords" content="<?php echo $keywords; ?>" />
 <!-- build:remove -->
-	<link href="/css/core.css" rel="stylesheet">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800,700italic,600italic,400italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,700,500,900&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
     <link href="/css/jquery.fancybox.css" rel="stylesheet">
 	<link rel="stylesheet" href="/css/lightSlider.css">
 	<link rel="stylesheet" href="/css/lightGallery.css">

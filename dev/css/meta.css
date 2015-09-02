@@ -9595,6 +9595,13 @@ header::after {
   #mouse-scroll .wheel {
     animation: 1.2s ease 0s normal none infinite running mouse-wheel; }
 
+/* line 222, ../sass/_homepage.scss */
+.tipvar {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+  text-transform: uppercase; }
+
 @keyframes mouse-scroll {
   0% {
     opacity: 0; }
@@ -9603,14 +9610,14 @@ header::after {
   100% {
     opacity: 1; } }
 @media screen and (max-width: 992px) {
-  /* line 228, ../sass/_homepage.scss */
+  /* line 234, ../sass/_homepage.scss */
   .grey {
     height: 60vh; } }
 @media screen and (max-width: 768px) {
-  /* line 231, ../sass/_homepage.scss */
+  /* line 237, ../sass/_homepage.scss */
   .nav-justified > li, .nav-tabs.nav-justified > li {
     float: left; }
 
-  /* line 232, ../sass/_homepage.scss */
+  /* line 238, ../sass/_homepage.scss */
   .grey {
     height: 10vh; } }
