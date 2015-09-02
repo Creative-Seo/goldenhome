@@ -13,7 +13,8 @@ $menu = json_decode('[
 	{"name":"Фундамент","url":"/fundament/"},
 	{"name":"Стоимость строительства","url":"/price/"},
 	{"name":"Проект обоснования сметы","url":"/obrazec-proekta/"},
-	{"name":"Загородные дома","url":"/zagorodnye-doma/"}
+	{"name":"Загородные дома","url":"/zagorodnye-doma/"},
+	{"name":"Фото объектов","url":"/foto-obektov/"}
 ]},
 {"name":"Проекты домов","url":"/proekty-domov/"},
 {"name":"Продажа домов","url":"/kupit-dom/"},

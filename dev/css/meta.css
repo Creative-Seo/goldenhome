@@ -9480,56 +9480,48 @@ header::after {
 /* line 143, ../sass/_homepage.scss */
 .child {
   height: 40vh; }
-  /* line 144, ../sass/_homepage.scss */
-  .child .jumbotron {
-    padding: 30px 0; }
 
 /* line 146, ../sass/_homepage.scss */
-.jumbotron {
+.homepage-jumbotron {
+  padding: 30px 0;
   min-height: 25vh;
-  max-width: 450px;
   background: none;
-  padding: 0;
   z-index: 100;
-  margin-left: 65px;
   line-height: 65px; }
-
-/* line 147, ../sass/_homepage.scss */
-.jumbotron p {
-  font-weight: 400;
-  font-size: 50px;
-  color: #FFF;
-  font-family: 'PT Sans Narrow', sans-serif;
-  z-index: 100; }
-
-/* line 148, ../sass/_homepage.scss */
-.jumbotron p span {
-  font-weight: bold;
-  font-size: 82px;
-  color: #FFF;
-  font-family: 'PT Sans Narrow', sans-serif; }
+  /* line 152, ../sass/_homepage.scss */
+  .homepage-jumbotron p {
+    font-weight: 400;
+    font-size: 50px;
+    color: #FFF;
+    font-family: 'PT Sans Narrow', sans-serif;
+    z-index: 100; }
+    /* line 158, ../sass/_homepage.scss */
+    .homepage-jumbotron p span {
+      font-weight: bold;
+      font-size: 82px;
+      color: #FFF;
+      font-family: 'PT Sans Narrow', sans-serif; }
 
 @media screen and (max-width: 992px) {
-  /* line 151, ../sass/_homepage.scss */
-  .jumbotron {
-    min-height: 45vh;
-    max-width: 100%; } }
-/* line 154, ../sass/_homepage.scss */
+  /* line 168, ../sass/_homepage.scss */
+  .homepage-jumbotron {
+    min-height: 45vh; } }
+/* line 171, ../sass/_homepage.scss */
 #icons {
   z-index: 1000;
   margin: auto;
   margin-bottom: 40px; }
-  /* line 158, ../sass/_homepage.scss */
+  /* line 175, ../sass/_homepage.scss */
   #icons a {
     opacity: 0.7;
     text-decoration: none;
     color: #fff  !important;
     text-transform: uppercase; }
-  /* line 159, ../sass/_homepage.scss */
+  /* line 176, ../sass/_homepage.scss */
   #icons .text {
     font-size: 16px;
     padding-top: 5px; }
-  /* line 160, ../sass/_homepage.scss */
+  /* line 177, ../sass/_homepage.scss */
   #icons .button {
     padding: 13px;
     white-space: nowrap;
@@ -9539,27 +9531,27 @@ header::after {
     font-size: 15px;
     visibility: hidden;
     display: none; }
-  /* line 161, ../sass/_homepage.scss */
+  /* line 178, ../sass/_homepage.scss */
   #icons .action a {
     opacity: 1; }
-  /* line 162, ../sass/_homepage.scss */
+  /* line 179, ../sass/_homepage.scss */
   #icons .action .button {
     visibility: visible; }
-  /* line 164, ../sass/_homepage.scss */
+  /* line 181, ../sass/_homepage.scss */
   #icons a:hover, #icons #icons a:focus {
     background: none; }
-  /* line 165, ../sass/_homepage.scss */
+  /* line 182, ../sass/_homepage.scss */
   #icons .button:hover {
     background-color: #779; }
 
-/* line 167, ../sass/_homepage.scss */
+/* line 184, ../sass/_homepage.scss */
 #mouse-scroll {
   bottom: 10px;
   left: 50%;
   margin: auto;
   position: absolute;
   z-index: 9999; }
-  /* line 173, ../sass/_homepage.scss */
+  /* line 190, ../sass/_homepage.scss */
   #mouse-scroll span {
     border-bottom: 2px solid #dddddd;
     border-right: 2px solid #dddddd;
@@ -9568,22 +9560,22 @@ header::after {
     margin: 0 0 3px 5px;
     transform: rotate(45deg);
     width: 5px; }
-  /* line 182, ../sass/_homepage.scss */
+  /* line 199, ../sass/_homepage.scss */
   #mouse-scroll .unu {
     margin-top: 6px; }
-  /* line 183, ../sass/_homepage.scss */
+  /* line 200, ../sass/_homepage.scss */
   #mouse-scroll .unu, #mouse-scroll .doi, #mouse-scroll .trei {
     animation: 1s ease 0s normal none infinite running mouse-scroll; }
-  /* line 184, ../sass/_homepage.scss */
+  /* line 201, ../sass/_homepage.scss */
   #mouse-scroll .unu {
     animation-delay: 0.1s; }
-  /* line 185, ../sass/_homepage.scss */
+  /* line 202, ../sass/_homepage.scss */
   #mouse-scroll .doi {
     animation-delay: 0.2s; }
-  /* line 186, ../sass/_homepage.scss */
+  /* line 203, ../sass/_homepage.scss */
   #mouse-scroll .trei {
     animation-delay: 0.3s; }
-  /* line 187, ../sass/_homepage.scss */
+  /* line 204, ../sass/_homepage.scss */
   #mouse-scroll .mouse {
     border: 2px solid #dddddd;
     border-radius: 10px;
@@ -9591,7 +9583,7 @@ header::after {
     top: 170px;
     transform: none;
     width: 14px; }
-  /* line 195, ../sass/_homepage.scss */
+  /* line 212, ../sass/_homepage.scss */
   #mouse-scroll .wheel {
     background: #dddddd none repeat scroll 0 0;
     display: block;
@@ -9599,7 +9591,7 @@ header::after {
     margin: 5px auto;
     position: relative;
     width: 2px; }
-  /* line 203, ../sass/_homepage.scss */
+  /* line 220, ../sass/_homepage.scss */
   #mouse-scroll .wheel {
     animation: 1.2s ease 0s normal none infinite running mouse-wheel; }
 
@@ -9611,14 +9603,14 @@ header::after {
   100% {
     opacity: 1; } }
 @media screen and (max-width: 992px) {
-  /* line 211, ../sass/_homepage.scss */
+  /* line 228, ../sass/_homepage.scss */
   .grey {
     height: 60vh; } }
 @media screen and (max-width: 768px) {
-  /* line 214, ../sass/_homepage.scss */
+  /* line 231, ../sass/_homepage.scss */
   .nav-justified > li, .nav-tabs.nav-justified > li {
     float: left; }
 
-  /* line 215, ../sass/_homepage.scss */
+  /* line 232, ../sass/_homepage.scss */
   .grey {
     height: 10vh; } }
