@@ -11,8 +11,8 @@ include($root."blocks/header.php");?>
     <div class="col-md-6 design_header">
       <h1>Дизайн студия <br> <span>Golden Home</span></h1>
       <ul>
-        <li>Портфолио</li>
-        <li>Прайс-лист</li>
+        <li><a href="/dizayn-proekty/">Портфолио</a></li>
+        <li><a href="/prays-na-dizayn-proekt/">Прайс-лист</a></li>
         <li>Отзывы</li>
       </ul>
     </div>
