@@ -7,7 +7,6 @@ include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
 
 <div class="container">
-<?php include($root."blocks/breadcrumbs.php");?>
   <h1 class="h1_small">Строительный праздник Иваново 2015</h1>
   
    <div id="container">

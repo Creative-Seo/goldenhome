@@ -140,15 +140,32 @@ header::after {
 }
 
 
-.child{height:40vh;
-	.jumbotron {padding:30px 0;}
-}
-.jumbotron {min-height: 25vh; max-width: 450px; background:none; padding:0; z-index: 100; margin-left:65px; line-height: 65px }
-.jumbotron p {font-weight: 400; font-size: 50px; color:#FFF;font-family: 'PT Sans Narrow', sans-serif;z-index: 100}
-.jumbotron p span {font-weight:bold; font-size:82px; color:#FFF;font-family: 'PT Sans Narrow', sans-serif;}
+.child{height:40vh;}
 
+.homepage{
+	&-jumbotron {
+		padding:30px 0;
+		min-height: 25vh;
+		background:none;
+		z-index: 100;
+		line-height: 65px;
+		p {
+			font-weight: 400;
+			font-size: 50px;
+			color:#FFF;
+			font-family: 'PT Sans Narrow', sans-serif;
+			z-index: 100;
+			span {
+				font-weight:bold;
+				font-size:82px;
+				color:#FFF;
+				font-family: 'PT Sans Narrow', sans-serif;
+			}
+		}
+	}
+}
 @media screen and (max-width: 992px) {
-.jumbotron {min-height: 45vh; max-width: 100%;}
+.homepage-jumbotron {min-height: 45vh;}
 }
 
 #icons {
