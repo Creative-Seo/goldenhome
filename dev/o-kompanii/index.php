@@ -20,6 +20,6 @@ include($root."blocks/header.php");
          <div class="center-block" style="text-align:center">
          <iframe class="center-block" width="480" height="360" src="//www.youtube.com/embed/J2H3HxyBqpI" frameborder="0" allowfullscreen></iframe>
          <a href="http://www.youtube.com/watch?v=J2H3HxyBqpI" title="Строительная компания Golden Home" target="_blank">Строительная компания Golden Home</a><a href="http://www.youtube.com/user/33goldenhome" style="margin-left:10px" target="_blank" title="Наш канал на Youtube">Наш канал на Youtube</a> </div>
- <!--        <a href="<?php echo HTTP_SERVER;?>/blog/">Блог</a>-->
+ <!--        <a href="//blog/">Блог</a>-->
 </div>
 <?php include($root."blocks/footer.php");?>

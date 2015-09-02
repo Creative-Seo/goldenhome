@@ -8,7 +8,6 @@
       <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
         <ul>
           <li><a href="/">Строительство</a></li>
-          <li><a href="/akcii/">Акции</a></li>
           <li><a href="/kupit-dom/">Продажа домов</a></li>
           <li><a href="/prodazha-uchastkov/">Продажа участков</a></li>
           <li><a href="/foto-obektov/">Фото объектов</a></li>

@@ -15,7 +15,7 @@ include($root."blocks/header.php");?>
 <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
 <?php echo $col_p2;?></div>
 
-<span class="h2 col-lg-12 col-md-12 col-sm-12 col-xs-12">Заказать <a href="<?php echo HTTP_SERVER; ?>dizayn-interera/">дизайн интерьера</a> вы можете позвонив по телефону +7(4922) 37-73-91</span>
+<span class="h2 col-lg-12 col-md-12 col-sm-12 col-xs-12">Заказать <a href="/dizayn-interera/">дизайн интерьера</a> вы можете позвонив по телефону +7(4922) 37-73-91</span>
 </div></div>
 <?php include("../block_img.php");?>
 

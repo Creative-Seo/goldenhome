@@ -7,7 +7,7 @@ include($root."blocks/header.php");?>
   <h1 itemprop="name"><?php echo $h1;?></h1>
 
 <div class="col-md-6">
-   <img class="img-responsive center-block" src="<?php echo HTTP_SERVER;?>gazobloki-ytong/img/blok-stenovoy-ytong.png" width="300" alt="Блок Ytong D500-500-250" itemprop="image">
+   <img class="img-responsive center-block" src="/gazobloki-ytong/img/blok-stenovoy-ytong.png" width="300" alt="Блок Ytong D500-500-250" itemprop="image">
 
 	<h2 class="descrbl feat">Доставка</h2>
 	   <p>В городе Владимир самовывоз со склада. Стоимость доставки по Владимирской области рассчитывается по километражу.</p>
