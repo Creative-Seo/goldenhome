@@ -14,14 +14,14 @@ include($root."blocks/header.php");?>
   <p>Независимо от технологии, алгоритм строительства дома остается постоянным. Вам, как будущему владельцу недвижимости, будет полезно его узнать.</p>
   <p>Для начала необходимо определиться с выбором участка и проектом дома. Вносить изменения на бумаге гораздо проще, чем на стройплощадке. Для наглядности можно заказать масштабную модель дома и участка. Не пожалейте времени и средств на этом этапе.</p>
 
-  <div class="slider"><div class="mask"><div class="slideset"><div class="slide"><ul><li><a href="img/img8.jpg" class="fancybox-thumb" rel="group" title="Строительство коттеджа за 3 месяца"><img src="img/img8s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
-<li><a href="img/img7.jpg" class="fancybox-thumb" rel="group" title="Строительство коттеджа за 3 месяца"><img src="img/img7s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
-<li><a href="img/img6.jpg" class="fancybox-thumb" rel="group" title="Строительство коттеджа за 3 месяца"><img src="img/img6s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
-<li><a href="img/img5.jpg" class="fancybox-thumb" rel="group" title="Строительство коттеджа за 3 месяца"><img src="img/img5s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
-<li><a href="img/img4.jpg" class="fancybox-thumb" rel="group" title="Строительство коттеджа за 3 месяца"><img src="img/img4s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
-<li><a href="img/img3.jpg" class="fancybox-thumb" rel="group" title="Строительство коттеджа за 3 месяца"><img src="img/img3s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
-<li><a href="img/img2.jpg" class="fancybox-thumb" rel="group" title="Строительство коттеджа за 3 месяца"><img src="img/img2s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
-<li><a href="img/img1.jpg" class="fancybox-thumb" rel="group" title="Строительство коттеджа за 3 месяца"><img src="img/img1s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
+  <div class="slider"><div class="mask"><div class="slideset"><div class="slide"><ul><li><a href="img/8.jpg" class="fancybox-thumb" rel="group" title="Строительство коттеджа за 3 месяца"><img src="img/8s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
+<li><a href="img/7.jpg" class="fancybox-thumb" rel="group" title="Строительство коттеджа за 3 месяца"><img src="img/7s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
+<li><a href="img/6.jpg" class="fancybox-thumb" rel="group" title="Строительство коттеджа за 3 месяца"><img src="img/6s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
+<li><a href="img/5.jpg" class="fancybox-thumb" rel="group" title="Строительство коттеджа за 3 месяца"><img src="img/5s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
+<li><a href="img/4.jpg" class="fancybox-thumb" rel="group" title="Строительство коттеджа за 3 месяца"><img src="img/4s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
+<li><a href="img/3.jpg" class="fancybox-thumb" rel="group" title="Строительство коттеджа за 3 месяца"><img src="img/3s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
+<li><a href="img/2.jpg" class="fancybox-thumb" rel="group" title="Строительство коттеджа за 3 месяца"><img src="img/2s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
+<li><a href="img/1.jpg" class="fancybox-thumb" rel="group" title="Строительство коттеджа за 3 месяца"><img src="img/1s.jpg" alt="Строительство коттеджа за 3 месяца"></a></li>
 </ul></div></div></div></div>
   <p>Этапы реализации проекта:</p>
   <ol>

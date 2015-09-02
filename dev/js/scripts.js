@@ -1,13 +1,24 @@
 $(document).ready(function() {
 	$('#myTab a').click(function (e) {e.preventDefault();$(this).tab('show');})
 	
-	$(".fancybox").fancybox({openEffect: 'none',closeEffect: 'none'});
+	$(".fancybox").fancybox({
+		openEffect: 'none',
+		closeEffect: 'none',
+		beforeShow : function() {
+			var alt = this.element.find('img').attr('alt');
+			if (alt) {this.inner.find('img').attr('alt', alt);this.title = alt;}
+		}
+	});
 
 	$(".fancybox-thumb").fancybox({
 		prevEffect	: 'none',
 		nextEffect	: 'none',
 		showNavArrows : 'true',
-		helpers	: {title: {type: 'outside'}, thumbs: {width: 50, height: 50}}
+		helpers	: {title: {type: 'outside'}, thumbs: {width: 50, height: 50}},
+		beforeShow : function() {
+			var alt = this.element.find('img').attr('alt');
+			if (alt) {this.inner.find('img').attr('alt', alt);this.title = alt;}
+		}
 	});
 
 	$('#print-buttom').click(function(e){

@@ -23,7 +23,7 @@ $text = 'блок';$nomer = $breadcrumb;?>
 <h1 itemprop="name"><?php echo $breadcrumb; ?></h1>
 <div class="row">
 <div class="col-md-6">
-    <img class="img-responsive center-block" src="<?php echo HTTP_SERVER.$bd['img']; ?>" alt="<?php echo $bd['alt']; ?>" itemprop="image">
+    <img class="img-responsive center-block" src="<?php echo '/'.$bd['img']; ?>" alt="<?php echo $bd['alt']; ?>" itemprop="image">
     <h2>Характеристики</h2>
     <ul class="atrsul" itemprop="propertiesList" itemscope itemtype="http://schema.org/ItemList">
 <?php foreach ($bd['table'] as $row) {?>
