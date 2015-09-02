@@ -10,7 +10,6 @@
 	<meta name="description" content="<?php echo $description; ?>"/>
 	<meta name="keywords" content="<?php echo $keywords; ?>" />
 <!-- build:remove -->
-	<link href="/css/core.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
