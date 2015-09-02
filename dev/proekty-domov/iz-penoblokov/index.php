@@ -17,7 +17,7 @@ include($root."blocks/header.php");?>
        
 	<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
 			<div class="col-sm-12">
-                <a href="<?php echo HTTP_SERVER;?>proekty-domov/nebolshie/" class="przag">Проекты до 150 кв.м.</a>
+                <a href="/proekty-domov/nebolshie/" class="przag">Проекты до 150 кв.м.</a>
 			</div>
 <?php $class_block_proekt = 'col-sm-6 col-md-3 bl-pr';
 include("../proekt-58-120/block.php");
@@ -34,7 +34,7 @@ include("../proekt-16-140/block.php");
 include("../proekt-09-100/block.php");
 include("../proekt-05-146/block.php");?>
 			<div class="col-sm-12">
-                 <a href="<?php echo HTTP_SERVER;?>proekty-domov/srednie/" class="przag">Проекты от 150 кв.м. до 250 кв.м.</a>
+                 <a href="/proekty-domov/srednie/" class="przag">Проекты от 150 кв.м. до 250 кв.м.</a>
 			</div>
 <?php include("../proekt-57-212/block.php");
 include("../proekt-55-220/block.php");
@@ -61,7 +61,7 @@ include("../proekt-15-240/block.php");
 include("../proekt-14-220/block.php");
 include("../proekt-11-200/block.php");?>
 			<div class="col-sm-12">
-                  <a href="<?php echo HTTP_SERVER;?>proekty-domov/bolshie/" class="przag">Проекты свыше 250 кв.м.</a>
+                  <a href="/proekty-domov/bolshie/" class="przag">Проекты свыше 250 кв.м.</a>
             </div>
 <?php include("../proekt-53-320/block.php");
 include("../proekt-48-255/block.php");
@@ -76,12 +76,12 @@ include("../proekt-01-300/block.php");?>
         <div>
           Смотрите также:
            <ul>
-              <li><a href="<?php echo HTTP_SERVER;?>proekty-domov/">Проекты домов и коттеджей</a></li>
-              <li><a href="<?php echo HTTP_SERVER;?>proekty-domov/iz-gazobetona/">Проекты домов из газобетона</a></li>
-              <li><a href="<?php echo HTTP_SERVER;?>proekty-domov/s-mansardoy/">Проекты домов с мансардой</a></li>
-              <li><a href="<?php echo HTTP_SERVER;?>proekty-domov/odnoetazhnye/">Проекты одноэтажных домов</a></li>
-              <li><a href="<?php echo HTTP_SERVER;?>proekty-domov/dvuhetazhnye/">Проекты двухэтажных домов</a></li>
-              <li><a href="<?php echo HTTP_SERVER;?>proekty-domov/trehetazhnye/">Проекты трехэтажных домов</a></li>
+              <li><a href="/proekty-domov/">Проекты домов и коттеджей</a></li>
+              <li><a href="/proekty-domov/iz-gazobetona/">Проекты домов из газобетона</a></li>
+              <li><a href="/proekty-domov/s-mansardoy/">Проекты домов с мансардой</a></li>
+              <li><a href="/proekty-domov/odnoetazhnye/">Проекты одноэтажных домов</a></li>
+              <li><a href="/proekty-domov/dvuhetazhnye/">Проекты двухэтажных домов</a></li>
+              <li><a href="/proekty-domov/trehetazhnye/">Проекты трехэтажных домов</a></li>
            </ul>
         </div>
 

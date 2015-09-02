@@ -2,6 +2,8 @@
 <?php $description = 'Студия дизайна интерьеров Golden Home представляет Вам портфолио работ: ознакомьтесь с нашими проектами и фото по дизайну интерьеров и экстерьеров домов, коттеджей и квартир.и';?>
 <?php $keywords = 'Дизайн-проекты, реализованные объекты, портфолио';?>
 <?php $breadcrumb = 'Портфолио';?>
+<?php $breadcrumb2 = 'Дизайн интерьера';?>
+<?php $breadcrumb2_url = 'dizayn-interera';?>
 <?php $root = '../';
 include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
@@ -60,7 +62,7 @@ include($root."blocks/header.php");?>
       </a>
    </div>
    <div class="project-thumb col-lg-6 col-md-6 col-sm-6 col-xs-12 intro">
-      <a href="/dizayn-proekty/dizayn-detskiy-komnaty/">
+      <a href="/dizayn-proekty/detskaya/">
       <figure class=" lazy animated zoomIn">
          <img src="/dizayn-proekty/detskaya/dizayn-detskoy-komnaty.jpg" class="img-responsive" alt="Дизайн детской комнаты"/>
       </figure>   

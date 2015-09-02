@@ -7,116 +7,107 @@ RewriteBase /
     RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
     RewriteRule ^index\.php$ http://www.sk-goldenhome.ru/ [R=301,L]
 
-Redirect 301 /dizayn-proekty/dizayn-detskiy-komnaty/ http://www.sk-goldenhome.ru/dizayn-proekty/detskaya
+Redirect 301 /dizayn-proekty/dizayn-detskiy-komnaty/ /dizayn-proekty/detskaya/
 
-Redirect 301 /page/contacts.html http://www.sk-goldenhome.ru/kontakty/
-Redirect 301 /page/stroitelstvo_domov.html http://www.sk-goldenhome.ru/stroitelstvo-domov-pod-klyuch/
-Redirect 301 /doma-pod-kluch/ http://www.sk-goldenhome.ru/stroitelstvo-domov-pod-klyuch/
-Redirect 301 /stroitelstvo-domov/ http://www.sk-goldenhome.ru/stroitelstvo-domov-pod-klyuch/
+Redirect 301 /page/contacts.html /kontakty/
+Redirect 301 /page/stroitelstvo_domov.html /stroitelstvo-domov-pod-klyuch/
+Redirect 301 /doma-pod-kluch/ /stroitelstvo-domov-pod-klyuch/
+Redirect 301 /stroitelstvo-domov/ /stroitelstvo-domov-pod-klyuch/
 
+Redirect 301 /page/projects.html /proekty-domov/
+Redirect 301 /page/prodazha_domov.html /kupit-dom/
+Redirect 301 /page/prodazha_uchastkov.html /prodazha-uchastkov/
+Redirect 301 /page/photo_obj.html /foto-obektov/
+Redirect 301 /page/faq.html /faq/
+Redirect 301 /page/price.html /price/
+Redirect 301 /page/sketch.html /obrazec-proekta/
+Redirect 301 /page/design_int.html /dizayn-interera/
+Redirect 301 /page/painting_int.html /rospis-intererov-i-fasadov/
+Redirect 301 /page/pictures.html /kartiny-na-holste/
+Redirect 301 /page/design_land.html /landshaftnyy-dizayn/
+Redirect 301 /page/remont.html /otdelka-doma/
+Redirect 301 /page/articles.html /stati/
+Redirect 301 /page/design_price.html /prays-na-dizayn-proekt/
+Redirect 301 /page/bloki.html /gazobloki/
+Redirect 301 /page/bloki_ytong.html /gazobloki-ytong/
+Redirect 301 /page/bloki_bonolit.html /gazobloki-bonolit/
+Redirect 301 /page/magazine.html /zhurnal-o-dizayne/
+Redirect 301 /page/video.html /video-o-dizayne/
+Redirect 301 /page/magazine.html?booklet /reklamnyy-buklet/
+Redirect 301 /page/team.html /nashi-sotrudniki/
+Redirect 301 /page/partners.html /nashi-partnery/
+Redirect 301 /page/opinions.html /otzyvy/
+Redirect 301 /page/youtube.html /video/
+Redirect 301 /page/reports.html /foto-otchety/
+Redirect 301 /page/news/15.html /news/15/
+Redirect 301 /page/reports/vlgu2014.html /vlgu2014/
+Redirect 301 /page/reports/stroiprogress2014.html /stroiprogress2014/
+Redirect 301 /page/reports/ekstrim2014.html /ekstrim2014/
+Redirect 301 /page/reports/mosbuild2012.html /mosbuild2012/
+Redirect 301 /page/reports/roadshow2011.html /roadshow2011/
+Redirect 301 /page/articles/land/07.html /stati/trava-u-doma/
+Redirect 301 /page/articles/land/06.html /stati/sady-i-parki-mira/
+Redirect 301 /page/articles/land/05.html /stati/peshkom-po-sadu/
+Redirect 301 /page/articles/land/04.html /stati/znakomtes-alpinariy/
+Redirect 301 /page/articles/land/03.html /stati/vodnoe-carstvo/
+Redirect 301 /page/articles/land/02.html /stati/vesennie-hlopoty/
+Redirect 301 /page/articles/land/01.html /stati/aprel-lenivyh-ne-lyubit/
+Redirect 301 /page/articles/paint/03.html /stati/kogda-steny-ozhivayut/
+Redirect 301 /page/articles/paint/02.html /stati/interer-v-stile-art/
+Redirect 301 /page/articles/paint/01.html /stati/studiya-graffiti/
+Redirect 301 /page/articles/remont/01.html /stati/mezhkomnatnye-peregorodki/
+Redirect 301 /page/articles/building/02.html /stati/stroitelstvo-kottedzha-za-3-mesyaca/
+Redirect 301 /page/articles/building/01.html /stati/istoriya-odnogo-doma/
+Redirect 301 /page/projects/55_220.html /proekty-domov/proekt-55-220/
+Redirect 301 /page/projects/15_240.html /proekty-domov/proekt-15-240/
+Redirect 301 /page/projects/01_300.html /proekty-domov/proekt-01-300/
+Redirect 301 /page/projects/58_120.html /proekty-domov/proekt-58-120/
+Redirect 301 /page/projects/57_212.html /proekty-domov/proekt-57-212/
+Redirect 301 /page/projects/56_135.html /proekty-domov/proekt-56-135/
+Redirect 301 /page/projects/54_160.html /proekty-domov/proekt-54-160/
+Redirect 301 /page/projects/53_320.html /proekty-domov/proekt-53-320/
+Redirect 301 /page/projects/52_142.html /proekty-domov/proekt-52-142/
+Redirect 301 /page/projects/50_110.html /proekty-domov/proekt-50-110/
+Redirect 301 /page/projects/49_179.html /proekty-domov/proekt-49-179/
+Redirect 301 /page/projects/48_255.html /proekty-domov/proekt-48-255/
+Redirect 301 /page/projects/47_248.html /proekty-domov/proekt-47-248/
+Redirect 301 /page/projects/46_161.html /proekty-domov/proekt-46-161/
+Redirect 301 /page/projects/45_163.html /proekty-domov/proekt-45-163/
+Redirect 301 /page/projects/44_193.html /proekty-domov/proekt-44-193/
+Redirect 301 /page/projects/41_125.html /proekty-domov/proekt-41-125/
+Redirect 301 /page/projects/40_325.html /proekty-domov/proekt-40-325/
+Redirect 301 /page/projects/39_125.html /proekty-domov/proekt-39-125/
+Redirect 301 /page/projects/34_177.html /proekty-domov/proekt-34-177/
+Redirect 301 /page/projects/31_250.html /proekty-domov/proekt-31-250/
+Redirect 301 /page/projects/30_172.html /proekty-domov/proekt-30-172/
+Redirect 301 /page/projects/28_162.html /proekty-domov/proekt-28-162/
+Redirect 301 /page/projects/26_159.html /proekty-domov/proekt-26-159/
+Redirect 301 /page/projects/25_235.html /proekty-domov/proekt-25-235/
+Redirect 301 /page/projects/25_112.html /proekty-domov/proekt-25-112/
+Redirect 301 /page/projects/24_142.html /proekty-domov/proekt-24-142/
+Redirect 301 /page/projects/23_154.html /proekty-domov/proekt-23-154/
+Redirect 301 /page/projects/22_150.html /proekty-domov/proekt-22-150/
+Redirect 301 /page/projects/21_115.html /proekty-domov/proekt-21-115/
+Redirect 301 /page/projects/20_224.html /proekty-domov/proekt-20-224/
+Redirect 301 /page/projects/19_125.html /proekty-domov/proekt-19-125/
+Redirect 301 /page/projects/18_227.html /proekty-domov/proekt-18-227/
+Redirect 301 /page/projects/17_115.html /proekty-domov/proekt-17-115/
+Redirect 301 /page/projects/16_140.html /proekty-domov/proekt-16-140/
+Redirect 301 /page/projects/14_220.html /proekty-domov/proekt-14-220/
+Redirect 301 /page/projects/12_260.html /proekty-domov/proekt-12-260/
+Redirect 301 /page/projects/11_200.html /proekty-domov/proekt-11-200/
+Redirect 301 /page/projects/09_100.html /proekty-domov/proekt-09-100/
+Redirect 301 /page/projects/08_178.html /proekty-domov/proekt-08-178/
+Redirect 301 /page/projects/07_353.html /proekty-domov/proekt-07-353/
+Redirect 301 /page/projects/05_146.html /proekty-domov/proekt-05-146/
+Redirect 301 /page/projects/04_295.html /proekty-domov/proekt-04-295/
+Redirect 301 /page/projects/03_165.html /proekty-domov/proekt-03-165/
+Redirect 301 /stroitelstvo-domov-pod-klyuch/kirpichnye-doma/ /kirpichnye-doma/ 
 
-Redirect 301 /page/projects.html http://www.sk-goldenhome.ru/proekty-domov/
-Redirect 301 /page/prodazha_domov.html http://www.sk-goldenhome.ru/kupit-dom/
-Redirect 301 /page/prodazha_uchastkov.html http://www.sk-goldenhome.ru/prodazha-uchastkov/
-Redirect 301 /page/photo_obj.html http://www.sk-goldenhome.ru/foto-obektov/
-Redirect 301 /page/faq.html http://www.sk-goldenhome.ru/faq/
-Redirect 301 /page/price.html http://www.sk-goldenhome.ru/price/
-Redirect 301 /page/sketch.html http://www.sk-goldenhome.ru/obrazec-proekta/
-Redirect 301 /page/design_int.html http://www.sk-goldenhome.ru/dizayn-interera/
-Redirect 301 /page/painting_int.html http://www.sk-goldenhome.ru/rospis-intererov-i-fasadov/
-Redirect 301 /page/pictures.html http://www.sk-goldenhome.ru/kartiny-na-holste/
-Redirect 301 /page/design_land.html http://www.sk-goldenhome.ru/landshaftnyy-dizayn/
-Redirect 301 /page/remont.html http://www.sk-goldenhome.ru/otdelka-doma/
-Redirect 301 /page/articles.html http://www.sk-goldenhome.ru/stati/
-Redirect 301 /page/design_price.html http://www.sk-goldenhome.ru/prays-na-dizayn-proekt/
-Redirect 301 /page/bloki.html http://www.sk-goldenhome.ru/gazobloki/
-Redirect 301 /page/bloki_ytong.html http://www.sk-goldenhome.ru/gazobloki-ytong/
-Redirect 301 /page/bloki_bonolit.html http://www.sk-goldenhome.ru/gazobloki-bonolit/
-Redirect 301 /page/magazine.html http://www.sk-goldenhome.ru/zhurnal-o-dizayne/
-Redirect 301 /page/video.html http://www.sk-goldenhome.ru/video-o-dizayne/
-Redirect 301 /page/magazine.html?booklet http://www.sk-goldenhome.ru/reklamnyy-buklet/
-Redirect 301 /page/team.html http://www.sk-goldenhome.ru/nashi-sotrudniki/
-Redirect 301 /page/partners.html http://www.sk-goldenhome.ru/nashi-partnery/
-Redirect 301 /page/opinions.html http://www.sk-goldenhome.ru/otzyvy/
-Redirect 301 /page/youtube.html http://www.sk-goldenhome.ru/video/
-Redirect 301 /page/reports.html http://www.sk-goldenhome.ru/foto-otchety/
-Redirect 301 /page/news/15.html http://www.sk-goldenhome.ru/news/15/
-Redirect 301 /page/reports/vlgu2014.html http://www.sk-goldenhome.ru/vlgu2014/
-Redirect 301 /page/reports/stroiprogress2014.html http://www.sk-goldenhome.ru/stroiprogress2014/
-Redirect 301 /page/reports/ekstrim2014.html http://www.sk-goldenhome.ru/ekstrim2014/
-Redirect 301 /page/reports/mosbuild2012.html http://www.sk-goldenhome.ru/mosbuild2012/
-Redirect 301 /page/reports/roadshow2011.html http://www.sk-goldenhome.ru/roadshow2011/
-Redirect 301 /page/articles/land/07.html http://www.sk-goldenhome.ru/stati/trava-u-doma/
-Redirect 301 /page/articles/land/06.html http://www.sk-goldenhome.ru/stati/sady-i-parki-mira/
-Redirect 301 /page/articles/land/05.html http://www.sk-goldenhome.ru/stati/peshkom-po-sadu/
-Redirect 301 /page/articles/land/04.html http://www.sk-goldenhome.ru/stati/znakomtes-alpinariy/
-Redirect 301 /page/articles/land/03.html http://www.sk-goldenhome.ru/stati/vodnoe-carstvo/
-Redirect 301 /page/articles/land/02.html http://www.sk-goldenhome.ru/stati/vesennie-hlopoty/
-Redirect 301 /page/articles/land/01.html http://www.sk-goldenhome.ru/stati/aprel-lenivyh-ne-lyubit/
-Redirect 301 /page/articles/paint/03.html http://www.sk-goldenhome.ru/stati/kogda-steny-ozhivayut/
-Redirect 301 /page/articles/paint/02.html http://www.sk-goldenhome.ru/stati/interer-v-stile-art/
-Redirect 301 /page/articles/paint/01.html http://www.sk-goldenhome.ru/stati/studiya-graffiti/
-Redirect 301 /page/articles/remont/01.html http://www.sk-goldenhome.ru/stati/mezhkomnatnye-peregorodki/
-Redirect 301 /page/articles/building/02.html http://www.sk-goldenhome.ru/stati/stroitelstvo-kottedzha-za-3-mesyaca/
-Redirect 301 /page/articles/building/01.html http://www.sk-goldenhome.ru/stati/istoriya-odnogo-doma/
-Redirect 301 /page/projects/55_220.html http://www.sk-goldenhome.ru/proekty-domov/proekt-55-220/
-Redirect 301 /page/projects/15_240.html http://www.sk-goldenhome.ru/proekty-domov/proekt-15-240/
-Redirect 301 /page/projects/01_300.html http://www.sk-goldenhome.ru/proekty-domov/proekt-01-300/
-Redirect 301 /page/projects/58_120.html http://www.sk-goldenhome.ru/proekty-domov/proekt-58-120/
-Redirect 301 /page/projects/57_212.html http://www.sk-goldenhome.ru/proekty-domov/proekt-57-212/
-Redirect 301 /page/projects/56_135.html http://www.sk-goldenhome.ru/proekty-domov/proekt-56-135/
-Redirect 301 /page/projects/54_160.html http://www.sk-goldenhome.ru/proekty-domov/proekt-54-160/
-Redirect 301 /page/projects/53_320.html http://www.sk-goldenhome.ru/proekty-domov/proekt-53-320/
-Redirect 301 /page/projects/52_142.html http://www.sk-goldenhome.ru/proekty-domov/proekt-52-142/
-Redirect 301 /page/projects/50_110.html http://www.sk-goldenhome.ru/proekty-domov/proekt-50-110/
-Redirect 301 /page/projects/49_179.html http://www.sk-goldenhome.ru/proekty-domov/proekt-49-179/
-Redirect 301 /page/projects/48_255.html http://www.sk-goldenhome.ru/proekty-domov/proekt-48-255/
-Redirect 301 /page/projects/47_248.html http://www.sk-goldenhome.ru/proekty-domov/proekt-47-248/
-Redirect 301 /page/projects/46_161.html http://www.sk-goldenhome.ru/proekty-domov/proekt-46-161/
-Redirect 301 /page/projects/45_163.html http://www.sk-goldenhome.ru/proekty-domov/proekt-45-163/
-Redirect 301 /page/projects/44_193.html http://www.sk-goldenhome.ru/proekty-domov/proekt-44-193/
-Redirect 301 /page/projects/41_125.html http://www.sk-goldenhome.ru/proekty-domov/proekt-41-125/
-Redirect 301 /page/projects/40_325.html http://www.sk-goldenhome.ru/proekty-domov/proekt-40-325/
-Redirect 301 /page/projects/39_125.html http://www.sk-goldenhome.ru/proekty-domov/proekt-39-125/
-Redirect 301 /page/projects/34_177.html http://www.sk-goldenhome.ru/proekty-domov/proekt-34-177/
-Redirect 301 /page/projects/31_250.html http://www.sk-goldenhome.ru/proekty-domov/proekt-31-250/
-Redirect 301 /page/projects/30_172.html http://www.sk-goldenhome.ru/proekty-domov/proekt-30-172/
-Redirect 301 /page/projects/28_162.html http://www.sk-goldenhome.ru/proekty-domov/proekt-28-162/
-Redirect 301 /page/projects/26_159.html http://www.sk-goldenhome.ru/proekty-domov/proekt-26-159/
-Redirect 301 /page/projects/25_235.html http://www.sk-goldenhome.ru/proekty-domov/proekt-25-235/
-Redirect 301 /page/projects/25_112.html http://www.sk-goldenhome.ru/proekty-domov/proekt-25-112/
-Redirect 301 /page/projects/24_142.html http://www.sk-goldenhome.ru/proekty-domov/proekt-24-142/
-Redirect 301 /page/projects/23_154.html http://www.sk-goldenhome.ru/proekty-domov/proekt-23-154/
-Redirect 301 /page/projects/22_150.html http://www.sk-goldenhome.ru/proekty-domov/proekt-22-150/
-Redirect 301 /page/projects/21_115.html http://www.sk-goldenhome.ru/proekty-domov/proekt-21-115/
-Redirect 301 /page/projects/20_224.html http://www.sk-goldenhome.ru/proekty-domov/proekt-20-224/
-Redirect 301 /page/projects/19_125.html http://www.sk-goldenhome.ru/proekty-domov/proekt-19-125/
-Redirect 301 /page/projects/18_227.html http://www.sk-goldenhome.ru/proekty-domov/proekt-18-227/
-Redirect 301 /page/projects/17_115.html http://www.sk-goldenhome.ru/proekty-domov/proekt-17-115/
-Redirect 301 /page/projects/16_140.html http://www.sk-goldenhome.ru/proekty-domov/proekt-16-140/
-Redirect 301 /page/projects/14_220.html http://www.sk-goldenhome.ru/proekty-domov/proekt-14-220/
-Redirect 301 /page/projects/12_260.html http://www.sk-goldenhome.ru/proekty-domov/proekt-12-260/
-Redirect 301 /page/projects/11_200.html http://www.sk-goldenhome.ru/proekty-domov/proekt-11-200/
-Redirect 301 /page/projects/09_100.html http://www.sk-goldenhome.ru/proekty-domov/proekt-09-100/
-Redirect 301 /page/projects/08_178.html http://www.sk-goldenhome.ru/proekty-domov/proekt-08-178/
-Redirect 301 /page/projects/07_353.html http://www.sk-goldenhome.ru/proekty-domov/proekt-07-353/
-Redirect 301 /page/projects/05_146.html http://www.sk-goldenhome.ru/proekty-domov/proekt-05-146/
-Redirect 301 /page/projects/04_295.html http://www.sk-goldenhome.ru/proekty-domov/proekt-04-295/
-Redirect 301 /page/projects/03_165.html http://www.sk-goldenhome.ru/proekty-domov/proekt-03-165/
-Redirect 301 /stroitelstvo-domov-pod-klyuch/kirpichnye-doma/ http://www.sk-goldenhome.ru/kirpichnye-doma/ 
+Redirect 301 /stroitelstvo-domov-pod-klyuch/zagorodnye-doma/ /zagorodnye-doma/
 
-Redirect 301 /stroitelstvo-domov-pod-klyuch/zagorodnye-doma/ http://www.sk-goldenhome.ru/zagorodnye-doma/
-
-Redirect 301 /stroitelstvo-domov-pod-klyuch/doma-iz-gazobetona/ http://www.sk-goldenhome.ru/iz-gazobetona/ 
-Redirect 301 /stroitelstvo-domov-pod-klyuch/ http://www.sk-goldenhome.ru
-
-
-
-
-
-
-
-
+Redirect 301 /stroitelstvo-domov-pod-klyuch/doma-iz-gazobetona/ /iz-gazobetona/ 
+Redirect 301 /stroitelstvo-domov-pod-klyuch/ /
 
 
 <IfModule mod_setenvif.c>
@@ -161,37 +152,25 @@ AddDefaultCharset UTF-8
 <IfModule mod_expires.c>
 
 Header append Cache-Control "public"
-
 FileETag MTime Size
-
 ExpiresActive On
-
 ExpiresDefault "access plus 0 minutes"
 
 ExpiresByType image/ico "access plus 1 years"
-
 ExpiresByType text/css "access plus 1 years"
-
 ExpiresByType text/javascript "access plus 1 years"
-
 ExpiresByType image/gif "access plus 1 years"
-
 ExpiresByType image/jpg "access plus 1 years"
-
 ExpiresByType image/jpeg "access plus 1 years"
-
 ExpiresByType image/bmp "access plus 1 years"
-
 ExpiresByType image/png "access plus 1 years"
 
 </IfModule>
 
 <IfModule mod_headers.c>
 <FilesMatch "\.(js|css|xml|gz|html)$">
-   Header append Vary: Accept-Encoding
+	Header append Vary: Accept-Encoding
 </FilesMatch>
 </IfModule>
 
 ErrorDocument 404 /404/index.php
-
-

@@ -100,7 +100,7 @@ include($root."blocks/header.php");?>
   </div>
 </div>
 <br>
-<a class="calculator" href="<?php echo HTTP_SERVER;?>raschet-gazobetona/" target="_blank">Рассчитайте стоимость</a>
+<a class="calculator" href="/raschet-gazobetona/" target="_blank">Рассчитайте стоимость</a>
 
   <p><img src="/image/bloki/banner.jpg" alt="Пеноблоки Блоки Bonolit (Бонолит)" align="right" style="margin:0 0 30px 30px;">Компания Golden Home &mdash; официальный партнер Bonolit во Владимире. Если Вам нужно построить жилой дом из газобетонных блоков или Вы просто хотите купить Bonolit &mdash; мы с радостью окажем Вам эту услугу! Наши специалисты ответят на любые вопросы, связанные со строительством малоэтажных домов или с покупкой необходимых строительных материалов.</p>
   <p>Внимание! Мы готовы предложить для вас блоки Bonolit по заводским ценам &mdash; 3800 руб/м<sup>3</sup>! Бесплатная доставка до Владимира при заказе от 32 м<sup>3</sup>.</p>
