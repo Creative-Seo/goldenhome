@@ -1,3 +1,7 @@
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+    border-color: transparent;
+}
 .navbar-nav {
     margin: 0;
 }

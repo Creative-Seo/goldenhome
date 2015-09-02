@@ -14,7 +14,7 @@ include($root."blocks/header.php");?>
   <h2 class="headline" style="margin-top:30px;">О строительстве домов</h2>
   <div class="row">
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/GOEsIPkrn8w?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="MosBuild 2012">
+        <a href="http://www.youtube.com/embed/GOEsIPkrn8w?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="MosBuild 2012">
           <img src="/image/teasers_video/MosBuild.jpg" alt="MosBuild 2012">
           <span class="play"></span>
         </a>
@@ -23,7 +23,7 @@ include($root."blocks/header.php");?>
         </div>
     </div>
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/PM4JXI110Yw?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Строительство домов будущего">
+        <a href="http://www.youtube.com/embed/PM4JXI110Yw?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Строительство домов будущего">
           <img src="/image/teasers_video/PM4JXI110Yw.jpg" alt="Строительство домов будущего">
           <span class="play"></span>
         </a>
@@ -33,7 +33,7 @@ include($root."blocks/header.php");?>
         </div>
     </div>
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/NbqgGdLZJoY?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Выставка Ytong в Иваново (2014)">
+        <a href="http://www.youtube.com/embed/NbqgGdLZJoY?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Выставка Ytong в Иваново (2014)">
           <img src="/image/teasers_video/NbqgGdLZJoY.jpg" alt="Выставка Ytong в Иваново (2014)">
           <span class="play"></span>
         </a>
@@ -44,7 +44,7 @@ include($root."blocks/header.php");?>
     </div>
 	<div class="clearfix visible-md visible-sm"></div>
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/-YmJwRGFR3Q?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Обзор актуальных коттеджных поселков">
+        <a href="http://www.youtube.com/embed/-YmJwRGFR3Q?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Обзор актуальных коттеджных поселков">
           <img src="/image/teasers_video/-YmJwRGFR3Q.jpg" alt="Обзор актуальных коттеджных поселков">
           <span class="play"></span>
         </a>
@@ -54,7 +54,7 @@ include($root."blocks/header.php");?>
         </div>
     </div>
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/5YGAN0kUFZc?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Строительство домов из газобетона">
+        <a href="http://www.youtube.com/embed/5YGAN0kUFZc?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Строительство домов из газобетона">
           <img src="/image/teasers_video/5YGAN0kUFZc.jpg" alt="Строительство домов из газобетона">
           <span class="play"></span>
         </a>
@@ -64,7 +64,7 @@ include($root."blocks/header.php");?>
         </div>
     </div>
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/xRZAe0vu_A4?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Видео журнал, выпуск 2, кладка блоков">
+        <a href="http://www.youtube.com/embed/xRZAe0vu_A4?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Видео журнал, выпуск 2, кладка блоков">
           <img src="/image/teasers_video/xRZAe0vu_A4.jpg" alt="Видео журнал, выпуск 2, кладка блоков">
           <span class="play"></span>
         </a>
@@ -78,7 +78,7 @@ include($root."blocks/header.php");?>
   <h2 class="headline">О продаже домов</h2>
   <div class="row">
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/8wrA3gCSGSY?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Дом в пос. Суворотское">
+        <a href="http://www.youtube.com/embed/8wrA3gCSGSY?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Дом в пос. Суворотское">
           <img src="/image/teasers_video/8wrA3gCSGSY.jpg" alt="Дом в пос. Суворотское">
           <span class="play"></span>
         </a>
@@ -88,7 +88,7 @@ include($root."blocks/header.php");?>
         </div>
     </div>
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/-YmJwRGFR3Q?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Обзор актуальных коттеджных поселков">
+        <a href="http://www.youtube.com/embed/-YmJwRGFR3Q?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Обзор актуальных коттеджных поселков">
           <img src="/image/teasers_video/-YmJwRGFR3Q.jpg" alt="Обзор актуальных коттеджных поселков">
           <span class="play"></span>
         </a>
@@ -102,7 +102,7 @@ include($root."blocks/header.php");?>
   <h2 class="headline">О дизайне интерьеров</h2>
   <div class="row">
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/Vzypc_qfiQg?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Дизайн двухкомнатной квартиры с наливными полами">
+        <a href="http://www.youtube.com/embed/Vzypc_qfiQg?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Дизайн двухкомнатной квартиры с наливными полами">
           <img src="/image/teasers_video/big.jpg" alt="Дизайн двухкомнатной квартиры с наливными полами">
           <span class="play"></span>
         </a>
@@ -112,7 +112,7 @@ include($root."blocks/header.php");?>
         </div>
     </div>
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/OlsOJtGDkxo?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Работа студии художественной росписи «Etereo».">
+        <a href="http://www.youtube.com/embed/OlsOJtGDkxo?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Работа студии художественной росписи «Etereo».">
           <img src="/image/teasers_video/OlsOJtGDkxo.jpg" alt="Работа студии художественной росписи «Etereo».">
           <span class="play"></span>
         </a>
@@ -122,7 +122,7 @@ include($root."blocks/header.php");?>
         </div>
     </div>
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/KzTAguOoPP0?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="В гостях у танцевального дуэта «Респект».">
+        <a href="http://www.youtube.com/embed/KzTAguOoPP0?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="В гостях у танцевального дуэта «Респект».">
           <img src="/image/teasers_video/KzTAguOoPP0.jpg" alt="В гостях у танцевального дуэта «Респект».">
           <span class="play"></span>
         </a>
@@ -133,7 +133,7 @@ include($root."blocks/header.php");?>
     </div>
 	<div class="clearfix visible-md visible-sm"></div>
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/H1Kef_DWwxg?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Обзор интерьера квартиры">
+        <a href="http://www.youtube.com/embed/H1Kef_DWwxg?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Обзор интерьера квартиры">
           <img src="/image/teasers_video/H1Kef_DWwxg.jpg" alt="Обзор интерьера квартиры">
           <span class="play"></span>
         </a>
@@ -143,7 +143,7 @@ include($root."blocks/header.php");?>
         </div>
     </div>
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/bDq3WX-6R2U?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Обзор современных методов освещения">
+        <a href="http://www.youtube.com/embed/bDq3WX-6R2U?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Обзор современных методов освещения">
           <img src="/image/teasers_video/bDq3WX-6R2U.jpg" alt="Обзор современных методов освещения">
           <span class="play"></span>
         </a>
@@ -157,7 +157,7 @@ include($root."blocks/header.php");?>
   <h2 class="headline">Видео-журнал «Golden Home»</h2>
   <div class="row">
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/DuffxH2h-JM?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Восьмой выпуск">
+        <a href="http://www.youtube.com/embed/DuffxH2h-JM?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Восьмой выпуск">
           <img src="/image/teasers_video/DuffxH2h-JM.jpg" alt="Восьмой выпуск">
           <span class="play"></span>
         </a>
@@ -167,7 +167,7 @@ include($root."blocks/header.php");?>
         </div>
     </div>
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/rU9gR-nYbYA?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Седьмой выпуск">
+        <a href="http://www.youtube.com/embed/rU9gR-nYbYA?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Седьмой выпуск">
           <img src="/image/teasers_video/rU9gR-nYbYA.jpg" alt="Седьмой выпуск">
           <span class="play"></span>
         </a>
@@ -177,7 +177,7 @@ include($root."blocks/header.php");?>
         </div>
     </div>
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/0Ns0P7Sfn6w?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Шестой выпуск">
+        <a href="http://www.youtube.com/embed/0Ns0P7Sfn6w?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Шестой выпуск">
           <img src="/image/teasers_video/0Ns0P7Sfn6w.jpg" alt="Шестой выпуск">
           <span class="play"></span>
         </a>
@@ -188,7 +188,7 @@ include($root."blocks/header.php");?>
     </div>
 	<div class="clearfix visible-md visible-sm"></div>
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/2CSBjM4PqHg?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Пятый выпуск">
+        <a href="http://www.youtube.com/embed/2CSBjM4PqHg?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Пятый выпуск">
           <img src="/image/teasers_video/2CSBjM4PqHg.jpg" alt="Пятый выпуск">
           <span class="play"></span>
         </a>
@@ -198,7 +198,7 @@ include($root."blocks/header.php");?>
         </div>
     </div>
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/jn07U87CUNQ?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Четвертый выпуск">
+        <a href="http://www.youtube.com/embed/jn07U87CUNQ?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Четвертый выпуск">
           <img src="/image/teasers_video/jn07U87CUNQ.jpg" alt="Четвертый выпуск">
           <span class="play"></span>
         </a>
@@ -208,7 +208,7 @@ include($root."blocks/header.php");?>
         </div>
     </div>
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/wCyrIPVGprU?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Третий выпуск">
+        <a href="http://www.youtube.com/embed/wCyrIPVGprU?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Третий выпуск">
           <img src="/image/teasers_video/wCyrIPVGprU.jpg" alt="Третий выпуск">
           <span class="play"></span>
         </a>
@@ -219,7 +219,7 @@ include($root."blocks/header.php");?>
     </div>
 	<div class="clearfix visible-md visible-sm"></div>
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/xRZAe0vu_A4?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Второй выпуск">
+        <a href="http://www.youtube.com/embed/xRZAe0vu_A4?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Второй выпуск">
           <img src="/image/teasers_video/xRZAe0vu_A4.jpg" alt="Второй выпуск">
           <span class="play"></span>
         </a>
@@ -229,7 +229,7 @@ include($root."blocks/header.php");?>
         </div>
     </div>
 	<div class="col-sm-4 col-lg-3">
-        <a href="http://www.youtube.com/embed/L8GR1kRWchE?autoplay=1&amp;rel=0" class="block-video" rel="jquery-lightbox-video" title="Первый выпуск">
+        <a href="http://www.youtube.com/embed/L8GR1kRWchE?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Первый выпуск">
           <img src="/image/teasers_video/L8GR1kRWchE.jpg" alt="Первый выпуск">
           <span class="play"></span>
         </a>

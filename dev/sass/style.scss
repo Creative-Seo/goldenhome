@@ -21,13 +21,13 @@
 
 @import "design";
 
-
 @import "../libs/font-awesome/css/font-awesome.min.css";
 
 button:focus{outline:none;}
 
 a {
   transition: all 0.25s ease-out 0s;
+  &:focus{outline: none;}
 }
 
 li {
@@ -140,10 +140,12 @@ nav ul li a {font-size:14px; color:#31434e; text-transform:uppercase; font-weigh
 .imgpr {min-height: 174px;}
 .pull-left{margin-right: 20px;}
 .pull-right{margin-left: 20px;}
+
 /*table*/
 .table-bordered,.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th
 {border: 2px solid #fc0;}
 thead {font-weight: bold;}
+
 /*@video*/
 .block-video {position: relative;}
 .play {
@@ -155,14 +157,14 @@ thead {font-weight: bold;}
   top: 50%;
   left: 50%;
   margin: -30px 0 0 -30px;
-  background: url(/_template/img/icons.png) no-repeat -178px -83px;
+  background: url(/img/icons.png) no-repeat -178px -83px;
 }
 .button.download {
   min-width: 32px;
   overflow: hidden;
   text-indent: -9999px;
   margin-right: 6px;
-  background: url(/_template/img/icons.png) no-repeat 4px -113px;
+  background: url(/img/icons.png) no-repeat 4px -113px;
 }
 .button {
   border: 3px solid #ffd400;

@@ -5,14 +5,14 @@ function SortS(a, b) {
 
 function update_proekts() {
 	re=new RegExp (form['select1'],"i");
-	$('#block_proekt').each(function (){
+	$('.block_proekt').each(function (){
 		var obj = dirs[$(this).attr('data-dir')];
 		var c = true;
 		if (!((form['slider1'][0].replace(/\s+/g,'')<=obj[0]*15000)&&(form['slider1'][1].replace(/\s+/g,'')>=obj[0]*15000)&&
 			(form['slider2'][0].replace(/\s+/g,'')<=obj[0])&&(+form['slider2'][1].replace(/\s+/g,'')>=obj[0])) ) {c = false;}
 		if (!((+(form['col-et']==obj[2])||(form['col-et']=='Не имеет значение'))&&((form['arch-st']==obj[3])||(form['arch-st']=='Не имеет значение')))) {c = false;}
 		if (form['checkbox'].length>0) {$.each(form['checkbox'], function(i,v){if ($.inArray(form['checkbox'][i],obj[4])==-1){c = false;}});}
-		if (c) {$(this).fadeIn().removeClass('hid');} else {$(this).fadeOut(300).addClass('hid');};
+		if (c) {$(this).parent().fadeIn().removeClass('hid');} else {$(this).parent().fadeOut(300).addClass('hid');};
 	});
 }
 
@@ -31,7 +31,7 @@ function sort() {
 			a_sort = a_i.sort(SortS);break;
 	}
 	$(a_sort).each(function (){
-		$('#proekts').prepend($('#block_proekt[data-dir='+this+']'));
+		$('#proekts').prepend($('.block_proekt[data-dir='+this+']').parent());
 	});
 }
 

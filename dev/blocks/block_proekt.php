@@ -4,7 +4,7 @@ if (isset($dirs)) {
 }
 ?>
 <div class="<?php echo $class_block_proekt;?>">
-    <div id="block_proekt" class="sample shadow-z-2" data-dir="<?php echo $nproekta;?>" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
+    <div class="block_proekt sample shadow-z-2" data-dir="<?php echo $nproekta;?>" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
       <div class="imgpr">
 		<a href="/proekty-domov/proekt-<?php echo $nproekta;?>/">
 			<img src="/proekty-domov/proekt-<?php echo $nproekta;?>/img/<?php echo $nproekta;?>.jpg" alt="" class="img-responsive">

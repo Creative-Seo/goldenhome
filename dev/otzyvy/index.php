@@ -10,9 +10,9 @@ include($root."blocks/header.php");?>
 <div class="container">
 
   <h1>Отзывы наших клиентов</h1>
-  <div class="row">
+  <div class="row well">
 	<div class="col-sm-4 col-md-3">
-            <a href="/image/opinions/1.jpg" rel="jquery-lightbox">
+            <a href="/image/opinions/1.jpg" class="fancybox-thumb" rel="group">
               <img src="/image/opinions/1s.jpg" alt="Отзыв">
             </a>
     </div>
@@ -21,9 +21,9 @@ include($root."blocks/header.php");?>
               <p class="author">&mdash; Александр</p>
     </div>
   </div>
-  <div class="row">
+  <div class="row well">
 	<div class="col-sm-4 col-md-3">
-            <a href="/image/opinions/2.jpg" rel="jquery-lightbox">
+            <a href="/image/opinions/2.jpg" class="fancybox-thumb" rel="group">
               <img src="/image/opinions/2s.jpg" alt="Отзыв">
             </a>
     </div>
@@ -32,9 +32,9 @@ include($root."blocks/header.php");?>
               <p class="author">&mdash; Лариса Владеленовна</p>
     </div>
   </div>
-  <div class="row">
+  <div class="row well">
 	<div class="col-sm-4 col-md-3">
-            <a href="/image/opinions/3.jpg" rel="jquery-lightbox">
+            <a href="/image/opinions/3.jpg" class="fancybox-thumb" rel="group">
               <img src="/image/opinions/3s.jpg" alt="Отзыв">
             </a>
     </div>
@@ -43,9 +43,9 @@ include($root."blocks/header.php");?>
               <p class="author">&mdash; Семья Тригуб</p>
     </div>
   </div>
-  <div class="row">
+  <div class="row well">
 	<div class="col-sm-4 col-md-3">
-            <a href="/image/opinions/4.jpg" rel="jquery-lightbox">
+            <a href="/image/opinions/4.jpg" class="fancybox-thumb" rel="group">
               <img src="/image/opinions/4s.jpg" alt="Отзыв">
             </a>
     </div>
