@@ -1,4 +1,15 @@
 .dizayn{
+	.block-design-portfolio {
+		padding: 0;
+	}
+	.dizayn-content {
+		width: 100%;
+		height: 100%;
+		@include centerer();
+		h1 {
+			text-align:center;
+		}
+	}
 	.block {
 			height:100%;
 			width: 100%;
