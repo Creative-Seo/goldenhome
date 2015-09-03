@@ -149,7 +149,7 @@ $(function () {
           duration: 0
         })
         .setTween(sceneRow3)
-        .addIndicators()
+        //.addIndicators()
         .addTo(controller);
 
   var scene4 = new ScrollMagic.Scene({
@@ -159,7 +159,7 @@ $(function () {
           duration: 0
         })
         .setTween(sceneRow4)
-        .addIndicators()
+        //.addIndicators()
         .addTo(controller2);
 
   var scene5 = new ScrollMagic.Scene({
@@ -169,7 +169,7 @@ $(function () {
           duration: 0
         })
         .setTween(sceneRow5)
-        .addIndicators()
+        //.addIndicators()
         .addTo(controller5);
 
   var scene6 = new ScrollMagic.Scene({
@@ -179,7 +179,7 @@ $(function () {
           duration: 0
         })
         .setTween(sceneRow6)
-        .addIndicators()
+        //.addIndicators()
         .addTo(controller6);
 
   var scene7 = new ScrollMagic.Scene({
@@ -189,7 +189,7 @@ $(function () {
           duration: 0
         })
         .setTween(sceneRow7)
-        .addIndicators()
+        //.addIndicators()
         .addTo(controller7);
 
 
