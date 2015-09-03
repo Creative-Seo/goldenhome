@@ -21,6 +21,7 @@ include($root."blocks/header.php");?>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <a href="/dizayn-proekty/elegantnyy-interer-gostinoy-i-kuhni/">
       <div class="block">
+        <div class="shadow-small"></div>
         <div class="line1 lines"></div>
         <div class="line2 lines"></div>
         <div class="line3 lines"></div>
@@ -36,6 +37,7 @@ include($root."blocks/header.php");?>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <a href="/dizayn-proekty/dvuhkomnatnaya-kvartira/">
       <div class="block">
+        <div class="shadow-small"></div>
         <div class="line1 lines"></div>
         <div class="line2 lines"></div>
         <div class="line3 lines"></div>
@@ -56,6 +58,7 @@ include($root."blocks/header.php");?>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <a href="/dizayn-proekty/kvartira-studiya/">
       <div class="block">
+        <div class="shadow-small"></div>
         <div class="line1 lines"></div>
         <div class="line2 lines"></div>
         <div class="line3 lines"></div>
@@ -70,6 +73,7 @@ include($root."blocks/header.php");?>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <a href="/dizayn-proekty/kvartira-v-evropeyskom-stile/">
       <div class="block">
+        <div class="shadow-small"></div>
         <div class="line1 lines"></div>
         <div class="line2 lines"></div>
         <div class="line3 lines"></div>
@@ -84,6 +88,7 @@ include($root."blocks/header.php");?>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <a href="/dizayn-proekty/detskaya/">
       <div class="block">
+        <div class="shadow-small"></div>
         <div class="line1 lines"></div>
         <div class="line2 lines"></div>
         <div class="line3 lines"></div>
@@ -102,6 +107,7 @@ include($root."blocks/header.php");?>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <a href="/dizayn-proekty/dizayn-dlya-molodoy-semi/">
       <div class="block">
+        <div class="shadow-small"></div>
         <div class="line1 lines"></div>
         <div class="line2 lines"></div>
         <div class="line3 lines"></div>
@@ -116,6 +122,7 @@ include($root."blocks/header.php");?>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <a href="/dizayn-proekty/interer-v-zheltyh-tonah/">
       <div class="block">
+        <div class="shadow-small"></div>
         <div class="line1 lines"></div>
         <div class="line2 lines"></div>
         <div class="line3 lines"></div>
@@ -130,6 +137,7 @@ include($root."blocks/header.php");?>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <a href="/dizayn-proekty/belaya-gostinaya/">
       <div class="block">
+        <div class="shadow-small"></div>
         <div class="line1 lines"></div>
         <div class="line2 lines"></div>
         <div class="line3 lines"></div>
@@ -148,6 +156,7 @@ include($root."blocks/header.php");?>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <a href="/dizayn-proekty/seraya-gostinaya/">
       <div class="block">
+        <div class="shadow-small"></div>
         <div class="line1 lines"></div>
         <div class="line2 lines"></div>
         <div class="line3 lines"></div>
@@ -162,6 +171,7 @@ include($root."blocks/header.php");?>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <a href="/dizayn-proekty/interer-hi-tech/">
       <div class="block">
+        <div class="shadow-small"></div>
         <div class="line1 lines"></div>
         <div class="line2 lines"></div>
         <div class="line3 lines"></div>
@@ -176,6 +186,7 @@ include($root."blocks/header.php");?>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <a href="/dizayn-proekty/kvartira-v-sovremennom-stile/">
       <div class="block">
+        <div class="shadow-small"></div>
         <div class="line1 lines"></div>
         <div class="line2 lines"></div>
         <div class="line3 lines"></div>
@@ -194,6 +205,7 @@ include($root."blocks/header.php");?>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <a href="/dizayn-proekty/interer-kottedzha/">
       <div class="block">
+        <div class="shadow-small"></div>
         <div class="line1 lines"></div>
         <div class="line2 lines"></div>
         <div class="line3 lines"></div>
@@ -208,6 +220,7 @@ include($root."blocks/header.php");?>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <a href="/dizayn-proekty/interer-zagorodnogo-doma/">
       <div class="block">
+        <div class="shadow-small"></div>
         <div class="line1 lines"></div>
         <div class="line2 lines"></div>
         <div class="line3 lines"></div>
@@ -222,6 +235,7 @@ include($root."blocks/header.php");?>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <a href="/dizayn-proekty/salon-krasoty-estel/">
       <div class="block">
+        <div class="shadow-small"></div>
         <div class="line1 lines"></div>
         <div class="line2 lines"></div>
         <div class="line3 lines"></div>
@@ -240,6 +254,7 @@ include($root."blocks/header.php");?>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <a href="/dizayn-proekty/salon-krasoty-milan/">
       <div class="block">
+        <div class="shadow-small"></div>
         <div class="line1 lines"></div>
         <div class="line2 lines"></div>
         <div class="line3 lines"></div>
@@ -254,6 +269,7 @@ include($root."blocks/header.php");?>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <a href="/dizayn-proekty/stolovaya-loft/">
       <div class="block">
+        <div class="shadow-small"></div>
         <div class="line1 lines"></div>
         <div class="line2 lines"></div>
         <div class="line3 lines"></div>
@@ -268,6 +284,7 @@ include($root."blocks/header.php");?>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <a href="/dizayn-proekty/dizayn-stomatologii/">
       <div class="block">
+        <div class="shadow-small"></div>
         <div class="line1 lines"></div>
         <div class="line2 lines"></div>
         <div class="line3 lines"></div>
@@ -286,6 +303,7 @@ include($root."blocks/header.php");?>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <a href="/dizayn-proekty/stolovaya-teleperformance/">
       <div class="block">
+        <div class="shadow-small"></div>
         <div class="line1 lines"></div>
         <div class="line2 lines"></div>
         <div class="line3 lines"></div>
@@ -300,6 +318,7 @@ include($root."blocks/header.php");?>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <a href="/dizayn-proekty/kafe-forest/">
       <div class="block">
+        <div class="shadow-small"></div>
         <div class="line1 lines"></div>
         <div class="line2 lines"></div>
         <div class="line3 lines"></div>
@@ -314,6 +333,7 @@ include($root."blocks/header.php");?>
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <a href="/dizayn-proekty/bar/">
       <div class="block">
+        <div class="shadow-small"></div>
         <div class="line1 lines"></div>
         <div class="line2 lines"></div>
         <div class="line3 lines"></div>
