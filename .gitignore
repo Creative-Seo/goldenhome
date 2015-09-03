@@ -2,6 +2,7 @@ dev/image/
 dev/libs/
 **/meta.css
 **/style.css
+*.pdf
 *.mp4
 *.zip
 archive/
