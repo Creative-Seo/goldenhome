@@ -100,17 +100,45 @@ include($root."array.php");?>
 				<div class="tabs tabs-style-linetriangle">
 					<nav>
 						<ul>
-							<li><a href="#section-linetriangle-1"><span>Мансардный вариант</span></a></li>
-							<li><a href="#section-linetriangle-2"><span>С полноценным 2-м этажом</span></a></li>
-							<li><a href="#section-linetriangle-3"><span>Дом с наружной отделкой</span></a></li>
-							<li><a href="#section-linetriangle-4"><span>Дом под ключ</span></a></li>
+							<li><a href="#section-mansarda"><span>Мансардный вариант</span></a></li>
+							<li><a href="#section-2-etaj"><span>С полноценным 2-м этажом</span></a></li>
+							<li><a href="#section-naruj-otdelka"><span>Дом с наружной отделкой</span></a></li>
+							<li><a href="#section-pod-kluch"><span>Дом под ключ</span></a></li>
 						</ul>
 					</nav>
 					<div class="content-wrap">
-						<section id="section-linetriangle-1"><p>1</p></section>
-						<section id="section-linetriangle-2"><p>2</p></section>
-						<section id="section-linetriangle-3"><p>3</p></section>
-						<section id="section-linetriangle-4"><p>4</p></section>
+						<section id="section-mansarda">
+							<div class="content-wrap_price">
+								15 000 <span>руб. кв.м.</span>
+								<div class="content-wrap_price_descr">Коттедж с мансардой из газобетонных блоков YTONG без наружной отделки.</div>
+								<div class="content-wrap_price_descr">В СТОИМОСТЬ ВХОДИТ
+[МАТЕРИАЛ + РАБОТА]</div>
+							</div>
+						</section>
+						<section id="section-2-etaj">
+							<div class="content-wrap_price">
+								17 000 <span>руб. кв.м.</span>
+								<div class="content-wrap_price_descr">Дом с полноценным 2-м этажом из газобетонных блоков YTONG без наружной отделки.</div>
+								<div class="content-wrap_price_descr">В СТОИМОСТЬ ВХОДИТ
+[МАТЕРИАЛ + РАБОТА]</div>
+							</div>
+						</section>
+						<section id="section-naruj-otdelka">
+							<div class="content-wrap_price">
+								18 000 <span>руб. кв.м.</span>
+								<div class="content-wrap_price_descr">Дом из газобетонных блоков YTONG с наружной и внутренней отделкой.</div>
+								<div class="content-wrap_price_descr">В СТОИМОСТЬ ВХОДИТ
+[МАТЕРИАЛ + РАБОТА + ВНЕШНЯЯ ОТДЕЛКА]</div>
+							</div>
+						</section>
+						<section id="section-pod-kluch">
+							<div class="content-wrap_price">
+								23 000 <span>руб. кв.м.</span>
+								<div class="content-wrap_price_descr">Дом из газобетонных блоков YTONG с наружной и внутренней отделкой.</div>
+								<div class="content-wrap_price_descr">В СТОИМОСТЬ ВХОДИТ
+[МАТЕРИАЛ + РАБОТА + ВНЕШНЯЯ ОТДЕЛКА + ВНУТРЕННЯЯ ОТДЕЛКА]</div>
+							</div>
+						</section>
 					</div><!-- /content -->
 				</div><!-- /tabs -->
 	</section>
