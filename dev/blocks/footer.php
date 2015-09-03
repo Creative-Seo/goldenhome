@@ -81,6 +81,7 @@
 <script src="/libs/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
 <script src="/libs/bootstrap-material-design/dist/js/material.min.js"></script>
 <script src="/libs/bootstrap-material-design/dist/js/ripples.min.js"></script>
+<script src="/js/modernizr.custom.js"></script>
 <script src="/js/jquery.lightSlider.min.js"></script>
 <script src="/js/lightGallery.js"></script>
 <script src="/js/jquery.fancybox.pack.js"></script>
@@ -102,6 +103,7 @@
 <script src="../js/animation.gsap.js"></script>
 
 
+<script src="/js/cbpFWTabs.js"></script>
 <script src="/js/common.js"></script>
 
 <!-- /build -->
@@ -198,6 +200,16 @@ $(function () {
 
 
 
+</script>
+
+<script>
+      (function() {
+
+        [].slice.call( document.querySelectorAll( '.tabs' ) ).forEach( function( el ) {
+          new CBPFWTabs( el );
+        });
+
+      })();
 </script>
 
 <!-- build:template
