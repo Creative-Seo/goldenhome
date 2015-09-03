@@ -32,7 +32,7 @@ include($root."array.php");?>
 
 <div class="container child hidden-sm hidden-xs"><div class="row">
 	<div id="wrapper-text" class="col-md-7 homepage-jumbotron"><p><span>Более 250</span><br>построенных <br> домов</p></div>
-	<div class="col-md-5 col-md-4 col-lg-offset-1 homepage-jumbotron"><p>Мы сертифицированные строители <span>Ytong</span></p></div>
+	<div class="col-md-5 col-lg-4 col-lg-offset-1 homepage-jumbotron"><p>Мы сертифицированные строители <span>Ytong</span></p></div>
 </div></div>
 
 <div class="container center-block" id="icons">

@@ -69,7 +69,7 @@
     </div>
     <div class="row footer-bottom">
       <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">© 2015, Golden Home</div>
-      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><a href="">Наши реквизиты</a></div>
+      <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12"><a href="javascript:void(0);">Наши реквизиты</a></div>
     </div>
   </div>
 </footer>
