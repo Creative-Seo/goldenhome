@@ -104,7 +104,7 @@ include($root."blocks/header.php");?>
 
   <!-- ROW 3 -->
   <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row31">
       <a href="/dizayn-proekty/dizayn-dlya-molodoy-semi/">
       <div class="block">
         <div class="shadow-small"></div>
@@ -119,7 +119,7 @@ include($root."blocks/header.php");?>
     </a>
     </div>
 
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row32">
       <a href="/dizayn-proekty/interer-v-zheltyh-tonah/">
       <div class="block">
         <div class="shadow-small"></div>
@@ -134,7 +134,7 @@ include($root."blocks/header.php");?>
     </a>
     </div>
 
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row33">
       <a href="/dizayn-proekty/belaya-gostinaya/">
       <div class="block">
         <div class="shadow-small"></div>
@@ -152,8 +152,8 @@ include($root."blocks/header.php");?>
   <!-- ROW 3 -->
 
   <!-- ROW 4 -->
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
+  <div class="row row4">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row41">
       <a href="/dizayn-proekty/seraya-gostinaya/">
       <div class="block">
         <div class="shadow-small"></div>
@@ -168,7 +168,7 @@ include($root."blocks/header.php");?>
     </a>
     </div>
 
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row42">
       <a href="/dizayn-proekty/interer-hi-tech/">
       <div class="block">
         <div class="shadow-small"></div>
@@ -183,7 +183,7 @@ include($root."blocks/header.php");?>
     </a>
     </div>
 
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row43">
       <a href="/dizayn-proekty/kvartira-v-sovremennom-stile/">
       <div class="block">
         <div class="shadow-small"></div>
@@ -201,8 +201,8 @@ include($root."blocks/header.php");?>
   <!-- ROW 4 -->
 
   <!-- ROW 5 -->
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
+  <div class="row row5">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row51">
       <a href="/dizayn-proekty/interer-kottedzha/">
       <div class="block">
         <div class="shadow-small"></div>
@@ -217,7 +217,7 @@ include($root."blocks/header.php");?>
     </a>
     </div>
 
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row52">
       <a href="/dizayn-proekty/interer-zagorodnogo-doma/">
       <div class="block">
         <div class="shadow-small"></div>
@@ -232,7 +232,7 @@ include($root."blocks/header.php");?>
     </a>
     </div>
 
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row53">
       <a href="/dizayn-proekty/salon-krasoty-estel/">
       <div class="block">
         <div class="shadow-small"></div>
@@ -250,8 +250,8 @@ include($root."blocks/header.php");?>
   <!-- ROW 5 -->
 
   <!-- ROW 6 -->
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
+  <div class="row row6">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row61">
       <a href="/dizayn-proekty/salon-krasoty-milan/">
       <div class="block">
         <div class="shadow-small"></div>
@@ -266,7 +266,7 @@ include($root."blocks/header.php");?>
     </a>
     </div>
 
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row62">
       <a href="/dizayn-proekty/stolovaya-loft/">
       <div class="block">
         <div class="shadow-small"></div>
@@ -281,7 +281,7 @@ include($root."blocks/header.php");?>
     </a>
     </div>
 
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row63">
       <a href="/dizayn-proekty/dizayn-stomatologii/">
       <div class="block">
         <div class="shadow-small"></div>
@@ -299,8 +299,8 @@ include($root."blocks/header.php");?>
   <!-- ROW 6 -->
 
   <!-- ROW 7 -->
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
+  <div class="row row7">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row71">
       <a href="/dizayn-proekty/stolovaya-teleperformance/">
       <div class="block">
         <div class="shadow-small"></div>
@@ -315,7 +315,7 @@ include($root."blocks/header.php");?>
     </a>
     </div>
 
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row72">
       <a href="/dizayn-proekty/kafe-forest/">
       <div class="block">
         <div class="shadow-small"></div>
@@ -330,7 +330,7 @@ include($root."blocks/header.php");?>
     </a>
     </div>
 
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row73">
       <a href="/dizayn-proekty/bar/">
       <div class="block">
         <div class="shadow-small"></div>
