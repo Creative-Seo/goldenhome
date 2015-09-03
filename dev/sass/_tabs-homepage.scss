@@ -148,6 +148,23 @@
 /* Content */
 .content-wrap {
 	position: relative;
+	&_price {
+		font-weight:800;
+		font-size:58px; 
+		span {
+			font-size:40px; 
+		}
+		&_title {
+			font-weight:700;
+			font-size:32px;
+			font-family:$headings-font-family;
+		}
+		&_descr {
+			font-weight:400;
+			font-size:18px; 
+			line-height:2em;
+		}
+	}
 }
 
 .content-wrap section {
