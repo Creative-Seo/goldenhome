@@ -93,7 +93,28 @@ include($root."array.php");?>
 				<h2>Мы сертифицированные строители Ytong</h2>
 		</div>
 	</div>
-	
+
+<div class="row stoimost">
+	<h1>Стоимость строительства</h1>
+	<section>
+				<div class="tabs tabs-style-linetriangle">
+					<nav>
+						<ul>
+							<li><a href="#section-linetriangle-1"><span>Мансардный вариант</span></a></li>
+							<li><a href="#section-linetriangle-2"><span>С полноценным 2-м этажом</span></a></li>
+							<li><a href="#section-linetriangle-3"><span>Дом с наружной отделкой</span></a></li>
+							<li><a href="#section-linetriangle-4"><span>Дом под ключ</span></a></li>
+						</ul>
+					</nav>
+					<div class="content-wrap">
+						<section id="section-linetriangle-1"><p>1</p></section>
+						<section id="section-linetriangle-2"><p>2</p></section>
+						<section id="section-linetriangle-3"><p>3</p></section>
+						<section id="section-linetriangle-4"><p>4</p></section>
+					</div><!-- /content -->
+				</div><!-- /tabs -->
+	</section>
+</div>	
 
  <div class="row"> 
     <h2>Мы выполняем все виды работ:</h2>
@@ -116,89 +137,7 @@ include($root."array.php");?>
       <li>строгое соблюдение всех условий, прописанных в договоре;</li>
       <li>уверенность, что работаете с надёжной компанией;</li>
     </ul>
-	
-	<div class="row">
-		 <h2 class="h2 yellow" style="max-width:250px;">Стоимость строительства</h2> 
-		 <div role="tabpanel">
-
-	  <!-- Nav tabs -->
-	  <ul class="nav nav-tabs" role="tablist">
-		<li role="presentation" class="tippr active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab" aria-expanded="true">Мансардный вариант<br><span>15 000</span> руб. кв.м.</a>
-
-		</li>
-		<li role="presentation" class=""><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab" aria-expanded="false">С полноценным 2-м этажом<br><span>17 000</span> руб. кв.м.</a></li>
-		<li role="presentation" class=""><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab" aria-expanded="false">Дом с наружной отделкой<br><span>18 000</span> руб./кв.м</a></li>
-		<li role="presentation" class=""><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab" aria-expanded="false">Дом под ключ<br><span>23 000</span> руб./кв.м</a></li>
-	  </ul>
-
-	  <!-- Tab panes -->
-	  <div class="tab-content">
-		<div role="tabpanel" class="tab-pane active" id="home">
-	   
-		   <div class="col-md-6 tipdom"><img src="/img/tipovye-doma/mansardnyy-variant.jpg" alt="Коттедж с мансардой" class="img-responsive"></div>
-		   <div class="col-md-3"><div class="tipvar yellow">Коттедж с мансардой<br>15 000 руб. за кв.м.</div>
-		   <div>Дом из газобетонных блоков YTONG без наружной отделки.</div>
-		   <div>Процесс строительства делится на этапы:
-				<ol>
-				  <li>Заливка фундамента;
-				  </li><li>Возведение стен и перекрытие плитами;
-				  </li><li>Укладка кровли;
-				</li></ol>
-		   </div>
-		   </div>
-		   <div class="col-md-10 yellow tipst">В стоимость входит<br>[материал + работа]</div>
-		</div>
-		<div role="tabpanel" class="tab-pane" id="profile">
-				 <div class="col-md-6 tipdom"><img src="/img/tipovye-doma/s-polnocennym-vtorym-etazhom.jpg" alt="Коттедж с полноценным 2-м этажом" class="img-responsive"></div>
-		   <div class="col-md-3"><div class="tipvar yellow">Коттедж с мансардой<br>17 000 руб. за кв.м.</div>
-		   <div>Дом из газобетонных блоков YTONG без наружной отделки.</div>
-		   <div>Процесс строительства делится на этапы:
-				<ol>
-				  <li>Заливка фундамента;
-				  </li><li>Возведение стен и перекрытие плитами;
-				  </li><li>Укладка кровли;
-				</li></ol>
-		   </div>
-		   </div>  
-		   <div class="col-md-10 yellow tipst">В стоимость входит<br>[материал + работа]</div>
-
-		</div>
-		<div role="tabpanel" class="tab-pane" id="messages">
-		   <div class="col-md-6 tipdom"><img src="/img/tipovye-doma/dom-s-naruzhnoy-otdelkoy.jpg" alt="Коттедж с внешней отделкой" class="img-responsive"></div>
-		   <div class="col-md-3"><div class="tipvar yellow">Вариант с внешней отделкой<br>18 000 руб. за кв.м.</div>
-		   <div>Дом из газобетонных блоков YTONG с наружной и внутренней отделкой.</div>
-		   <div>Процесс строительства делится на этапы:
-				<ol>
-				  <li>Заливка фундамента;</li>
-				  <li>Возведение стен и перекрытие плитами;</li>
-				  <li>Укладка кровли;</li>
-				  <li>Внешняя отделка.</li>
-				</ol>
-		   </div>
-		   </div> 
-		   <div class="col-md-10 yellow tipst">В стоимость входит<br>[материал + работа + внешняя отделка]</div>  
-		</div>
-		<div role="tabpanel" class="tab-pane" id="settings">
-		   <div class="col-md-6 tipdom"><img src="/img/tipovye-doma/dom-pod-kluch.jpg" alt="Коттедж с внутренней и внешней отделкой" class="img-responsive"></div>
-		   <div class="col-md-3"><div class="tipvar yellow">Вариант под ключ<br>23 000 руб. за кв.м.</div>
-		   <div>Дом из газобетонных блоков YTONG с наружной и внутренней отделкой.</div>
-		   <div>Процесс строительства делится на этапы:
-				<ol>
-				  <li>Заливка фундамента;</li>
-				  <li>Возведение стен и перекрытие плитами;</li>
-				  <li>Укладка кровли;</li>
-				  <li>Внутреняя отделка.</li>
-				  <li>Наружняя отделка.</li>
-				</ol>
-		   </div>
-		   </div>
-		   <div class="col-md-10 yellow tipst">В стоимость входит<br>[материал + работа + внешняя отделка + внутренняя отделка]</div>
-		</div>
-	  </div>
-
-		</div>
-   </div>
-   </div>
+  </div>
    <?php include($root."proekty-domov/proekts_top.php");?>
 	<div class="row">
 		<a href="/image/price/price.jpg" class="pull-right fancybox-thumb">
@@ -238,6 +177,7 @@ include($root."array.php");?>
         <a href="http://www.youtube.com/watch?v=J2H3HxyBqpI" title="Строительная компания Golden Home" target="_blank">Строительная компания Golden Home</a><a href="http://www.youtube.com/user/33goldenhome" style="margin-left:10px" target="_blank" title="Наш канал на Youtube">Наш канал на Youtube</a>
 	  </div>
       <img style="margin-top:10px" src="/img/banner_ytong.jpg"  alt="Строительная компания Golden Home" title="Строительная компания Golden Home"/>
+</div>
 </div>
 
 <?php include($root."blocks/footer.php");?>
