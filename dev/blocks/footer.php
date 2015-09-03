@@ -94,9 +94,111 @@
 <script src="/js/dev.homepage.js"></script>
 <script src="/js/dev.raschet-gazobetona.js"></script>
 <script src="/js/scripts.js"></script>
+
+
+<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+<script src="../js/TweenMax.min.js"></script>
+<script src="../js/animation.gsap.js"></script>
+
+
 <script src="/js/common.js"></script>
 
 <!-- /build -->
+
+<script>
+$(function () {
+
+  var controller = new ScrollMagic.Controller();
+  var controller2 = new ScrollMagic.Controller();
+  var controller5 = new ScrollMagic.Controller();
+  var controller6 = new ScrollMagic.Controller();
+  var controller7 = new ScrollMagic.Controller();
+
+  var row31 = document.getElementsByClassName("row31");
+  var row32 = document.getElementsByClassName("row32");
+  var row33 = document.getElementsByClassName("row33");
+
+  var row41 = document.getElementsByClassName("row41");
+  var row42 = document.getElementsByClassName("row42");
+  var row43 = document.getElementsByClassName("row43");
+
+  var row51 = document.getElementsByClassName("row51");
+  var row52 = document.getElementsByClassName("row52");
+  var row53 = document.getElementsByClassName("row53");
+
+  var row61 = document.getElementsByClassName("row61");
+  var row62 = document.getElementsByClassName("row62");
+  var row63 = document.getElementsByClassName("row63");
+
+  var row71 = document.getElementsByClassName("row71");
+  var row72 = document.getElementsByClassName("row72");
+  var row73 = document.getElementsByClassName("row73");
+
+  var sceneRow3 = new TweenMax.staggerFrom([row31, row32, row33], 0.3, {opacity:0, top:"100px", ease:Power1.easeInOut}, 0.2);
+  var sceneRow4 = new TweenMax.staggerFrom([row41, row42, row43], 0.3, {opacity:0, top:"100px", ease:Power1.easeInOut}, 0.2);
+  var sceneRow5 = new TweenMax.staggerFrom([row51, row52, row53], 0.3, {opacity:0, top:"100px", ease:Power1.easeInOut}, 0.2);
+  var sceneRow6 = new TweenMax.staggerFrom([row61, row62, row63], 0.3, {opacity:0, top:"100px", ease:Power1.easeInOut}, 0.2);
+  var sceneRow7 = new TweenMax.staggerFrom([row71, row72, row73], 0.3, {opacity:0, top:"100px", ease:Power1.easeInOut}, 0.2);
+
+ 
+  var scene1 = new ScrollMagic.Scene({
+          triggerElement: ".row3",
+          //triggerHook: "onEnter",
+          reverse:false,
+          duration: 0
+        })
+        .setTween(sceneRow3)
+        .addIndicators()
+        .addTo(controller);
+
+  var scene4 = new ScrollMagic.Scene({
+          triggerElement: ".row4",
+          //triggerHook: "onEnter",
+          reverse:false,
+          duration: 0
+        })
+        .setTween(sceneRow4)
+        .addIndicators()
+        .addTo(controller2);
+
+  var scene5 = new ScrollMagic.Scene({
+          triggerElement: ".row5",
+          //triggerHook: "onEnter",
+          reverse:false,
+          duration: 0
+        })
+        .setTween(sceneRow5)
+        .addIndicators()
+        .addTo(controller5);
+
+  var scene6 = new ScrollMagic.Scene({
+          triggerElement: ".row6",
+          //triggerHook: "onEnter",
+          reverse:false,
+          duration: 0
+        })
+        .setTween(sceneRow6)
+        .addIndicators()
+        .addTo(controller6);
+
+  var scene7 = new ScrollMagic.Scene({
+          triggerElement: ".row7",
+          //triggerHook: "onEnter",
+          reverse:false,
+          duration: 0
+        })
+        .setTween(sceneRow7)
+        .addIndicators()
+        .addTo(controller7);
+
+
+});
+
+
+
+
+</script>
 
 <!-- build:template
 <script>
@@ -114,6 +216,7 @@ var scr = {"scripts":[
 </script>
 
 /build -->
+
 
 <script>function seach() {return {'action':'http://yandex.ru/sitesearch','arrow':false,'bg':'transparent','fontsize':12,'fg':'#000000','language':'ru','logo':'rb','publicname':'Поиск по http://www.sk-goldenhome.ru/','suggest':true,'target':'_blank','tld':'ru','type':3,'usebigdictionary':true,'searchid':2178943,'webopt':false,'websearch':false,'input_fg':'#000000','input_bg':'#ffffff','input_fontStyle':'normal','input_fontWeight':'normal','input_placeholder':'поиск по сайту','input_placeholderColor':'#000000','input_borderColor':'#FFD300'}}</script>
 
