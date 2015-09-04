@@ -8,7 +8,7 @@ grunt.initConfig({
 		  report: 'gzip'
 		},
 		files: {
-		  'prod/css/style.min.css': ['dev/css/style.css', 'dev/css/jquery.fancybox.css', 'dev/css/jquery.bxslider.css', 'dev/libs/font-awesome/css/font-awesome.css'],
+		  'prod/css/style.min.css': ['dev/css/jquery.fancybox.css', 'dev/css/lightSlider.css',  'dev/css/lightGallery.css',  'dev/css/jquery.nouislider.min.css', 'dev/libs/font-awesome/css/font-awesome.css','dev/css/style.css'],
 		  'prod/css/header.min.css': ['dev/css/meta.css'],
 		}
 	  }
