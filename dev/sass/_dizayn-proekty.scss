@@ -19,11 +19,12 @@
 		padding: 15px;
 		display: block;
 		position: relative;
-		@include centerer();
+		text-align:center;
 		h1 {
 			text-align:center;
 		}
 	}
+	
 	.block {
 			height:100%;
 			width: 100%;
@@ -105,7 +106,7 @@
 		}
 		.block-title {
 			position: absolute;
-			top:70%;
+			top:60%;
 			color: #fff;
 			text-align: center;
 			width: 80%;
