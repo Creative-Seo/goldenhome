@@ -1,10 +1,8 @@
 <?php $title = '«Golden Home» - информация о компании. Контакты, адреса офисов, схема проезда, обратная связь, дополнительные контакты.';
-	$description = 'Контакты - Строительная компания Golden Home';
-	$keywords = 'Контакты';?>
-<?php $dirs = array ();?>
-<?php
+$description = 'Контакты - Строительная компания Golden Home';
+$keywords = 'Контакты';
+$breadcrumb = 'Контакты';
 $root = '../';
-$breadcrumb = 'Проекты домов';
 include($root."blocks/meta.php"); 
 include($root."blocks/header.php"); 
 ?>
@@ -160,9 +158,3 @@ include($root."blocks/header.php");
 </div> <!-- contacts -->
 
 <?php include($root."blocks/footer.php");?>
-<script type="text/javascript">
-$(document).ready(function(){ 
-    $("#myTab li:eq(0) a").tab('show');
-});
-</script>
-
