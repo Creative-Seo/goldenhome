@@ -35,7 +35,7 @@ include($root."array.php");?>
 	<div id="wrapper-text-2" class="col-md-5 col-lg-4 col-lg-offset-1 homepage-jumbotron"><p>Мы сертифицированные строители <span>Ytong</span></p></div>
 </div></div>
 
-<div class="container center-block hidden-sx" id="icons">
+<div class="container center-block hidden-xs" id="icons">
     <ul class="nav nav-pills nav-justified">
 		<li class="action">
 			<a href="/stroitelstvo/" data-pointer="stroitelstvo">
