@@ -205,7 +205,6 @@ include($root."array.php");?>
         <iframe class="center-block" width="480" height="360" src="//www.youtube.com/embed/J2H3HxyBqpI" frameborder="0" allowfullscreen></iframe>
         <a href="http://www.youtube.com/watch?v=J2H3HxyBqpI" title="Строительная компания Golden Home" target="_blank">Строительная компания Golden Home</a><a href="http://www.youtube.com/user/33goldenhome" style="margin-left:10px" target="_blank" title="Наш канал на Youtube">Наш канал на Youtube</a>
 	  </div>
-      <img style="margin-top:10px" src="/img/banner_ytong.jpg"  alt="Строительная компания Golden Home" title="Строительная компания Golden Home"/>
 </div>
 </div>
 
