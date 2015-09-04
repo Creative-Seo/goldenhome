@@ -15,6 +15,7 @@ $(document).ready(function (){
 			$(img).css('z-index', -2).css('opacity', 0);
 			$(pointer).css('z-index', -1);
 			img=pointer;
+			if (img=='#wrapper .stroitelstvo') {$('#wrapper-text-2').show();} else {$('#wrapper-text-2').hide();}
 		}
 	});
 });
