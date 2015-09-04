@@ -3,7 +3,7 @@ var a = {'stroitelstvo' : '<p><span>Более 100</span><br>построенн�
 		'proekty-domov' : '<p><span>Наши проекты</span><br>всегда высокого<br> качества</p>',
 		'prodazha-domov' : '<p><span>Огромный выбор</span><br> самых разных<br> построек</p>',
 		'dizayn-interyera' : '<p><span>Мы</span><br>осуществим<br> вашу мечту</p>',
-		'gazobloki' : '<p><span>Сопутствующие товары</span><br>и многое другое</p>'};
+		'gazobloki' : '<p><span>Газоблоки</span><br>Ytong и Bonolit</p>'};
 $(document).ready(function (){
 	$('#icons a').mouseenter(function () {
 		var pointer = '#wrapper .'+$(this).attr('data-pointer');
@@ -15,6 +15,7 @@ $(document).ready(function (){
 			$(img).css('z-index', -2).css('opacity', 0);
 			$(pointer).css('z-index', -1);
 			img=pointer;
+			if (img=='#wrapper .stroitelstvo') {$('#wrapper-text-2').show();} else {$('#wrapper-text-2').hide();}
 		}
 	});
 });

@@ -1,24 +1,15 @@
-$('#opener .p1').hover(function(){
-	$(this).css('right', '30%');
-	$('#opener .p2').css('left', '70%');
-},function(){
-	$(this).css('right', '50%');
-	$('#opener .p2').css('left', '50%');
-});
-$('#opener .p2').hover(function(){
-	$(this).css('left', '30%');
-	$('#opener .p1').css('right', '70%');
-},function(){
-	$(this).css('left', '50%');
-	$('#opener .p1').css('right', '50%');
-});
-$('#opener .p1 a').hover(function(){
-	$('#opener .p2').css('opacity', '0.3');
-},function(){
-	$('#opener .p2').css('opacity', '1');
-});
-$('#opener .p2 a').hover(function(){
-	$('#opener .p1').css('opacity', '0.3');
-},function(){
-	$('#opener .p1').css('opacity', '1');
-});
+/*$(function () {
+	var scene=[], controller = new ScrollMagic.Controller();
+	$(".imgd").each(function (i,e){
+		var el = $(e).attr('id');
+		var sceneRow = new TweenMax.from(el, 1, {opacity:0, top:"200px", ease:Power1.easeInOut}, 0.8);
+		scene[i] = new ScrollMagic.Scene({
+			  triggerElement: e,
+			  triggerHook: 0.8,
+			  reverse:false,
+			  duration: 0
+		})
+		.addTo(controller);
+		scene[i].on("end", function () {scene[i].setTween(sceneRow)});
+	});
+});*/

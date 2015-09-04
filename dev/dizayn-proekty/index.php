@@ -19,8 +19,32 @@ include($root."blocks/header.php");?>
       </div>
     </div>
 
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
-      <a href="/dizayn-proekty/elegantnyy-interer-gostinoy-i-kuhni/">
+<?php $dizayn=json_decode('[
+{"url":"elegantnyy-interer-gostinoy-i-kuhni","img":"elegantnyy-interer-gostinoy-i-kuhni","text":"Молоко и шоколад. Элегантный интерьер гостиной и кухни"},
+{"url":"dvuhkomnatnaya-kvartira","img":"nalivnoy-pol-s-uzorom","text":"Двухкомнатная квартира с наливными полами"},
+{"url":"kvartira-studiya","img":"kvartira-studiya","text":"Квартира-студия"},
+{"url":"kvartira-v-evropeyskom-stile","img":"gostinaya-v-evropeyskom-stile","text":"Квартира в европейском стиле"},
+{"url":"detskaya","img":"dizayn-detskoy-komnaty","text":"Дизайн детской комнаты"},
+{"url":"dizayn-dlya-molodoy-semi","img":"dizayn-dlya-molodoy-semi","text":"Дизайн для молодой семьи"},
+{"url":"interer-v-zheltyh-tonah","img":"interer-v-zheltyh-tonah","text":"Интерьер в желтых тонах"},
+{"url":"belaya-gostinaya","img":"belaya-gostinaya","text":"Интерьер в желтых тонах"},
+{"url":"seraya-gostinaya","img":"seraya-gostinaya","text":"Серая гостиная"},
+{"url":"interer-hi-tech","img":"interer-hi-tech","text":"Интерьер в стиле Хай-Тек"},
+{"url":"kvartira-v-sovremennom-stile","img":"kvartira-v-sovremennom-stile","text":"Квартира в современном стиле"},
+{"url":"interer-kottedzha","img":"interer-kottedzha","text":"Интерьер коттеджа"},
+{"url":"interer-zagorodnogo-doma","img":"interer-zagorodnogo-doma","text":"Интерьер загородного дома"},
+{"url":"salon-krasoty-estel","img":"salon-krasoty-estel","text":"Салон красоты Estel"},
+{"url":"salon-krasoty-milan","img":"salon-krasoty-milan","text":"Салон красоты Milan"},
+{"url":"stolovaya-loft","img":"stolovaya-loft","text":"Столовая Loft"},
+{"url":"dizayn-stomatologii","img":"dizayn-stomatologii","text":"Дизайн стоматологии"},
+{"url":"stolovaya-teleperformance","img":"stolovaya-teleperformance","text":"Столовая teleperformance"},
+{"url":"kafe-forest","img":"kafe-forest","text":"Кафе forest"},
+{"url":"bar","img":"bar","text":"Бар"}
+]',true);
+foreach ($dizayn as $key => $row) { ?>
+    <div  id="img<?php echo $key; ?>" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio imgd">
+	<div>
+      <a href="/dizayn-proekty/<?php echo $row['url']; ?>/">
       <div class="block">
         <div class="shadow-small"></div>
         <div class="line1 lines"></div>
@@ -28,317 +52,15 @@ include($root."blocks/header.php");?>
         <div class="line3 lines"></div>
         <div class="line4 lines"></div>
         <div class="block-content"></div>
-        <div class="block-title">Молоко и шоколад. Элегантный интерьер гостиной и кухни</div>
-        <img src="http://www.sk-goldenhome.ru/dizayn-proekty/elegantnyy-interer-gostinoy-i-kuhni/elegantnyy-interer-gostinoy-i-kuhni.jpg" alt="" class="img-responsive">
+        <div class="block-title"><?php echo $row['text']; ?></div>
+        <img src="/dizayn-proekty/<?php echo $row['url'].'/'.$row['img']; ?>.jpg" class="img-responsive" alt="<?php echo $row['text']; ?>" title="<?php echo $row['text']; ?>">
       </div>
     </a>
+	</div>
     </div>
+<?php } ?>
 
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
-      <a href="/dizayn-proekty/dvuhkomnatnaya-kvartira/">
-      <div class="block">
-        <div class="shadow-small"></div>
-        <div class="line1 lines"></div>
-        <div class="line2 lines"></div>
-        <div class="line3 lines"></div>
-        <div class="line4 lines"></div>
-        <div class="block-content"></div>
-        <div class="block-title">Двухкомнатная квартира с наливными полами</div>
-        <img src="/dizayn-proekty/dvuhkomnatnaya-kvartira/nalivnoy-pol-s-uzorom.jpg" class="img-responsive" alt="Двухкомнатная квартира с наливными полами" />
-      </div>
-    </a>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
-      <a href="/dizayn-proekty/kvartira-studiya/">
-      <div class="block">
-        <div class="shadow-small"></div>
-        <div class="line1 lines"></div>
-        <div class="line2 lines"></div>
-        <div class="line3 lines"></div>
-        <div class="line4 lines"></div>
-        <div class="block-content"></div>
-        <div class="block-title">Квартира-студия</div>
-        <img src="/dizayn-proekty/kvartira-studiya/kvartira-studiya.jpg"  class="img-responsive" alt="Квартира-студия" title="Квартира-студия">
-      </div>
-    </a>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
-      <a href="/dizayn-proekty/kvartira-v-evropeyskom-stile/">
-      <div class="block">
-        <div class="shadow-small"></div>
-        <div class="line1 lines"></div>
-        <div class="line2 lines"></div>
-        <div class="line3 lines"></div>
-        <div class="line4 lines"></div>
-        <div class="block-content"></div>
-        <div class="block-title">Квартира в европейском стиле</div>
-        <img src="/dizayn-proekty/kvartira-v-evropeyskom-stile/gostinaya-v-evropeyskom-stile.jpg" class="img-responsive" alt="Квартира в европейском стиле" title="Квартира в европейском стиле">
-      </div>
-    </a>
-    </div>
-  </div>
-  
-  <div class="row row3">
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row31">
-      <a href="/dizayn-proekty/detskaya/">
-      <div class="block">
-        <div class="shadow-small"></div>
-        <div class="line1 lines"></div>
-        <div class="line2 lines"></div>
-        <div class="line3 lines"></div>
-        <div class="line4 lines"></div>
-        <div class="block-content"></div>
-        <div class="block-title">Дизайн детской комнаты</div>
-        <img src="/dizayn-proekty/detskaya/dizayn-detskoy-komnaty.jpg" class="img-responsive" alt="Дизайн детской комнаты" title="Дизайн детской комнаты">
-      </div>
-    </a>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row32">
-      <a href="/dizayn-proekty/dizayn-dlya-molodoy-semi/">
-      <div class="block">
-        <div class="shadow-small"></div>
-        <div class="line1 lines"></div>
-        <div class="line2 lines"></div>
-        <div class="line3 lines"></div>
-        <div class="line4 lines"></div>
-        <div class="block-content"></div>
-        <div class="block-title">Дизайн для молодой семьи</div>
-        <img src="/dizayn-proekty/dizayn-dlya-molodoy-semi/dizayn-dlya-molodoy-semi.jpg" class="img-responsive" alt="Дизайн для молодой семьи" title="Дизайн для молодой семьи">
-      </div>
-    </a>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row33">
-      <a href="/dizayn-proekty/interer-v-zheltyh-tonah/">
-      <div class="block">
-        <div class="shadow-small"></div>
-        <div class="line1 lines"></div>
-        <div class="line2 lines"></div>
-        <div class="line3 lines"></div>
-        <div class="line4 lines"></div>
-        <div class="block-content"></div>
-        <div class="block-title">Интерьер в желтых тонах</div>
-        <img src="/dizayn-proekty/interer-v-zheltyh-tonah/interer-v-zheltyh-tonah.jpg" class="img-responsive" alt="Интерьер в желтых тонах" title="Интерьер в желтых тонах">
-      </div>
-    </a>
-    </div>
-  </div>  
-  <!-- ROW 3 -->
-
-  <!-- ROW 4 -->
-  <div class="row row4">
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row41">
-      <a href="/dizayn-proekty/belaya-gostinaya/">
-      <div class="block">
-        <div class="shadow-small"></div>
-        <div class="line1 lines"></div>
-        <div class="line2 lines"></div>
-        <div class="line3 lines"></div>
-        <div class="line4 lines"></div>
-        <div class="block-content"></div>
-        <div class="block-title">Интерьер в желтых тонах</div>
-        <img src="/dizayn-proekty/belaya-gostinaya/belaya-gostinaya.jpg" class="img-responsive" alt="Интерьер в желтых тонах" title="Интерьер в желтых тонах">
-      </div>
-    </a>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row42">
-      <a href="/dizayn-proekty/seraya-gostinaya/">
-      <div class="block">
-        <div class="shadow-small"></div>
-        <div class="line1 lines"></div>
-        <div class="line2 lines"></div>
-        <div class="line3 lines"></div>
-        <div class="line4 lines"></div>
-        <div class="block-content"></div>
-        <div class="block-title">Серая гостиная</div>
-        <img src="/dizayn-proekty/seraya-gostinaya/seraya-gostinaya.jpg" class="img-responsive" alt="Серая гостиная" title="Серая гостиная">
-      </div>
-    </a>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row43">
-      <a href="/dizayn-proekty/interer-hi-tech/">
-      <div class="block">
-        <div class="shadow-small"></div>
-        <div class="line1 lines"></div>
-        <div class="line2 lines"></div>
-        <div class="line3 lines"></div>
-        <div class="line4 lines"></div>
-        <div class="block-content"></div>
-        <div class="block-title">Интерьер в стиле Хай-Тек</div>
-        <img src="/dizayn-proekty/interer-hi-tech/interer-hi-tech.jpg" class="img-responsive" alt="Интерьер в стиле Хай-Тек" title="Интерьер в стиле Хай-Тек">
-      </div>
-    </a>
-    </div>
-  </div>  
-  <!-- ROW 4 -->
-
-  <!-- ROW 5 -->
-  <div class="row row5">
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row51">
-      <a href="/dizayn-proekty/kvartira-v-sovremennom-stile/">
-      <div class="block">
-        <div class="shadow-small"></div>
-        <div class="line1 lines"></div>
-        <div class="line2 lines"></div>
-        <div class="line3 lines"></div>
-        <div class="line4 lines"></div>
-        <div class="block-content"></div>
-        <div class="block-title">Квартира в современном стиле</div>
-        <img src="/dizayn-proekty/kvartira-v-sovremennom-stile/kvartira-v-sovremennom-stile.jpg" class="img-responsive" alt="Квартира в современном стиле" title="Квартира в современном стиле">
-      </div>
-    </a>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row52">
-      <a href="/dizayn-proekty/interer-kottedzha/">
-      <div class="block">
-        <div class="shadow-small"></div>
-        <div class="line1 lines"></div>
-        <div class="line2 lines"></div>
-        <div class="line3 lines"></div>
-        <div class="line4 lines"></div>
-        <div class="block-content"></div>
-        <div class="block-title">Интерьер коттеджа</div>
-       <img src="/dizayn-proekty/interer-kottedzha/interer-kottedzha.jpg" class="img-responsive" alt="Интерьер коттеджа" title="Интерьер коттеджа">
-      </div>
-    </a>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row53">
-      <a href="/dizayn-proekty/interer-zagorodnogo-doma/">
-      <div class="block">
-        <div class="shadow-small"></div>
-        <div class="line1 lines"></div>
-        <div class="line2 lines"></div>
-        <div class="line3 lines"></div>
-        <div class="line4 lines"></div>
-        <div class="block-content"></div>
-        <div class="block-title">Интерьер загородного дома</div>
-        <img src="/dizayn-proekty/interer-zagorodnogo-doma/interer-zagorodnogo-doma.jpg" class="img-responsive" alt="Интерьер загородного дома" title="Интерьер загородного дома">
-      </div>
-    </a>
-    </div>
-  </div>  
-  <!-- ROW 5 -->
-
-  <!-- ROW 6 -->
-  <div class="row row6">
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row61">
-      <a href="/dizayn-proekty/salon-krasoty-estel/">
-      <div class="block">
-        <div class="shadow-small"></div>
-        <div class="line1 lines"></div>
-        <div class="line2 lines"></div>
-        <div class="line3 lines"></div>
-        <div class="line4 lines"></div>
-        <div class="block-content"></div>
-        <div class="block-title">Салон красоты Estel</div>
-        <img src="/dizayn-proekty/salon-krasoty-estel/salon-krasoty-estel.jpg" class="img-responsive" alt="Салон красоты Estel" title="Салон красоты Estel">
-      </div>
-    </a>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row62">
-      <a href="/dizayn-proekty/salon-krasoty-milan/">
-      <div class="block">
-        <div class="shadow-small"></div>
-        <div class="line1 lines"></div>
-        <div class="line2 lines"></div>
-        <div class="line3 lines"></div>
-        <div class="line4 lines"></div>
-        <div class="block-content"></div>
-        <div class="block-title">Салон красоты Milan</div>
-       <img src="/dizayn-proekty/salon-krasoty-milan/salon-krasoty-milan.jpg" class="img-responsive" alt="Салон красоты Milan" title="Салон красоты Milan">
-      </div>
-    </a>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row63">
-      <a href="/dizayn-proekty/stolovaya-loft/">
-      <div class="block">
-        <div class="shadow-small"></div>
-        <div class="line1 lines"></div>
-        <div class="line2 lines"></div>
-        <div class="line3 lines"></div>
-        <div class="line4 lines"></div>
-        <div class="block-content"></div>
-        <div class="block-title">Столовая Loft</div>
-        <img src="/dizayn-proekty/stolovaya-loft/stolovaya-loft.jpg" class="img-responsive" alt="Столовая Loft" title="Столовая Loft">
-      </div>
-    </a>
-    </div>
-  </div>  
-  <!-- ROW 6 -->
-
-  <!-- ROW 7 -->
-  <div class="row row7">
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row71">
-      <a href="/dizayn-proekty/dizayn-stomatologii/">
-      <div class="block">
-        <div class="shadow-small"></div>
-        <div class="line1 lines"></div>
-        <div class="line2 lines"></div>
-        <div class="line3 lines"></div>
-        <div class="line4 lines"></div>
-        <div class="block-content"></div>
-        <div class="block-title">Дизайн стоматологии</div>
-        <img src="/dizayn-proekty/dizayn-stomatologii/dizayn-stomatologii.jpg" class="img-responsive" alt="Дизайн стоматологии" title="Дизайн стоматологии">
-      </div>
-    </a>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row72">
-      <a href="/dizayn-proekty/stolovaya-teleperformance/">
-      <div class="block">
-        <div class="shadow-small"></div>
-        <div class="line1 lines"></div>
-        <div class="line2 lines"></div>
-        <div class="line3 lines"></div>
-        <div class="line4 lines"></div>
-        <div class="block-content"></div>
-        <div class="block-title">Столовая teleperformance</div>
-       <img src="/dizayn-proekty/stolovaya-teleperformance/stolovaya-teleperformance.jpg" class="img-responsive" alt="Столовая teleperformance" title="Столовая teleperformance">
-      </div>
-    </a>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row73">
-      <a href="/dizayn-proekty/kafe-forest/">
-      <div class="block">
-        <div class="shadow-small"></div>
-        <div class="line1 lines"></div>
-        <div class="line2 lines"></div>
-        <div class="line3 lines"></div>
-        <div class="line4 lines"></div>
-        <div class="block-content"></div>
-        <div class="block-title">Кафе forest</div>
-        <img src="/dizayn-proekty/kafe-forest/kafe-forest.jpg" class="img-responsive" alt="Кафе< forest" title="Кафе forest">
-      </div>
-    </a>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio row74">
-      <a href="/dizayn-proekty/bar/">
-      <div class="block">
-        <div class="shadow-small"></div>
-        <div class="line1 lines"></div>
-        <div class="line2 lines"></div>
-        <div class="line3 lines"></div>
-        <div class="line4 lines"></div>
-        <div class="block-content"></div>
-        <div class="block-title">Бар</div>
-        <img src="/dizayn-proekty/bar/bar.jpg" class="img-responsive" alt="Бар" title="Бар">
-      </div>
-    </a>
-    </div>
-  </div>  
-  <!-- ROW 7 -->
-
+	</div>
 </div>
  
 <?php include($root."blocks/footer.php");?>
