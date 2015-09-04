@@ -19,14 +19,8 @@
 @import "buttons";
 
 @import "home";
-
 @import "tabs-homepage";
-
 @import "design";
-
-
-
-@import "../libs/font-awesome/css/font-awesome.min.css";
 
 button:focus{outline:none;}
 
@@ -35,9 +29,7 @@ a {
   &:focus{outline: none;}
 }
 
-li {
-  list-style: outside none none;
-}
+li {list-style: outside none none;}
 .table {
     width: initial;
 }

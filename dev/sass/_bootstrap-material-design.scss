@@ -106,6 +106,18 @@ $checkbox-animation-check: 0.3s;
 @import "../libs/bootstrap-material-design/sass/_shadows.scss";
 @import "../libs/bootstrap-material-design/sass/_icons-material-design.scss";
 
+// Buttons
+@import "../libs/bootstrap-material-design/sass/_buttons.scss";
+
+// Checkboxes
+//@import "../libs/bootstrap-material-design/sass/_checkboxes.scss";
+
+// Radios
+@import "../libs/bootstrap-material-design/sass/_radios.scss";
+
+// Text inputs
+@import "../libs/bootstrap-material-design/sass/_inputs.scss";
+
 
 .modal-content {
     @extend .shadow-z-2;
@@ -142,3 +154,316 @@ $checkbox-animation-check: 0.3s;
         }
     }
 }
+
+// Alerts
+@import "../libs/bootstrap-material-design/sass/_alerts.scss";
+
+// Progress bar
+@import "../libs/bootstrap-material-design/sass/_progress.scss";
+
+// Panels
+@import "../libs/bootstrap-material-design/sass/_cards.scss";
+
+// Typography
+.text-warning {
+    color: $btn-warning;
+}
+.text-primary {
+    color: $btn-primary;
+}
+.text-danger {
+    color: $btn-danger;
+}
+.text-success {
+    color: $btn-success;
+}
+.text-info {
+    color: $btn-info;
+}
+
+//@import "../libs/bootstrap-material-design/sass/_tabs.scss";
+
+@import "../libs/bootstrap-material-design/sass/_popups.scss";
+
+@import "../libs/bootstrap-material-design/sass/_icons.scss";
+
+
+// External plugins
+@import "../libs/bootstrap-material-design/sass/_plugin-snackbarjs.scss";
+@import "../libs/bootstrap-material-design/sass/_plugin-nouislider.scss";
+
+.projects .noUi-handle:after, .projects .noUi-handle:before {
+    display:none;
+}
+.noUi-connect {
+    border: 1px solid $yellow;
+    background: $yellow;
+}
+.noUi-handle {
+    border: 1px solid $yellow;
+    background: $yellow;
+    cursor: default;
+    box-shadow: none;
+}
+.noUi-origin[style^="left: 0"] .noUi-handle {
+    background-color: $yellow;
+    border: 1px solid $yellow;
+}
+.noUi-horizontal {
+    height: 2px;
+    border-radius: 0;
+    height: 2px;
+    background: #c8c8c8;
+}
+
+.checkbox input[type=checkbox]:checked+.checkbox-material .check, .checkbox-default input[type=checkbox]:checked+.checkbox-material .check {
+    color: $yellow;
+}
+.noUi-target {
+	border: none;
+}
+.noUi-handle-lower{
+	margin-top:-1px;
+}
+.form-horizontal .checkbox {
+  padding-top: 20px;
+}
+.checkbox {
+  transform: translateZ(0); // Force 3d rendering
+  label {
+    cursor: pointer;
+    padding-left: 0; // Reset for Bootstrap rule
+  }
+
+  // Hide native checkbox
+  input[type=checkbox] {
+    opacity: 0;
+    position: absolute;
+    margin: 0;
+    z-index: -1;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    left: 0;
+    pointer-events: none;
+  }
+
+  .checkbox-material {
+    vertical-align: middle;
+    position: relative;
+    top: 3px;
+    &:before {
+      display: block;
+      position: absolute;
+      left: 0;
+      content: "";
+      background-color: rgba(0,0,0,.84);
+      height: $checkbox-size;
+      width: $checkbox-size;
+      border-radius: 100%;
+      z-index: 1;
+      opacity: 0;
+      margin: 0;
+      transform: scale3d(2.3, 2.3, 1);
+    }
+
+    .check {
+      position: relative;
+      display: inline-block;
+      width: $checkbox-size;
+      height: $checkbox-size;
+      border: 2px solid;
+      border-radius: 2px;
+      overflow: hidden;
+      z-index: 1;
+    }
+    .check:before {
+      position: absolute;
+      content: "";
+      transform: rotate(45deg);
+      display: block;
+      margin-top: -4px;
+      margin-left: 6px;
+      width: 0;
+      height: 0;
+      box-shadow:
+        0 0 0 0,
+        0 0 0 0,
+        0 0 0 0,
+        0 0 0 0,
+        0 0 0 0,
+        0 0 0 0,
+        0 0 0 0 inset;
+      animation: checkbox-off $checkbox-animation-check forwards;
+    }
+  }
+
+  input[type=checkbox]:focus + .checkbox-material .check:after {
+    opacity: 0.2;
+  }
+  input[type=checkbox]:checked + .checkbox-material .check:before {
+    box-shadow:
+      0 0 0 10px,
+      10px -10px 0 10px,
+      32px 0px 0 20px,
+      0px 32px 0 20px,
+      -5px 5px 0 10px,
+      20px -12px 0 11px;
+    animation: checkbox-on $checkbox-animation-check forwards;
+  }
+
+  input[type=checkbox]:not(:checked) + .checkbox-material:before {
+    animation: rippleOff $checkbox-animation-ripple;
+  }
+  input[type=checkbox]:checked + .checkbox-material:before {
+    animation: rippleOn $checkbox-animation-ripple;
+  }
+
+  // Ripple effect on click
+  input[type=checkbox]:not(:checked) + .checkbox-material .check:after {
+    animation: rippleOff $checkbox-animation-ripple forwards;
+  }
+  input[type=checkbox]:checked + .checkbox-material .check:after {
+    animation: rippleOn $checkbox-animation-ripple forwards;
+  }
+
+  // Style for disabled inputs
+  input[type=checkbox][disabled]:not(:checked) ~ .checkbox-material .check:before,
+  input[type=checkbox][disabled] + .circle {
+    opacity: 0.5;
+  }
+  input[type=checkbox][disabled] + .checkbox-material .check:after {
+    background-color: $lightbg-text;
+    transform: rotate(-45deg);
+  }
+
+}
+
+
+@keyframes checkbox-on {
+  0% {
+    box-shadow:
+      0 0 0 10px,
+      10px -10px 0 10px,
+      32px 0px 0 20px,
+      0px 32px 0 20px,
+      -5px 5px 0 10px,
+      15px 2px 0 11px;
+  }
+  50% {
+    box-shadow:
+      0 0 0 10px,
+      10px -10px 0 10px,
+      32px 0px 0 20px,
+      0px 32px 0 20px,
+      -5px 5px 0 10px,
+      20px 2px 0 11px;
+  }
+  100% {
+    box-shadow:
+      0 0 0 10px,
+      10px -10px 0 10px,
+      32px 0px 0 20px,
+      0px 32px 0 20px,
+      -5px 5px 0 10px,
+      20px -12px 0 11px;
+  }
+}
+@keyframes checkbox-off {
+  0% {
+    box-shadow:
+      0 0 0 10px,
+      10px -10px 0 10px,
+      32px 0px 0 20px,
+      0px 32px 0 20px,
+      -5px 5px 0 10px,
+      20px -12px 0 11px,
+      0 0 0 0 inset;
+  }
+
+  25% {
+    box-shadow:
+      0 0 0 10px,
+      10px -10px 0 10px,
+      32px 0px 0 20px,
+      0px 32px 0 20px,
+      -5px 5px 0 10px,
+      20px -12px 0 11px,
+      0 0 0 0 inset;
+  }
+  50% {
+    transform: rotate(45deg);
+    margin-top: -4px;
+    margin-left: 6px;
+    width: 0px;
+    height: 0px;
+    box-shadow:
+      0 0 0 10px,
+      10px -10px 0 10px,
+      32px 0px 0 20px,
+      0px 32px 0 20px,
+      -5px 5px 0 10px,
+      15px 2px 0 11px,
+      0 0 0 0 inset;
+  }
+  51% {
+    transform: rotate(0deg);
+    margin-top: -2px;
+    margin-left: -2px;
+    width: 20px;
+    height: 20px;
+    box-shadow:
+      0 0 0 0,
+      0 0 0 0,
+      0 0 0 0,
+      0 0 0 0,
+      0 0 0 0,
+      0 0 0 0,
+      0px 0px 0 10px inset;
+  }
+  100% {
+    transform: rotate(0deg);
+    margin-top: -2px;
+    margin-left: -2px;
+    width: 20px;
+    height: 20px;
+    box-shadow:
+      0 0 0 0,
+      0 0 0 0,
+      0 0 0 0,
+      0 0 0 0,
+      0 0 0 0,
+      0 0 0 0,
+      0px 0px 0 0px inset;
+  }
+}
+@keyframes rippleOn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes rippleOff {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+select.form-control {
+    &:focus, &.focus {
+        border-color: $yellow;
+    }
+}
+
+@import "../libs/bootstrap-material-design/sass/ripples.scss";

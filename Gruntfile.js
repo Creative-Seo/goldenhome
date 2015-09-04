@@ -29,7 +29,7 @@ grunt.initConfig({
 	uglify: {
 	  my_target: {
 		files: {
-			'prod/js/scripts.min.js': ['dev/libs/jquery/dist/jquery.min.js', 'dev/libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'dev/libs/bootstrap-material-design/dist/js/material.min.js', 'dev/libs/bootstrap-material-design/dist/js/ripples.min.js', 'dev/js/jquery.lightSlider.min.js',  'dev/js/lightGallery.js', 'dev/js/jquery.fancybox.pack.js', 'dev/js/helpers/jquery.fancybox-thumbs.js', 'dev/js/jquery.mousewheel-3.0.6.pack.js', 'dev/js/jquery.nouislider.all.min.js', 'dev/js/floating-labels.js', 'dev/js/jquery.blindify.min.js', 'dev/js/dev.proekty-domov.js', 'dev/js/dev.dizayn.js', 'dev/js/dev.raschet-gazobetona.js', 'dev/js/dev.homepage.js', 'dev/js/scripts.js', 'dev/js/common.js']
+			'prod/js/scripts.min.js': ['dev/libs/jquery/dist/jquery.min.js', 'dev/libs/bootstrap-sass/assets/javascripts/bootstrap.js', 'dev/libs/bootstrap-material-design/dist/js/material.min.js', 'dev/libs/bootstrap-material-design/dist/js/ripples.min.js', 'dev/js/modernizr.custom.js',    'dev/js/jquery.lightSlider.min.js', 'dev/js/lightGallery.js', 'dev/js/jquery.fancybox.pack.js', 'dev/js/helpers/jquery.fancybox-thumbs.js', 'dev/js/jquery.mousewheel-3.0.6.pack.js', 'dev/js/jquery.nouislider.all.min.js', 'dev/js/floating-labels.js', 'dev/js/jquery.blindify.min.js', 'dev/js/ScrollMagic.min.js', 'dev/js/debug.addIndicators.min.js', 'dev/js/TweenMax.min.js', 'dev/js/animation.gsap.js', 'dev/js/dev.proekty-domov.js', 'dev/js/dev.dizayn.js', 'dev/js/dev.raschet-gazobetona.js', 'dev/js/dev.homepage.js', 'dev/js/scripts.js', 'dev/js/common.js']
 		}
 	  }
 	},

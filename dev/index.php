@@ -32,7 +32,7 @@ include($root."array.php");?>
 
 <div class="container child hidden-sm hidden-xs"><div class="row">
 	<div id="wrapper-text" class="col-md-7 homepage-jumbotron"><p><span>Более 250</span><br>построенных <br> домов</p></div>
-	<div class="col-md-5 col-lg-4 col-lg-offset-1 homepage-jumbotron"><p>Мы сертифицированные строители <span>Ytong</span></p></div>
+	<div id="wrapper-text-2" class="col-md-5 col-lg-4 col-lg-offset-1 homepage-jumbotron"><p>Мы сертифицированные строители <span>Ytong</span></p></div>
 </div></div>
 
 <div class="container center-block" id="icons">
@@ -142,9 +142,9 @@ include($root."array.php");?>
 					</div><!-- /content -->
 				</div><!-- /tabs -->
 	</section>
-</div>	
+</div>
 
- <div class="row"> 
+<div class="row"> 
     <h2>Мы выполняем все виды работ:</h2>
     <ul>
       <li>строительство домов и коттеджей под ключ;</li>
@@ -165,7 +165,8 @@ include($root."array.php");?>
       <li>строгое соблюдение всех условий, прописанных в договоре;</li>
       <li>уверенность, что работаете с надёжной компанией;</li>
     </ul>
-  </div>
+</div>
+
    <?php include($root."proekty-domov/proekts_top.php");?>
 	<div class="row">
 		<a href="/image/price/price.jpg" class="pull-right fancybox-thumb">
