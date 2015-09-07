@@ -7,7 +7,7 @@ if (isset($dirs)) {
     <div class="block_proekt sample shadow-z-2" data-dir="<?php echo $nproekta;?>" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
       <div class="imgpr">
 		<a href="/proekty-domov/proekt-<?php echo $nproekta;?>/">
-			<img src="/proekty-domov/proekt-<?php echo $nproekta;?>/img/<?php echo $nproekta;?>.jpg" alt="" class="img-responsive">
+			<img src="/proekty-domov/preview/<?php echo $nproekta;?>.jpg" alt="" class="img-responsive">
 	  </a></div>
       <div class="przagl">
 		<a itemprop="url" href="/proekty-domov/proekt-<?php echo $nproekta;?>/"> 
