@@ -42,6 +42,11 @@ nav ul li a {font-size:14px; color:#31434e; text-transform:uppercase; font-weigh
     background-color: #f5f5f5;
 }
 
+//scrollUpButton
+.scrollUpButton{display:none;position:fixed;bottom:50px;right:30px;display:none;background:none;color:#fc0;font-size:1.5em;text-decoration:none;padding:5px 10px 5px 10px;z-index:10000}
+.scrollUpButton:hover{text-decoration:none;color:#fc0;opacity:1;}
+
+
 .yellow {background-color:#fc0;padding:1rem;}
 .grey {background-color:#eee}
 .top-content {max-height:122px;}
@@ -86,6 +91,7 @@ nav ul li a {font-size:14px; color:#31434e; text-transform:uppercase; font-weigh
     text-align: center;
     text-decoration: none;
     font-weight: 700;
+	margin:auto;
 	&:hover {
 		background-position: 0 -168px;
 		text-decoration: none;
@@ -205,8 +211,6 @@ thead {font-weight: bold;}
 @media (min-width: 1170px){
 .fancybox-thumb {max-height: 230px;}
 }
-
-
 
 //Страница Контакты
 .contacts {

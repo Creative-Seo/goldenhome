@@ -135,18 +135,15 @@ include($root."blocks/header.php");
   
   <div class="callback-form_note"> Оставьте сообщение и контактные данные. Наши сотрудники свяжутся с вами в рабочее время и ответят на все возникшие вопросы. </div>
   <div class="form-group icon">
-    <label class="cd-label" for="cd-name">Имя</label>
-    <input id="cd-name" class="user callback-form_phone form-control" type="text" required="" name="cd-name">
+    <input id="cd-name" class="user form-control" type="text" required="" name="cd-name" placeholder="Имя">
   </div>
   <div class="form-group icon">
-    <label class="cd-label" for="cd-phone">Телефон</label>
-    <input id="cd-phone" class="user callback-form_phone form-control" type="text" required="" name="cd-phone">
+    <input id="cd-phone" class="user form-control" type="text" required="" name="cd-phone" placeholder="Телефон">
   </div>
   <div class="form-group icon">
-    <label class="cd-label" for="cd-textarea">Сообщение</label>
-    <textarea id="cd-textarea" class="message" required="" name="cd-textarea"></textarea>
+    <textarea id="cd-textarea" class="user form-control" required="" name="cd-textarea" placeholder="Сообщение"></textarea>
   </div>
-  <button class="btn btn-default callback-form_button">Отправить</button>
+  <button class="btn-zakaz">Отправить</button>
 </div>
 
 <!-- Форма обратной связи -->
