@@ -84,15 +84,20 @@
 .blindify li.active{display:inline}
 
 //Отзывы
-
-.design-review {
+.carousel {
 	background-color:#F3F3F3;
-	padding: 30px 30px 30px 60px;
-	&_text {
+	&-control{padding: 30% 0;width:10%;}
+}
+.otzovy{
+	&-text {
+		padding: 30px 30px 30px 60px;
 		font-style:italic;
 		font-weight:400;
 		font-size:22px;
 	}
+	&-left{color:grey;}
+	&-right{left:auto;right:0;color:grey;}
 }
-
+.img-cesare1 {max-height:80vh;width:auto;}
+.img-cesare2 {float:left;margin-right: 50px;}
 //Отзывы
