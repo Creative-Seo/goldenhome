@@ -14,7 +14,7 @@ $(function () {
 		.addTo(controller)
 		.on("start", function (el) {
 			var tm = $(el.target.triggerElement()).attr("id"); 
-			tl.add(TweenMax.to("#"+tm+" > div", 0.5, {opacity:1, top:"0", ease:Power1.easeInOut},0.3));
+			tl.add(TweenMax.to("#"+tm+" > div", 0.3, {opacity:1, top:"0", ease:Power1.easeInOut},0.1));
 		});
 	});
 });

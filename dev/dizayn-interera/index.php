@@ -20,8 +20,8 @@ include($root."blocks/header.php");?>
       <section id="blindify" class="center-block">
             <ul>
 
-                <li><img src="/dizayn-proekty/kvartira-studiya/kvartira-studiya-2.jpg" alt="" class="img-responsive"></li>
-                <li><img src="/dizayn-proekty/dvuhkomnatnaya-kvartira/dvuhkomnatnaya-kvartira-3.jpg" alt="" class="img-responsive"></li>
+                <li><img src="preview/kvartira-studiya-2.jpg" alt="" class="img-responsive"></li>
+                <li><img src="preview/dvuhkomnatnaya-kvartira-3.jpg" alt="" class="img-responsive"></li>
                 <li><img src="/image/design_int2/118.jpg" alt="" class="img-responsive"></li>
                 
             </ul>

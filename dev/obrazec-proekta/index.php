@@ -19,6 +19,7 @@ include($root."blocks/header.php");?>
     <li>визуализация.</li>
   </ul>
 <?php
+$preview = 'preview/';
 $photo_title = 'Фотография эскизного проекта';
 $photo_alt = 'Фотография эскизного проекта';
 $photo_col = 'col-xs-6 col-sm-3 col-lg-2'; 
