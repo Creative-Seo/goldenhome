@@ -51,7 +51,6 @@
 }
 .homepage {
 	min-height:100vh;
-	.grey {background:none;color:#fff;height:30vh;}
 	.nav-wrapper {
 		background-color: transparent;
 	}
@@ -228,10 +227,6 @@ header::after {
 50% {opacity: 0.5;}
 100% {opacity: 1;}
 }
-@media screen and (max-width: 992px) {
-.grey {height:60vh;}
-}
 @media screen and (max-width: 768px) {
 .nav-justified>li {float: left;}
-.grey {height:10vh;}
 }

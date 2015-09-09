@@ -119,7 +119,7 @@ foreach ($imgs as $row) { ?>
                     </div>
                     <div class="atrtext"><span>
 	<?php foreach($bd['cate'] as $cate) { if ($cate[0]) {$cate[0]=$cate[0].'/';} ?>
-						<nobr><a href="/proekty-domov/<?php echo $cate[0]; ?>"><?php echo $cate[1];?></a>,</nobr>&nbsp;
+						<a href="/proekty-domov/<?php echo $cate[0]; ?>"><?php echo $cate[1];?></a>,&nbsp;
 	<?php } ?>
 					</span></div>
                 </li>
