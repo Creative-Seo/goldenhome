@@ -2779,109 +2779,104 @@ select[multiple].input-lg {
 .homepage {
   min-height: 100vh; }
   /* line 54, ../sass/_homepage.scss */
-  .homepage .grey {
-    background: none;
-    color: #fff;
-    height: 30vh; }
-  /* line 55, ../sass/_homepage.scss */
   .homepage .nav-wrapper {
     background-color: transparent; }
-  /* line 58, ../sass/_homepage.scss */
+  /* line 57, ../sass/_homepage.scss */
   .homepage .header {
     background-color: transparent; }
-    /* line 60, ../sass/_homepage.scss */
+    /* line 59, ../sass/_homepage.scss */
     .homepage .header-logo {
       background-color: transparent; }
-  /* line 64, ../sass/_homepage.scss */
+  /* line 63, ../sass/_homepage.scss */
   .homepage .adres-header {
     color: #fff; }
-  /* line 66, ../sass/_homepage.scss */
+  /* line 65, ../sass/_homepage.scss */
   .homepage .navbar-default {
     border: none;
     background-color: transparent; }
-  /* line 67, ../sass/_homepage.scss */
+  /* line 66, ../sass/_homepage.scss */
   .homepage .navbar-header {
     background-color: transparent; }
-  /* line 68, ../sass/_homepage.scss */
+  /* line 67, ../sass/_homepage.scss */
   .homepage .navbar-black {
     background-color: transparent; }
-  /* line 70, ../sass/_homepage.scss */
+  /* line 69, ../sass/_homepage.scss */
   .homepage .dropdown-caret {
     border-bottom: none; }
-  /* line 71, ../sass/_homepage.scss */
+  /* line 70, ../sass/_homepage.scss */
   .homepage .header .navbar-nav > li > a {
     color: #aaa; }
-    /* line 73, ../sass/_homepage.scss */
+    /* line 72, ../sass/_homepage.scss */
     .homepage .header .navbar-nav > li > a:hover, .homepage .header .navbar-nav > li > a:focus {
       color: #fff; }
-  /* line 75, ../sass/_homepage.scss */
+  /* line 74, ../sass/_homepage.scss */
   .homepage .topright {
     color: #fff;
     background-color: transparent; }
-    /* line 78, ../sass/_homepage.scss */
+    /* line 77, ../sass/_homepage.scss */
     .homepage .topright-button {
       color: #fff; }
-      /* line 80, ../sass/_homepage.scss */
+      /* line 79, ../sass/_homepage.scss */
       .homepage .topright-button:hover, .homepage .topright-button:focus {
         color: #aaa; }
-  /* line 83, ../sass/_homepage.scss */
+  /* line 82, ../sass/_homepage.scss */
   .homepage .navbar-nav > li > a {
     color: #fff; }
-  /* line 86, ../sass/_homepage.scss */
+  /* line 85, ../sass/_homepage.scss */
   .homepage .nav .open > a, .homepage .nav .open > a:hover, .homepage .nav .open > a:focus {
     background-color: transparent;
     color: #fff; }
-  /* line 90, ../sass/_homepage.scss */
+  /* line 89, ../sass/_homepage.scss */
   .homepage .navbar .nav > li > a > span {
     border-bottom: none; }
-  /* line 91, ../sass/_homepage.scss */
+  /* line 90, ../sass/_homepage.scss */
   .homepage .navbar-default .navbar-nav > .open > a, .homepage .navbar-default .navbar-nav > .open > a:focus, .homepage .navbar-default .navbar-nav > .open > a:hover {
     background-color: rgba(0, 0, 0, 0.2);
     border-color: #337ab7; }
-  /* line 95, ../sass/_homepage.scss */
+  /* line 94, ../sass/_homepage.scss */
   .homepage .dropdown-menu {
     background-color: rgba(0, 0, 0, 0.7); }
-    /* line 97, ../sass/_homepage.scss */
+    /* line 96, ../sass/_homepage.scss */
     .homepage .dropdown-menu > li > a {
       color: #ccc; }
-      /* line 99, ../sass/_homepage.scss */
+      /* line 98, ../sass/_homepage.scss */
       .homepage .dropdown-menu > li > a:focus, .homepage .dropdown-menu > li > a:hover {
         color: #fff;
         background-color: rgba(0, 0, 0, 0.2); }
-  /* line 105, ../sass/_homepage.scss */
+  /* line 104, ../sass/_homepage.scss */
   .homepage .top-content {
     max-height: 122px; }
-  /* line 106, ../sass/_homepage.scss */
+  /* line 105, ../sass/_homepage.scss */
   .homepage .phone {
     color: #fff; }
-  /* line 107, ../sass/_homepage.scss */
+  /* line 106, ../sass/_homepage.scss */
   .homepage .adres {
     color: #fff; }
-  /* line 108, ../sass/_homepage.scss */
+  /* line 107, ../sass/_homepage.scss */
   .homepage .back {
     background-color: transparent; }
-  /* line 109, ../sass/_homepage.scss */
+  /* line 108, ../sass/_homepage.scss */
   .homepage .article {
     margin-bottom: 40px; }
-    /* line 110, ../sass/_homepage.scss */
+    /* line 109, ../sass/_homepage.scss */
     .homepage .article p {
       line-height: 1.8em; }
-    /* line 111, ../sass/_homepage.scss */
+    /* line 110, ../sass/_homepage.scss */
     .homepage .article h1 {
       margin: 30px 0 30px 0; }
-  /* line 113, ../sass/_homepage.scss */
+  /* line 112, ../sass/_homepage.scss */
   .homepage .navbar .nav > li > a {
     font-weight: 700;
     color: #fff !important;
     padding: 20px 25px 20px 25px; }
-  /* line 119, ../sass/_homepage.scss */
+  /* line 118, ../sass/_homepage.scss */
   .homepage .topmenu-item {
     color: #000; }
-    /* line 121, ../sass/_homepage.scss */
+    /* line 120, ../sass/_homepage.scss */
     .homepage .topmenu-item > span {
       border-bottom: 1px #000 solid; }
 
-/* line 127, ../sass/_homepage.scss */
+/* line 126, ../sass/_homepage.scss */
 header::after {
   content: " ";
   display: block;
@@ -2892,29 +2887,29 @@ header::after {
   width: 100%;
   z-index: 1; }
 
-/* line 137, ../sass/_homepage.scss */
+/* line 136, ../sass/_homepage.scss */
 #navbar {
   background-color: transparent;
   z-index: 100; }
-  /* line 140, ../sass/_homepage.scss */
+  /* line 139, ../sass/_homepage.scss */
   #navbar .in {
     background: rgba(0, 0, 0, 0.8); }
 
-/* line 144, ../sass/_homepage.scss */
+/* line 143, ../sass/_homepage.scss */
 .homepage-jumbotron {
   padding: 30px 0;
   min-height: 25vh;
   background: none;
   z-index: 100;
   line-height: 65px; }
-  /* line 150, ../sass/_homepage.scss */
+  /* line 149, ../sass/_homepage.scss */
   .homepage-jumbotron p {
     font-weight: 400;
     font-size: 50px;
     color: #FFF;
     font-family: 'PT Sans Narrow', sans-serif;
     z-index: 100; }
-    /* line 156, ../sass/_homepage.scss */
+    /* line 155, ../sass/_homepage.scss */
     .homepage-jumbotron p span {
       font-weight: bold;
       font-size: 82px;
@@ -2922,25 +2917,25 @@ header::after {
       font-family: 'PT Sans Narrow', sans-serif; }
 
 @media screen and (max-width: 992px) {
-  /* line 166, ../sass/_homepage.scss */
+  /* line 165, ../sass/_homepage.scss */
   .homepage-jumbotron {
     min-height: 45vh; } }
-/* line 169, ../sass/_homepage.scss */
+/* line 168, ../sass/_homepage.scss */
 #icons {
   z-index: 1000;
   margin: auto;
   margin-bottom: 40px; }
-  /* line 173, ../sass/_homepage.scss */
+  /* line 172, ../sass/_homepage.scss */
   #icons a {
     opacity: 0.7;
     text-decoration: none;
     color: #fff  !important;
     text-transform: uppercase; }
-  /* line 174, ../sass/_homepage.scss */
+  /* line 173, ../sass/_homepage.scss */
   #icons .text {
     font-size: 16px;
     padding-top: 5px; }
-  /* line 175, ../sass/_homepage.scss */
+  /* line 174, ../sass/_homepage.scss */
   #icons .button {
     padding: 13px;
     white-space: nowrap;
@@ -2950,27 +2945,27 @@ header::after {
     font-size: 15px;
     visibility: hidden;
     display: none; }
-  /* line 176, ../sass/_homepage.scss */
+  /* line 175, ../sass/_homepage.scss */
   #icons .action a {
     opacity: 1; }
-  /* line 177, ../sass/_homepage.scss */
+  /* line 176, ../sass/_homepage.scss */
   #icons .action .button {
     visibility: visible; }
-  /* line 179, ../sass/_homepage.scss */
+  /* line 178, ../sass/_homepage.scss */
   #icons a:hover, #icons #icons a:focus {
     background: none; }
-  /* line 180, ../sass/_homepage.scss */
+  /* line 179, ../sass/_homepage.scss */
   #icons .button:hover {
     background-color: #779; }
 
-/* line 182, ../sass/_homepage.scss */
+/* line 181, ../sass/_homepage.scss */
 #mouse-scroll {
   bottom: 10px;
   left: 50%;
   margin: auto;
   position: absolute;
   z-index: 9999; }
-  /* line 188, ../sass/_homepage.scss */
+  /* line 187, ../sass/_homepage.scss */
   #mouse-scroll span {
     border-bottom: 2px solid #dddddd;
     border-right: 2px solid #dddddd;
@@ -2979,22 +2974,22 @@ header::after {
     margin: 0 0 3px 5px;
     transform: rotate(45deg);
     width: 5px; }
-  /* line 197, ../sass/_homepage.scss */
+  /* line 196, ../sass/_homepage.scss */
   #mouse-scroll .unu {
     margin-top: 6px; }
-  /* line 198, ../sass/_homepage.scss */
+  /* line 197, ../sass/_homepage.scss */
   #mouse-scroll .unu, #mouse-scroll .doi, #mouse-scroll .trei {
     animation: 1s ease 0s normal none infinite running mouse-scroll; }
-  /* line 199, ../sass/_homepage.scss */
+  /* line 198, ../sass/_homepage.scss */
   #mouse-scroll .unu {
     animation-delay: 0.1s; }
-  /* line 200, ../sass/_homepage.scss */
+  /* line 199, ../sass/_homepage.scss */
   #mouse-scroll .doi {
     animation-delay: 0.2s; }
-  /* line 201, ../sass/_homepage.scss */
+  /* line 200, ../sass/_homepage.scss */
   #mouse-scroll .trei {
     animation-delay: 0.3s; }
-  /* line 202, ../sass/_homepage.scss */
+  /* line 201, ../sass/_homepage.scss */
   #mouse-scroll .mouse {
     border: 2px solid #dddddd;
     border-radius: 10px;
@@ -3002,7 +2997,7 @@ header::after {
     top: 170px;
     transform: none;
     width: 14px; }
-  /* line 210, ../sass/_homepage.scss */
+  /* line 209, ../sass/_homepage.scss */
   #mouse-scroll .wheel {
     background: #dddddd none repeat scroll 0 0;
     display: block;
@@ -3010,11 +3005,11 @@ header::after {
     margin: 5px auto;
     position: relative;
     width: 2px; }
-  /* line 218, ../sass/_homepage.scss */
+  /* line 217, ../sass/_homepage.scss */
   #mouse-scroll .wheel {
     animation: 1.2s ease 0s normal none infinite running mouse-wheel; }
 
-/* line 220, ../sass/_homepage.scss */
+/* line 219, ../sass/_homepage.scss */
 .tipvar {
   font-size: 20px;
   font-weight: bold;
@@ -3028,15 +3023,7 @@ header::after {
     opacity: 0.5; }
   100% {
     opacity: 1; } }
-@media screen and (max-width: 992px) {
-  /* line 232, ../sass/_homepage.scss */
-  .grey {
-    height: 60vh; } }
 @media screen and (max-width: 768px) {
-  /* line 235, ../sass/_homepage.scss */
+  /* line 231, ../sass/_homepage.scss */
   .nav-justified > li, .nav-tabs.nav-justified > li {
-    float: left; }
-
-  /* line 236, ../sass/_homepage.scss */
-  .grey {
-    height: 10vh; } }
+    float: left; } }

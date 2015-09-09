@@ -82,7 +82,7 @@ include($root."array.php");?>
 				<p>Стоимость строительства дома под ключ из газоблоков составляет сегодня в среднем от 18 500 р./кв.м. Цены на строительство домов и под ключ зависят, прежде всего, от метража, этажности, сложности реализации дизайна, конструкции и планировок, а также от выбора строительных и отделочных материалов.</p>
 			</div>
 		</div>
-		<div class="col-md-6">
+		<div class="col-md-6 hidden-xs">
 			<div class="home-page_top-photo">
 				<img src="/image/photo_obj/100.jpg" alt="" class="img-responsive">
 			</div>
@@ -197,14 +197,20 @@ include($root."array.php");?>
 <div class="col-xs-6 col-sm-3 col-lg-2"><a href="/img/objects/6.jpg" class="fancybox-thumb" rel="group"><img class="img-responsive" src="/img/objects/6.jpg" alt="строительство дома в Муроме" width="230"></a></div>
 	</div>
 	  <a href="/foto-obektov/" class="vse">Посмотреть все</a>
-      <h3>Видео о строительстве:</h3>
-      <div class="center-block" style="text-align:center; margin-bottom:15px">
-        <iframe class="center-block" width="480" height="360" src="//www.youtube.com/embed/4rUKq18ZKTw" frameborder="0" allowfullscreen></iframe>
-      </div>
-      <div class="center-block" style="text-align:center">
-        <iframe class="center-block" width="480" height="360" src="//www.youtube.com/embed/J2H3HxyBqpI" frameborder="0" allowfullscreen></iframe>
-        <a href="http://www.youtube.com/watch?v=J2H3HxyBqpI" title="Строительная компания Golden Home" target="_blank">Строительная компания Golden Home</a><a href="http://www.youtube.com/user/33goldenhome" style="margin-left:10px" target="_blank" title="Наш канал на Youtube">Наш канал на Youtube</a>
-	  </div>
+
+    <h3>Видео о строительстве:</h3>
+	<div class="row">
+		<div class="col-sm-6" style="margin-bottom:10px;">
+			<iframe class="center-block" width="100%" height="360" src="//www.youtube.com/embed/4rUKq18ZKTw" frameborder="0" allowfullscreen></iframe>
+		</div>
+		<div class="col-sm-6" style="margin-bottom:10px;">
+			<iframe class="center-block" width="100%" height="360" src="//www.youtube.com/embed/J2H3HxyBqpI" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+	<p>
+		<a href="http://www.youtube.com/watch?v=J2H3HxyBqpI" style="padding:5px" target="_blank" title="Строительная компания Golden Home">Строительная компания Golden Home</a>
+		<a href="http://www.youtube.com/user/33goldenhome" style="padding:5px" target="_blank" title="Наш канал на Youtube">Наш канал на Youtube</a>
+	</p>
 </div>
 </div>
 
