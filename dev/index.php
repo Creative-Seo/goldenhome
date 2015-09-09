@@ -170,7 +170,7 @@ include($root."array.php");?>
    <?php include($root."proekty-domov/proekts_top.php");?>
 	<div class="row">
 		<a href="/image/price/price.jpg" class="pull-right fancybox-thumb">
-			<img alt="сертификат аккредитованного партнера по строительству с использованием технологии Ytong" src="/img/preview/price.jpg" width="150" title="сертификат аккредитованного партнера по строительству с использованием технологии Ytong"></a> 
+			<img alt="сертификат аккредитованного партнера по строительству с использованием технологии Ytong" src="/image/price/price.jpg" width="150" title="сертификат аккредитованного партнера по строительству с использованием технологии Ytong"></a> 
 		<h2>Загородные дома из газобетона Ytong во Владимире</h2>
 		<p style="text-align: justify">Строительная компания Golden Home является аккредитованным партнером по строительству с использованием технологии YTONG и первая среди других строительно-монтажных организаций Владимирской области начала применять в строительстве блоки YTONG. В настоящее время специалисты компании занимаются строительством индивидуальных малоэтажных домов и коттеджей любой степени сложности. Строительная фирма Golden Home выполнит работы по возведению Вашего дома, а также весь комплекс сопутствующих работ: выезд специалиста на участок, проектирование, возведение фундамента, внутренняя и внешняя отделка. Команда специалистов компании поможет реализовать Ваши идеи с учетом индивидуальных предпочтений.</p>
     </div>
@@ -189,12 +189,12 @@ include($root."array.php");?>
     </ol>
     <h3>Реализованные проекты загородных домов:</h3>
     <div class="row">
-<div class="col-xs-6 col-sm-3 col-lg-2"><a href="/img/objects/1.jpg" class="fancybox-thumb" rel="group"><img class="img-responsive" src="/img/preview/1.jpg" alt="строительство дома в Ново-Александрово" width="230"></a></div>
-<div class="col-xs-6 col-sm-3 col-lg-2"><a href="/img/objects/2.jpg" class="fancybox-thumb" rel="group"><img class="img-responsive" src="/img/preview/2.jpg" alt="строительство дома в Коврове" width="230"></a></div>
-<div class="col-xs-6 col-sm-3 col-lg-2"><a href="/img/objects/3.jpg" class="fancybox-thumb" rel="group"><img class="img-responsive" src="/img/preview/3.jpg" alt="строительство дома в Муроме" width="230"></a></div>
-<div class="col-xs-6 col-sm-3 col-lg-2"><a href="/img/objects/4.jpg" class="fancybox-thumb" rel="group"><img class="img-responsive" src="/img/preview/4.jpg" alt="строительство дома в Гусь-Хрустальном" width="230"></a></div>
-<div class="col-xs-6 col-sm-3 col-lg-2"><a href="/img/objects/5.jpg" class="fancybox-thumb" rel="group"><img class="img-responsive" src="/img/preview/5.jpg" alt="строительство дома в Коврове" width="230"></a></div>
-<div class="col-xs-6 col-sm-3 col-lg-2"><a href="/img/objects/6.jpg" class="fancybox-thumb" rel="group"><img class="img-responsive" src="/img/preview/6.jpg" alt="строительство дома в Муроме" width="230"></a></div>
+<div class="col-xs-6 col-sm-3 col-lg-2"><a href="/img/objects/1.jpg" class="fancybox-thumb" rel="group"><img class="img-responsive" src="/img/objects/1.jpg" alt="строительство дома в Ново-Александрово" width="230"></a></div>
+<div class="col-xs-6 col-sm-3 col-lg-2"><a href="/img/objects/2.jpg" class="fancybox-thumb" rel="group"><img class="img-responsive" src="/img/objects/2.jpg" alt="строительство дома в Коврове" width="230"></a></div>
+<div class="col-xs-6 col-sm-3 col-lg-2"><a href="/img/objects/3.jpg" class="fancybox-thumb" rel="group"><img class="img-responsive" src="/img/objects/3.jpg" alt="строительство дома в Муроме" width="230"></a></div>
+<div class="col-xs-6 col-sm-3 col-lg-2"><a href="/img/objects/4.jpg" class="fancybox-thumb" rel="group"><img class="img-responsive" src="/img/objects/4.jpg" alt="строительство дома в Гусь-Хрустальном" width="230"></a></div>
+<div class="col-xs-6 col-sm-3 col-lg-2"><a href="/img/objects/5.jpg" class="fancybox-thumb" rel="group"><img class="img-responsive" src="/img/objects/5.jpg" alt="строительство дома в Коврове" width="230"></a></div>
+<div class="col-xs-6 col-sm-3 col-lg-2"><a href="/img/objects/6.jpg" class="fancybox-thumb" rel="group"><img class="img-responsive" src="/img/objects/6.jpg" alt="строительство дома в Муроме" width="230"></a></div>
 	</div>
 	  <a href="/foto-obektov/" class="vse">Посмотреть все</a>
 
