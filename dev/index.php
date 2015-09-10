@@ -31,8 +31,7 @@ include($root."array.php");?>
 <?php include($root."blocks/header.php"); ?>
 
 <div class="container wrapper-texts hidden-sm hidden-xs"><div class="row">
-	<div id="wrapper-text" class="col-md-7 homepage-jumbotron"><p><span>Более 250</span><br>построенных <br> домов</p></div>
-	<div id="wrapper-text-2" class="col-md-5 col-lg-4 col-lg-offset-1 homepage-jumbotron"><p>Мы сертифицированные строители <span>Ytong</span></p></div>
+	<div id="wrapper-text" class="col-md-10 homepage-jumbotron"><p><span>Более 250</span><br>построенных <br> домов</p></div>
 </div></div>
 
 <div class="container center-block hidden-xs" id="icons">
