@@ -1,7 +1,7 @@
 var img='#wrapper .stroitelstvo';
 var a = {'stroitelstvo' : '<p><span>Более 100</span><br>построенных<br> домов</p>',
 		'proekty-domov' : '<p><span>Наши проекты</span><br>всегда высокого<br> качества</p>',
-		'prodazha-domov' : '<p><span>Огромный выбор</span><br> самых разных<br> построек</p>',
+		'prodazha-domov' : '<p><span>Коттедж в Новом Селе</span><br>4 650 000 руб.<br><a href="/kupit-dom/">Посмотреть все дома</a></p>',
 		'dizayn-interyera' : '<p><span>Мы</span><br>осуществим<br> вашу мечту</p>',
 		'gazobloki' : '<p><span>Газоблоки</span><br>Ytong и Bonolit</p>'};
 $(document).ready(function (){
@@ -15,7 +15,6 @@ $(document).ready(function (){
 			$(img).css('z-index', -2).css('opacity', 0);
 			$(pointer).css('z-index', -1);
 			img=pointer;
-			if (img=='#wrapper .stroitelstvo') {$('#wrapper-text-2').show();} else {$('#wrapper-text-2').hide();}
 		}
 	});
 });
