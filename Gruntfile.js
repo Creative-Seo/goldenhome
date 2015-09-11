@@ -46,11 +46,14 @@ grunt.initConfig({
 			'dev/js/TweenMax.min.js',
 			'dev/libs/scrollmagic/scrollmagic/minified/ScrollMagic.min.js',
 			'dev/libs/scrollmagic/scrollmagic/minified/plugins/animation.gsap.min.js',
+			'dev/js/inputmask.js',
+			'dev/js/jquery.inputmask.js',
 			'dev/js/cbpFWTabs.js',
 			'dev/js/dev.proekty-domov.js',
 			'dev/js/dev.dizayn.js',
 			'dev/js/dev.raschet-gazobetona.js',
 			'dev/js/dev.homepage.js',
+			'dev/js/callback.js',
 			'dev/js/scripts.js',
 			'dev/js/common.js']
 		}

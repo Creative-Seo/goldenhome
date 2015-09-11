@@ -47,7 +47,7 @@ foreach ($imgs as $row) { ?>
 		   <div class="h2">Стоимость строительства дома<sup>*</sup>:</div>
 		   <div class="price"><span><?php echo $stoimostStroitelstva?></span> руб.</div>
 		   <div class="kvm">Цена за кв. метр: 15 000 руб.</div>
-		   <button data-toggle="modal" data-target="#modal-zakaz" class="btn-zakaz">Заказать проект</button>
+		   <button class="btn-zakaz" data-toggle="callback" data-options="name,tel" data-text="Заказ проекта <?php echo $bd['nomer']; ?>">Заказать проект</button>
 		</div>
 	</div>
 </div>

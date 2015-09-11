@@ -75,6 +75,7 @@
 </footer>
 
 <?php include($root."blocks/zakaz.php");?>
+<div id="modal-ok" class="modal-ok"><p>Ваше сообщение отправлено!\nВ ближайшее время мы с вами свяжемся.</p></div>
 <!-- build:remove -->
 <script src="/libs/jquery/dist/jquery.min.js"></script>
 <script src="/libs/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
@@ -93,12 +94,15 @@
 <script src="/libs/scrollmagic/scrollmagic/minified/ScrollMagic.min.js"></script>
 <script src="/libs/scrollmagic/scrollmagic/minified/plugins/debug.addIndicators.min.js"></script>
 <script src="/libs/scrollmagic/scrollmagic/minified/plugins/animation.gsap.min.js"></script>
+<script src="/js/inputmask.js"></script>
+<script src="/js/jquery.inputmask.js"></script>
 <script src="/js/cbpFWTabs.js"></script>
 
 <script src="/js/dev.proekty-domov.js"></script>
 <script src="/js/dev.dizayn.js"></script>
 <script src="/js/dev.homepage.js"></script>
 <script src="/js/dev.raschet-gazobetona.js"></script>
+<script src="/js/callback.js"></script>
 <script src="/js/scripts.js"></script>
 <script src="/js/common.js"></script>
 <!-- /build -->

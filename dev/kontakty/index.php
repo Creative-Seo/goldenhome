@@ -130,20 +130,20 @@ include($root."blocks/header.php");
 
       <!-- Форма обратной связи -->
 
-<div class="callback-form floating-labels center-block cd-form">
+<div class="callback-form floating-labels center-block cd-form" id="form">
     <h2>Форма обратной связи</h2>
   
   <div class="callback-form_note"> Оставьте сообщение и контактные данные. Наши сотрудники свяжутся с вами в рабочее время и ответят на все возникшие вопросы. </div>
   <div class="form-group icon">
-    <input id="cd-name" class="user form-control" type="text" required="" name="cd-name" placeholder="Имя">
+    <input class="user form-control" type="text" required="" name="name" placeholder="Имя">
   </div>
   <div class="form-group icon">
-    <input id="cd-phone" class="user form-control" type="text" required="" name="cd-phone" placeholder="Телефон">
+    <input class="user form-control" type="text" required="" name="tel" placeholder="Телефон">
   </div>
   <div class="form-group icon">
-    <textarea id="cd-textarea" class="user form-control" required="" name="cd-textarea" placeholder="Сообщение"></textarea>
+    <textarea class="user form-control" required="" name="message" placeholder="Сообщение"></textarea>
   </div>
-  <button class="btn-zakaz">Отправить</button>
+  <button class="form-btn">Отправить</button>
 </div>
 
 <!-- Форма обратной связи -->
