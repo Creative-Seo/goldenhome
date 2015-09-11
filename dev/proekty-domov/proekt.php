@@ -1,7 +1,7 @@
 <?php
 $breadcrumb = $bd['breadcrumb'];
 $breadcrumb2 = 'Проекты домов'; 
-$breadcrumb2_url = 'proekty-domov/';
+$breadcrumb2_url = 'proekty-domov';
 $style='
 <link rel="stylesheet" href="/css/lightSlider.css">
 <link rel="stylesheet" href="/css/lightGallery.css">
