@@ -21,7 +21,7 @@ include($root."blocks/header.php");?>
   <div itemprop="offers" itemscope itemtype="http://schema.org/Offer">
     <span class="pricepr center-block">Цена</span> 
     <span itemprop="price" class="pricebl"> <?php echo $pricebl;?></span><meta itemprop="priceCurrency" content="RUB"><span class="priceblsht">&nbsp;руб./м<sup>3</sup></span>
-    <a href="#modal-zakaz" class="go btn skip2" style="font-weight:600; margin-right:200px">Заказать</a>
+    <a href="javascript: void(0);" class="go btn skip2" style="font-weight:600; margin-right:200px" data-toggle="callback" data-options="name,tel,col,message" data-text="Заказ <?php echo $h1; ?>">Заказать</a>
     
     <div class="nal feat"><span style="margin-top:10px"><link itemprop="availability" href="http://schema.org/InStock">В наличии</span></div>
   </div>
