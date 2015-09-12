@@ -23,12 +23,12 @@
     &_button {
     	width: 100%;
     }
-    .form-control {
+/*    .form-control {
     	border-width: 1px 0 0 1px;
     	font: bold 14px Arial,Tahoma,sans-serif;
-    }
+    }*/
 }
-
+textaria{max-width:100%;}
 .icon {
 	position: relative;
 }
@@ -44,7 +44,7 @@
 	display: block;
 	color: #94aab0;
 	margin-bottom: 10px;
-}
+}/*
 #cd-name {
   	padding: 16px 16px 16px 26px;
   	border: 1px solid #cfd9db;
@@ -62,9 +62,26 @@
     color: #2b3e51;
     font-family: "Open Sans",sans-serif;
     font-size: 1.6rem;
+}*/
+
+.modal-ok{
+	display:none;
+	position:fixed;
+	z-index:2000;
+	width:100vw;
+	height:100vh;
+	background-color:rgba(0,0,0,.3);
+	top:0;
+	p{
+		text-align:center;
+		margin:40vh auto 0 auto;
+		background-color:#444;
+		color:#ddd;
+		border-radius:10px;
+		width:500px;
+		font-size:28px;
+	}
 }
-
-
 //FLoating labels 
 
 .js .floating-labels div {

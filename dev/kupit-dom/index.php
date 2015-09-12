@@ -52,7 +52,7 @@ include($root."blocks/header.php");
 	<!-- item -->
 	<div class="col-lg-4 col-md-4 col-sm-4">
 	<div class="thumbnail">
-	<a href="poselok-suvorotskoe/"><img class="media-object img-responsive" alt="Дом (коттедж), Суворотское" src="poselok-suvorotskoe/suvorotskoe.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
+	<a href="poselok-suvorotskoe/"><img class="media-object img-responsive" alt="Дом (коттедж), Суворотское" src="preview/suvorotskoe.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
 	<div class="caption">
 	<h4><a href="poselok-suvorotskoe/">Дом (коттедж), Суворотское</a></h4>
 	<ul class="list-unstyled list-inline search-meters"><li>
@@ -72,7 +72,7 @@ include($root."blocks/header.php");
 <!-- item -->
 <div class="col-lg-4 col-md-4 col-sm-4">
 <div class="thumbnail">
-<a href="poselok-suvorotskoe-2/"><img class="media-object img-responsive" alt="Дом (коттедж), Суворотское" src="poselok-suvorotskoe-2/suvorotskoe.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
+<a href="poselok-suvorotskoe-2/"><img class="media-object img-responsive" alt="Дом (коттедж), Суворотское" src="preview/suvorotskoe_2.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
 <div class="caption">
 <h4><a href="poselok-suvorotskoe-2/">Дом (коттедж), Суворотское</a></h4>
 <ul class="list-unstyled list-inline search-meters"><li>
@@ -89,7 +89,7 @@ include($root."blocks/header.php");
 <!-- item -->
 <div class="col-lg-4 col-md-4 col-sm-4">
 <div class="thumbnail">
-<a href="poselok-suvorotskoe-3/"><img class="media-object img-responsive" alt="Дом (коттедж), Суворотское" src="poselok-suvorotskoe-3/suvorotskoe.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
+<a href="poselok-suvorotskoe-3/"><img class="media-object img-responsive" alt="Дом (коттедж), Суворотское" src="preview/suvorotskoe_3.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
 <div class="caption">
 <h4><a href="poselok-suvorotskoe-3/">Дом (коттедж), Суворотское</a></h4>
 <ul class="list-unstyled list-inline search-meters"><li>
@@ -106,7 +106,7 @@ include($root."blocks/header.php");
 <!-- item -->
 <div class="col-lg-4 col-md-4 col-sm-4">
 <div class="thumbnail">
-<a href="oslavskoe-33/"><img class="media-object img-responsive" alt="Дом (коттедж), Ославское 33" src="oslavskoe-33/oslavskoe.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
+<a href="oslavskoe-33/"><img class="media-object img-responsive" alt="Дом (коттедж), Ославское 33" src="preview/oslavskoe.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
 <div class="caption">
 <h4><a href="oslavskoe-33/">Дом (коттедж), Ославское 33</a></h4>
 <ul class="list-unstyled list-inline search-meters"><li>
@@ -125,7 +125,7 @@ include($root."blocks/header.php");
 <!-- item -->
 <div class="col-lg-4 col-md-4 col-sm-4">
 <div class="thumbnail">
-<a href="bogoslovo/"><img class="media-object img-responsive" alt="Дом (коттедж), Богослово" src="bogoslovo/bogoslovo.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
+<a href="bogoslovo/"><img class="media-object img-responsive" alt="Дом (коттедж), Богослово" src="preview/bogoslovo.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
 <div class="caption">
 <h4><a href="bogoslovo/">Дом (коттедж), Богослово</a></h4>
 <ul class="list-unstyled list-inline search-meters"><li>

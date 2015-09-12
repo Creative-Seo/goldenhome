@@ -30,7 +30,7 @@ $text = 'блок';$nomer = $breadcrumb;?>
 		<p class="h2"><span itemprop="price"><?php echo $bd['cost']; ?></span>
 		<meta itemprop="priceCurrency" content="RUB">
 		<span>&nbsp;руб./м<sup>3</sup></span></p>
-		<button data-toggle="modal" data-target="#modal-zakaz" class="btn-zakaz">Заказать</button>
+		<button class="btn-zakaz" data-toggle="callback" data-options="name,tel,col,message" data-text="Заказ <?php echo $breadcrumb; ?>">Заказать</button>
 		<p><b><link itemprop="availability" href="http://schema.org/InStock">В наличии</b></p>
 	</div>
 	<span itemprop="description" ><?php echo $bd['span']; ?></span>  

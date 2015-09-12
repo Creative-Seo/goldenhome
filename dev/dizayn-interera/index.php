@@ -20,8 +20,8 @@ include($root."blocks/header.php");?>
       <section id="blindify" class="center-block">
             <ul>
 
-                <li><img src="/dizayn-proekty/kvartira-studiya/kvartira-studiya-2.jpg" alt="" class="img-responsive"></li>
-                <li><img src="/dizayn-proekty/dvuhkomnatnaya-kvartira/dvuhkomnatnaya-kvartira-3.jpg" alt="" class="img-responsive"></li>
+                <li><img src="preview/kvartira-studiya-2.jpg" alt="" class="img-responsive"></li>
+                <li><img src="preview/dvuhkomnatnaya-kvartira-3.jpg" alt="" class="img-responsive"></li>
                 <li><img src="/image/design_int2/118.jpg" alt="" class="img-responsive"></li>
                 
             </ul>
@@ -75,9 +75,14 @@ include($root."blocks/header.php");?>
 
   <div class="row">
     <h2>Отзывы наших клиентов</h2>
-    <div class="design-review col-lg-12 col-md-12 col-sm-12 col-xs-12">
+  </div>
+</div>
 
-     <div class="design-review_text">
+	<div id="carousel-otzovy" class="carousel slide" data-ride="carousel">
+		<div class="carousel-inner">
+
+			<div class="item active">	
+     <div class="otzovy-text container">
       <p>Хочу выразить огромную благодарность за проделанную работу дизайн студии «Александры Бакка».
   Это уже не первая наша совместная работа с ними. Создание интерьера ресторана, стало частью комплексной реновацией бывших заводских пространств ВЗПО «Техника».
   Первое наше знакомство состоялось еще 3 года назад, когда возникла идея создания инновационной столовой в нашем городе. 
@@ -87,16 +92,28 @@ include($root."blocks/header.php");?>
   Фешенебельный, расслабленная и неформальная атмосфера отличает заведение от традиционных ресторанов города, больше напоминая домашнюю уютную атмосферу
   В заведении, оформленном в традиционном классическом стиле, архитекторы и дизайнеры сумели создать теплую и дружественную атмосферу, располагающую к непринужденному времяпрепровождению.</p>
   <p>С командой студии всегда приятно работать. Они схватывают идеи и пожелания заказчика моментально. Их интерьеры неповторимы, наполнены новыми идеями, и в тоже время уютные и располагающие к дружеским встречам.</p>
-             <p><strong>- Александр Лазуткин</strong></p>
-      </div>
-  <p><strong>Владелец Клубного арт-ресторана «Брют Клуб»</strong></p>
+		<p><strong>- Александр Лазуткин</strong></p>
+		<p><strong>Владелец Клубного арт-ресторана «Брют Клуб»</strong></p>
     </div>
+			</div>
+			
+			<div class="item">	
+     <div class="otzovy-text container">
+		<p class="text-center"><img src="img/otzyv-cesare-ponti.jpg" class="img-cesare1" alt="Отзыв Cesare Ponti"></p>
+		<p><img src="img/cesare.jpg" alt="Ирина Залевская" class="img-circle img-cesare2" width="150"></p>
+		<p><strong>- Ирина Залевская</strong></p>
+		<p><strong>Генеральный директор салона Cesare Ponti</strong></p>
+	 </div>
+			</div>
+			
+		</div>
+		<a class="otzovy-left carousel-control" href="#carousel-otzovy" data-slide="prev">
+			<span class="fa fa-chevron-left fa-2x"></span>
+		</a>
+		<a class="otzovy-right carousel-control" href="#carousel-otzovy" data-slide="next">
+			<span class="fa fa-chevron-right fa-2x"></span>
+		</a>
+	</div>
   </div>
-
-  
-
-</div>
-
-
 
 <?php include($root."blocks/footer.php");?>

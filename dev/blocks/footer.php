@@ -75,7 +75,7 @@
 </footer>
 
 <?php include($root."blocks/zakaz.php");?>
-
+<div id="modal-ok" class="modal-ok"><p>Ваше сообщение отправлено!\nВ ближайшее время мы с вами свяжемся.</p></div>
 <!-- build:remove -->
 <script src="/libs/jquery/dist/jquery.min.js"></script>
 <script src="/libs/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
@@ -90,16 +90,19 @@
 <script src="/js/jquery.nouislider.all.min.js"></script>
 <script src="/js/floating-labels.js"></script>
 <script src="/js/jquery.blindify.min.js"></script>
-<script src="/js/ScrollMagic.min.js"></script>
-<script src="/js/debug.addIndicators.min.js"></script>
 <script src="/js/TweenMax.min.js"></script>
-<script src="/js/animation.gsap.js"></script>
+<script src="/libs/scrollmagic/scrollmagic/minified/ScrollMagic.min.js"></script>
+<script src="/libs/scrollmagic/scrollmagic/minified/plugins/debug.addIndicators.min.js"></script>
+<script src="/libs/scrollmagic/scrollmagic/minified/plugins/animation.gsap.min.js"></script>
+<script src="/js/inputmask.js"></script>
+<script src="/js/jquery.inputmask.js"></script>
 <script src="/js/cbpFWTabs.js"></script>
 
 <script src="/js/dev.proekty-domov.js"></script>
 <script src="/js/dev.dizayn.js"></script>
 <script src="/js/dev.homepage.js"></script>
 <script src="/js/dev.raschet-gazobetona.js"></script>
+<script src="/js/callback.js"></script>
 <script src="/js/scripts.js"></script>
 <script src="/js/common.js"></script>
 <!-- /build -->
@@ -137,6 +140,7 @@ var s = document.createElement('script'); s.type = 'text/javascript'; s.async = 
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+<a href="#" class="scrollUpButton"><i class="fa fa-chevron-up fa-2x"></i></a>
 </body>
 </html>
 

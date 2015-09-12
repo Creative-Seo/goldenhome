@@ -38,23 +38,4 @@ $(document).ready(function() {
         onSliderLoad: function(plugin) {plugin.lightGallery();}   
     });
 
-	$('#modal-zakaz .btn-zakaz').click(function(){
-		var n = $('#name-z').val(),
-			t = $('#tel-z').val(),
-			k = $('#kol').val(),
-			m = $('#message').val(),
-			nomer = "<? echo $nomer ?>",
-			error = '';
-		$('#name-z').removeClass('error');
-		$('#tel-z').removeClass('error');
-		$('#kol').removeClass('error');
-		if(!n) { $('#name-z').addClass('error'); error+= 'Вы не заполнили поле "Ваше имя"!\n'; }
-		if(!t) { $('#tel-z').addClass('error'); error+= 'Вы не заполнили поле "Ваш телефон"!\n'; }
-		if(!k) { $('#tel-z').addClass('error'); error+= 'Вы не указали количество блоков!\n'; }
-		if (error != '') {alert('Обнаружены ошибки:\n'+error);return false;}
-		$.post('http://www.sk-goldenhome.ru/ajax4.php',{ n: n, t: t, k: k, nomer: nomer, m: m, key: 'xZuyP93oNVpiNx4w4EemBxbFvGNFgWah'})
-			.done(function(data) {alert(data);})
-			.fail(function() {alert('Ошибка отправки данных.');});
-		return false;
-	});
 });

@@ -43,15 +43,17 @@ grunt.initConfig({
 			'dev/js/jquery.nouislider.all.min.js',
 			'dev/js/floating-labels.js',
 			'dev/js/jquery.blindify.min.js',
-			'dev/js/ScrollMagic.min.js',
-			'dev/js/debug.addIndicators.min.js',
-			'dev/js/TweenMax.min.js', 
-			'dev/js/animation.gsap.js',
+			'dev/js/TweenMax.min.js',
+			'dev/libs/scrollmagic/scrollmagic/minified/ScrollMagic.min.js',
+			'dev/libs/scrollmagic/scrollmagic/minified/plugins/animation.gsap.min.js',
+			'dev/js/inputmask.js',
+			'dev/js/jquery.inputmask.js',
 			'dev/js/cbpFWTabs.js',
 			'dev/js/dev.proekty-domov.js',
 			'dev/js/dev.dizayn.js',
 			'dev/js/dev.raschet-gazobetona.js',
 			'dev/js/dev.homepage.js',
+			'dev/js/callback.js',
 			'dev/js/scripts.js',
 			'dev/js/common.js']
 		}
@@ -71,7 +73,7 @@ grunt.initConfig({
 	},
 
 	copy: {
-		main: {files: [{expand: true, cwd: 'dev/', src: ['**/*.php', '**/*.svg', 'config.php', '.htaccess'], dest: 'prod/'},
+		main: {files: [{expand: true, cwd: 'dev/', src: ['**/*.php', '**/*.svg', '**/*.pdf', 'config.php', '.htaccess'], dest: 'prod/'},
 				{expand: true, cwd: 'dev/libs/**/fonts', src: ['**'], dest: 'prod/fonts'},{expand: true, cwd: 'dev/libs/font-awesome/fonts/', src: ['**'], dest: 'prod/fonts'}]
 		}
 	},

@@ -4,7 +4,8 @@
   background-image: url("../img/shadow.png");
   background-position: left top;
   background-repeat: repeat-x;
-  height: 159px;
+    background-size: contain;
+    height: 30vh;
   left: 0;
   position: absolute;
   top: 0;
@@ -51,7 +52,6 @@
 }
 .homepage {
 	min-height:100vh;
-	.grey {background:none;color:#fff;height:30vh;}
 	.nav-wrapper {
 		background-color: transparent;
 	}
@@ -141,24 +141,28 @@ header::after {
 }
 
 .homepage{
+	text-shadow: 0 5px 8px black;
 	&-jumbotron {
 		padding:30px 0;
 		min-height: 25vh;
 		background:none;
 		z-index: 100;
 		line-height: 65px;
+		color:#FFF;
 		p {
 			font-weight: 400;
 			font-size: 50px;
-			color:#FFF;
+			
 			font-family: 'PT Sans Narrow', sans-serif;
 			z-index: 100;
-			span {
-				font-weight:bold;
-				font-size:82px;
-				color:#FFF;
-				font-family: 'PT Sans Narrow', sans-serif;
-			}
+		}
+		span {
+			font-weight:bold;
+			font-size:82px;
+			font-family: 'PT Sans Narrow', sans-serif;
+		}
+		a {color:#FFF;text-decoration:underline;
+			&:hover,&:focus {color:#aaa;text-decoration:none;}
 		}
 	}
 }
@@ -228,10 +232,6 @@ header::after {
 50% {opacity: 0.5;}
 100% {opacity: 1;}
 }
-@media screen and (max-width: 992px) {
-.grey {height:60vh;}
-}
 @media screen and (max-width: 768px) {
 .nav-justified>li {float: left;}
-.grey {height:10vh;}
 }

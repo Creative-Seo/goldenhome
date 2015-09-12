@@ -2721,13 +2721,14 @@ select[multiple].input-lg {
   background-image: url("../img/shadow.png");
   background-position: left top;
   background-repeat: repeat-x;
-  height: 159px;
+  background-size: contain;
+  height: 30vh;
   left: 0;
   position: absolute;
   top: 0;
   width: 100%; }
 
-/* line 13, ../sass/_homepage.scss */
+/* line 14, ../sass/_homepage.scss */
 .footer_shadow {
   background: url("../img/footer_shadow.png") repeat-x scroll 0 0 transparent;
   bottom: -351px;
@@ -2737,7 +2738,7 @@ select[multiple].input-lg {
   width: 100%;
   z-index: -1; }
 
-/* line 22, ../sass/_homepage.scss */
+/* line 23, ../sass/_homepage.scss */
 #setka {
   background: url("../img/setka.gif") repeat scroll 0 0 transparent;
   height: 100%;
@@ -2746,7 +2747,7 @@ select[multiple].input-lg {
   top: 0;
   width: 100%; }
 
-/* line 30, ../sass/_homepage.scss */
+/* line 31, ../sass/_homepage.scss */
 #wrapper {
   height: 100vh;
   width: 100%;
@@ -2754,7 +2755,7 @@ select[multiple].input-lg {
   top: 0;
   left: 0;
   z-index: -1; }
-  /* line 31, ../sass/_homepage.scss */
+  /* line 32, ../sass/_homepage.scss */
   #wrapper .fons {
     position: absolute;
     left: 0;
@@ -2775,14 +2776,9 @@ select[multiple].input-lg {
     transition: opacity 300ms linear, -webkit-filter 200ms ease;
     overflow: hidden; }
 
-/* line 52, ../sass/_homepage.scss */
+/* line 53, ../sass/_homepage.scss */
 .homepage {
   min-height: 100vh; }
-  /* line 54, ../sass/_homepage.scss */
-  .homepage .grey {
-    background: none;
-    color: #fff;
-    height: 30vh; }
   /* line 55, ../sass/_homepage.scss */
   .homepage .nav-wrapper {
     background-color: transparent; }
@@ -2900,47 +2896,57 @@ header::after {
   #navbar .in {
     background: rgba(0, 0, 0, 0.8); }
 
-/* line 144, ../sass/_homepage.scss */
-.homepage-jumbotron {
-  padding: 30px 0;
-  min-height: 25vh;
-  background: none;
-  z-index: 100;
-  line-height: 65px; }
-  /* line 150, ../sass/_homepage.scss */
-  .homepage-jumbotron p {
-    font-weight: 400;
-    font-size: 50px;
-    color: #FFF;
-    font-family: 'PT Sans Narrow', sans-serif;
-    z-index: 100; }
-    /* line 156, ../sass/_homepage.scss */
-    .homepage-jumbotron p span {
+/* line 143, ../sass/_homepage.scss */
+.homepage {
+  text-shadow: 0 5px 8px black; }
+  /* line 145, ../sass/_homepage.scss */
+  .homepage-jumbotron {
+    padding: 30px 0;
+    min-height: 25vh;
+    background: none;
+    z-index: 100;
+    line-height: 65px;
+    color: #FFF; }
+    /* line 152, ../sass/_homepage.scss */
+    .homepage-jumbotron p {
+      font-weight: 400;
+      font-size: 50px;
+      font-family: 'PT Sans Narrow', sans-serif;
+      z-index: 100; }
+    /* line 159, ../sass/_homepage.scss */
+    .homepage-jumbotron span {
       font-weight: bold;
       font-size: 82px;
-      color: #FFF;
       font-family: 'PT Sans Narrow', sans-serif; }
+    /* line 164, ../sass/_homepage.scss */
+    .homepage-jumbotron a {
+      color: #FFF;
+      text-decoration: underline; }
+      /* line 165, ../sass/_homepage.scss */
+      .homepage-jumbotron a:hover, .homepage-jumbotron a:focus {
+        color: #aaa;
+        text-decoration: none; }
 
 @media screen and (max-width: 992px) {
-  /* line 166, ../sass/_homepage.scss */
+  /* line 170, ../sass/_homepage.scss */
   .homepage-jumbotron {
     min-height: 45vh; } }
-/* line 169, ../sass/_homepage.scss */
+/* line 173, ../sass/_homepage.scss */
 #icons {
   z-index: 1000;
   margin: auto;
   margin-bottom: 40px; }
-  /* line 173, ../sass/_homepage.scss */
+  /* line 177, ../sass/_homepage.scss */
   #icons a {
     opacity: 0.7;
     text-decoration: none;
     color: #fff  !important;
     text-transform: uppercase; }
-  /* line 174, ../sass/_homepage.scss */
+  /* line 178, ../sass/_homepage.scss */
   #icons .text {
     font-size: 16px;
     padding-top: 5px; }
-  /* line 175, ../sass/_homepage.scss */
+  /* line 179, ../sass/_homepage.scss */
   #icons .button {
     padding: 13px;
     white-space: nowrap;
@@ -2950,27 +2956,27 @@ header::after {
     font-size: 15px;
     visibility: hidden;
     display: none; }
-  /* line 176, ../sass/_homepage.scss */
+  /* line 180, ../sass/_homepage.scss */
   #icons .action a {
     opacity: 1; }
-  /* line 177, ../sass/_homepage.scss */
+  /* line 181, ../sass/_homepage.scss */
   #icons .action .button {
     visibility: visible; }
-  /* line 179, ../sass/_homepage.scss */
+  /* line 183, ../sass/_homepage.scss */
   #icons a:hover, #icons #icons a:focus {
     background: none; }
-  /* line 180, ../sass/_homepage.scss */
+  /* line 184, ../sass/_homepage.scss */
   #icons .button:hover {
     background-color: #779; }
 
-/* line 182, ../sass/_homepage.scss */
+/* line 186, ../sass/_homepage.scss */
 #mouse-scroll {
   bottom: 10px;
   left: 50%;
   margin: auto;
   position: absolute;
   z-index: 9999; }
-  /* line 188, ../sass/_homepage.scss */
+  /* line 192, ../sass/_homepage.scss */
   #mouse-scroll span {
     border-bottom: 2px solid #dddddd;
     border-right: 2px solid #dddddd;
@@ -2979,22 +2985,22 @@ header::after {
     margin: 0 0 3px 5px;
     transform: rotate(45deg);
     width: 5px; }
-  /* line 197, ../sass/_homepage.scss */
+  /* line 201, ../sass/_homepage.scss */
   #mouse-scroll .unu {
     margin-top: 6px; }
-  /* line 198, ../sass/_homepage.scss */
+  /* line 202, ../sass/_homepage.scss */
   #mouse-scroll .unu, #mouse-scroll .doi, #mouse-scroll .trei {
     animation: 1s ease 0s normal none infinite running mouse-scroll; }
-  /* line 199, ../sass/_homepage.scss */
+  /* line 203, ../sass/_homepage.scss */
   #mouse-scroll .unu {
     animation-delay: 0.1s; }
-  /* line 200, ../sass/_homepage.scss */
+  /* line 204, ../sass/_homepage.scss */
   #mouse-scroll .doi {
     animation-delay: 0.2s; }
-  /* line 201, ../sass/_homepage.scss */
+  /* line 205, ../sass/_homepage.scss */
   #mouse-scroll .trei {
     animation-delay: 0.3s; }
-  /* line 202, ../sass/_homepage.scss */
+  /* line 206, ../sass/_homepage.scss */
   #mouse-scroll .mouse {
     border: 2px solid #dddddd;
     border-radius: 10px;
@@ -3002,7 +3008,7 @@ header::after {
     top: 170px;
     transform: none;
     width: 14px; }
-  /* line 210, ../sass/_homepage.scss */
+  /* line 214, ../sass/_homepage.scss */
   #mouse-scroll .wheel {
     background: #dddddd none repeat scroll 0 0;
     display: block;
@@ -3010,11 +3016,11 @@ header::after {
     margin: 5px auto;
     position: relative;
     width: 2px; }
-  /* line 218, ../sass/_homepage.scss */
+  /* line 222, ../sass/_homepage.scss */
   #mouse-scroll .wheel {
     animation: 1.2s ease 0s normal none infinite running mouse-wheel; }
 
-/* line 220, ../sass/_homepage.scss */
+/* line 224, ../sass/_homepage.scss */
 .tipvar {
   font-size: 20px;
   font-weight: bold;
@@ -3028,15 +3034,7 @@ header::after {
     opacity: 0.5; }
   100% {
     opacity: 1; } }
-@media screen and (max-width: 992px) {
-  /* line 232, ../sass/_homepage.scss */
-  .grey {
-    height: 60vh; } }
 @media screen and (max-width: 768px) {
-  /* line 235, ../sass/_homepage.scss */
-  .nav-justified > li, .nav-tabs.nav-justified > li {
-    float: left; }
-
   /* line 236, ../sass/_homepage.scss */
-  .grey {
-    height: 10vh; } }
+  .nav-justified > li, .nav-tabs.nav-justified > li {
+    float: left; } }

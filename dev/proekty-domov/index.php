@@ -91,7 +91,7 @@ if (false !== $scans) {
           <h3>Количество комнат</h3>
           <p>Комнат должно быть на одну больше чем жильцов в доме.</p>
           
-          <ul>
+          <ul class="nav nav-pills">
              <li><a href="dvuhetazhnye-s-garazhom/">Проекты двухэтажных домов с гаражом</a></li>
              <li><a href="so-vtorym-svetom/">Проекты домов со вторым светом</a></li>
              <li><a href="s-ploskoy-kryshey/">Проекты домов с плоской крышей</a></li>
@@ -103,6 +103,7 @@ if (false !== $scans) {
              <li><a href="s-tremya-spalnyami/">Проекты домов с тремя спальнями</a></li>
              <li><a href="s-dvumya-spalnyami/">Проекты домов с двумя спальнями</a></li>
           </ul>
+		  <hr>
 		  <ul class="nav nav-pills grey">
             <li><a href="odnoetazhnye/">Проекты одноэтажных домов</a></li>
             <li><a href="dvuhetazhnye/">Проекты двухэтажных домов</a></li>

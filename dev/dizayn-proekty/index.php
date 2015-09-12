@@ -10,7 +10,7 @@ include($root."blocks/header.php");?>
 
 <div class="dizayn container-fluid"> 
   <!-- ROW 1 -->
-  <div class="row">
+  <div class="row" id="imgd">
     <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio">
       <div class="dizayn-content">
 		<?php include($root."blocks/breadcrumbs.php");?>
@@ -41,8 +41,12 @@ include($root."blocks/header.php");?>
 {"url":"kafe-forest","img":"kafe-forest","text":"Кафе forest"},
 {"url":"bar","img":"bar","text":"Бар"}
 ]',true);
-foreach ($dizayn as $key => $row) { ?>
-    <div  id="img<?php echo $key; ?>" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio imgd">
+foreach ($dizayn as $key => $row) { 
+if ($key<4) { ?>
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio" style="min-height:200px;">
+<?php } else {?>
+    <div  id="img<?php echo $key; ?>" class="col-lg-4 col-md-4 col-sm-6 col-xs-12 block-design-portfolio imgd" style="min-height:200px;">
+<?php }?>
 	<div>
       <a href="/dizayn-proekty/<?php echo $row['url']; ?>/">
       <div class="block">
@@ -62,5 +66,5 @@ foreach ($dizayn as $key => $row) { ?>
 
 	</div>
 </div>
- 
 <?php include($root."blocks/footer.php");?>
+<script>var imgd_col=document.getElementById('imgd').children.length-1;for(i=4;i<imgd_col;i++){document.getElementById('img'+i).children[0].style.cssText="opacity:0;top:200px";}</script>

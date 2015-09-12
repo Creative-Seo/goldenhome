@@ -1,7 +1,7 @@
 <?php
 $breadcrumb = $bd['breadcrumb'];
 $breadcrumb2 = 'Проекты домов'; 
-$breadcrumb2_url = 'proekty-domov/';
+$breadcrumb2_url = 'proekty-domov';
 $style='
 <link rel="stylesheet" href="/css/lightSlider.css">
 <link rel="stylesheet" href="/css/lightGallery.css">
@@ -47,7 +47,7 @@ foreach ($imgs as $row) { ?>
 		   <div class="h2">Стоимость строительства дома<sup>*</sup>:</div>
 		   <div class="price"><span><?php echo $stoimostStroitelstva?></span> руб.</div>
 		   <div class="kvm">Цена за кв. метр: 15 000 руб.</div>
-		   <button data-toggle="modal" data-target="#modal-zakaz" class="btn-zakaz">Заказать проект</button>
+		   <button class="btn-zakaz" data-toggle="callback" data-options="name,tel" data-text="Заказ проекта <?php echo $bd['nomer']; ?>">Заказать проект</button>
 		</div>
 	</div>
 </div>
@@ -119,7 +119,7 @@ foreach ($imgs as $row) { ?>
                     </div>
                     <div class="atrtext"><span>
 	<?php foreach($bd['cate'] as $cate) { if ($cate[0]) {$cate[0]=$cate[0].'/';} ?>
-						<nobr><a href="/proekty-domov/<?php echo $cate[0]; ?>"><?php echo $cate[1];?></a>,</nobr>&nbsp;
+						<a href="/proekty-domov/<?php echo $cate[0]; ?>"><?php echo $cate[1];?></a>,&nbsp;
 	<?php } ?>
 					</span></div>
                 </li>

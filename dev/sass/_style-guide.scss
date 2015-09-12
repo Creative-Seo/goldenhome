@@ -28,7 +28,7 @@
 }
 
 // Заказ обратного звонка
-
+/*
 .callback-form {
 	padding: 32px 65px 32px 65px;
     background: #fbfbfb none repeat scroll 0 0;
@@ -58,7 +58,7 @@
       height:57px;
     }
 }
-
+*/
 .icon {
 	position: relative;
 }
@@ -75,6 +75,8 @@
   	color: #94aab0;
   	margin-bottom: 10px;
   }
+.form-control:focus{border-color:gold;}  
+/*
 #cd-name {
   	padding: 26px;
   	border: 1px solid #cfd9db;
@@ -92,8 +94,8 @@
     color: #2b3e51;
     font-family: "Open Sans",sans-serif;
     font-size: 1.6rem;
-}
-
+}*/
+/*
 .cd-form textarea {
     min-height: 200px;
     overflow: auto;
@@ -106,7 +108,7 @@
 }
 .cd-form .icon textarea {
     padding-left: 25px !important;
-}
+}*/
 //FLoating labels 
 
 .floating-labels div {
