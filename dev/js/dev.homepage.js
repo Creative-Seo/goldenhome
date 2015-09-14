@@ -1,5 +1,5 @@
 var img='#wrapper .stroitelstvo';
-var a = {'stroitelstvo' : '<p><span>Более 100</span><br>построенных<br> домов</p>',
+var a = {'stroitelstvo' : '<p><span>Более 250</span><br>построенных<br> домов</p>',
 		'proekty-domov' : '<p><span>Наши проекты</span><br>всегда высокого<br> качества</p>',
 		'prodazha-domov' : '<p><span>Коттедж в Новом Селе</span><br>4 650 000 руб.<br><a href="/kupit-dom/">Посмотреть все дома</a></p>',
 		'dizayn-interyera' : '<p><span>Мы</span><br>осуществим<br> вашу мечту</p>',
