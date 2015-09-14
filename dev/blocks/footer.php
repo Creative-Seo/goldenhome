@@ -72,10 +72,14 @@
       <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">ОГРН: 1143328003532, ИНН: 3328497491</div>
     </div>
   </div>
+	<div>
+		<a href="http://www.creative-seo.ru/" rel="nofollow" target="_blank" style="margin-left:20px;">Продвижение сайта</a> <img src="http://www.sk-goldenhome.ru/img/logo-creative.png" alt="Создание и продвижение сайта" width="120">
+	</div>
 </footer>
 
 <?php include($root."blocks/zakaz.php");?>
 <div id="modal-ok" class="modal-ok"><p>Ваше сообщение отправлено!\nВ ближайшее время мы с вами свяжемся.</p></div>
+<a href="#" class="scrollUpButton"><i class="fa fa-chevron-up fa-2x"></i></a>
 <!-- build:remove -->
 <script src="/libs/jquery/dist/jquery.min.js"></script>
 <script src="/libs/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
@@ -136,11 +140,41 @@ var scr = {"scripts":[
 var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = '//code.jivosite.com/script/widget/'+widget_id; var ss = document.getElementsByTagName('script')[0]; ss.parentNode.insertBefore(s, ss);})();</script>
 <!-- {/literal} END JIVOSITE CODE -->
 
+<!-- Rating@Mail.ru counter -->
+<script type="text/javascript">
+var _tmr = _tmr || [];
+_tmr.push({id: "2611114", type: "pageView", start: (new Date()).getTime()});
+(function (d, w) {
+   var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true;
+   ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js";
+   var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);};
+   if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }
+})(document, window);
+</script><noscript><div style="position:absolute;left:-10000px;">
+<img src="//top-fwz1.mail.ru/counter?id=2611114;js=na" style="border:0;" height="1" width="1" alt="Рейтинг@Mail.ru" />
+</div></noscript>
+<!-- //Rating@Mail.ru counter -->
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-55483933-1', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- //Google Analytics -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">(function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter17012845 = new Ya.Metrika({id:17012845, webvisor:true, clickmap:true, trackLinks:true, accurateTrackBounce:true}); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script>
+<noscript>&lt;div&gt;&lt;img src="//mc.yandex.ru/watch/17012845" style="position:absolute; left:-9999px;" alt="" /&gt;&lt;/div&gt;</noscript>
+<!-- /Yandex.Metrika counter -->
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-<a href="#" class="scrollUpButton"><i class="fa fa-chevron-up fa-2x"></i></a>
 </body>
 </html>
 
