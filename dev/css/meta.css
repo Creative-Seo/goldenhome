@@ -2705,12 +2705,27 @@ select[multiple].input-lg {
   background-color: transparent;
   border-color: transparent; }
 
+/* line 88, ../sass/_header.scss */
+.header-sklogo {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
 @media (max-width: 750px) {
-  /* line 89, ../sass/_header.scss */
+  /* line 90, ../sass/_header.scss */
   .header-sklogo {
     float: left;
     padding-right: 0px;
     padding-left: 45px; } }
+/* line 94, ../sass/_header.scss */
+.svg {
+  clip-rule: evenodd;
+  fill-rule: evenodd; }
+
+/* line 95, ../sass/_header.scss */
+.path {
+  fill: #fff; }
+
 /* line 1, ../sass/_homepage.scss */
 .wrapper-texts {
   min-height: 40vh; }

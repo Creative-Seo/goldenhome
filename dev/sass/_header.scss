@@ -85,6 +85,11 @@
 	background-color: transparent;
 	border-color: transparent;
 }
+.header-sklogo{width: 100%;height: 100%;overflow: hidden;}
 @media (max-width: 750px){
 .header-sklogo {float:left;padding-right:0px;padding-left:45px;}
 }
+
+//logo
+.svg{clip-rule:evenodd;fill-rule:evenodd;}
+.path{fill:#fff;}

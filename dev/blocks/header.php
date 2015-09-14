@@ -5,8 +5,7 @@
 			<div class="header-logo">
 				<div class="header-sklogo">
 					<a href="/">
-						<?php if (HTTP_ID == '/') { ?><img class="img-responsive" src="/img/logo.png" alt="">
-						<?php } else { ?><img class="img-responsive" src="/img/logo-black.png" alt="">
+						<?php if (HTTP_ID == '/') {include($root."/img/logo-white.svg");} else { ?><img class="img-responsive" src="/img/logo-black.png" alt="">
 						<?php } ?>
 					</a>
 				</div>
@@ -14,7 +13,7 @@
 		</div>
 		<div class="col-sm-5 col-md-4 col-lg-3 col-xs-offset-2 col-sm-offset-2 col-md-offset-1 col-lg-offset-3">
 			<div class="adres-header">
-				г. Bлaдимиp, ул. Мира, д. 15 В, офис 12
+				г. Bлaдимиp, ул. Мира, д. 15 В, офис 312
 			</div>
 		</div>
 		<div class="col-sm-5 col-md-4 col-lg-3 col-xs-offset-2 col-sm-offset-7 col-md-offset-0">

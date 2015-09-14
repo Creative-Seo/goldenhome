@@ -59,7 +59,7 @@ include($root."blocks/header.php");
 
        <div class="contacts_phone">
         <div><i class="fa fa-map-marker"></i>Адрес: </div>
-        <div class="contacts_phone_descr">600017, г. Bлaдимиp, ул. Мира, д. 15 В, офис 12, 3 этаж (Деловой центр «Консоль»)</div>
+        <div class="contacts_phone_descr">600017, г. Bлaдимиp, ул. Мира, д. 15 В, офис 312, 3 этаж (Деловой центр «Консоль»)</div>
        </div>
 
        <div class="line center-block"></div>
@@ -84,7 +84,7 @@ include($root."blocks/header.php");
         <div class="contacts_phone_descr">ОГРН: 1143328003532</div>
         <div class="contacts_phone_descr">ИНН: 3328497491</div>
         <div class="contacts_phone_descr">КПП: 332801001</div>
-        <div class="contacts_phone_descr">Юридический адрес: 600017, г. Владимир, ул. Мира, д. 15, 2</div>
+        <div class="contacts_phone_descr">Юридический адрес: 600017, г. Владимир, ул. Мира, д. 15, 312</div>
        </div>
 
       </div>
