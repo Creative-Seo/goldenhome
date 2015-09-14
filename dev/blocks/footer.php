@@ -41,6 +41,7 @@
               <a href="http://www.youtube.com/user/33goldenhome" target="_blank" rel="nofollow"><i class="fa fa-youtube fa-2x"></i></a>
               <a href="https://twitter.com/skGoldenHome" target="_blank" rel="nofollow"><i class="fa fa-twitter fa-2x"></i></a><a href="https://plus.google.com/b/106609095766114845804/" target="_blank" rel="nofollow"><i class="fa fa-google-plus fa-2x"></i></a>
           </li>
+          <li><a href="/blog/" target="_blank" style="margin-top:10px;">Наш блог</a></li>
         </ul>
       </div>
     </div>
