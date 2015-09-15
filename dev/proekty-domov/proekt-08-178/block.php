@@ -5,5 +5,5 @@
 <?php $etagi = 2;?>
 <?php $arhitekturnyyStil = "классический";
  $gabarity = "10,9 на 12,35 м";
- $dopolnitelno = ['Мансарда','Терасса']; ?>
+ $dopolnitelno = ['Мансарда','Терраса']; ?>
  <?php include($root."blocks/block_proekt.php");?>
