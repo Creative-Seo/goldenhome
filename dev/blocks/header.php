@@ -5,7 +5,7 @@
 			<div class="header-logo">
 				<div class="header-sklogo">
 					<a href="/">
-						<?php if ($_SERVER['REQUEST_URI'] == '/') {include($root."/img/logo-white.svg");} else { ?><img class="img-responsive" src="/img/logo-black.png" alt="">
+						<?php if ($_SERVER['REQUEST_URI'] == '/') {include($root."img/logo-white.svg");} else { ?><img class="img-responsive" src="/img/logo-black.png" alt="">
 						<?php } ?>
 					</a>
 				</div>
