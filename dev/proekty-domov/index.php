@@ -15,14 +15,18 @@ $dirs = array ();
 <div class="row">
 	<div class="col-md-3 col-lg-3 project-fixed1" id="project-fixed1">
 	<div class="row">
-		<div class="col-md-11 col-lg-10">
-		<div class="col-sm-6 col-md-12 form-inline input text-center"><label>Цена строительства, руб.: </label>
-			<div id="slider1"></div><input id="input1"> &mdash; <input id="input2">
-		</div>
-		<div class="col-sm-6 col-md-12 form-inline input text-center"><label>Общая площадь, м<sup>2</sup>: </label>
-			<div id="slider2"></div><input id="input3"> &mdash; <input id="input4">
-		</div>
-		</div>
+		<div class="col-md-11 col-lg-10" style="margin-bottom:20px;"><div class="row">
+			<div class="col-sm-4 col-md-12 col-sm-offset-2 col-md-offset-0"><label>Поиск по названию проекта: </label></div>
+			<div class="col-sm-4 col-md-12 col-lg-11"><input type="text" id="text" class="form-control" placeholder="Введите название проекта"></div>
+		</div></div>
+		<div class="col-md-11 col-lg-10"><div class="row">
+			<div class="col-sm-6 col-md-12 form-inline input text-center"><label>Цена строительства, руб.: </label>
+				<div id="slider1"></div><input id="input1" class="form-control"> &mdash; <input id="input2" class="form-control">
+			</div>
+			<div class="col-sm-6 col-md-12 form-inline input text-center"><label>Общая площадь, м<sup>2</sup>: </label>
+				<div id="slider2"></div><input id="input3" class="form-control"> &mdash; <input id="input4" class="form-control">
+			</div>
+		</div></div>
 		<div class="col-sm-3 col-sm-offset-2 col-md-9 col-md-offset-0">
 			<label for="form-group">Количество этажей: </label>
 			<select class="form-control" id="col-et">

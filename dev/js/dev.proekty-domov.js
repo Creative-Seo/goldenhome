@@ -8,6 +8,7 @@ function update_proekts() {
 	$('.block_proekt').each(function (){
 		var obj = dirs[$(this).attr('data-dir')];
 		var c = true;
+		if ($(this).attr('data-dir').indexOf(form['text']) == -1) {c = false;}
 		if (!((form['slider1'][0].replace(/\s+/g,'')<=obj[0]*15000)&&(form['slider1'][1].replace(/\s+/g,'')>=obj[0]*15000)&&
 			(form['slider2'][0].replace(/\s+/g,'')<=obj[0])&&(+form['slider2'][1].replace(/\s+/g,'')>=obj[0])) ) {c = false;}
 		if (!((+(form['col-et']==obj[2])||(form['col-et']=='Не имеет значение'))&&((form['arch-st']==obj[3])||(form['arch-st']=='Не имеет значение')))) {c = false;}
@@ -42,7 +43,7 @@ $.each(dirs, function(i,a) {
 	if (max_s<+a[0]) {max_s=+a[0];}
 } );
 var min_c=min_s*15000;var max_c=max_s*15000;
-var form = {'slider1':[min_c+' ',max_c+' '],'slider2':[min_s+' ',max_s+' '],'checkbox':[],'col-et':'Не имеет значение','arch-st':'Не имеет значение'};
+var form = {'text':'','slider1':[min_c+' ',max_c+' '],'slider2':[min_s+' ',max_s+' '],'checkbox':[],'col-et':'Не имеет значение','arch-st':'Не имеет значение'};
 var a_i = Object.keys(dirs);
 
 $("#slider1").noUiSlider({
@@ -88,6 +89,7 @@ $( document ).ready(function() {
 		if ($(this).attr('id')=='sort') {sort();}
 		else {
 			re = /input/;if (!re.test(form[$(this).attr('id')])) {form[$(this).attr('id')] = $(this).val();}
+			if ($(this).attr('id')=='text') {form['text'] = $(this).val();}
 			if ($(this).attr('id')=='col-et') {form['col-et'] = $(this).val();}
 			if ($(this).attr('id')=='arch-st') {form['arch-st'] = $(this).val();}
 			if ($(this).attr('type')=='checkbox') {if ($(this).prop("checked")){form['checkbox'].push($(this).attr('data_val'));}
