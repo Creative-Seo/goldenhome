@@ -55,7 +55,7 @@
           <li><i class="fa fa-paper-plane"></i><a href="mailto:info@sk-goldenhome.ru">info@sk-goldenhome.ru</a></li>
           <li><i class="fa fa-paper-plane"></i><a href="mailto:info@gh33.ru">info@gh33.ru</a></li>
           <li><i class="fa fa-hourglass-o"></i>Время работы: пн-пт 09:00-18:00, сб.вс. - выходной</li>
-          <li><i class="fa fa-map-marker"></i>Адрес: 600017, г. Владимир, ул. Мира, д. 15в, оф. 12</li>
+          <li><i class="fa fa-map-marker"></i>Адрес: 600017, г. Владимир, ул. Мира, д. 15в, оф. 312</li>
         </ul>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">

@@ -5,5 +5,5 @@
 <?php $etagi = 3;?>
 <?php $arhitekturnyyStil = "";
  $gabarity = "";
- $dopolnitelno = ['Цокольный этаж','Терасса']; ?>
+ $dopolnitelno = ['Цокольный этаж','Терраса']; ?>
  <?php include($root."blocks/block_proekt.php");?>
