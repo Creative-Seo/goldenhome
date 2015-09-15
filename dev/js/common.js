@@ -25,6 +25,10 @@ $(document).ready(function(){
         $("html, body").animate({ scrollTop: 0 }, 500);
         return false;
     });
+
+  var master = new TimelineMax();
+  master.add(sceneOne(), "scene1")
+    .add(sceneTwo(), "-=8", "scene2");
 });
 
 (function() {
@@ -86,11 +90,3 @@ function sceneTwo() {
   tl.timeScale($speedDraw);
   return tl;
 };
-
-$(window).load(function() {
-
-  var master = new TimelineMax();
-  master.add(sceneOne(), "scene1")
-    .add(sceneTwo(), "-=8", "scene2");
-
-});
