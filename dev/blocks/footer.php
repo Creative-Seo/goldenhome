@@ -73,7 +73,7 @@
       <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">ОГРН: 1143328003532, ИНН: 3328497491</div>
     </div>
   </div>
-	<div>
+	<div class="container">
 		<a href="http://www.creative-seo.ru/" rel="nofollow" target="_blank" style="margin-left:20px;">Продвижение сайта</a> <img src="http://www.sk-goldenhome.ru/img/logo-creative.png" alt="Создание и продвижение сайта" width="120">
 	</div>
 </footer>
