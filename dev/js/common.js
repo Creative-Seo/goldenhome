@@ -1,5 +1,14 @@
 $.material.init();
 $(document).ready(function(){
+
+  $("html").niceScroll({
+    cursorcolor:"gold",
+    cursorwidth:"8px",
+    scrollspeed:"120",
+    mousescrollstep:"80",
+    hidecursordelay:"250"
+  });
+
 	$.material.ripples('.nav a');
 	$('#blindify').blindify({
 		numberOfBlinds: 10,
