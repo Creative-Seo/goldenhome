@@ -102,6 +102,7 @@
 <script src="/js/inputmask.js"></script>
 <script src="/js/jquery.inputmask.js"></script>
 <script src="/js/cbpFWTabs.js"></script>
+<script src="/js/jquery.nicescroll.min.js"></script>
 
 <script src="/js/dev.proekty-domov.js"></script>
 <script src="/js/dev.dizayn.js"></script>

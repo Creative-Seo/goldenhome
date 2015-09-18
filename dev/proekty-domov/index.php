@@ -16,8 +16,8 @@ $dirs = array ();
 	<div class="col-md-3 col-lg-3 project-fixed1" id="project-fixed1">
 	<div class="row">
 		<div class="col-md-11 col-lg-10" style="margin-bottom:20px;"><div class="row">
-			<div class="col-sm-4 col-md-12 col-sm-offset-2 col-md-offset-0"><label>Поиск по названию проекта: </label></div>
-			<div class="col-sm-4 col-md-12 col-lg-11"><input type="text" id="text" class="form-control" placeholder="Введите название проекта"></div>
+			<div class="col-sm-4 col-md-12 col-sm-offset-2 col-md-offset-0"><label>Поиск по номеру проекта: </label></div>
+			<div class="col-sm-4 col-md-12 col-lg-11"><input type="text" id="text" class="form-control" placeholder="Введите номер проекта"></div>
 		</div></div>
 		<div class="col-md-11 col-lg-10"><div class="row">
 			<div class="col-sm-6 col-md-12 form-inline input text-center"><label>Цена строительства, руб.: </label>
