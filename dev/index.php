@@ -31,7 +31,14 @@ include($root."array.php");?>
 <?php include($root."blocks/header.php"); ?>
 
 <div class="container wrapper-texts hidden-sm hidden-xs"><div class="row">
-	<div id="wrapper-text" class="col-md-10 homepage-jumbotron"><p><span>Более 250</span><br>построенных <br> домов</p></div>
+	<div id="wrapper-text" class="col-md-9 homepage-jumbotron"><p><span>Более 250</span><br>построенных <br> домов</p></div>
+	<div class="col-md-3 akciya-block">
+		<a href="javascript:void(0);" class="akciya-hover"><div class="akciya akciya-shadow">
+			<div class="akciya-red akciya-left">Акция</div>
+			<img src="/img/akciya.png" alt="" height="170px" class="akciya-img">
+			<p class="akciya-text">Двухконтурный отопительный котел в <span class="akciya-prize">подарок</span></p>
+		</div></a>
+	</div>
 </div></div>
 
 <div class="container center-block hidden-xs" id="icons">
@@ -81,10 +88,17 @@ include($root."array.php");?>
 				<p>Стоимость строительства дома под ключ из газоблоков составляет сегодня в среднем от 18 500 р./кв.м. Цены на строительство домов и под ключ зависят, прежде всего, от метража, этажности, сложности реализации дизайна, конструкции и планировок, а также от выбора строительных и отделочных материалов.</p>
 			</div>
 		</div>
-		<div class="col-md-6 hidden-xs">
+		<div class="col-md-6 hidden-xs hidden-sm">
 			<div class="home-page_top-photo">
 				<img src="/image/photo_obj/100.jpg" alt="" class="img-responsive">
 			</div>
+		</div>
+		<div class="col-md-3 col-md-push-3 akciya-block">
+			<a href="javascript:void(0);" class="akciya-hover"><div class="akciya">
+				<div class="akciya-red akciya-left">Акция</div>
+				<img src="/img/akciya.png" alt="" height="170px" class="akciya-img"><br>
+				<p class="akciya-text">Двухконтурный отопительный котел в <span class="akciya-prize">подарок</span></p>
+			</div></a>
 		</div>
 	</div>
 	<div class="row">
