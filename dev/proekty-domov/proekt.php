@@ -54,6 +54,14 @@ foreach ($imgs as $row) { ?>
 
 <div class="container blocks-area">
     <div class="row">
+      <div class="col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2">
+        <a href="javascript:void(0);" class="akciya-hover"><div class="akciya sample shadow-z-2">
+          <div class="akciya-red-small akciya-left hidden-xs">Акция</div>
+          <p class="akciya-text">Двухконтурный отопительный котел в <span class="akciya-prize">подарок</span></p>
+          <div class="akciya-red-small akciya-right hidden-xs">Акция</div>
+        </div></a>
+      </div>
+      <div class="clearfix visible-md visible-lg">
       <div class="col-sm-6 col-md-3">
         <div class="icon-area bl_prop center-block"><div class="bl_prop-area">
            	<div class="bl_prop-pl">Общая площадь:</div>

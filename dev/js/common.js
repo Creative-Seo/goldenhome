@@ -38,6 +38,22 @@ $(document).ready(function(){
   var master = new TimelineMax();
   master.add(sceneOne(), "scene1")
     .add(sceneTwo(), "-=8", "scene2");
+
+  //akciya
+  $(".akciya-hover").click(function(e){
+    $.fancybox("<p>При заказе строительства дома от 90 кв. метров до <nobr>31.10.2015</nobr>. газовый или электрический двухконтурный отопительный котел в подарок.</p><p>Подробности акции узнавайте по телефонам  <nobr>+7 (4922) 37-73-90</nobr> <nobr>+7 (4922) 37-73-92</nobr></p><p>Или приходите к нам в офис по адресу г. Владимир ул. Мира <nobr>д.15В офис 312</nobr></p>", {
+      maxWidth  : 500,
+      maxHeight : 500,
+      fitToView : false,
+      width   : '90%',
+      height    : 'auto',
+      autoSize  : false,
+      openEffect  : 'none',
+      closeEffect : 'none',
+      scrollOutside: false, //scroll
+      helpers: {overlay: {locked: false}} //scroll
+    });
+  });
 });
 
 (function() {

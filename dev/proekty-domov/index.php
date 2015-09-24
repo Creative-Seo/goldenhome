@@ -63,7 +63,12 @@ $dirs = array ();
 	</div>
 	
 	<div class="col-md-9 col-lg-9">
-	<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
+		<a href="javascript:void(0);" class="akciya-hover"><div class="akciya sample shadow-z-2">
+			<div class="akciya-red-small akciya-left hidden-xs">Акция</div>
+			<p class="akciya-text">Двухконтурный отопительный котел в <span class="akciya-prize">подарок</span></p>
+			<div class="akciya-red-small akciya-right hidden-xs">Акция</div>
+		</div></a>
+		<div class="row" id="proekts" itemtype="http://schema.org/ItemList" itemscope>
 <?php
 $class_block_proekt = 'col-sm-6 col-md-4 bl-pr';
 $scans = scandir('./');
@@ -74,7 +79,7 @@ if (false !== $scans) {
 	foreach($scan as $row){include($row."/block.php");}
 }
 ?>
-	</div>
+		</div>
 	</div>
 </div>
 	<article class="article">
