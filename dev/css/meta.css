@@ -3053,3 +3053,74 @@ header::after {
   /* line 236, ../sass/_homepage.scss */
   .nav-justified > li, .nav-tabs.nav-justified > li {
     float: left; } }
+/* line 15, ../sass/meta.scss */
+.akciya {
+  overflow: hidden;
+  position: relative;
+  background-color: gold;
+  text-shadow: none;
+  text-align: center;
+  padding: 5px; }
+  /* line 23, ../sass/meta.scss */
+  .akciya-hover, .akciya-hover:hover, .akciya-hover:focus {
+    text-decoration: none; }
+  /* line 25, ../sass/meta.scss */
+  .akciya-block {
+    padding: 20px 0px; }
+  /* line 28, ../sass/meta.scss */
+  .akciya-shadow {
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.7), 0 6px 20px 0 rgba(0, 0, 0, 0.7); }
+  /* line 31, ../sass/meta.scss */
+  .akciya-left {
+    position: absolute;
+    left: -20px;
+    transform-origin: 0 0;
+    transform: rotate(-45deg); }
+  /* line 37, ../sass/meta.scss */
+  .akciya-right {
+    position: absolute;
+    right: -20px;
+    transform-origin: 0 0;
+    transform: rotate(-45deg); }
+  /* line 43, ../sass/meta.scss */
+  .akciya-red {
+    font-size: 26px;
+    margin-left: -15px;
+    width: 200px;
+    top: 100px;
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: red;
+    padding: 5px; }
+    /* line 49, ../sass/meta.scss */
+    .akciya-red-small {
+      top: 75px;
+      width: 150px;
+      font-size: 16px;
+      margin: -4px 0 0px 15px;
+      font-weight: 800;
+      color: #fff;
+      text-transform: uppercase;
+      background-color: red;
+      padding: 5px; }
+  /* line 57, ../sass/meta.scss */
+  .akciya-text {
+    margin: 10px 0px;
+    font-weight: 800;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 18px; }
+    /* line 63, ../sass/meta.scss */
+    .akciya-text-right {
+      padding-left: 20%;
+      padding-right: 10px;
+      text-align: right; }
+  /* line 69, ../sass/meta.scss */
+  .akciya-prize {
+    font-size: 20px; }
+
+@media (min-width: 992px) {
+  /* line 75, ../sass/meta.scss */
+  .akciya-img {
+    float: right; } }
