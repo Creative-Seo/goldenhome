@@ -67,7 +67,7 @@ include($root."array.php");?>
 				<p class="text">Дизайн интерьера</p>
 			</a>
 		</li>
-		<li>
+		<li class="hidden-sm">
 			<a href="/gazobloki/" data-pointer="gazobloki">
 				<img src="/img/Gazobloki_Ikonka.png" alt="">
 				<p class="text">Газоблоки</p>
@@ -93,11 +93,10 @@ include($root."array.php");?>
 				<img src="/image/photo_obj/100.jpg" alt="" class="img-responsive">
 			</div>
 		</div>
-		<div class="col-md-3 col-md-push-3 akciya-block">
+		<div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-5 col-md-4 col-lg-3 col-md-push-2 col-lg-push-3 akciya-block">
 			<a href="javascript:void(0);" class="akciya-hover"><div class="akciya">
 				<div class="akciya-red akciya-left">Акция</div>
-				<img src="/img/akciya.png" alt="" height="170px" class="akciya-img"><br>
-				<p class="akciya-text">Двухконтурный отопительный котел в <span class="akciya-prize">подарок</span></p>
+				<p class="akciya-text akciya-text-right">Двухконтурный отопительный <nobr>котел в <span class="akciya-prize">подарок</span></nobr></p>
 			</div></a>
 		</div>
 	</div>
