@@ -93,10 +93,9 @@ include($root."array.php");?>
 				<img src="/image/photo_obj/100.jpg" alt="" class="img-responsive">
 			</div>
 		</div>
-		<div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-5 col-md-4 col-lg-3 col-md-push-2 col-lg-push-3 akciya-block">
+		<div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-12 col-md-4 col-lg-3 col-md-push-2 col-lg-push-3 akciya-block">
 			<a href="javascript:void(0);" class="akciya-hover"><div class="akciya">
-				<div class="akciya-red akciya-left">Акция</div>
-				<p class="akciya-text akciya-text-right">Двухконтурный отопительный <nobr>котел в <span class="akciya-prize">подарок</span></nobr></p>
+				<p class="akciya-text">Двухконтурный отопительный <nobr>котел в <span class="akciya-prize">подарок</span></nobr></p>
 			</div></a>
 		</div>
 	</div>
