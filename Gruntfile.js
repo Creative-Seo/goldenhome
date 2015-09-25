@@ -151,7 +151,7 @@ grunt.initConfig({
 			src: ['**/*.{png,jpg,gif,JPG}','!libs/*.{png,jpg,gif,JPG}'],
 			dest: 'prod/'
 		  }]
-		}
+		},
 		img: {
 		  files: [{
 			expand: true,
