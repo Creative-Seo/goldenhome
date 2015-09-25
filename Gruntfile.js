@@ -152,6 +152,14 @@ grunt.initConfig({
 			dest: 'prod/'
 		  }]
 		}
+		img: {
+		  files: [{
+			expand: true,
+			cwd: 'dev/',
+			src: ['img/*.{png,jpg,gif,JPG}'],
+			dest: 'prod/'
+		  }]
+		}
 	},
 	postcss: {
       options: {
@@ -192,6 +200,6 @@ grunt.initConfig({
     grunt.registerTask('css', ['csso', 'autoprefixer']);
 	grunt.registerTask('js', ['uglify']);
 	grunt.registerTask('php', ['copy', 'processhtml', 'htmlmin']);
-    grunt.registerTask('img', ['imagemin']);
-	  
+    grunt.registerTask('img', ['imagemin:dynamic']);
+	grunt.registerTask('img-img', ['imagemin:img']);
 };
