@@ -100,35 +100,39 @@ include($root."array.php");?>
 		</div>
 	</div>
 
-<div class="sravnenie">
-<div class="grey center-block">
-<table class="table">
+<div class="row sravnenie">
+<div class="sravnenie-block table-responsive">
+<table class="sravnenie-table">
 	<thead><tr>
-    	<td colspan="3"></td>
-    	<td><b>Газобетон</b><br>YTONG (D500)</td>
-    	<td>Кирпич</td>
-    	<td>Деревянный дом</td>
+    	<td class="sravnenie-thead" colspan="3"></td>
+    	<td class="sravnenie-thead"><span>Газобетон</span><br>YTONG (D500)</td>
+    	<td class="sravnenie-thead">Кирпич</td>
+    	<td class="sravnenie-thead">Деревянный дом</td>
     </tr></thead>
 	<tbody>
 <?php $sravnenie=[
-	["icon-1","<b>Минимальная толщина стены</b><br>Без утепления СНИП 23-02-2003","мм","290","1040","530"],
-	["icon-2","<b>Коэффициент теплопроводности</b><br>в сухом состоянии","вт/м ОС","0,099","0,72","0,18"],
-	["icon-3","<b>Морозостойкость</b>","цикл","100","50","35"],
-	["icon-4","<b>Огнестойкость</b>","час","4","2,5","0,25"],
-	["icon-5","<b>Паропроницамемость</b>","мг/[м чПа]","0,24","0,14","0,32"],
-	["icon-6","<b>Плотность</b>","кг/м<sub>3</sub>","500","2100","500"],
-	["icon-7","<b>Срок строитель дома</b>","месяцев","2-4","6","2-3"],
-	["icon-8","<b>Срок службы дома</b>","лет","100","75","50"],
-	["icon-9","<b>Стоимость</b>","р/м<sub>2</sub>","13000","18000","12000"]
+	["icon-1","<span>Минимальная толщина стены</span><br>Без утепления СНИП 23-02-2003","мм","290","1040","530",true],
+	["icon-2","<span>Коэффициент теплопроводности</span><br>в сухом состоянии","вт/м ОС","0,099","0,72","0,18"],
+	["icon-3","<span>Морозостойкость</span>","цикл","100","50","35",true],
+	["icon-4","<span>Огнестойкость</span>","час","4","2,5","0,25"],
+	["icon-5","<span>Паропроницамемость</span>","мг/[м чПа]","0,24","0,14","0,32"],
+	["icon-6","<span>Плотность</span>","кг/м<sup>3</sup>","500","2100","500",true],
+	["icon-7","<span>Срок строитель дома</span>","месяцев","2-4","6","2-3"],
+	["icon-8","<span>Срок службы дома</span>","лет","100","75","50",true],
+	["icon-9","<span>Стоимость</span>","р/м<sup>2</sup>","13000","18000","12000"]
 ];
-foreach ($sravnenie as $row) { ?>
+foreach ($sravnenie as $key => $row) {
+$class='sravnenie-td';
+if ($key>0) {$class .= ' sravnenie-top';}
+if ($row[6]) {$class .= ' sravnenie-bottom';}
+?>
 		<tr>
-			<td><img src="/img/sravnenie/<?php echo $row[0];?>.png" width="40px" height="40px"></td>
-			<td><?php echo $row[1];?></td>
-			<td><?php echo $row[2];?></td>
-			<td><?php echo $row[3];?></td>
-			<td><?php echo $row[4];?></td>
-			<td><?php echo $row[5];?></td>
+			<td class="<?php echo $class;?>"><img src="/img/sravnenie/<?php echo $row[0];?>.png" width="40px" height="40px"></td>
+			<td class="<?php echo $class;?> sravnenie-left sravnenie-right"><?php echo $row[1];?></td>
+			<td class="<?php echo $class;?> ravnenie-left"><?php echo $row[2];?></td>
+			<td class="<?php echo $class;?> sravnenie-left"><?php echo $row[3];?></td>
+			<td class="<?php echo $class;?> sravnenie-left"><?php echo $row[4];?></td>
+			<td class="<?php echo $class;?> sravnenie-left"><?php echo $row[5];?></td>
 		</tr>
 <?php } ?>
 	</tbody>
@@ -213,6 +217,7 @@ foreach ($sravnenie as $row) { ?>
 						</section>
 					</div><!-- /content -->
 				</div><!-- /tabs -->
+				<p class="text-center">Площадь жилого здания определяется как площадь измеряемая в пределах внутренних стен. СНиП 2.08.01-89.</p>
 	</section>
 </div>
 

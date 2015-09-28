@@ -2942,7 +2942,7 @@ header::after {
         color: #aaa;
         text-decoration: none; }
 
-@media screen and (max-width: 992px) {
+@media (max-width: 992px) {
   /* line 170, ../sass/_homepage.scss */
   .homepage-jumbotron {
     min-height: 45vh; } }
@@ -3049,7 +3049,7 @@ header::after {
     opacity: 0.5; }
   100% {
     opacity: 1; } }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   /* line 236, ../sass/_homepage.scss */
   .nav-justified > li, .nav-tabs.nav-justified > li {
     float: left; } }

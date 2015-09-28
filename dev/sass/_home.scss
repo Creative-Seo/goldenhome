@@ -60,3 +60,45 @@
 	margin-top: -20px;
 	margin-top: -20px;
 }
+
+//table
+.sravnenie{
+	&-block{
+		@include center-block();
+		padding: 25px;
+		background-color: #F5F5F5;
+	}
+	&-table{
+		overflow-x: auto;
+    	min-height: 0.01%;
+    	width: 100%;
+    	max-width: 100%;
+    	margin-bottom: 20px;
+    	span{font-weight: 800;}
+	}
+	&-bottom, &-right, &-top, &-left, &-thead{
+	padding: 8px 15px;
+	line-height: 1.1;
+	vertical-align: center;
+	}
+	&-thead{
+		text-transform: uppercase;
+		vertical-align: top;
+		font-weight: normal;
+	}
+	&-bottom{
+		border-bottom: 1px dashed #bbb;
+	}
+	&-right{
+		border-right: 1px dashed #bbb;
+	}
+	&-top{
+		border-top: 1px dashed #ddd;
+	}
+	&-left{
+		border-left: 1px dashed #ddd;
+	}
+}
+@media (min-width: 992px) {
+.sravnenie-block{margin: 15px 10%;}
+}
