@@ -166,7 +166,7 @@ header::after {
 		}
 	}
 }
-@media screen and (max-width: 992px) {
+@media (max-width: 992px) {
 .homepage-jumbotron {min-height: 45vh;}
 }
 
@@ -232,6 +232,6 @@ header::after {
 50% {opacity: 0.5;}
 100% {opacity: 1;}
 }
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
 .nav-justified>li {float: left;}
 }
