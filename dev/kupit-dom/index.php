@@ -15,7 +15,6 @@ include($root."blocks/header.php");
 
 <div class="row">
 	<!-- item -->
-	<div class="row">
 	<div class="col-lg-4 col-md-4 col-sm-4">
 	<div class="thumbnail">
 	<a href="v-novom-sele/"><img class="media-object img-responsive" alt="Дом (коттедж), село Новое" src="v-novom-sele/novoe.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 25</div>
@@ -39,7 +38,7 @@ include($root."blocks/header.php");
 	<div class="caption">
 	<h4><a href="sudogda/">Дом (коттедж), Судогда</a></h4>
 	<ul class="list-unstyled list-inline search-meters"><li>
-	<span class="stoit"><b>2 600 000</b> <i class="fa fa-rub"></i></span>
+	<span class="stoit" style="text-decoration:line-through;"><b>2 600 000</b> <i class="fa fa-rub"></i></span><span style="text-transform:uppercase;font-weight:800;"> Продано</span>
 	</li>
 	<li>120 м<sup>2</sup></li>
 	<li>12 соток</li>
@@ -76,7 +75,7 @@ include($root."blocks/header.php");
 <div class="caption">
 <h4><a href="poselok-suvorotskoe-2/">Дом (коттедж), Суворотское</a></h4>
 <ul class="list-unstyled list-inline search-meters"><li>
-<span class="stoit"><b>3 500 000</b> <i class="fa fa-rub"></i></span>
+<span class="stoit" style="text-decoration:line-through;"><b>3 500 000</b> <i class="fa fa-rub"></i></span><span style="text-transform:uppercase;font-weight:800;"> Продано</span>
 </li>
 <li>141 м<sup>2</sup></li>
 <li>13 соток</li>
@@ -93,7 +92,7 @@ include($root."blocks/header.php");
 <div class="caption">
 <h4><a href="poselok-suvorotskoe-3/">Дом (коттедж), Суворотское</a></h4>
 <ul class="list-unstyled list-inline search-meters"><li>
-<span class="stoit"><b>3 500 000</b> <i class="fa fa-rub"></i></span>
+<span class="stoit" style="text-decoration:line-through;"><b>3 500 000</b> <i class="fa fa-rub"></i></span><span style="text-transform:uppercase;font-weight:800;"> Продано</span>
 </li>
 <li>141 м<sup>2</sup></li>
 <li>10 соток</li>
@@ -129,9 +128,25 @@ include($root."blocks/header.php");
 <div class="caption">
 <h4><a href="bogoslovo/">Дом (коттедж), Богослово</a></h4>
 <ul class="list-unstyled list-inline search-meters"><li>
-<span class="stoit"><b>3 300 000</b> <i class="fa fa-rub"></i></span>
+<span class="stoit"><b>3 100 000</b> <i class="fa fa-rub"></i></span>
 </li>
 <li>120 м<sup>2</sup></li>
+<li>10 соток</li>
+</ul><p class="shosse tck">Суздальский район, Богослово</p>
+</div>
+</div>
+</div>
+<!-- /item -->
+<!-- item -->
+<div class="col-lg-4 col-md-4 col-sm-4">
+<div class="thumbnail">
+<a href="bogoslovo-2/"><img class="media-object img-responsive" alt="Дом (коттедж), Богослово" src="bogoslovo-2/bogoslovo.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
+<div class="caption">
+<h4><a href="bogoslovo-2/">Дом (коттедж), Богослово</a></h4>
+<ul class="list-unstyled list-inline search-meters"><li>
+<span class="stoit"><b>2 700 000</b> <i class="fa fa-rub"></i></span>
+</li>
+<li>171 м<sup>2</sup></li>
 <li>10 соток</li>
 </ul><p class="shosse tck">Суздальский район, Богослово</p>
 </div>

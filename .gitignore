@@ -10,3 +10,5 @@ node_modules/
 .sass-cache/
 dploy.yaml
 *.log
+skgolden.sublime-workspace
+skgolden.sublime-project
