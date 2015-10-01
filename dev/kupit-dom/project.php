@@ -28,7 +28,11 @@ if (false !== $images) {
 	</div>
 	<div class="col-md-4 proekt">
 		<div class="vr-line">
-			<div style="background-color:#FFD400; width:100%; text-align:center"><span class="h1"><b><?php echo $bd['cost']; ?></b></span> <i class="fa fa-rub fa-2x"></i></div>
+<?php if ($prodan) { ?>
+			<div style="background-color:#FFD400; width:100%; text-align:center"><span class="h3" style="text-decoration:line-through;"><b><?php echo $bd['cost']; ?></b> <i class="fa fa-rub fa-1x"></i></span><span  class="h2" style="text-transform:uppercase;"> Продано</span></div>
+<?php } else { ?>
+      <div style="background-color:#FFD400; width:100%; text-align:center"><span class="h1"><b><?php echo $bd['cost']; ?></b> <i class="fa fa-rub fa-1x"></i></span></div>
+<?php } ?>
 			<div class="h2">Местоположение:</div>
 			<div class="price"><?php echo $bd['mesto']; ?></div>
 			<div class="h2">Площадь дома:</div>
