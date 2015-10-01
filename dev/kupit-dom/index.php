@@ -38,7 +38,7 @@ include($root."blocks/header.php");
 	<div class="caption">
 	<h4><a href="sudogda/">Дом (коттедж), Судогда</a></h4>
 	<ul class="list-unstyled list-inline search-meters"><li>
-	<span class="stoit" style="text-decoration:line-through;"><b>2 600 000</b> <i class="fa fa-rub"></i></span><span style="text-transform:uppercase;font-weight:800;"> Продано</span>
+	<span class="stoit" style="text-decoration:line-through;"><b>2 600 000</b> <i class="fa fa-rub"></i></span> <span style="text-transform:uppercase;font-weight:800;">Продано</span>
 	</li>
 	<li>120 м<sup>2</sup></li>
 	<li>12 соток</li>
@@ -75,7 +75,7 @@ include($root."blocks/header.php");
 <div class="caption">
 <h4><a href="poselok-suvorotskoe-2/">Дом (коттедж), Суворотское</a></h4>
 <ul class="list-unstyled list-inline search-meters"><li>
-<span class="stoit" style="text-decoration:line-through;"><b>3 500 000</b> <i class="fa fa-rub"></i></span><span style="text-transform:uppercase;font-weight:800;"> Продано</span>
+<span class="stoit" style="text-decoration:line-through;"><b>3 500 000</b> <i class="fa fa-rub"></i></span> <span style="text-transform:uppercase;font-weight:800;">Продано</span>
 </li>
 <li>141 м<sup>2</sup></li>
 <li>13 соток</li>
@@ -92,7 +92,7 @@ include($root."blocks/header.php");
 <div class="caption">
 <h4><a href="poselok-suvorotskoe-3/">Дом (коттедж), Суворотское</a></h4>
 <ul class="list-unstyled list-inline search-meters"><li>
-<span class="stoit" style="text-decoration:line-through;"><b>3 500 000</b> <i class="fa fa-rub"></i></span><span style="text-transform:uppercase;font-weight:800;"> Продано</span>
+<span class="stoit" style="text-decoration:line-through;"><b>3 500 000</b> <i class="fa fa-rub"></i></span> <span style="text-transform:uppercase;font-weight:800;">Продано</span>
 </li>
 <li>141 м<sup>2</sup></li>
 <li>10 соток</li>
