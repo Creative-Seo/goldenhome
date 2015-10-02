@@ -1,5 +1,5 @@
-<?php $title = 'Перегородочные блоки Bonolit 3800 руб. за м3: каталог, цены | Продажа перегородочных блоков во Владимире';?>
-<?php $description = 'Продажа перегородочных блоков Bonolit 3800 руб. за м3 с доставкой по Владимирской области. Широкий каталог продукции';?>
+<?php $title = 'Перегородочные блоки Bonolit 3900 руб. за м3: каталог, цены | Продажа перегородочных блоков во Владимире';?>
+<?php $description = 'Продажа перегородочных блоков Bonolit 3900 руб. за м3 с доставкой по Владимирской области. Широкий каталог продукции';?>
 <?php $keywords = 'Перегородочные блоки, цена, купить, продажа, производство';?>
 <?php $breadcrumb = 'Перегородочные блоки';?>
 <?php $breadcrumb2 = 'Блоки Bonolit';?>
@@ -16,7 +16,7 @@ include($root."blocks/header.php");?>
     <div class="bloki">
      <a href="d600-st100/"><img class="img-responsive center-block" src="/gazobloki-bonolit/img/peregorodochnye-bloki.jpg" alt="Перегородочные газобетонные и газосиликатные блоки D600 (100мм.)" width="150"></a>
      <a class="blokia" href="d600-st100/">Блок D600 (100мм.)</a>
-     <div class="price-block center-block">3800 руб./м<sup>3</sup></div>
+     <div class="price-block center-block">3900 руб./м<sup>3</sup></div>
     </div> 
   </div>
 </div> 

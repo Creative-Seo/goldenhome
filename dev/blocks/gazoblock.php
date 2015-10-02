@@ -41,5 +41,5 @@ $text = 'блок';$nomer = $breadcrumb;?>
 </div>
 </div>
 </div>
-<?php include($root."blocks/breadcrumbs.php"); ?>
+<div class="container"><?php include($root."blocks/breadcrumbs.php"); ?></div>
 <?php include($root."blocks/footer.php");?>
