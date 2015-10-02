@@ -4,7 +4,7 @@
 <?php $breadcrumb = 'Блок D400-500-250';?>
 <?php $breadcrumb2 = "Блоки Ytong"; ?>
 <?php $bd = json_decode('{
-"cost":" 4660",
+"cost":" 4860",
 "alt":"Блок Ytong D500-500-250",
 "img":"gazobloki-ytong\/img\/blok-stenovoy-ytong.png",
 "span":"Стеновые блоки Ytong плотностью D400 толщиной 250 мм. подойдут для возведения внутренних несущих стен.",
