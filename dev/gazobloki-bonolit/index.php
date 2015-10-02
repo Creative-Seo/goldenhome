@@ -95,7 +95,7 @@ include($root."blocks/header.php");?>
     <div class="bloki">
      <a itemprop="url" href="peregorodochnye-bloki/d600-st100/"><img itemprop="image" class="img-responsive center-block" src="img/peregorodochnye-bloki.jpg" alt="Перегородочные газобетонные и газосиликатные блоки D600 (100мм.)" width="150"></a>
      <a class="blokia" href="peregorodochnye-bloki/d600-st100/"><span itemprop="name">Блок D600 (100мм.)</span></a>
-     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3600</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
+     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3800</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
 </div>
