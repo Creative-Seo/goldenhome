@@ -146,7 +146,7 @@ include($root."blocks/header.php");
 <ul class="list-unstyled list-inline search-meters"><li>
 <span class="stoit"><b>2 700 000</b> <i class="fa fa-rub"></i></span>
 </li>
-<li>171 м<sup>2</sup></li>
+<li>136 м<sup>2</sup></li>
 <li>10 соток</li>
 </ul><p class="shosse tck">Суздальский район, Богослово</p>
 </div>
