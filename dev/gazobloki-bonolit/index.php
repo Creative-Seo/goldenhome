@@ -3,6 +3,11 @@
 <?php $keywords = 'bonolit, bonolit блоки, газобетон, газосиликатные блоки, газобетонные блоки, стеновые блоки, газоблоки, ячеистый бетона, пеноблоки';?>
 <?php $breadcrumb = 'Блоки Bonolit';?>
 <?php $breadcrumb2 = 'Газоблоки';?>
+
+<?php $price_stenovie=3700;
+$price_uobraznie=450;
+$price_peregorodochnie=3900;?>
+
 <?php $root = '../';
 include($root."blocks/meta.php");
 include($root."blocks/header.php");?>
@@ -10,28 +15,28 @@ include($root."blocks/header.php");?>
 <div class="container">
 
   <h1>Газобетонные блоки Bonolit (Poritep)</h1>
-  
+
 <div class="row" itemtype="http://schema.org/ItemList" itemscope>  
 <p class="h3"><a href="stenovye-bloki/">Стеновые блоки Bonolit</a></p>
   <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
      <a itemprop="url" href="stenovye-bloki/d500-st200/"><img itemprop="image" class="img-responsive center-block" src="img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (200мм.)" width="150"></a>
      <a class="blokia" href="stenovye-bloki/d500-st200/"><span itemprop="name">Блок D500 (200мм.)</span></a>
-     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3800</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
+     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price"><?php echo $price_stenovie;?></span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
   <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
      <a itemprop="url" href="stenovye-bloki/d500-st250/"><img itemprop="image" class="img-responsive center-block" src="img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (250мм.)" width="150"></a>
      <a class="blokia" href="stenovye-bloki/d500-st250/"><span itemprop="name">Блок D500 (250мм.)</span></a>
-     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3800</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
+     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price"><?php echo $price_stenovie;?></span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
   <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
      <a itemprop="url" class="blokia" href="stenovye-bloki/d500-st300/"><img itemprop="image" class="img-responsive center-block" src="img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (300мм.)" width="150"></a>
      <a class="blokia" href="stenovye-bloki/d500-st300/"><span itemprop="name">Блок D500 (300мм.)</a>
-     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3800</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
+     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price"><?php echo $price_stenovie;?></span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
 <div class="clearfix hidden-xs"></div>
@@ -39,14 +44,14 @@ include($root."blocks/header.php");?>
     <div class="bloki">
      <a itemprop="url" href="stenovye-bloki/d500-st350/"><img itemprop="image" class="img-responsive center-block" src="img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (350мм.)" width="150"></a>
      <a class="blokia" href="stenovye-bloki/d500-st350/"><span itemprop="name">Блок D500 (350мм.)</span></a>
-     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3800</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
+     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price"><?php echo $price_stenovie;?></span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
   <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
      <a itemprop="url" href="stenovye-bloki/d500-st375/"><img itemprop="image" class="img-responsive center-block" src="img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (375мм.)" width="150"></a>
      <a class="blokia" href="stenovye-bloki/d500-st375/"><span itemprop="name">Блок D500 (375мм.)</span></a>
-     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3800</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
+     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price"><?php echo $price_stenovie;?></span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
 
@@ -56,21 +61,21 @@ include($root."blocks/header.php");?>
     <div class="bloki">
      <a itemprop="url" href="peremychki/u-block-d500-st250/"><img itemprop="image" class="img-responsive center-block" src="img/u-bloki.jpg" alt="U-образные блоки Bonolit" width="180"></a>
      <a class="blokia" href="peremychki/u-block-d500-st250/"><span itemprop="name">Блок D500 (250мм.)</span></a>
-     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">350</span><meta itemprop="priceCurrency" content="RUB"> руб. за шт.<link itemprop="availability" href="http://schema.org/InStock"></div>
+     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price"><?php echo $price_uobraznie;?></span><meta itemprop="priceCurrency" content="RUB"> руб. за шт.<link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
    <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
      <a itemprop="url" href="peremychki/u-block-d500-st300/"><img itemprop="image" class="img-responsive center-block" src="img/u-bloki.jpg" alt="U-образные блоки Bonolit" width="180"></a>
      <a class="blokia" href="peremychki/u-block-d500-st300/"><span itemprop="name">Блок D500 (300мм.</span>)</a>
-     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">350</span><meta itemprop="priceCurrency" content="RUB"> руб. за шт.<link itemprop="availability" href="http://schema.org/InStock"></div>
+     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price"><?php echo $price_uobraznie;?></span><meta itemprop="priceCurrency" content="RUB"> руб. за шт.<link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
    <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
      <a itemprop="url" href="peremychki/u-block-d500-st375/"><img itemprop="image" class="img-responsive center-block" src="img/u-bloki.jpg" alt="U-образные блоки Bonolit" width="180"></a>
      <a class="blokia" href="peremychki/u-block-d500-st375/"><span itemprop="name">Блок D500 (375мм.</span>)</a>
-     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">350</span><meta itemprop="priceCurrency" content="RUB"> руб. за шт.<link itemprop="availability" href="http://schema.org/InStock"></div>
+     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price"><?php echo $price_uobraznie;?></span><meta itemprop="priceCurrency" content="RUB"> руб. за шт.<link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
 <div class="clearfix hidden-xs"></div>
@@ -78,14 +83,14 @@ include($root."blocks/header.php");?>
     <div class="bloki">
      <a itemprop="url" href="peremychki/u-block-d500-st400/"><img itemprop="image" class="img-responsive center-block" src="img/u-bloki.jpg" alt="U-образные блоки Bonolit" width="180"></a>
      <a class="blokia" href="peremychki/u-block-d500-st400/"><span itemprop="name">Блок D500 (400мм.)</span></a>
-     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">350</span><meta itemprop="priceCurrency" content="RUB"> руб. за шт.<link itemprop="availability" href="http://schema.org/InStock"></div>
+     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price"><?php echo $price_uobraznie;?></span><meta itemprop="priceCurrency" content="RUB"> руб. за шт.<link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
    <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
      <a itemprop="url" href="peremychki/u-block-d500-st500/"><img itemprop="image" class="img-responsive center-block" src="img/u-bloki.jpg" alt="U-образные блоки Bonolit" width="180"></a>
      <a class="blokia" href="peremychki/u-block-d500-st500/"><span itemprop="name">Блок D500 (500мм.)</span></a>
-     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">350</span><meta itemprop="priceCurrency" content="RUB"> руб. за шт.<link itemprop="availability" href="http://schema.org/InStock"></div>
+     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price"><?php echo $price_uobraznie;?></span><meta itemprop="priceCurrency" content="RUB"> руб. за шт.<link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
 
@@ -95,7 +100,7 @@ include($root."blocks/header.php");?>
     <div class="bloki">
      <a itemprop="url" href="peregorodochnye-bloki/d600-st100/"><img itemprop="image" class="img-responsive center-block" src="img/peregorodochnye-bloki.jpg" alt="Перегородочные газобетонные и газосиликатные блоки D600 (100мм.)" width="150"></a>
      <a class="blokia" href="peregorodochnye-bloki/d600-st100/"><span itemprop="name">Блок D600 (100мм.)</span></a>
-     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3800</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
+     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price"><?php echo $price_peregorodochnie;?></span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup><link itemprop="availability" href="http://schema.org/InStock"></div>
     </div> 
   </div>
 </div>
@@ -103,7 +108,7 @@ include($root."blocks/header.php");?>
 <a class="calculator" href="/raschet-gazobetona/" target="_blank">Рассчитайте стоимость</a>
 
   <p><img src="/image/bloki/banner.jpg" alt="Пеноблоки Блоки Bonolit (Бонолит)" align="right" style="margin:0 0 30px 30px;">Компания Golden Home &mdash; официальный партнер Bonolit во Владимире. Если Вам нужно построить жилой дом из газобетонных блоков или Вы просто хотите купить Bonolit &mdash; мы с радостью окажем Вам эту услугу! Наши специалисты ответят на любые вопросы, связанные со строительством малоэтажных домов или с покупкой необходимых строительных материалов.</p>
-  <p>Внимание! Мы готовы предложить для вас блоки Bonolit по заводским ценам &mdash; 3800 руб/м<sup>3</sup>! Бесплатная доставка до Владимира при заказе от 32 м<sup>3</sup>.</p>
+  <p>Внимание! Мы готовы предложить для вас блоки Bonolit по заводским ценам &mdash; <?php echo $price_stenovie;?> руб/м<sup>3</sup>! Бесплатная доставка до Владимира при заказе от 32 м<sup>3</sup>.</p>
 
   <a name="href1"></a><h2><span style="color:#0092df;border-bottom:2px #0092df solid;">СКИДКИ при заказе от 50 м<sup>3</sup>!</span></h2>
   <table class="table table-bordered table-condensed">
@@ -132,35 +137,35 @@ include($root."blocks/header.php");?>
     <td rowspan="5">6,7</td>
     <td>66,7</td>
     <td>2160 / 32,4</td>
-    <td><strong>3800</strong></td>
+    <td><strong><?php echo $price_stenovie;?></strong></td>
   </tr><tr>
     <td><strong>200</strong></td>
     <td>1,8</td>
     <td>60</td>
     <td>33,3</td>
     <td>1080 / 32,4</td>
-    <td><strong>3800</strong></td>
+    <td><strong><?php echo $price_stenovie;?></strong></td>
   </tr><tr>
     <td><strong>300</strong></td>
     <td>1,8</td>
     <td>40</td>
     <td>22,2</td>
     <td>720 / 32,4</td>
-    <td><strong>3800</strong></td>
+    <td><strong><?php echo $price_stenovie;?></strong></td>
   </tr><tr>
     <td><strong>375</strong></td>
     <td>1,8</td>
     <td>32</td>
     <td>17,8</td>
     <td>576 / 32,4</td>
-    <td><strong>3800</strong></td>
+    <td><strong><?php echo $price_stenovie;?></strong></td>
   </tr><tr>
     <td><strong>400</strong></td>
     <td>1,8</td>
     <td>30</td>
     <td>16,7</td>
     <td>576 / 34,6</td>
-    <td><strong>3800</strong></td>
+    <td><strong><?php echo $price_stenovie;?></strong></td>
   </tr>
   </tbody>
 </table>
