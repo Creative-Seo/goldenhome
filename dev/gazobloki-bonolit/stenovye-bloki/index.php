@@ -1,5 +1,5 @@
-<?php $title = 'Стеновые блоки Bonolit 3800 руб. за м3: каталог, цены | Продажа стеновых блоков во Владимире';?>
-<?php $description = 'Продажа стеновых блоков Bonolit 3800 руб. за м3 с доставкой по Владимирской области. Широкий каталог продукции';?>
+<?php $title = 'Стеновые блоки Bonolit 3700 руб. за м3: каталог, цены | Продажа стеновых блоков во Владимире';?>
+<?php $description = 'Продажа стеновых блоков Bonolit 3700 руб. за м3 с доставкой по Владимирской области. Широкий каталог продукции';?>
 <?php $keywords = 'стеновые блоки, цена, купить, продажа, производство';?>
 <?php $breadcrumb = 'Стеновые блоки';?>
 <?php $breadcrumb2 = 'Блоки Bonolit';?>
@@ -17,21 +17,21 @@ include($root."blocks/header.php");?>
     <div class="bloki">
      <a itemprop="url" href="d500-st200/"><img itemprop="image" class="img-responsive center-block" src="/gazobloki-bonolit/img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (200мм.)" width="150"></a>
      <a class="blokia" href="d500-st200/"><span itemprop="name">Блок D500 (200мм.)</span></a>
-     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3800</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup></div>
+     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3700</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup></div>
     </div> 
   </div>
   <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
      <a itemprop="url" href="d500-st250/"><img itemprop="image" class="img-responsive center-block" src="/gazobloki-bonolit/img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (250мм.)" width="150"></a>
      <a class="blokia" href="d500-st250/"><span itemprop="name">Блок D500 (250мм.)</span></a>
-     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3800</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup></div>
+     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3700</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup></div>
     </div> 
   </div>
   <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
      <a itemprop="url" class="blokia" href="d500-st300/"><img itemprop="image" class="img-responsive center-block" src="/gazobloki-bonolit/img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (300мм.)" width="150"></a>
      <a class="blokia" href="d500-st300/"><span itemprop="name">Блок D500 (300мм.)</a>
-     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3800</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup></div>
+     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3700</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup></div>
     </div> 
   </div>
 </div>  
@@ -41,14 +41,14 @@ include($root."blocks/header.php");?>
     <div class="bloki">
      <a itemprop="url" href="d500-st350/"><img itemprop="image" class="img-responsive center-block" src="/gazobloki-bonolit/img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (350мм.)" width="150"></a>
      <a class="blokia" href="d500-st350/"><span itemprop="name">Блок D500 (350мм.)</span></a>
-     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3800</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup></div>
+     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3700</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup></div>
     </div> 
   </div>
   <div class="col-md-4" itemtype="http://schema.org/Product" itemprop="itemListElement" itemscope>
     <div class="bloki">
      <a itemprop="url" href="d500-st375/"><img itemprop="image" class="img-responsive center-block" src="/gazobloki-bonolit/img/stenovye-bloki.jpg" alt="Стеновые газобетонные и газосиликатные блоки D500 (375мм.)" width="150"></a>
      <a class="blokia" href="d500-st375/"><span itemprop="name">Блок D500 (375мм.)</span></a>
-     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3800</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup></div>
+     <div class="price-block center-block" itemtype="http://schema.org/Offer" itemprop="offers" itemscope><span itemprop="price">3700</span><meta itemprop="priceCurrency" content="RUB"> руб./м<sup>3</sup></div>
     </div> 
   </div>
 </div> 
