@@ -33,6 +33,7 @@ $menu = json_decode('[
 	{"name":"Газобетонные блоки","url":"/gazobloki/"},
 	{"name":"Блоки Ytong","url":"/gazobloki-ytong/"},
 	{"name":"Блоки Bonolit","url":"/gazobloki-bonolit/"},
+	{"name":"Блоки ЭКО","url":"/gazobloki-eko/"},
 	{"name":"Калькулятор стоимости Bonolit","url":"/raschet-gazobetona/"},
 	{"name":"Фотографии объектов","url":"/foto-obektov/"},
 	{"name":"Частые вопросы","url":"/faq/"}
