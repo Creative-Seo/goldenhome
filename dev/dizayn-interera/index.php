@@ -59,6 +59,18 @@ include($root."blocks/header.php");?>
         <iframe class="center-block" width="480" height="360" src="http://www.youtube.com/embed/a8UhedCTIsU" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <div class="center-block" style="text-align:center; margin-bottom:15px">
+        <iframe class="center-block" width="480" height="360" src="http://www.youtube.com/embed/RKS2Y-SvlHU" frameborder="0" allowfullscreen></iframe>
+        <p class="text-center">Современный интерьер загородного дома</p>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+      <div class="center-block" style="text-align:center; margin-bottom:15px">
+        <iframe class="center-block" width="480" height="360" src="http://www.youtube.com/embed/L7w14t1eKlY" frameborder="0" allowfullscreen></iframe>
+        <p class="text-center">Натуральный камень в интерьере</p>
+      </div>
+    </div>
   </div>
 
   <div class="row">
