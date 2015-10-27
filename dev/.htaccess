@@ -131,19 +131,19 @@ AddDefaultCharset UTF-8
 </IfModule>
 
 <ifModule mod_headers.c>
-    #кэшировать html и htm файлы на один день
+    #РєСЌС€РёСЂРѕРІР°С‚СЊ html Рё htm С„Р°Р№Р»С‹ РЅР° РѕРґРёРЅ РґРµРЅСЊ
     <FilesMatch "\.(html|htm)$">
         Header set Cache-Control "max-age=43200"
     </FilesMatch>
-    #кэшировать css, javascript и текстовые файлы на одну неделю
+    #РєСЌС€РёСЂРѕРІР°С‚СЊ css, javascript Рё С‚РµРєСЃС‚РѕРІС‹Рµ С„Р°Р№Р»С‹ РЅР° РѕРґРЅСѓ РЅРµРґРµР»СЋ
     <FilesMatch "\.(js|css|txt)$">
         Header set Cache-Control "max-age=604800"
     </FilesMatch>
-    #кэшировать флэш и изображения на месяц
+    #РєСЌС€РёСЂРѕРІР°С‚СЊ С„Р»СЌС€ Рё РёР·РѕР±СЂР°Р¶РµРЅРёСЏ РЅР° РјРµСЃСЏС†
     <FilesMatch "\.(flv|swf|ico|gif|jpg|jpeg|png)$">
         Header set Cache-Control "max-age=2592000"
     </FilesMatch>
-    #отключить кэширование
+    #РѕС‚РєР»СЋС‡РёС‚СЊ РєСЌС€РёСЂРѕРІР°РЅРёРµ
     <FilesMatch "\.(pl|php|cgi|spl|scgi|fcgi)$">
         Header unset Cache-Control
     </FilesMatch>
