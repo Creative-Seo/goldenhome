@@ -17,7 +17,7 @@ include($root."blocks/header.php");
 	<!-- item -->
 	<div class="col-lg-4 col-md-4 col-sm-4">
 	<div class="thumbnail">
-	<a href="v-novom-sele/"><img class="media-object img-responsive" alt="Дом (коттедж), село Новое" src="v-novom-sele/novoe.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 25</div>
+	<a href="v-novom-sele/"><img class="media-object img-responsive" alt="Дом (коттедж), село Новое" src="preview/novoe.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 25</div>
 	<div class="caption">
 	<h4><a href="v-novom-sele/">Дом (коттедж), село Новое</a></h4>
 	<ul class="list-unstyled list-inline search-meters"><li>
@@ -34,7 +34,7 @@ include($root."blocks/header.php");
 	<!-- item -->
 	<div class="col-lg-4 col-md-4 col-sm-4">
 	<div class="thumbnail">
-	<a href="sudogda/"><img class="media-object img-responsive" alt="Дом (коттедж), село Новое" src="sudogda/sudogda.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 14</div>
+	<a href="sudogda/"><img class="media-object img-responsive" alt="Дом (коттедж), село Новое" src="preview/sudogda.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 14</div>
 	<div class="caption">
 	<h4><a href="sudogda/">Дом (коттедж), Судогда</a></h4>
 	<ul class="list-unstyled list-inline search-meters"><li>
@@ -140,7 +140,7 @@ include($root."blocks/header.php");
 <!-- item -->
 <div class="col-lg-4 col-md-4 col-sm-4">
 <div class="thumbnail">
-<a href="bogoslovo-2/"><img class="media-object img-responsive" alt="Дом (коттедж), Богослово" src="bogoslovo-2/bogoslovo.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
+<a href="bogoslovo-2/"><img class="media-object img-responsive" alt="Дом (коттедж), Богослово" src="preview/bogoslovo.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
 <div class="caption">
 <h4><a href="bogoslovo-2/">Дом (коттедж), Богослово</a></h4>
 <ul class="list-unstyled list-inline search-meters"><li>
