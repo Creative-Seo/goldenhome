@@ -109,7 +109,7 @@ include($root."blocks/header.php");
 <div class="caption">
 <h4><a href="oslavskoe-33/">Дом (коттедж), Ославское 33</a></h4>
 <ul class="list-unstyled list-inline search-meters"><li>
-<span class="stoit"><b>2 500 000</b> <i class="fa fa-rub"></i></span>
+<span class="stoit"><b>3 000 000</b> <i class="fa fa-rub"></i></span>
 </li>
 <li>120 м<sup>2</sup></li>
 <li>10 соток</li>

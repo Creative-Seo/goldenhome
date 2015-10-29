@@ -63,7 +63,7 @@ $dirs = array ();
 	</div>
 	
 	<div class="col-md-9 col-lg-9">
-		<a href="javascript:void(0);" class="akciya-hover"><div class="akciya sample shadow-z-2">
+		<a href="javascript:void(0);" class="akciya-hover" id="kotel"><div class="akciya sample shadow-z-2">
 			<div class="akciya-red-small akciya-left hidden-xs">Акция</div>
 			<p class="akciya-text">Двухконтурный отопительный котел в <span class="akciya-prize">подарок</span></p>
 			<div class="akciya-red-small akciya-right hidden-xs">Акция</div>
