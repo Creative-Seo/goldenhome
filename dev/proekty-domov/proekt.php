@@ -55,7 +55,7 @@ foreach ($imgs as $row) { ?>
 <div class="container blocks-area">
     <div class="row">
       <div class="col-md-10 col-lg-8 col-md-offset-1 col-lg-offset-2">
-        <a href="javascript:void(0);" class="akciya-hover"><div class="akciya sample shadow-z-2">
+        <a href="javascript:void(0);" class="akciya-hover" id="kotel"><div class="akciya sample shadow-z-2">
           <div class="akciya-red-small akciya-left hidden-xs">Акция</div>
           <p class="akciya-text">Двухконтурный отопительный котел в <span class="akciya-prize">подарок</span></p>
           <div class="akciya-red-small akciya-right hidden-xs">Акция</div>

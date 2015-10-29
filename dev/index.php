@@ -33,7 +33,7 @@ include($root."array.php");?>
 <div class="container wrapper-texts hidden-sm hidden-xs"><div class="row">
 	<div id="wrapper-text" class="col-md-9 homepage-jumbotron"><p><span>Более 250</span><br>построенных <br> домов</p></div>
 	<div class="col-md-3 akciya-block">
-		<a href="javascript:void(0);" class="akciya-hover"><div class="akciya akciya-shadow">
+		<a href="javascript:void(0);" class="akciya-hover" id="kotel"><div class="akciya akciya-shadow">
 			<div class="akciya-red akciya-left">Акция</div>
 			<img src="/img/akciya.png" alt="" height="170px" class="akciya-img">
 			<p class="akciya-text">Двухконтурный отопительный котел в <span class="akciya-prize">подарок</span></p>
@@ -218,6 +218,11 @@ if ($row[6]) {$class .= ' sravnenie-bottom';}
 					</div><!-- /content -->
 				</div><!-- /tabs -->
 				<p class="text-center">Площадь жилого здания определяется как площадь измеряемая в пределах внутренних стен. СНиП 2.08.01-89.</p>
+				<a id="snezhinka" href="javascript:void(0);" class="akciya-hover"><div class="akciya sample shadow-z-2" style="max-width:750px;margin:auto;">
+					<div class="akciya-red-small akciya-left hidden-xs">Акция</div>
+					<p class="akciya-text">Заморозь цену строительства <img src="/img/snezhinka.jpg" alt="Заморозь цену" style="height:48px;width:48px;margin:-10px 5px;"> жми сюда</p>
+					<div class="akciya-red-small akciya-right hidden-xs">Акция</div>
+				</div></a>
 	</section>
 </div>
 
