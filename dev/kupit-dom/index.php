@@ -140,7 +140,7 @@ include($root."blocks/header.php");
 <!-- item -->
 <div class="col-lg-4 col-md-4 col-sm-4">
 <div class="thumbnail">
-<a href="bogoslovo-2/"><img class="media-object img-responsive" alt="Дом (коттедж), Богослово" src="preview/bogoslovo.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
+<a href="bogoslovo-2/"><img class="media-object img-responsive" alt="Дом (коттедж), Богослово" src="preview/bogoslovo-2.jpg"/></a><div class="photonum"><i class="fa fa-camera"></i> 7</div>
 <div class="caption">
 <h4><a href="bogoslovo-2/">Дом (коттедж), Богослово</a></h4>
 <ul class="list-unstyled list-inline search-meters"><li>
