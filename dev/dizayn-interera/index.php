@@ -48,29 +48,44 @@ include($root."blocks/header.php");?>
     </div>
   </div>
 
-  <div class="row"> 
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      <div class="center-block" style="text-align:center; margin-bottom:15px">
-        <iframe class="center-block" width="480" height="360" src="http://www.youtube.com/embed/4rUKq18ZKTw" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      <div class="center-block" style="text-align:center; margin-bottom:15px">
-        <iframe class="center-block" width="480" height="360" src="http://www.youtube.com/embed/a8UhedCTIsU" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      <div class="center-block" style="text-align:center; margin-bottom:15px">
-        <iframe class="center-block" width="480" height="360" src="http://www.youtube.com/embed/RKS2Y-SvlHU" frameborder="0" allowfullscreen></iframe>
-        <p class="text-center">Современный интерьер загородного дома</p>
-      </div>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-      <div class="center-block" style="text-align:center; margin-bottom:15px">
-        <iframe class="center-block" width="480" height="360" src="http://www.youtube.com/embed/L7w14t1eKlY" frameborder="0" allowfullscreen></iframe>
-        <p class="text-center">Натуральный камень в интерьере</p>
-      </div>
-    </div>
+  <div class="row text-center" style="margin-top:30px;margin-bottom:20px;"> 
+    <div class="col-sm-4 col-lg-3">
+        <a href="http://www.youtube.com/embed/4rUKq18ZKTw?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Дизайн интерьера Кафе Дворянское собрание">
+          <img src="/image/teasers_video/stolovaya-loft.jpg" alt="Дизайн интерьера Кафе Дворянское собрание">
+          <span class="play"></span>
+        </a>
+        <div class="text-block">
+          <span>Дизайн интерьера Кафе Дворянское собрание</span>
+        </div>
+  </div>
+  <div class="col-sm-4 col-lg-3">
+        <a href="http://www.youtube.com/embed/a8UhedCTIsU?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Современный дизайн интерьера квартиры в стиле Молоко и Шоколад">
+          <img src="/image/teasers_video/elegantnyy-interer-gostinoy-i-kuhni.jpg" alt="Современный дизайн интерьера квартиры в стиле Молоко и Шоколад">
+          <span class="play"></span>
+        </a>
+        <div class="text-block">
+          <span>Современный дизайн интерьера квартиры в стиле Молоко и Шоколад</span>
+        </div>
+  </div>
+  <div class="col-sm-4 col-lg-3">
+        <a href="http://www.youtube.com/embed/RKS2Y-SvlHU?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Современный интерьер загородного дома">
+          <img src="/image/teasers_video/RKS2Y-SvlHU.jpg" alt="Современный интерьер загородного дома">
+          <span class="play"></span>
+        </a>
+        <div class="text-block">
+          <span>Современный интерьер загородного дома</span>
+        </div>
+  </div>
+  <div class="clearfix visible-md visible-sm"></div>
+  <div class="col-sm-4 col-lg-3">
+        <a href="http://www.youtube.com/embed/L7w14t1eKlY?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Натуральный камень в интерьере">
+          <img src="/image/teasers_video/L7w14t1eKlY.jpg" alt="Натуральный камень в интерьере">
+          <span class="play"></span>
+        </a>
+        <div class="text-block">
+          <span>Натуральный камень в интерьере</span>
+        </div>
+  </div>
   </div>
 
   <div class="row">
