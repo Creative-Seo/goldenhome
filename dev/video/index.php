@@ -110,7 +110,7 @@ include($root."blocks/header.php");?>
           <span>Дизайн двухкомнатной квартиры с наливными полами</span>
           <p></p>
         </div>
-    </div>
+  </div>
 	<div class="col-sm-4 col-lg-3">
         <a href="http://www.youtube.com/embed/OlsOJtGDkxo?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Работа студии художественной росписи «Etereo».">
           <img src="/image/teasers_video/OlsOJtGDkxo.jpg" alt="Работа студии художественной росписи «Etereo».">
@@ -120,7 +120,7 @@ include($root."blocks/header.php");?>
           <span>Работа студии художественной росписи «Etereo».</span>
           <p></p>
         </div>
-    </div>
+  </div>
 	<div class="col-sm-4 col-lg-3">
         <a href="http://www.youtube.com/embed/KzTAguOoPP0?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="В гостях у танцевального дуэта «Респект».">
           <img src="/image/teasers_video/KzTAguOoPP0.jpg" alt="В гостях у танцевального дуэта «Респект».">
@@ -130,7 +130,7 @@ include($root."blocks/header.php");?>
           <span>В гостях у танцевального дуэта «Респект».</span>
           <p></p>
         </div>
-    </div>
+  </div>
 	<div class="clearfix visible-md visible-sm"></div>
 	<div class="col-sm-4 col-lg-3">
         <a href="http://www.youtube.com/embed/H1Kef_DWwxg?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Обзор интерьера квартиры">
@@ -141,7 +141,8 @@ include($root."blocks/header.php");?>
           <span>Обзор интерьера квартиры</span>
           <p>В гостях у Александры Бакка.</p>
         </div>
-    </div>
+  </div>
+  <div class="clearfix visible-lg"></div>
 	<div class="col-sm-4 col-lg-3">
         <a href="http://www.youtube.com/embed/bDq3WX-6R2U?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Обзор современных методов освещения">
           <img src="/image/teasers_video/bDq3WX-6R2U.jpg" alt="Обзор современных методов освещения">
@@ -152,6 +153,48 @@ include($root."blocks/header.php");?>
           <p>На основе применения диодов.</p>
         </div>
 	</div>
+  <div class="col-sm-4 col-lg-3">
+        <a href="http://www.youtube.com/embed/4rUKq18ZKTw?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Дизайн интерьера Кафе Дворянское собрание">
+          <img src="/image/teasers_video/stolovaya-loft.jpg" alt="Дизайн интерьера Кафе Дворянское собрание">
+          <span class="play"></span>
+        </a>
+        <div class="text-block">
+          <span>Дизайн интерьера Кафе Дворянское собрание</span>
+          <p></p>
+        </div>
+  </div>
+  <div class="clearfix visible-md visible-sm"></div>
+  <div class="col-sm-4 col-lg-3">
+        <a href="http://www.youtube.com/embed/a8UhedCTIsU?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Современный дизайн интерьера квартиры в стиле Молоко и Шоколад">
+          <img src="/image/teasers_video/elegantnyy-interer-gostinoy-i-kuhni.jpg" alt="Современный дизайн интерьера квартиры в стиле Молоко и Шоколад">
+          <span class="play"></span>
+        </a>
+        <div class="text-block">
+          <span>Современный дизайн интерьера квартиры</span>
+          <p>В стиле Молоко и Шоколад</p>
+        </div>
+  </div>
+  <div class="col-sm-4 col-lg-3">
+        <a href="http://www.youtube.com/embed/RKS2Y-SvlHU?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Современный интерьер загородного дома">
+          <img src="/image/teasers_video/RKS2Y-SvlHU.jpg" alt="Современный интерьер загородного дома">
+          <span class="play"></span>
+        </a>
+        <div class="text-block">
+          <span>Современный интерьер загородного дома</span>
+          <p></p>
+        </div>
+  </div>
+  <div class="clearfix visible-lg"></div>
+  <div class="col-sm-4 col-lg-3">
+        <a href="http://www.youtube.com/embed/L7w14t1eKlY?autoplay=1&amp;rel=0" class="block-video" rel="fancybox-thumb-video" title="Натуральный камень в интерьере">
+          <img src="/image/teasers_video/L7w14t1eKlY.jpg" alt="Натуральный камень в интерьере">
+          <span class="play"></span>
+        </a>
+        <div class="text-block">
+          <span>Натуральный камень в интерьере</span>
+          <p></p>
+        </div>
+  </div>
   </div>
 
   <h2 class="headline">Видео-журнал «Golden Home»</h2>
