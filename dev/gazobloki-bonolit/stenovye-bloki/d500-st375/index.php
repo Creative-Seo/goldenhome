@@ -1,11 +1,11 @@
-<?php $title = 'Стеновой блок Bonolit D500 (375мм.) 3700 руб./м3';?>
+<?php $title = 'Стеновой блок Bonolit D500 (375мм.) 3600 руб./м3';?>
 <?php $description = 'Стеновой блок Bonolit D500 (375мм.) руб./м3 с доставкой во Владимире и области';?>
 <?php $keywords = 'Стеновой блок';?>
 <?php $breadcrumb = 'Стеновой блок D500 (375мм)';?>
 <?php $breadcrumb2 = "Блоки Bonolit"; ?>
 <?php $breadcrumb3 = "Стеновые блоки"; ?>
 <?php $bd = json_decode('{
-"cost":" 3700",
+"cost":" 3600",
 "alt":"Стеновые блоки Bonolit",
 "img":"gazobloki-bonolit\/img\/stenovye-bloki.jpg",
 "span":"Стеновые блоки плотностью D500 толщиной 375 мм. подойдут для возведения внутренних несущих стен.",
