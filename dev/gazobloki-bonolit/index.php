@@ -4,7 +4,7 @@
 <?php $breadcrumb = 'Блоки Bonolit';?>
 <?php $breadcrumb2 = 'Газоблоки';?>
 
-<?php $price_stenovie=3700;
+<?php $price_stenovie=3600;
 $price_uobraznie=450;
 $price_peregorodochnie=3900;?>
 
